@@ -27,12 +27,14 @@ import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 
 // ─── API CONFIG (replace with real values) ──────────────────────────────────
 const CONFIG = {
-  GOOGLE_CLIENT_ID: import.meta.env.VITE_GOOGLE_CLIENT_ID,
-  AIRTABLE_API_KEY: import.meta.env.VITE_AIRTABLE_API_KEY,
-  AIRTABLE_BASE_ID: import.meta.env.VITE_AIRTABLE_BASE_ID,
-  AIRTABLE_TABLE: import.meta.env.VITE_AIRTABLE_TABLE,
-  DEMO_MODE: false, // Set false when real credentials are in place
+  // Public identifier, set as VITE_GOOGLE_CLIENT_ID in Netlify (baked in at build time).
+  GOOGLE_CLIENT_ID: import.meta.env.VITE_GOOGLE_CLIENT_ID || "",
+  // Airtable credentials are NOT in the browser: submissions go via /.netlify/functions/submit,
+  // which reads AIRTABLE_API_KEY / AIRTABLE_BASE_ID / AIRTABLE_TABLE from Netlify env vars.
+  DEMO_MODE: false,
 };
+const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
+export const APP_VERSION = "v1.1.0";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -9549,21 +9551,12 @@ async function submitToAirtable(data) {
     await new Promise(r => setTimeout(r, 1200));
     return { success: true, demo: true };
   }
-  const res = await fetch(`https://api.airtable.com/v0/${CONFIG.AIRTABLE_BASE_ID}/${encodeURIComponent(CONFIG.AIRTABLE_TABLE)}`, {
+  const res = await fetch("/.netlify/functions/submit", {
     method: "POST",
-    headers: {
-      Authorization: `Bearer ${CONFIG.AIRTABLE_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      fields: {
-        Type: data.type, Brand: data.brand, Category: data.category,
-        Details: data.details, Email: data.email || "", Status: "Pending review",
-        SubmittedAt: new Date().toISOString(),
-      },
-    }),
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(data),
   });
-  if (!res.ok) throw new Error(`Airtable error: ${res.status}`);
+  if (!res.ok) throw new Error(`Submit error: ${res.status}`);
   return { success: true };
 }
 
@@ -9572,6 +9565,7 @@ function useGoogleAuth(onSuccess) {
   const [loaded, setLoaded] = useState(false);
   useEffect(() => {
     if (CONFIG.DEMO_MODE) { setLoaded(true); return; }
+    if (!GOOGLE_READY) return;
     const s = document.createElement("script");
     s.src = "https://accounts.google.com/gsi/client";
     s.async = true;
@@ -9580,7 +9574,8 @@ function useGoogleAuth(onSuccess) {
       window.google.accounts.id.initialize({
         client_id: CONFIG.GOOGLE_CLIENT_ID,
         callback: (res) => {
-          const payload = JSON.parse(atob(res.credential.split(".")[1]));
+          const b64 = res.credential.split(".")[1].replace(/-/g,"+").replace(/_/g,"/");
+          const payload = JSON.parse(decodeURIComponent(atob(b64).split("").map(c=>"%"+("00"+c.charCodeAt(0).toString(16)).slice(-2)).join("")));
           onSuccess({ name: payload.name, email: payload.email, picture: payload.picture, provider: "google" });
         },
       });
@@ -12623,6 +12618,7 @@ export default function App() {
   const [showValidation, setShowValidation] = useState(false);
   const [showMeasureGuide, setShowMeasureGuide] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
   const [ratings, setRatings] = useState({});
   const [worn, setWorn]       = useState({});
   const [fromSystem, setFromSystem] = useState("uk");
@@ -12955,6 +12951,7 @@ export default function App() {
               style={{padding:"6px 12px",background:"rgba(255,255,255,0.07)",color:"rgba(255,255,255,0.7)",borderRadius:8,fontSize:12,border:"1px solid rgba(255,255,255,0.1)"}}>
               {dark ? "Light" : "Dark"}
             </button>
+            <button className="btn ins" aria-label="Help" onClick={()=>setShowHelp(true)} style={{padding:"7px 12px",background:"rgba(255,255,255,0.07)",color:"white",borderRadius:8,fontSize:12,border:"1px solid rgba(255,255,255,0.1)"}}>Help</button>
             <button className="btn ins hide-mob" onClick={()=>setShowValidation(true)} style={{padding:"7px 14px",background:"rgba(255,255,255,0.07)",color:"white",borderRadius:8,fontSize:12,border:"1px solid rgba(255,255,255,0.1)"}}>Data quality</button>
             <button className="btn ins hide-mob" onClick={()=>setShowSubmit(true)} style={{padding:"7px 14px",background:"rgba(255,255,255,0.07)",color:"white",borderRadius:8,fontSize:12,border:"1px solid rgba(255,255,255,0.1)"}}>+ Contribute</button>
             {user ? (
@@ -14040,6 +14037,7 @@ export default function App() {
       {showValidation&&<ValidationModal onClose={()=>setShowValidation(false)} brands={{women:WOMEN_BRANDS,men:MEN_BRANDS,kids:KIDS_BRANDS}}/>}
       {showMeasureGuide&&<MeasureGuideModal gender={gender} onClose={()=>setShowMeasureGuide(false)}/>}
       {showAbout&&<AboutModal onClose={()=>setShowAbout(false)}/>}
+      {showHelp&&<HelpModal onClose={()=>setShowHelp(false)}/>}
     </div>
   );
 }
@@ -14633,6 +14631,35 @@ function MeasureGuideModal({ gender, onClose }) {
 }
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
+const CHANGELOG = [
+  ["v1.1.0","2026-10-22","Help section added. Google sign-in configured for willthisfit.me; button now resizes on phones. Corrections are sent securely via the server (no keys in the browser)."],
+  ["v1.0.1","2026-10-11","Mobile layout fixes: no sideways scrolling, readable hero, header no longer covers the screen, no zoom when tapping inputs."],
+  ["v1.0.0","2026-03","First public version."],
+];
+function HelpModal({ onClose }) {
+  const H = ({children}) => <h3 style={{fontSize:16,color:"#122318",fontWeight:600,margin:"20px 0 6px"}}>{children}</h3>;
+  const P = ({children}) => <p className="ins" style={{fontSize:13,color:"#444",lineHeight:1.65,margin:"0 0 8px"}}>{children}</p>;
+  return (
+    <div className="mo" onClick={onClose}>
+      <div className="md" onClick={e=>e.stopPropagation()} style={{maxHeight:"85vh",overflowY:"auto"}}>
+        <div style={{display:"flex",justifyContent:"space-between",alignItems:"baseline"}}>
+          <h2 style={{fontSize:22,color:"#122318",fontWeight:500}}>Help</h2>
+          <span className="ins" style={{fontSize:12,color:"#888"}}>{APP_VERSION}</span>
+        </div>
+        <H>Convert</H><P>Pick the size system you know (e.g. UK), enter your size, and see what it corresponds to at every brand, with body measurements in cm or inches.</P>
+        <H>Measure</H><P>Enter your bust/chest, waist and hips. Brands are ranked by how closely their size chart matches your body. Use "How to measure" for tips.</P>
+        <H>My Sizes &amp; History</H><P>Save sizes that fit you, and see how a label size from an older year compares with today.</P>
+        <H>Shoes</H><P>Compare UK, EU, US and cm shoe sizes by brand.</P>
+        <H>How accurate is the data?</H><P>Every brand shows a confidence score, a last-verified date and a link to its source. Charts are body measurements published by the brand; individual garments vary, so check the item's own measurements when a listing gives them. "Data quality" explains how entries are checked.</P>
+        <H>Spotted a mistake?</H><P>Use "+ Contribute" to submit a correction. Signing in with Google lets us credit you and follow up.</P>
+        <H>What's new</H>
+        {CHANGELOG.map(([v,d,t])=>(<P key={v}><strong>{v}</strong> <span style={{color:"#999"}}>({d})</span> — {t}</P>))}
+        <button className="btn ins" onClick={onClose} style={{marginTop:12,padding:"10px 22px",background:"#2d7a4a",color:"white",borderRadius:8,fontSize:14,fontWeight:600}}>Close</button>
+      </div>
+    </div>
+  );
+}
+
 function AboutModal({ onClose }) {
   return (
     <div className="mo" onClick={onClose}>
@@ -14746,9 +14773,16 @@ function ValidationModal({ onClose, brands }) {
 function LoginModal({ setUser, onClose, googleLoaded }) {
   const googleRef = useRef(null);
   useEffect(() => {
-    if (!CONFIG.DEMO_MODE && googleLoaded && window.google && googleRef.current) {
-      window.google.accounts.id.renderButton(googleRef.current, { theme:"outline", size:"large", width:340, text:"continue_with", shape:"rectangular" });
-    }
+    if (CONFIG.DEMO_MODE || !GOOGLE_READY || !googleLoaded || !window.google) return;
+    const draw = () => {
+      const el = googleRef.current; if (!el) return;
+      const w = Math.max(200, Math.min(380, Math.floor(el.clientWidth || 300)));
+      el.innerHTML = "";
+      window.google.accounts.id.renderButton(el, { theme:"outline", size:"large", width:w, text:"continue_with", shape:"rectangular" });
+    };
+    draw();
+    window.addEventListener("resize", draw);
+    return () => window.removeEventListener("resize", draw);
   }, [googleLoaded]);
 
   const demoLogin = (provider) => {
@@ -14786,9 +14820,11 @@ function LoginModal({ setUser, onClose, googleLoaded }) {
           </div>
         ):(
           <div style={{display:"flex",flexDirection:"column",gap:10,alignItems:"center"}}>
-            <div ref={googleRef} style={{width:"100%"}}/>
+            {GOOGLE_READY
+              ? <div ref={googleRef} style={{width:"100%",minHeight:44,display:"flex",justifyContent:"center"}}/>
+              : <div className="ins" style={{padding:"10px 14px",background:"#fdf6e3",borderRadius:8,fontSize:12,color:"#7a6020",width:"100%",textAlign:"center"}}>Google sign-in isn't available right now. Please try again later.</div>}
             <div className="ins" style={{fontSize:12,color:"#aaa"}}>— or —</div>
-            <button className="btn ins" style={{padding:"12px 20px",borderRadius:10,border:"1.5px solid #ddd",fontSize:13,color:"#333",background:"white",width:"100%"}}>📧 Continue with email</button>
+            <button className="btn ins" disabled style={{padding:"12px 20px",borderRadius:10,border:"1.5px solid #ddd",fontSize:13,color:"#999",background:"#f7f7f5",width:"100%",cursor:"not-allowed"}}>📧 Email sign-in coming soon</button>
           </div>
         )}
         <p className="ins" style={{fontSize:11,color:"#ccc",marginTop:18,textAlign:"center",lineHeight:1.6}}>By signing in you agree to our terms. We never share your data with brands or advertisers.</p>
