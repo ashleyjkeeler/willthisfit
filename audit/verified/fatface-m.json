@@ -1,0 +1,90 @@
+{
+ "id": "fatface-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official FatFace size guide (men)",
+   "url": "https://www.fatface.com/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    86.0,
+    91.0
+   ],
+   "waist": 71.0
+  },
+  {
+   "label": "S",
+   "chest": [
+    91.0,
+    96.0
+   ],
+   "waist": [
+    76.0,
+    81.0
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    96.0,
+    102.0
+   ],
+   "waist": [
+    81.0,
+    86.0
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    102.0,
+    107.0
+   ],
+   "waist": [
+    86.0,
+    91.0
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    107.0,
+    113.0
+   ],
+   "waist": [
+    91.0,
+    96.0
+   ]
+  },
+  {
+   "label": "2XL",
+   "chest": [
+    113.0,
+    120.0
+   ],
+   "waist": 96.0
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    120.0,
+    127.0
+   ],
+   "waist": 102.0
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    127.0,
+    135.0
+   ],
+   "waist": 107.0
+  }
+ ],
+ "audit": "Read directly from fatface.com. Tall sizes share the same body measurements. Old values ran 2-7 cm off and had no 4XL."
+}

@@ -1,0 +1,78 @@
+{
+ "id": "joules-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Joules men's shirt size guide (product pages)",
+   "url": "https://www.joules.com/style/sv200719/g48273"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    81.3,
+    86.4
+   ],
+   "_in": "32 - 34"
+  },
+  {
+   "label": "S",
+   "chest": [
+    91.4,
+    96.5
+   ],
+   "_in": "36 - 38"
+  },
+  {
+   "label": "M",
+   "chest": [
+    99.1,
+    104.1
+   ],
+   "_in": "39 - 41"
+  },
+  {
+   "label": "L",
+   "chest": [
+    106.7,
+    111.8
+   ],
+   "_in": "42 - 44"
+  },
+  {
+   "label": "XL",
+   "chest": [
+    116.8,
+    121.9
+   ],
+   "_in": "46 - 48"
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    127.0,
+    132.1
+   ],
+   "_in": "50 - 52"
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    137.2,
+    142.2
+   ],
+   "_in": "54 - 56"
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    147.3,
+    152.4
+   ],
+   "_in": "58 - 60"
+  }
+ ],
+ "audit": "Joules men's chart gives chest (and collar) only, inches; converted x2.54. Waist not published for tops, so removed. Note gap between XS (to 34 in) and S (from 36 in) as published."
+}

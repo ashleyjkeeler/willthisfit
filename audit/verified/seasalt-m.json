@@ -1,0 +1,80 @@
+{
+ "id": "seasalt-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Seasalt Cornwall size guide (men)",
+   "url": "https://www.seasaltcornwall.com/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "S",
+   "chest": [
+    89.0,
+    94.0
+   ],
+   "waist": [
+    74.0,
+    79.0
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    96.0,
+    101.0
+   ],
+   "waist": [
+    81.0,
+    86.0
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    104.0,
+    109.0
+   ],
+   "waist": [
+    89.0,
+    94.0
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    111.0,
+    116.0
+   ],
+   "waist": [
+    96.0,
+    101.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    119.0,
+    124.0
+   ],
+   "waist": [
+    104.0,
+    109.0
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    127.0,
+    132.0
+   ],
+   "waist": [
+    111.0,
+    117.0
+   ]
+  }
+ ],
+ "audit": "Native cm ranges from Seasalt."
+}

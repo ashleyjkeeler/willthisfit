@@ -1,0 +1,91 @@
+{
+ "id": "adidas-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official adidas UK men's shirts & tops size guide",
+   "url": "https://www.adidas.co.uk/help/size_charts"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    83.0,
+    86.0
+   ],
+   "waist": [
+    71.0,
+    74.0
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    87.0,
+    92.0
+   ],
+   "waist": [
+    75.0,
+    80.0
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    93.0,
+    100.0
+   ],
+   "waist": [
+    81.0,
+    88.0
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    101.0,
+    108.0
+   ],
+   "waist": [
+    89.0,
+    96.0
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    109.0,
+    118.0
+   ],
+   "waist": [
+    97.0,
+    106.0
+   ]
+  },
+  {
+   "label": "2XL",
+   "chest": [
+    119.0,
+    130.0
+   ],
+   "waist": [
+    107.0,
+    119.0
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    131.0,
+    142.0
+   ],
+   "waist": [
+    120.0,
+    132.0
+   ]
+  }
+ ],
+ "audit": "Native cm ranges from adidas UK (standard fit; Tall sizes share the same body measurements)."
+}

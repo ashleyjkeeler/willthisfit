@@ -1,0 +1,12 @@
+[
+ {"id":"zara-w","flag":"No official body chart: Zara UK only offers a height/weight size recommender, so these measurements are unverified. Check the garment measurements on each listing."},
+ {"id":"zara-m","flag":"No official body chart: Zara UK only offers a height/weight size recommender, so these measurements are unverified. Check the garment measurements on each listing."},
+ {"id":"uniqlo-w","flag":"No official body chart: Uniqlo UK publishes garment measurements per product, not body sizes, so these figures are unverified."},
+ {"id":"uniqlo-m","flag":"No official body chart: Uniqlo UK publishes garment measurements per product, not body sizes, so these figures are unverified."},
+ {"id":"next-w","flag":"Unverified: Next's general size guide gives UK/EU/US conversions but no women's body measurements; product charts vary by sub-brand."},
+ {"id":"primark-w","flag":"Size conversions verified (Oct 2026), but Primark publishes no women's body measurements, so the cm figures are unverified."},
+ {"id":"mango-w","flag":"Not yet verified: Mango's site blocked automated checking (Oct 2026). Figures are from an older, unconfirmed source."},
+ {"id":"mango-m","flag":"Not yet verified: Mango's site blocked automated checking (Oct 2026). Figures are from an older, unconfirmed source."},
+ {"id":"newlook-w","flag":"Not yet verified: New Look's size guide is behind a bot check (Oct 2026). Figures are from an older, unconfirmed source."},
+ {"id":"boden-men-m","flag":"Archive data: Boden UK no longer lists menswear (Oct 2026), so this chart can't be checked against a current official guide."}
+]

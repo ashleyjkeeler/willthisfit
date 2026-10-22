@@ -1,0 +1,79 @@
+{
+ "id": "cos-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official COS GB size guide (men, tops)",
+   "url": "https://www.cos.com/en-gb/customer-service/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "EU 40",
+   "eu": "40",
+   "chest": 80.0,
+   "waist": 68.0,
+   "altLabel": "XS"
+  },
+  {
+   "label": "EU 42",
+   "eu": "42",
+   "chest": 84.0,
+   "waist": 72.0
+  },
+  {
+   "label": "EU 44",
+   "eu": "44",
+   "chest": 88.0,
+   "waist": 76.0,
+   "altLabel": "S"
+  },
+  {
+   "label": "EU 46",
+   "eu": "46",
+   "chest": 92.0,
+   "waist": 80.0
+  },
+  {
+   "label": "EU 48",
+   "eu": "48",
+   "chest": 96.0,
+   "waist": 84.0,
+   "altLabel": "M"
+  },
+  {
+   "label": "EU 50",
+   "eu": "50",
+   "chest": 100.0,
+   "waist": 88.0
+  },
+  {
+   "label": "EU 52",
+   "eu": "52",
+   "chest": 104.0,
+   "waist": 92.0,
+   "altLabel": "L"
+  },
+  {
+   "label": "EU 54",
+   "eu": "54",
+   "chest": 108.0,
+   "waist": 96.0
+  },
+  {
+   "label": "EU 56",
+   "eu": "56",
+   "chest": 112.0,
+   "waist": 100.0,
+   "altLabel": "XL"
+  },
+  {
+   "label": "EU 58",
+   "eu": "58",
+   "chest": 116.0,
+   "waist": 104.0
+  }
+ ],
+ "audit": "COS men's tops are sized by EU number; each letter size covers two EU sizes. Uses the Tops chart (COS also publishes a separate blazer chart)."
+}

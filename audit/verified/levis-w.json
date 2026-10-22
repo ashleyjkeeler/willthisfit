@@ -1,0 +1,93 @@
+{
+ "id": "levis-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Levi's GB size chart (women's tops)",
+   "url": "https://www.levi.com/GB/en_GB/info/sizechart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "bust": 79,
+   "waist": 62,
+   "hips": 86
+  },
+  {
+   "label": "XS",
+   "bust": 84,
+   "waist": 66,
+   "hips": 91
+  },
+  {
+   "label": "S",
+   "bust": 89,
+   "waist": 71,
+   "hips": 97
+  },
+  {
+   "label": "M",
+   "bust": 94,
+   "waist": 76,
+   "hips": 102
+  },
+  {
+   "label": "L",
+   "bust": 100,
+   "waist": 83,
+   "hips": 108
+  },
+  {
+   "label": "XL",
+   "bust": 108,
+   "waist": 90,
+   "hips": 116
+  },
+  {
+   "label": "XXL",
+   "bust": 115,
+   "waist": 99,
+   "hips": 123
+  },
+  {
+   "label": "1X (14)",
+   "bust": 108,
+   "waist": 92,
+   "hips": 115
+  },
+  {
+   "label": "1X (16)",
+   "bust": 113,
+   "waist": 97,
+   "hips": 120
+  },
+  {
+   "label": "2X (18)",
+   "bust": 118,
+   "waist": 102.25,
+   "hips": 125
+  },
+  {
+   "label": "2X (20)",
+   "bust": 123,
+   "waist": 107,
+   "hips": 130
+  },
+  {
+   "label": "3X (22)",
+   "bust": 128.25,
+   "waist": 112,
+   "hips": 136
+  },
+  {
+   "label": "3X (24)",
+   "bust": 133,
+   "waist": 117.5,
+   "hips": 140
+  }
+ ],
+ "notes": "Levi's publishes one chest/waist/hip value per letter size for women's tops, dresses and skirts. Jeans are sized by waist number (24-34) with their own waist/hip chart. Plus sizes 1X-3X each cover two numeric sizes.",
+ "audit": "Old source URL is dead (404). Levi's GB gives no UK/US/EU dress-size mapping for letter sizes, so those are left blank rather than assumed; the plus-size numeric column is not labelled UK or US on the page. Old UK mapping (XS = UK 6-8 etc.) had no source."
+}

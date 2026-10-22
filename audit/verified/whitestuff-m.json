@@ -1,0 +1,67 @@
+{
+ "id": "whitestuff-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official White Stuff size guide (men)",
+   "url": "https://www.whitestuff.com/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "waist": 76,
+   "chest": 86
+  },
+  {
+   "label": "S",
+   "waist": 81,
+   "chest": [
+    89,
+    94
+   ]
+  },
+  {
+   "label": "M",
+   "waist": 86,
+   "chest": [
+    96,
+    101
+   ]
+  },
+  {
+   "label": "L",
+   "waist": 91,
+   "chest": [
+    104,
+    109
+   ]
+  },
+  {
+   "label": "XL",
+   "waist": 97,
+   "chest": [
+    112,
+    117
+   ]
+  },
+  {
+   "label": "XXL",
+   "waist": 102,
+   "chest": [
+    119,
+    124
+   ]
+  },
+  {
+   "label": "3XL",
+   "waist": 107,
+   "chest": [
+    126,
+    132
+   ]
+  }
+ ],
+ "audit": "White Stuff men's: chest ranges and a single waist per size. XS chest is published as 'up to 86 cm', so stored as 86 with no lower bound. Old values were 2-14 cm off at the top end (old 3XL chest 122 vs official 126-132)."
+}

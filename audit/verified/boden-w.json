@@ -1,0 +1,158 @@
+{
+ "id": "boden-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Boden UK body-measurement chart (shown on product pages)",
+   "url": "https://www.boden.com/products/women-lace-detail-top-midnight-ocean-t2253blu"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "bust": 84.0,
+   "waist": 66.0,
+   "hips": 89.0,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "bust": [
+    84.0,
+    86.5
+   ],
+   "waist": [
+    66.0,
+    68.5
+   ],
+   "hips": [
+    89.0,
+    91.5
+   ],
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "bust": [
+    87.0,
+    89.0
+   ],
+   "waist": [
+    69.0,
+    71.0
+   ],
+   "hips": [
+    92.0,
+    94.0
+   ],
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "bust": [
+    90.0,
+    94.0
+   ],
+   "waist": [
+    72.0,
+    76.0
+   ],
+   "hips": [
+    95.0,
+    99.0
+   ],
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "bust": [
+    95.0,
+    99.0
+   ],
+   "waist": [
+    77.0,
+    81.0
+   ],
+   "hips": [
+    100.0,
+    104.0
+   ],
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "bust": [
+    100.0,
+    104.0
+   ],
+   "waist": [
+    82.0,
+    86.0
+   ],
+   "hips": [
+    105.0,
+    109.0
+   ],
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "bust": [
+    105.0,
+    109.0
+   ],
+   "waist": [
+    87.0,
+    91.0
+   ],
+   "hips": [
+    110.0,
+    114.0
+   ],
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "bust": [
+    110.0,
+    115.0
+   ],
+   "waist": [
+    92.0,
+    97.0
+   ],
+   "hips": [
+    115.0,
+    120.0
+   ],
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "bust": [
+    116.0,
+    121.0
+   ],
+   "waist": [
+    98.0,
+    103.0
+   ],
+   "hips": [
+    121.0,
+    126.0
+   ],
+   "altLabel": "XL"
+  }
+ ],
+ "audit": "Old source URL 404s; Boden's body chart now appears in each product's size guide. UK 6 is published as 'up to' (no lower bound), stored as the upper value. US/EU not shown, left blank."
+}

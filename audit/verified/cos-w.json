@@ -1,0 +1,101 @@
+{
+ "id": "cos-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official COS GB size guide (women, tops)",
+   "url": "https://www.cos.com/en-gb/customer-service/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "2",
+   "eu": "32",
+   "bust": 77.0,
+   "waist": 63.0,
+   "hips": 84.0,
+   "altLabel": "XXS"
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "4",
+   "eu": "34",
+   "bust": 80.0,
+   "waist": 65.0,
+   "hips": 88.0,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "6",
+   "eu": "36",
+   "bust": 84.0,
+   "waist": 68.0,
+   "hips": 92.0,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "8",
+   "eu": "38",
+   "bust": 88.0,
+   "waist": 72.0,
+   "hips": 96.0
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "10",
+   "eu": "40",
+   "bust": 92.0,
+   "waist": 76.0,
+   "hips": 99.0,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "12",
+   "eu": "42",
+   "bust": 96.0,
+   "waist": 80.0,
+   "hips": 102.0
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "14",
+   "eu": "44",
+   "bust": 100.0,
+   "waist": 85.0,
+   "hips": 105.0,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "16",
+   "eu": "46",
+   "bust": 104.0,
+   "waist": 90.0,
+   "hips": 108.0
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "18",
+   "eu": "48",
+   "bust": 110.0,
+   "waist": 96.0,
+   "hips": 113.0,
+   "altLabel": "XL"
+  }
+ ],
+ "audit": "COS GB tops chart: chest/waist/low hip. COS's own US column maps UK 4 = US 2 (one step off the usual UK-4 convention); kept as COS publishes it. Old source was the US site."
+}

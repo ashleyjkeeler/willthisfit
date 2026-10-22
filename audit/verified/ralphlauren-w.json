@@ -1,0 +1,131 @@
+{
+ "id": "ralphlauren-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Ralph Lauren UK size guide (Polo Ralph Lauren women's apparel, excl. jeans)",
+   "url": "https://www.ralphlauren.co.uk/en/clothing/womens_polo_apparel.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 2",
+   "uk": "2",
+   "us": "00",
+   "eu": "30",
+   "bust": 80.1,
+   "waist": 62.2,
+   "hips": 87.6
+  },
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 82.6,
+   "waist": 64.8,
+   "hips": 90.2
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 85.1,
+   "waist": 67.3,
+   "hips": 92.7
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 87.6,
+   "waist": 69.9,
+   "hips": 95.3
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90.2,
+   "waist": 72.4,
+   "hips": 97.8
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 92.7,
+   "waist": 74.9,
+   "hips": 100.3
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 95.3,
+   "waist": 77.5,
+   "hips": 102.9
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 99.1,
+   "waist": 81.3,
+   "hips": 106.7
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 102.9,
+   "waist": 85.1,
+   "hips": 110.5
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 108,
+   "waist": 90.2,
+   "hips": 115.6
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 113.03,
+   "waist": 95.3,
+   "hips": 120.7
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 118.1,
+   "waist": 100.3,
+   "hips": 125.7
+  },
+  {
+   "label": "UK 26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 123.2,
+   "waist": 105.4,
+   "hips": 130.8
+  }
+ ],
+ "audit": "Native cm from ralphlauren.co.uk (Polo Ralph Lauren women). Lauren Ralph Lauren has its own separate chart. Old source was a third-party retailer (simplybeach)."
+}

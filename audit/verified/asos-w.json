@@ -1,0 +1,86 @@
+{
+ "id": "asos-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ASOS DESIGN women's size guide (ASOS size API, guide 183)",
+   "url": "https://www.asos.com/web/pages/size-guides/index.html?sizeSchema=UK&data=https://www.asos.com/api/sizing/sizeapi/v1/SizeGuide/183%3flanguage%3den-GB"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 81,
+   "waist": 62,
+   "hips": 86
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 81.5,
+   "waist": 62.5,
+   "hips": 86.5
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 65,
+   "hips": 89
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 91,
+   "waist": 72,
+   "hips": 96
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 96,
+   "waist": 77,
+   "hips": 101
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 101,
+   "waist": 82,
+   "hips": 106
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 106,
+   "waist": 87,
+   "hips": 111
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 113,
+   "waist": 94,
+   "hips": 118
+  }
+ ],
+ "audit": "Values from ASOS's own size-guide API as shown in the product-page modal. hips = ASOS 'Low Hip'; ASOS's separate 'Hip' field is smaller for UK 6/8 than UK 4 (78.5/81 vs 86), which looks like an ASOS data error, so it is not used. Steps are uneven (UK 4-8 close together, then +7 cm bust to UK 10) exactly as published. Old source URL was a dresses category page, not a guide."
+}

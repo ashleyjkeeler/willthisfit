@@ -1,0 +1,74 @@
+{
+ "id": "asos-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ASOS DESIGN men's size guide (ASOS size API, guide 9674)",
+   "url": "https://www.asos.com/web/pages/size-guides/index.html?sizeSchema=UK&data=https://www.asos.com/api/sizing/sizeapi/v1/SizeGuide/9674%3flanguage%3den-GB"
+  },
+  {
+   "label": "ASOS DESIGN product page showing that guide",
+   "url": "https://www.asos.com/asos-design/asos-design-essentials-t-shirt-in-white/prd/211947871"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "eu": "43-44",
+   "chest": [
+    83.0,
+    88.0
+   ]
+  },
+  {
+   "label": "S",
+   "eu": "45-47",
+   "chest": [
+    90.0,
+    95.0
+   ]
+  },
+  {
+   "label": "M",
+   "eu": "48-50",
+   "chest": [
+    97.0,
+    102.0
+   ]
+  },
+  {
+   "label": "L",
+   "eu": "52-54",
+   "chest": [
+    107.0,
+    112.0
+   ]
+  },
+  {
+   "label": "XL",
+   "eu": "56-58",
+   "chest": [
+    117.0,
+    122.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "eu": "60-62",
+   "chest": [
+    127.0,
+    132.0
+   ]
+  },
+  {
+   "label": "3XL",
+   "eu": "64-66",
+   "chest": [
+    137.0,
+    142.0
+   ]
+  }
+ ],
+ "audit": "ASOS DESIGN men's guide gives chest ranges only (no waist for tops). Ranges have gaps between sizes as published (e.g. S 90-95, M 97-102). Old values were single points 1-17 cm off at larger sizes (old 3XL 119 vs official 137-142)."
+}

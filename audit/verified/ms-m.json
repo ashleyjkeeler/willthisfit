@@ -1,0 +1,78 @@
+{
+ "id": "ms-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official M&S size guide (men, tops)",
+   "url": "https://www.marksandspencer.com/c/size-guides?category=men&subcategory=tops"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    81.3,
+    86.4
+   ],
+   "_in": "32-34"
+  },
+  {
+   "label": "S",
+   "chest": [
+    88.9,
+    94.0
+   ],
+   "_in": "35-37"
+  },
+  {
+   "label": "M",
+   "chest": [
+    96.5,
+    101.6
+   ],
+   "_in": "38-40"
+  },
+  {
+   "label": "L",
+   "chest": [
+    104.1,
+    109.2
+   ],
+   "_in": "41-43"
+  },
+  {
+   "label": "XL",
+   "chest": [
+    111.8,
+    116.8
+   ],
+   "_in": "44-46"
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    119.4,
+    124.5
+   ],
+   "_in": "47-49"
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    127.0,
+    132.1
+   ],
+   "_in": "50-52"
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    132.1,
+    137.2
+   ],
+   "_in": "52-54"
+  }
+ ],
+ "audit": "M&S men's tops guide gives chest (to fit) only, in inches; converted x2.54. Waist not given for tops, so removed. Note M&S's own chart overlaps at 52 in (3XL 50-52, 4XL 52-54)."
+}

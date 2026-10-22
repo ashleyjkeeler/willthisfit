@@ -1,0 +1,84 @@
+{
+ "id": "gap-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Gap UK size guide (men's tops chest; letter-size waist)",
+   "url": "https://www.gap.co.uk/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    89.0,
+    91.0
+   ],
+   "waist": [
+    71.0,
+    74.0
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    94.0,
+    97.0
+   ],
+   "waist": [
+    76.0,
+    79.0
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    99.0,
+    104.0
+   ],
+   "waist": [
+    81.0,
+    86.0
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    107.0,
+    112.0
+   ],
+   "waist": [
+    89.0,
+    94.0
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    114.0,
+    122.0
+   ],
+   "waist": [
+    97.0,
+    104.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    124.0,
+    132.0
+   ],
+   "waist": [
+    107.0,
+    114.0
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": 140.0
+  }
+ ],
+ "audit": "Chest from Gap UK men's tops chart; waist from Gap's letter-size waist table (XS-XXL). 3XL has chest only (140 cm). Old source was gap.com.kw (Kuwait site)."
+}

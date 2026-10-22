@@ -34,7 +34,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.1.1";
+export const APP_VERSION = "v1.2.0";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -74,19 +74,20 @@ export const APP_VERSION = "v1.1.1";
 // ─── BRAND DATA — WOMEN'S ────────────────────────────────────────────────────
 const WOMEN_BRANDS = [
   {
-    id:"asos-w", name:"ASOS", origin:"UK", tier:"fast-fashion", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.asos.com/women/dresses/",checked:"2026-03"}],
+    id:"asos-w", name:"ASOS", origin:"UK", tier:"fast-fashion", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official ASOS DESIGN women's size guide (ASOS size API, guide 183)",url:"https://www.asos.com/web/pages/size-guides/index.html?sizeSchema=UK&data=https://www.asos.com/api/sizing/sizeapi/v1/SizeGuide/183%3flanguage%3den-GB",checked:"2026-10"}],
     notes:"ASOS uses UK sizing as base. Own-brand tends to run true to size. Marketplace brands vary widely — check individual item guides.", fit:"True to UK standard",
     inconsistencyWarning:false, confidence:88,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 4",uk:"4",us:"0",eu:"32",bust:78,waist:60,hips:83.5},
-      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:80.5,waist:62.5,hips:86},
-      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:83,waist:65,hips:88.5},
-      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:93.5},
-      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:93,waist:75,hips:98.5},
-      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:98,waist:80,hips:103.5},
-      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:103,waist:85,hips:108.5},
-      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:110.5,waist:92.5,hips:116},
+      {label:"UK 4",uk:"4",us:"0",eu:"32",bust:81,waist:62,hips:86},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:81.5,waist:62.5,hips:86.5},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:84,waist:65,hips:89},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:91,waist:72,hips:96},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:96,waist:77,hips:101},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:101,waist:82,hips:106},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:106,waist:87,hips:111},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:113,waist:94,hips:118},
     ],
   },
   {
@@ -94,6 +95,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.zara.com/uk/en/help-center/MySize",checked:"2025-02"},{label:"Which? consumer review",url:"https://www.which.co.uk/reviews/clothes-shopping/article/clothes-sizing-guide",checked:"2024-11"}],
     notes:"Zara uses EU sizing. Spanish cut — notoriously runs 1–2 sizes smaller than UK. Narrow shoulders, shorter torso. Size up especially for woven garments.", fit:"Runs 1–2 sizes SMALL",
     inconsistencyWarning:false, confidence:91,
+    auditFlag:"No official body chart: Zara UK only offers a height/weight size recommender, so these measurements are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6",us:"2",eu:"32",bust:78,waist:58,hips:83},
       {label:"S",uk:"8",us:"4",eu:"34",bust:82,waist:62,hips:87},
@@ -104,42 +106,47 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"hm-w", name:"H&M", origin:"SE", tier:"fast-fashion", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www2.hm.com/en_gb/customer-service/sizeguide/ladies.html",checked:"2026-03"}],
+    id:"hm-w", name:"H&M", origin:"SE", tier:"fast-fashion", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official H&M size guide (tops, regular), shown on product pages",url:"https://www2.hm.com/en_gb/productpage.1361447002.html",checked:"2026-10"}],
     notes:"H&M uses EU sizing. Jersey items run generous; woven items true to size. Known for inconsistency across collections — always check garment measurements.", fit:"Variable by fabric — jersey runs large",
     inconsistencyWarning:true, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"4",us:"0",eu:"32",bust:76,waist:60,hips:84},
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:80,waist:64,hips:88},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:86,waist:70,hips:94},
-      {label:"M",uk:"12–14",us:"8–10",eu:"40–42",bust:94,waist:78,hips:101},
-      {label:"L",uk:"16–18",us:"12–14",eu:"44–46",bust:102,waist:86,hips:110},
-      {label:"XL",uk:"20–22",us:"16–18",eu:"48–50",bust:113,waist:97,hips:119},
-      {label:"2XL",uk:"24–26",us:"20–22",eu:"52–54",bust:125,waist:109,hips:129},
+      {label:"XXS",uk:"4",eu:"32",bust:76.5,waist:63,hips:84,rng:{bust:[75,78],waist:[62,64],hips:[82,86]}},
+      {label:"XS",uk:"6",eu:"34",bust:80,waist:65,hips:88,rng:{bust:[78,82],waist:[64,66],hips:[86,90]}},
+      {label:"S",uk:"8-10",eu:"36-38",bust:86,waist:70,hips:93.75,rng:{bust:[82,90],waist:[66,74],hips:[90,97.5]}},
+      {label:"M",uk:"12-14",eu:"40-42",bust:94,waist:78.25,hips:100.5,rng:{bust:[90,98],waist:[74,82.5],hips:[97.5,103.5]}},
+      {label:"L",uk:"16-18",eu:"44-46",bust:102.5,waist:87.75,hips:107,rng:{bust:[98,107],waist:[82.5,93],hips:[103.5,110.5]}},
+      {label:"XL",uk:"20-22",eu:"48-50",bust:113,waist:99,hips:115.5,rng:{bust:[107,119],waist:[93,105],hips:[110.5,120.5]}},
+      {label:"XXL",uk:"24-26",eu:"52-54",bust:125,waist:111.25,hips:125.75,rng:{bust:[119,131],waist:[105,117.5],hips:[120.5,131]}},
+      {label:"3XL",uk:"28-30",eu:"56-58",bust:137,waist:124.5,hips:137,rng:{bust:[131,143],waist:[117.5,131.5],hips:[131,143]}},
+      {label:"4XL",uk:"32-34",eu:"60-62",bust:149,waist:138.5,hips:149,rng:{bust:[143,155],waist:[131.5,145.5],hips:[143,155]}},
     ],
   },
   {
-    id:"ms-w", name:"Marks & Spencer", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.marksandspencer.com/c/size-guides",checked:"2026-03"}],
+    id:"ms-w", name:"Marks & Spencer", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official M&S size guide (women, general)",url:"https://www.marksandspencer.com/c/size-guides?category=women&subcategory=general",checked:"2026-10"}],
     notes:"UK sizing, true to standard. Standard range designed for 168cm (5'6\") woman. Generous ease — if between sizes, size down. Petite and Tall ranges also available with different proportions.", fit:"True to UK standard — slightly generous ease",
     inconsistencyWarning:false, confidence:91,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:78,waist:61,hips:86},
-      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:82,waist:65,hips:90},
-      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:87,waist:70,hips:95},
-      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:92,waist:75,hips:100},
-      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:97,waist:81,hips:105},
-      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:102.5,waist:86,hips:110},
-      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108,waist:92,hips:115},
-      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:114,waist:98,hips:121},
-      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:120,waist:104,hips:127},
-      {label:"UK 24",uk:"24",us:"20",eu:"52",bust:126,waist:110,hips:133},
-    ]
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:78.1,waist:61,hips:85.7},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:81.9,waist:64.8,hips:90.2},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:87,waist:69.8,hips:95.2},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:92.1,waist:74.9,hips:100.3},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:96.5,waist:80.6,hips:105.4},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:102.2,waist:86.4,hips:109.9},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108,waist:92.1,hips:114.9},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:114.3,waist:97.8,hips:120.7},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:120,waist:104.1,hips:127},
+      {label:"UK 24",uk:"24",us:"20",eu:"52",bust:125.7,waist:109.9,hips:133.3},
+    ],
   },
   {
     id:"next-w", name:"Next", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
     sources:[{label:"Official size guide",url:"https://help.next.co.uk/hc/en-gb/sections/28403300612881-Sizing-Guides",checked:"2026-03"}],
     inconsistencyWarning:false, confidence:88,
+    auditFlag:"Unverified: Next's general size guide gives UK/EU/US conversions but no women's body measurements; product charts vary by sub-brand.", verifiedBy:"unverified",
     sizes:[
       {label:"UK 4",uk:"4",us:"0",eu:"32",bust:76,waist:62.5,hips:83.5},
       {label:"UK 6",uk:"6",us:"2",eu:"34",bust:80,waist:65,hips:87.5},
@@ -156,19 +163,21 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"cos-w", name:"COS", origin:"SE", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.cos.com/en-us/customer-service/size-guide",checked:"2026-03"}],
+    id:"cos-w", name:"COS", origin:"SE", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official COS GB size guide (women, tops)",url:"https://www.cos.com/en-gb/customer-service/size-guide",checked:"2026-10"}],
     notes:"Scandinavian minimalist brand. Intentionally oversized, relaxed silhouettes. Size down for a fitted look. EU sizing.", fit:"Deliberately oversized — size DOWN",
     inconsistencyWarning:false, confidence:89,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6–8",us:"2–4",eu:"34–36",bust:82,waist:64,hips:88},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:86,waist:68,hips:92},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38–40",bust:90,waist:72,hips:96},
-      {label:"L",uk:"12–14",us:"8–10",eu:"40–42",bust:94,waist:76,hips:100},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42–44",bust:99,waist:81,hips:105},
-      {label:"L",uk:"14",us:"12",eu:"42",bust:96,waist:80,hips:95},
-      {label:"L",uk:"16",us:"14",eu:"44",bust:100,waist:85,hips:99},
-      {label:"XL",uk:"18",us:"16",eu:"46",bust:104,waist:90,hips:103},
+      {label:"UK 4",uk:"4",us:"2",eu:"32",bust:77,waist:63,hips:84,altLabel:"XXS"},
+      {label:"UK 6",uk:"6",us:"4",eu:"34",bust:80,waist:65,hips:88,altLabel:"XS"},
+      {label:"UK 8",uk:"8",us:"6",eu:"36",bust:84,waist:68,hips:92,altLabel:"S"},
+      {label:"UK 10",uk:"10",us:"8",eu:"38",bust:88,waist:72,hips:96},
+      {label:"UK 12",uk:"12",us:"10",eu:"40",bust:92,waist:76,hips:99,altLabel:"M"},
+      {label:"UK 14",uk:"14",us:"12",eu:"42",bust:96,waist:80,hips:102},
+      {label:"UK 16",uk:"16",us:"14",eu:"44",bust:100,waist:85,hips:105,altLabel:"L"},
+      {label:"UK 18",uk:"18",us:"16",eu:"46",bust:104,waist:90,hips:108},
+      {label:"UK 20",uk:"20",us:"18",eu:"48",bust:110,waist:96,hips:113,altLabel:"XL"},
     ],
   },
   {
@@ -176,6 +185,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.uniqlo.com/uk/en/size/women.html",checked:"2026-03"}],
     notes:"Japanese sizing — typically 1–2 sizes smaller than UK. Cut for narrower Japanese body shape, especially shoulders and hips. ⚠️ Uniqlo revised women's body measurements from FW2025 — if buying pre-owned from earlier seasons, sizing may differ slightly. Always check individual garment measurements.", fit:"Runs 1–2 sizes SMALL vs UK",
     inconsistencyWarning:false, confidence:88,
+    auditFlag:"No official body chart: Uniqlo UK publishes garment measurements per product, not body sizes, so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"XXS",uk:"2–4",us:"00–0",eu:"30–32",bust:76.5,waist:57,hips:85},
       {label:"XS",uk:"4–6",us:"0–2",eu:"32–34",bust:81.5,waist:62.5,hips:89},
@@ -192,6 +202,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide (GB)",url:"https://shop.mango.com/gb/en/size-guide",checked:"2026-03"}],
     notes:"Spanish brand sizing for the UK market. Standard EU-UK mapping applies: EU34=UK6, EU36=UK8, EU38=UK10, EU40=UK12, EU42=UK14, EU44=UK16. Mango runs noticeably SMALL — the garment has less ease than most UK brands so a standard UK 12 body may find Mango UK 12 tight. Size up 1 size for a comfortable fit, especially through the hips. Tops and bottoms use identical waist/hip measurements.", fit:"Runs SMALL — size up 1 for comfort",
     inconsistencyWarning:false, confidence:91,
+    auditFlag:"Not yet verified: Mango's site blocked automated checking (Oct 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"UK 4", uk:"4", us:"0",  eu:"32", bust:80,  waist:60,  hips:88},
       {label:"UK 6", uk:"6", us:"2",  eu:"34", bust:82,  waist:62,  hips:90},
@@ -206,19 +217,21 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"riverisland-w", name:"River Island", origin:"UK", tier:"fast-fashion", chartYear:"2026", lastVerified:"2026-03",
-    sources:[{label:"Official size guide (verified Mar 2026)",url:"https://www.riverisland.com/how-can-we-help/size-guides/womens",checked:"2026-03"},{label:"Cross-checked via sewport.com brand comparison",url:"https://sewport.com/sizing-guide",checked:"2026-03"}],
+    id:"riverisland-w", name:"River Island", origin:"UK", tier:"fast-fashion", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official River Island women's size guide (tops, dresses, outerwear, 6-22)",url:"https://www.riverisland.com/how-can-we-help/size-guides/womens",checked:"2026-10"}],
     notes:"UK sizing. Fashion-forward, slightly body-conscious cut. Waist runs slightly closer-fitting than M&S or Next. Petite and plus ranges available. Jeans run small in waist — size up.", fit:"Body-conscious — true to UK size or size up",
     inconsistencyWarning:false, confidence:88,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6", uk:"6", us:"2",eu:"34",bust:80,  waist:61,  hips:86},
-      {label:"UK 8", uk:"8", us:"4",eu:"36",bust:84,  waist:65,  hips:90},
-      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:88,  waist:69,  hips:94},
-      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:92,  waist:73,  hips:98},
-      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:97,  waist:78,  hips:103},
-      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:102, waist:83,  hips:108},
-      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108, waist:89,  hips:114},
-      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:114, waist:96,  hips:120},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:81,waist:63,hips:90},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:85,waist:67,hips:94},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:89,waist:71,hips:98},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:93,waist:75,hips:102},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:98,waist:80,hips:107},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:104,waist:86,hips:113},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:110,waist:92,hips:119},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:116,waist:98,hips:125},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:122,waist:104,hips:131},
     ],
   },
   {
@@ -226,6 +239,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.newlook.com/uk/womens/size-guide",checked:"2026-03"},{label:"Cross-verified via sewport.com brand comparison (UK6=bust81/waist62/hip87)",url:"https://sewport.com/sizing-guide",checked:"2026-03"}],
     notes:"UK sizing. Inclusive sizing including plus, petite, and tall ranges. Slightly generous sizing vs standard UK. UK 4–22 (core range).", fit:"True to UK standard — slightly generous",
     inconsistencyWarning:false, confidence:90,
+    auditFlag:"Not yet verified: New Look's size guide is behind a bot check (Oct 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"UK 4", uk:"4", us:"0",  eu:"32", bust:77,  waist:58,  hips:83},
       {label:"UK 6", uk:"6", us:"2",  eu:"34", bust:81,  waist:62,  hips:87},
@@ -258,6 +272,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official body measurement chart (Primark UK)",url:"https://www.primark.com/en-gb/size-charts",checked:"2026-03"}],
     notes:"UK sizing but highly inconsistent — sizing varies widely by garment, collection, and even production run. Always measure the specific garment. Rolling out new sizing model based on real body shape data from 2025 onwards — early garments from new model may differ.", fit:"⚠️ Highly inconsistent — always measure",
     inconsistencyWarning:true, confidence:82,
+    auditFlag:"Size conversions verified (Oct 2026), but Primark publishes no women's body measurements, so the cm figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"UK 4", uk:"4",  us:"0",  eu:"32", bust:76,  waist:59, hips:83},
       {label:"UK 6", uk:"6",  us:"2",  eu:"34", bust:79,  waist:62, hips:86},
@@ -271,32 +286,44 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"nike-w", name:"Nike", origin:"US", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.nike.com/gb/size-fit/womens-apparel",checked:"2026-03"}],
+    id:"nike-w", name:"Nike", origin:"US", tier:"sports", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Nike UK women's tops & tees size chart",url:"https://www.nike.com/gb/size-fit/womens-tops-alpha",checked:"2026-10"}],
     notes:"US sizing, UK is +4 from US numeric. Athletic cut — narrow torso, fitted sleeves. Running/training gear cuts very slim; lifestyle more relaxed.", fit:"Athletic cut — size up for comfort fit",
     inconsistencyWarning:false, confidence:87,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"2",us:"00",eu:"30",bust:72.4,waist:56.8,hips:80.7},
-      {label:"XS",uk:"4–6",us:"0–2",eu:"32–34",bust:78.7,waist:62.9,hips:87},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:86.4,waist:69.9,hips:94},
-      {label:"M",uk:"12–14",us:"8–10",eu:"40–42",bust:93.3,waist:76.8,hips:101},
-      {label:"L",uk:"16–18",us:"12–14",eu:"44–46",bust:100,waist:83.8,hips:104.5},
-      {label:"XL",uk:"18–20",us:"14–16",eu:"46–48",bust:108,waist:92.7,hips:112},
-      {label:"XXL",uk:"24–26",us:"20–22",eu:"52–54",bust:121.9,waist:102.9,hips:123.2},
+      {label:"XXS",uk:"2",us:"0",eu:"30",bust:72.35,waist:56.85,hips:80.65,rng:{bust:[69.8,74.9],waist:[54,59.7],hips:[77.5,83.8]}},
+      {label:"XS",uk:"4-6",us:"0-2",eu:"32-34",bust:78.7,waist:62.85,hips:87,rng:{bust:[74.9,82.5],waist:[59.7,66],hips:[83.8,90.2]}},
+      {label:"S",uk:"8-10",us:"4-6",eu:"36-38",bust:86.35,waist:69.85,hips:94,rng:{bust:[82.5,90.2],waist:[66,73.7],hips:[90.2,97.8]}},
+      {label:"M",uk:"12-14",us:"8-10",eu:"40-42",bust:93.35,waist:76.85,hips:100.95,rng:{bust:[90.2,96.5],waist:[73.7,80],hips:[97.8,104.1]}},
+      {label:"L",uk:"16-18",us:"12-14",eu:"44-46",bust:100.3,waist:83.8,hips:107.95,rng:{bust:[96.5,104.1],waist:[80,87.6],hips:[104.1,111.8]}},
+      {label:"XL",uk:"20-22",us:"16-18",eu:"48-50",bust:108.55,waist:92.7,hips:115.6,rng:{bust:[104.1,113],waist:[87.6,97.8],hips:[111.8,119.4]}},
+      {label:"XXL",uk:"24-26",us:"20-22",eu:"52-54",bust:118.1,waist:102.9,hips:123.2,rng:{bust:[113,123.2],waist:[97.8,108],hips:[119.4,127]}},
+      {label:"0X",uk:"22",us:"16W",eu:"50",bust:115.6,waist:105.4,hips:125.7,rng:{bust:[111.8,119.4],waist:[101.6,109.2],hips:[121.9,129.5]}},
+      {label:"1X",uk:"24-26",us:"18W-20W",eu:"52-54",bust:122.55,waist:112.4,hips:133.35,rng:{bust:[119.4,125.7],waist:[109.2,115.6],hips:[129.5,137.2]}},
+      {label:"2X",uk:"28-30",us:"22W-24W",eu:"56-58",bust:128.9,waist:120.05,hips:141,rng:{bust:[125.7,132.1],waist:[115.6,124.5],hips:[137.2,144.8]}},
+      {label:"3X",uk:"32-34",us:"26W-28W",eu:"60-62",bust:135.9,waist:129.55,hips:149.85,rng:{bust:[132.1,139.7],waist:[124.5,134.6],hips:[144.8,154.9]}},
+      {label:"4X",uk:"36-38",us:"30W-32W",eu:"64-68",bust:143.5,waist:139.7,hips:160,rng:{bust:[139.7,147.3],waist:[134.6,144.8],hips:[154.9,165.1]}},
     ],
   },
   {
-    id:"adidas-w", name:"Adidas", origin:"DE", tier:"sports", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official size chart",url:"https://www.adidas.co.uk/help/size_charts",checked:"2026-03"}],
+    id:"adidas-w", name:"Adidas", origin:"DE", tier:"sports", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official adidas UK women's tops size guide",url:"https://www.adidas.co.uk/help/size_charts/women-shirts_tops",checked:"2026-10"}],
     notes:"EU sizing. Athletic, sporty cut. Running/training items cut slimmer; Originals and lifestyle items more relaxed. Consistent measurement data.", fit:"Athletic — Originals more relaxed",
     inconsistencyWarning:false, confidence:84,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6–8",us:"2–4",eu:"32–34",bust:80,waist:60,hips:87},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:84,waist:64,hips:91},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:89,waist:69,hips:96},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:95,waist:75,hips:102},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:101,waist:81,hips:108},
-      {label:"XXL",uk:"18",us:"14",eu:"46",bust:107,waist:87,hips:114},
+      {label:"2XS",uk:"0-2",us:"00",eu:"26-28",bust:74.5,waist:58.5,hips:83.5,rng:{bust:[73,76],waist:[57,60],hips:[82,85]}},
+      {label:"XS",uk:"4-6",us:"0-2",eu:"30-32",bust:79.5,waist:63.5,hips:88.5,rng:{bust:[77,82],waist:[61,66],hips:[86,91]}},
+      {label:"S",uk:"8-10",us:"4-6",eu:"34-36",bust:85.5,waist:69.5,hips:94.5,rng:{bust:[83,88],waist:[67,72],hips:[92,97]}},
+      {label:"M",uk:"12-14",us:"8-10",eu:"38-40",bust:91.5,waist:75.5,hips:100.5,rng:{bust:[89,94],waist:[73,78],hips:[98,103]}},
+      {label:"L",uk:"16-18",us:"12-14",eu:"42-44",bust:98,waist:82,hips:107,rng:{bust:[95,101],waist:[79,85],hips:[104,110]}},
+      {label:"XL",uk:"20-22",us:"16-18",eu:"46-48",bust:105.5,waist:90,hips:114,rng:{bust:[102,109],waist:[86,94],hips:[111,117]}},
+      {label:"2XL",uk:"24-26",us:"20",eu:"50-52",bust:114,waist:99.5,hips:121.5,rng:{bust:[110,118],waist:[95,104],hips:[118,125]}},
+      {label:"1X",uk:"20-22",us:"14W-16W",eu:"46-48",bust:108.5,waist:93.5,hips:115.5,rng:{bust:[104,113],waist:[89,98],hips:[111,120]}},
+      {label:"2X",uk:"24-26",us:"18W-20W",eu:"50-52",bust:118.5,waist:103.5,hips:125.5,rng:{bust:[114,123],waist:[99,108],hips:[121,130]}},
+      {label:"3X",uk:"28-30",us:"22W-24W",eu:"54-56",bust:128.5,waist:113.5,hips:135.5,rng:{bust:[124,133],waist:[109,118],hips:[131,140]}},
+      {label:"4X",uk:"32-34",us:"26W-28W",eu:"58-60",bust:138.5,waist:123.5,hips:145.5,rng:{bust:[134,143],waist:[119,128],hips:[141,150]}},
     ],
   },
   {
@@ -356,20 +383,21 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"boden-w", name:"Boden", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide (boden.co.uk)",url:"https://www.boden.co.uk/en-gb/help/size-guides",checked:"2026-03"}],
+    id:"boden-w", name:"Boden", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Boden UK body-measurement chart (shown on product pages)",url:"https://www.boden.com/products/women-lace-detail-top-midnight-ocean-t2253blu",checked:"2026-10"}],
     notes:"UK numeric sizing (6–22). Very consistent year to year — sizing unchanged since at least 2018. Petite (3in shorter), regular, and long (3in longer) lengths. Generous, comfortable cut — classic British brand.", fit:"Slightly generous — true to UK standard, classic comfort fit",
     inconsistencyWarning:false, confidence:89,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6", uk:"6", us:"2", eu:"34", bust:79,  waist:61.5,hips:84},
-      {label:"UK 8", uk:"8", us:"4", eu:"36", bust:83.5,waist:65.5,hips:88.5},
-      {label:"UK 10",uk:"10",us:"6", eu:"38", bust:86,  waist:68,  hips:91},
-      {label:"UK 12",uk:"12",us:"8", eu:"40", bust:91,  waist:73,  hips:96},
-      {label:"UK 14",uk:"14",us:"10",eu:"42", bust:96,  waist:78,  hips:101},
-      {label:"UK 16",uk:"16",us:"12",eu:"44", bust:101, waist:83,  hips:106},
-      {label:"UK 18",uk:"18",us:"14",eu:"46", bust:107, waist:89,  hips:112},
-      {label:"UK 20",uk:"20",us:"16",eu:"48", bust:113, waist:95,  hips:118},
-      {label:"UK 22",uk:"22",us:"18",eu:"50", bust:119, waist:101, hips:124},
+      {label:"UK 6",uk:"6",bust:84,waist:66,hips:89,altLabel:"XS"},
+      {label:"UK 8",uk:"8",bust:85.25,waist:67.25,hips:90.25,rng:{bust:[84,86.5],waist:[66,68.5],hips:[89,91.5]},altLabel:"S"},
+      {label:"UK 10",uk:"10",bust:88,waist:70,hips:93,rng:{bust:[87,89],waist:[69,71],hips:[92,94]},altLabel:"S"},
+      {label:"UK 12",uk:"12",bust:92,waist:74,hips:97,rng:{bust:[90,94],waist:[72,76],hips:[95,99]},altLabel:"M"},
+      {label:"UK 14",uk:"14",bust:97,waist:79,hips:102,rng:{bust:[95,99],waist:[77,81],hips:[100,104]},altLabel:"M"},
+      {label:"UK 16",uk:"16",bust:102,waist:84,hips:107,rng:{bust:[100,104],waist:[82,86],hips:[105,109]},altLabel:"L"},
+      {label:"UK 18",uk:"18",bust:107,waist:89,hips:112,rng:{bust:[105,109],waist:[87,91],hips:[110,114]},altLabel:"L"},
+      {label:"UK 20",uk:"20",bust:112.5,waist:94.5,hips:117.5,rng:{bust:[110,115],waist:[92,97],hips:[115,120]},altLabel:"XL"},
+      {label:"UK 22",uk:"22",bust:118.5,waist:100.5,hips:123.5,rng:{bust:[116,121],waist:[98,103],hips:[121,126]},altLabel:"XL"},
     ],
   },
   {
@@ -414,34 +442,38 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"whitestuff-w", name:"White Stuff", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"White Stuff size guide (via whitefinn)",url:"https://whitefinnfashion.co.uk/pages/white-stuff-sizing-chart",checked:"2026-03"}],
+    id:"whitestuff-w", name:"White Stuff", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official White Stuff size guide",url:"https://www.whitestuff.com/size-guide",checked:"2026-10"}],
     notes:"UK numeric sizing. Relaxed, countryside-inspired British brand. True to size in tops and blouses; slightly generous in knitwear. Standard sizing UK 6–22.", fit:"True to size — slightly generous in knitwear",
     inconsistencyWarning:false, confidence:81,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6", uk:"6", us:"2",  eu:"34", bust:83,  waist:63,  hips:88},
-      {label:"UK 8", uk:"8", us:"4",  eu:"36", bust:88,  waist:68,  hips:92},
-      {label:"UK 10",uk:"10",us:"6",  eu:"38", bust:93,  waist:70,  hips:97},
-      {label:"UK 12",uk:"12",us:"8",  eu:"40", bust:93,  waist:75,  hips:101},
-      {label:"UK 14",uk:"14",us:"10", eu:"42", bust:98,  waist:80,  hips:106},
-      {label:"UK 16",uk:"16",us:"12", eu:"44", bust:103, waist:85,  hips:111},
-      {label:"UK 18",uk:"18",us:"14", eu:"46", bust:109, waist:91,  hips:116},
-      {label:"UK 20",uk:"20",us:"16", eu:"48", bust:114, waist:97,  hips:122},
-      {label:"UK 22",uk:"22",us:"18", eu:"50", bust:119, waist:102, hips:127},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:78,waist:58,hips:86,altLabel:"XS"},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:83,waist:65,hips:91,altLabel:"S"},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:96,altLabel:"S"},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:93,waist:75,hips:101,altLabel:"M"},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:98,waist:80,hips:106,altLabel:"M"},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:103,waist:85,hips:111,altLabel:"L"},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108,waist:90,hips:116,altLabel:"L"},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:114,waist:96,hips:122,altLabel:"XL"},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:120,waist:102,hips:128,altLabel:"XL"},
+      {label:"UK 24",uk:"24",us:"20",eu:"52",bust:126,waist:108,hips:134,altLabel:"XXL"},
     ],
   },
   {
-    id:"gap-w", name:"Gap", origin:"US", tier:"mid", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official size guide",url:"https://www.gap.co.uk/size-guide",checked:"2026-03"}],
+    id:"gap-w", name:"Gap", origin:"US", tier:"mid", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official Gap UK size guide (women's tops)",url:"https://www.gap.co.uk/size-guide",checked:"2026-10"}],
     notes:"US sizing. American generous cut — wider than EU brands, longer torso. UK sizes run 2 up from US (US 6 = UK 10).", fit:"Generous American cut — may size down",
-    inconsistencyWarning:false, confidence:85, lastVerified:"2026-03", chartYear:"2026",
+    inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"2",   us:"00", eu:"30",    bust:79,  waist:62, hips:86},
-      {label:"XS", uk:"4–6", us:"0–2",eu:"32–34", bust:83,  waist:66, hips:90},
-      {label:"S",  uk:"8–10",us:"4–6",eu:"36–38", bust:88,  waist:71, hips:95},
-      {label:"M",  uk:"12–14",us:"8–10",eu:"40–42",bust:93, waist:76, hips:101},
-      {label:"L",  uk:"16–18",us:"12–14",eu:"44–46",bust:99,waist:83, hips:107},
-      {label:"XL", uk:"20–22",us:"16–18",eu:"48–50",bust:108,waist:93,hips:117},
+      {label:"XXS",uk:"2",us:"00",eu:"30",bust:79,waist:62,hips:86},
+      {label:"XS",uk:"4-6",us:"0-2",eu:"32-34",bust:82.5,waist:66,hips:90,rng:{bust:[81,84],waist:[65,67],hips:[89,91]}},
+      {label:"S",uk:"8-10",us:"4-6",eu:"36-38",bust:87.5,waist:71,hips:95.25,rng:{bust:[86,89],waist:[70,72],hips:[94,96.5]}},
+      {label:"M",uk:"12-14",us:"8-10",eu:"40-42",bust:92.5,waist:76.25,hips:100.5,rng:{bust:[91,94],waist:[75,77.5],hips:[99,102]}},
+      {label:"L",uk:"16-18",us:"12-14",eu:"44-46",bust:99.25,waist:83,hips:107,rng:{bust:[96.5,102],waist:[81,85],hips:[105,109]}},
+      {label:"XL",uk:"20-22",us:"16-18",eu:"48-50",bust:108,waist:92.5,hips:116.5,rng:{bust:[107,109],waist:[90,95],hips:[114,119]}},
+      {label:"XXL",uk:"24",us:"20",eu:"52",bust:116.5,waist:102.5,hips:126.75,rng:{bust:[114,119],waist:[100,105],hips:[124,129.5]}},
     ],
   },
   {
@@ -471,16 +503,25 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"levis-w", name:"Levi's", origin:"US", tier:"denim", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official UK size chart",url:"https://www.levi.com/GB/en_GB/features/size-chart",checked:"2026-03"}],
-    notes:"Jeans use waist×inseam in inches (e.g. W27L30). Tops use XS–XXL. Different cuts (501, 711, 721) fit very differently — 501 is looser, 711 is skinny.", fit:"Jeans: use waist in inches. 501=relaxed, 711=skinny",
+    id:"levis-w", name:"Levi's", origin:"US", tier:"denim", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official Levi's GB size chart (women's tops)",url:"https://www.levi.com/GB/en_GB/info/sizechart",checked:"2026-10"}],
+    notes:"Levi's publishes one chest/waist/hip value per letter size for women's tops, dresses and skirts. Jeans are sized by waist number (24-34) with their own waist/hip chart. Plus sizes 1X-3X each cover two numeric sizes.", fit:"Jeans: use waist in inches. 501=relaxed, 711=skinny",
     inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6–8",us:"2–4",eu:"34–36",bust:81,waist:61,hips:86},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:85,waist:65,hips:90},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:90,waist:70,hips:95},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:96,waist:76,hips:101},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:102,waist:82,hips:107},
+      {label:"XXS",bust:79,waist:62,hips:86},
+      {label:"XS",bust:84,waist:66,hips:91},
+      {label:"S",bust:89,waist:71,hips:97},
+      {label:"M",bust:94,waist:76,hips:102},
+      {label:"L",bust:100,waist:83,hips:108},
+      {label:"XL",bust:108,waist:90,hips:116},
+      {label:"XXL",bust:115,waist:99,hips:123},
+      {label:"1X (14)",bust:108,waist:92,hips:115},
+      {label:"1X (16)",bust:113,waist:97,hips:120},
+      {label:"2X (18)",bust:118,waist:102.25,hips:125},
+      {label:"2X (20)",bust:123,waist:107,hips:130},
+      {label:"3X (22)",bust:128.25,waist:112,hips:136},
+      {label:"3X (24)",bust:133,waist:117.5,hips:140},
     ],
   },
   {
@@ -497,18 +538,22 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"fatface-w", name:"Fat Face", origin:"UK", tier:"mid", chartYear:"2026", lastVerified:"2026-03",
-    sources:[{label:"Official size guide",url:"https://www.fatface.com/page/size-guide",checked:"2026-03"},{label:"Official size guide",url:"https://www.fatface.com/page/size-guide",checked:"2026-03"}],
+    id:"fatface-w", name:"Fat Face", origin:"UK", tier:"mid", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official FatFace size guide",url:"https://www.fatface.com/size-guide",checked:"2026-10"}],
     notes:"UK sizing. Casual lifestyle/outdoor brand. Relaxed, comfortable cuts — slightly generous through the body. Jersey and knitwear especially roomy. Runs true to UK size with a comfortable allowance.", fit:"True to UK — relaxed, comfortable cut",
     inconsistencyWarning:false, confidence:77,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:83,waist:64,hips:89},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:87,waist:68,hips:93},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:91,waist:72,hips:97},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:96,waist:77,hips:102},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:101,waist:82,hips:107},
-      {label:"XXL",uk:"18",us:"14",eu:"46",bust:107,waist:88,hips:113},
-      {label:"3XL",uk:"20",us:"16",eu:"48",bust:113,waist:94,hips:119},
+      {label:"UK 6",uk:"6",bust:79,waist:61,hips:87},
+      {label:"UK 8",uk:"8",bust:84,waist:66,hips:92},
+      {label:"UK 10",uk:"10",bust:89,waist:71,hips:97},
+      {label:"UK 12",uk:"12",bust:94,waist:76,hips:102},
+      {label:"UK 14",uk:"14",bust:99,waist:81,hips:107},
+      {label:"UK 16",uk:"16",bust:105,waist:87,hips:113},
+      {label:"UK 18",uk:"18",bust:111,waist:93,hips:119},
+      {label:"UK 20",uk:"20",bust:118,waist:100,hips:126},
+      {label:"UK 22",uk:"22",bust:125,waist:107,hips:133},
+      {label:"UK 24",uk:"24",bust:132,waist:114,hips:140},
     ],
   },
   {
@@ -528,17 +573,25 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"ralphlauren-w", name:"Ralph Lauren", origin:"US", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Lauren by Ralph Lauren official size chart",url:"https://www.simplybeach.com/pages/ralph-lauren-size-guide",checked:"2026-03"}],
+    id:"ralphlauren-w", name:"Ralph Lauren", origin:"US", tier:"premium", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Ralph Lauren UK size guide (Polo Ralph Lauren women's apparel, excl. jeans)",url:"https://www.ralphlauren.co.uk/en/clothing/womens_polo_apparel.html",checked:"2026-10"}],
     notes:"US sizing. Classic American preppy — generous across shoulders, relaxed American fit. Quality varies by sub-line (Polo, Lauren, Collection).", fit:"Generous American — may size down",
     inconsistencyWarning:false, genericData:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"6",us:"2",eu:"34",bust:84,waist:64,hips:89},
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:86,waist:66,hips:91},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:89,waist:71,hips:97},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:94,waist:76,hips:102},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:100,waist:83,hips:108},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:107,waist:89,hips:114},
+      {label:"UK 2",uk:"2",us:"00",eu:"30",bust:80.1,waist:62.2,hips:87.6},
+      {label:"UK 4",uk:"4",us:"0",eu:"32",bust:82.6,waist:64.8,hips:90.2},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:85.1,waist:67.3,hips:92.7},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:87.6,waist:69.9,hips:95.3},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:90.2,waist:72.4,hips:97.8},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:92.7,waist:74.9,hips:100.3},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:95.3,waist:77.5,hips:102.9},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:99.1,waist:81.3,hips:106.7},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:102.9,waist:85.1,hips:110.5},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:108,waist:90.2,hips:115.6},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:113.03,waist:95.3,hips:120.7},
+      {label:"UK 24",uk:"24",us:"20",eu:"52",bust:118.1,waist:100.3,hips:125.7},
+      {label:"UK 26",uk:"26",us:"22",eu:"54",bust:123.2,waist:105.4,hips:130.8},
     ],
   },
 
@@ -760,19 +813,23 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"joules-w", name:"Joules", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.joules.com/page/size-guide",checked:"2026-03"},{label:"Official size guide",url:"https://www.joules.com/pages/size-guide",checked:"2026-03"}],
+    id:"joules-w", name:"Joules", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Joules women's size guide (product pages)",url:"https://www.joules.com/style/sv002205/g84801",checked:"2026-10"}],
     notes:"UK countryside-and-coast lifestyle brand. UK numeric sizing from 6–22. Runs true with a comfortable, relaxed cut — outdoor and lifestyle garments slightly more generous for layering. Particularly consistent for waxed jackets, fair isle knitwear and wellington boot socks.", fit:"True to UK standard — comfortable lifestyle cut",
     inconsistencyWarning:false, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:81,waist:63,hips:86},
-      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:89},
-      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:93},
-      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:97},
-      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:97,waist:79,hips:102},
-      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:102,waist:84,hips:107},
-      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108,waist:90,hips:113},
-      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:114,waist:96,hips:119},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:83.8,waist:66,hips:90.2,altLabel:"XS"},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:86.4,waist:68.6,hips:92.7,altLabel:"S"},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:90.2,waist:72.4,hips:96.5,altLabel:"S"},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:94,waist:76.2,hips:101.6,altLabel:"M"},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:100.3,waist:81.3,hips:106.7,altLabel:"M"},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:105.4,waist:87.6,hips:113,altLabel:"L"},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:114.3,waist:96.5,hips:120.7,altLabel:"L"},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:119.4,waist:101.6,hips:127,altLabel:"XL"},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:126,waist:108,hips:133.3,altLabel:"XL"},
+      {label:"UK 24",uk:"24",us:"20",eu:"52",bust:132.1,waist:114.3,hips:138.4,altLabel:"XXL"},
+      {label:"UK 26",uk:"26",us:"22",eu:"54",bust:138.4,waist:119.4,hips:144.8,altLabel:"XXL"},
     ],
   },
   {
@@ -823,19 +880,22 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"seasalt-w", name:"Seasalt Cornwall", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.seasaltcornwall.co.uk/size-guide",checked:"2026-03"},{label:"Official size guide",url:"https://www.seasaltcornwall.co.uk/pages/size-guide",checked:"2026-03"}],
+    id:"seasalt-w", name:"Seasalt Cornwall", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Seasalt Cornwall size guide",url:"https://www.seasaltcornwall.com/size-guide",checked:"2026-10"}],
     notes:"Cornwall-based sustainable lifestyle brand. Very detailed published size guide with per-garment type notes. UK numeric sizing 6–24 — runs true with a comfortable, outdoor-ready cut. Slightly generous through the body, especially outerwear. One of the more reliable brands for second-hand buying.", fit:"True to UK — comfortable outdoor cut, slight generous ease",
     inconsistencyWarning:false, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:81,waist:62,hips:86},
-      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:84,waist:65,hips:89},
-      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:88,waist:69,hips:93},
-      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:92,waist:73,hips:97},
-      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:97,waist:78,hips:102},
-      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:102,waist:83,hips:107},
-      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108,waist:89,hips:113},
-      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:114,waist:95,hips:119},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:83,waist:66,hips:93},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:88,waist:71,hips:98},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:93,waist:76,hips:103},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:98,waist:81,hips:108},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:104,waist:87,hips:114},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:110,waist:93,hips:120},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:116,waist:99,hips:126},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:122,waist:105,hips:132},
+      {label:"UK 24",uk:"24",us:"20",eu:"52",bust:128,waist:111,hips:138},
+      {label:"UK 26",uk:"26",us:"22",eu:"54",bust:134,waist:117,hips:144},
     ],
   },
   {
@@ -1245,16 +1305,21 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"barbour-w", name:"Barbour", origin:"UK", tier:"premium", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://www.barbour.com/en-gb/size-guide",checked:"2026-02"}],
+    id:"barbour-w", name:"Barbour", origin:"UK", tier:"premium", lastVerified:"2026-10",
+    sources:[{label:"Official Barbour size & fit guide (UK)",url:"https://www.barbour.com/gb/customer_service/size-and-fit-guides.html",checked:"2026-10"}],
     notes:"UK heritage brand famous for waxed cotton jackets. UK sizing but cuts very generously — designed to layer over chunky knitwear. Women's wax jackets size down 1–2; quilted styles are more standard.",
     fit:"Very generous — size DOWN 1–2 for waxed styles", inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:87,waist:69,hips:92},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38–40",bust:92,waist:74,hips:97},
-      {label:"L",uk:"12–14",us:"8–10",eu:"40–42",bust:98,waist:80,hips:103},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42–44",bust:104,waist:86,hips:109},
-      {label:"2XL",uk:"16–18",us:"12–14",eu:"44–46",bust:111,waist:93,hips:116},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:80.5,waist:64.5,hips:89.5,rng:{bust:[78,83],waist:[62,67],hips:[87,92]}},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:85.5,waist:69.5,hips:94.5,rng:{bust:[83,88],waist:[67,72],hips:[92,97]},altLabel:"XS"},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:90.5,waist:74.5,hips:99.5,rng:{bust:[88,93],waist:[72,77],hips:[97,102]},altLabel:"S"},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:95.5,waist:79.5,hips:104.5,rng:{bust:[93,98],waist:[77,82],hips:[102,107]},altLabel:"M"},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:100.5,waist:84.5,hips:109.5,rng:{bust:[98,103],waist:[82,87],hips:[107,112]},altLabel:"L"},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:105.5,waist:89.5,hips:114.5,rng:{bust:[103,108],waist:[87,92],hips:[112,117]},altLabel:"XL"},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:110.5,waist:94.5,hips:119.5,rng:{bust:[108,113],waist:[92,97],hips:[117,122]},altLabel:"XXL"},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:115.5,waist:99.5,hips:124.5,rng:{bust:[113,118],waist:[97,102],hips:[122,127]}},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:120.5,waist:104.5,hips:129.5,rng:{bust:[118,123],waist:[102,107],hips:[127,132]}},
     ],
   },
   {
@@ -2548,18 +2613,19 @@ const WOMEN_BRANDS = [
 // ─── BRAND DATA — MEN'S ──────────────────────────────────────────────────────
 const MEN_BRANDS = [
   {
-    id:"asos-m", name:"ASOS", origin:"UK", tier:"fast-fashion", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.asos.com/men/size-guide/",checked:"2026-03"}],
+    id:"asos-m", name:"ASOS", origin:"UK", tier:"fast-fashion", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official ASOS DESIGN men's size guide (ASOS size API, guide 9674)",url:"https://www.asos.com/web/pages/size-guides/index.html?sizeSchema=UK&data=https://www.asos.com/api/sizing/sizeapi/v1/SizeGuide/9674%3flanguage%3den-GB",checked:"2026-10"},{label:"ASOS DESIGN product page showing that guide",url:"https://www.asos.com/asos-design/asos-design-essentials-t-shirt-in-white/prd/211947871",checked:"2026-10"}],
     notes:"UK chest size as base. Own-brand runs true to size. Slim/regular/relaxed are significantly different cuts within same label.", fit:"True to UK standard — check cut",
     inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:71},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:76},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:96,waist:81},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:101,waist:86},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:107,waist:92},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:113,waist:98},
-      {label:"3XL",uk:"46",us:"3XL",eu:"56",chest:119,waist:104},
+      {label:"XS",eu:"43-44",chest:85.5,rng:{chest:[83,88]}},
+      {label:"S",eu:"45-47",chest:92.5,rng:{chest:[90,95]}},
+      {label:"M",eu:"48-50",chest:99.5,rng:{chest:[97,102]}},
+      {label:"L",eu:"52-54",chest:109.5,rng:{chest:[107,112]}},
+      {label:"XL",eu:"56-58",chest:119.5,rng:{chest:[117,122]}},
+      {label:"XXL",eu:"60-62",chest:129.5,rng:{chest:[127,132]}},
+      {label:"3XL",eu:"64-66",chest:139.5,rng:{chest:[137,142]}},
     ],
   },
   {
@@ -2567,6 +2633,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.zara.com/uk/en/help-center/MySize",checked:"2026-03"}],
     notes:"EU sizing. Spanish slim cut — narrower shoulders than UK brands. Size up if broad-shouldered. Suit jackets run especially slim.", fit:"Slim European — size UP if broad-shouldered",
     inconsistencyWarning:false, confidence:84,
+    auditFlag:"No official body chart: Zara UK only offers a height/weight size recommender, so these measurements are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34–36",us:"XS",eu:"44–46",chest:87,waist:72},
       {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:76},
@@ -2577,101 +2644,124 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"hm-m", name:"H&M", origin:"SE", tier:"fast-fashion", chartYear:"2026", lastVerified:"2026-03",
-    sources:[{label:"Official size guide (H&M UK)",url:"https://www2.hm.com/en_gb/customer-service/size-guide/menswear.html",checked:"2026-03"}],
+    id:"hm-m", name:"H&M", origin:"SE", tier:"fast-fashion", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official H&M size guide (men's tops, shirts, jackets), shown on product pages",url:"https://www2.hm.com/en_gb/productpage.1331624001.html",checked:"2026-10"}],
     notes:"EU sizing. Slim, regular and relaxed fits vary significantly. Slim fits run 1 size small. Denim runs very inconsistently.", fit:"Slim: size UP; Regular: true to size",
     inconsistencyWarning:true, confidence:87,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS", uk:"34",us:"XS", eu:"42", chest:84,  waist:72, hips:90},
-      {label:"S",  uk:"36",us:"S",  eu:"46", chest:90,  waist:78, hips:95},
-      {label:"M",  uk:"38",us:"M",  eu:"50", chest:98,  waist:86, hips:101},
-      {label:"L",  uk:"42",us:"L",  eu:"54", chest:106, waist:94, hips:107},
-      {label:"XL", uk:"46",us:"XL", eu:"58", chest:114, waist:102,hips:113},
-      {label:"2XL",uk:"50",us:"2XL",eu:"62", chest:122, waist:110,hips:119},
+      {label:"XS",uk:"30R-32R",eu:"40-42",chest:82,waist:70,rng:{chest:[78,86],waist:[66,74]}},
+      {label:"S",uk:"34R-36R",eu:"44-46",chest:90,waist:78,rng:{chest:[86,94],waist:[74,82]}},
+      {label:"M",uk:"38R-40R",eu:"48-50",chest:98,waist:86,rng:{chest:[94,102],waist:[82,90]}},
+      {label:"L",uk:"42R-44R",eu:"52-54",chest:106,waist:94.25,rng:{chest:[102,110],waist:[90,98.5]}},
+      {label:"XL",uk:"46R-48R",eu:"56-58",chest:114,waist:103,rng:{chest:[110,118],waist:[98.5,107.5]}},
+      {label:"XXL",uk:"50R-52R",eu:"60-62",chest:122,waist:112,rng:{chest:[118,126],waist:[107.5,116.5]}},
     ],
   },
   {
-    id:"ms-m", name:"Marks & Spencer", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.marksandspencer.com/c/help/size-guides/clothing/mens",checked:"2026-03"}],
+    id:"ms-m", name:"Marks & Spencer", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official M&S size guide (men, tops)",url:"https://www.marksandspencer.com/c/size-guides?category=men&subcategory=tops",checked:"2026-10"}],
     notes:"UK chest sizing. Generous, classic British cut — slightly boxier than European brands. Tailored Fit is slimmer. Suits available in short/regular/long. Ranges: XS=81–86cm, S=89–94cm, M=97–102cm, L=104–109cm, XL=112–117cm, XXL=119–124cm.", fit:"Classic British — relaxed. Tailored = slim.",
     inconsistencyWarning:false, confidence:84,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:84,waist:70},
-      {label:"S", uk:"36",us:"S", eu:"46",chest:92,waist:78},
-      {label:"M", uk:"38",us:"M", eu:"48",chest:100,waist:86},
-      {label:"L", uk:"40",us:"L", eu:"50",chest:107,waist:92},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:115,waist:100},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:122,waist:109},
-      {label:"3XL",uk:"46",us:"3XL",eu:"56",chest:130,waist:117},
+      {label:"XS",chest:83.85,rng:{chest:[81.3,86.4]}},
+      {label:"S",chest:91.45,rng:{chest:[88.9,94]}},
+      {label:"M",chest:99.05,rng:{chest:[96.5,101.6]}},
+      {label:"L",chest:106.65,rng:{chest:[104.1,109.2]}},
+      {label:"XL",chest:114.3,rng:{chest:[111.8,116.8]}},
+      {label:"XXL",chest:121.95,rng:{chest:[119.4,124.5]}},
+      {label:"3XL",chest:129.55,rng:{chest:[127,132.1]}},
+      {label:"4XL",chest:134.65,rng:{chest:[132.1,137.2]}},
     ],
   },
   {
-    id:"next-m", name:"Next", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://help.next.co.uk/hc/en-gb/articles/28403517951505-Men-s-Sizing-Guide",checked:"2026-03"}],
+    id:"next-m", name:"Next", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Next size guide (men's chest)",url:"https://www.next.co.uk/sizeguide",checked:"2026-10"}],
     notes:"UK chest sizing. Very consistent. Slim, skinny, regular, and relaxed fits all labelled on garments. Short/regular/long leg lengths for trousers. Standard UK inch sizing: XS=34in/86cm, S=36in/91cm, M=38in/97cm, L=40in/102cm, XL=42in/107cm, XXL=44in/112cm.", fit:"True to UK standard",
     inconsistencyWarning:false, confidence:86,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:71},
-      {label:"S", uk:"36",us:"S", eu:"46",chest:91,waist:76},
-      {label:"M", uk:"38",us:"M", eu:"48",chest:97,waist:81},
-      {label:"L", uk:"40",us:"L", eu:"50",chest:102,waist:86},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:107,waist:91},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:112,waist:96},
+      {label:"XXS",chest:78.75,rng:{chest:[76,81.5]}},
+      {label:"XS",chest:86.5,rng:{chest:[84,89]}},
+      {label:"S",chest:94,rng:{chest:[91.5,96.5]}},
+      {label:"M",chest:101.5,rng:{chest:[99,104]}},
+      {label:"L",chest:109.25,rng:{chest:[106.5,112]}},
+      {label:"XL",chest:117,rng:{chest:[114.5,119.5]}},
+      {label:"2XL",chest:124.5,rng:{chest:[122,127]}},
+      {label:"3XL",chest:132,rng:{chest:[129.5,134.5]}},
+      {label:"4XL",chest:139.5,rng:{chest:[137,142]}},
+      {label:"5XL",chest:147.5,rng:{chest:[145,150]}},
     ],
   },
   {
-    id:"nike-m", name:"Nike", origin:"US", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide (Next CDN PDF)",url:"https://www.nike.com/gb/size-fit/mens",checked:"2026-03"}],
+    id:"nike-m", name:"Nike", origin:"US", tier:"sports", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Nike UK men's tops & t-shirts size chart",url:"https://www.nike.com/gb/size-fit/mens-tops-alpha",checked:"2026-10"}],
     notes:"US sizing. Athletic cut — broad shoulders, tapered waist. Running gear slim; lifestyle (Nike SB, ACG) more relaxed. Jordan and NBA collab items run large. Chest ranges from official PDF: S=88–96cm, M=96–104cm, L=104–112cm, XL=112–124cm.", fit:"Athletic — performance slim, lifestyle relaxed",
     inconsistencyWarning:false, confidence:88,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34–36",us:"XS",eu:"44–46",chest:88,waist:73,hips:88},
-      {label:"S", uk:"36–38",us:"S", eu:"46–48",chest:92,waist:77,hips:92},
-      {label:"M", uk:"38–40",us:"M", eu:"48–50",chest:100,waist:85,hips:100},
-      {label:"L", uk:"40–42",us:"L", eu:"50–52",chest:108,waist:93,hips:108},
-      {label:"XL",uk:"42–44",us:"XL",eu:"52–54",chest:118,waist:103,hips:116},
-      {label:"XXL",uk:"44–46",us:"XXL",eu:"54–56",chest:130,waist:115,hips:124},
+      {label:"XXS",chest:75.7,waist:60.95,rng:{chest:[71.4,80],waist:[57.1,64.8]}},
+      {label:"XS",chest:84.45,waist:69.25,rng:{chest:[80,88.9],waist:[64.8,73.7]}},
+      {label:"S",chest:92.05,waist:77.5,rng:{chest:[88.9,95.2],waist:[73.7,81.3]}},
+      {label:"M",chest:99.65,waist:85.1,rng:{chest:[95.2,104.1],waist:[81.3,88.9]}},
+      {label:"L",chest:107.95,waist:92.7,rng:{chest:[104.1,111.8],waist:[88.9,96.5]}},
+      {label:"XL",chest:117.5,waist:102.85,rng:{chest:[111.8,123.2],waist:[96.5,109.2]}},
+      {label:"XXL",chest:129.55,waist:114.95,rng:{chest:[123.2,135.9],waist:[109.2,120.7]}},
+      {label:"3XL",chest:141.6,waist:127,rng:{chest:[135.9,147.3],waist:[120.7,133.3]}},
+      {label:"4XL",chest:153.65,waist:139.05,rng:{chest:[147.3,160],waist:[133.3,144.8]}},
     ],
   },
   {
-    id:"adidas-m", name:"Adidas", origin:"DE", tier:"sports", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official size chart",url:"https://www.adidas.co.uk/help/size_charts",checked:"2026-03"}],
+    id:"adidas-m", name:"Adidas", origin:"DE", tier:"sports", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official adidas UK men's shirts & tops size guide",url:"https://www.adidas.co.uk/help/size_charts",checked:"2026-10"}],
     notes:"EU sizing. Athletic cut. Originals and lifestyle items more relaxed than performance range. Teamwear cuts differ from retail.", fit:"Athletic — Originals more relaxed",
-    inconsistencyWarning:false, confidence:86, lastVerified:"2026-03", chartYear:"2026",
+    inconsistencyWarning:false, confidence:86,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS", uk:"34",us:"XS", eu:"44", chest:85,  waist:73, hips:83},
-      {label:"S",  uk:"36",us:"S",  eu:"46", chest:90,  waist:78, hips:89},
-      {label:"M",  uk:"38",us:"M",  eu:"48", chest:97,  waist:85, hips:96},
-      {label:"L",  uk:"40",us:"L",  eu:"50", chest:105, waist:93, hips:104},
-      {label:"XL", uk:"42",us:"XL", eu:"52", chest:114, waist:102,hips:112},
-      {label:"2XL",uk:"44",us:"2XL",eu:"54", chest:125, waist:113,hips:122},
-      {label:"3XL",uk:"46",us:"3XL",eu:"56", chest:137, waist:126,hips:132},
+      {label:"XS",chest:84.5,waist:72.5,rng:{chest:[83,86],waist:[71,74]}},
+      {label:"S",chest:89.5,waist:77.5,rng:{chest:[87,92],waist:[75,80]}},
+      {label:"M",chest:96.5,waist:84.5,rng:{chest:[93,100],waist:[81,88]}},
+      {label:"L",chest:104.5,waist:92.5,rng:{chest:[101,108],waist:[89,96]}},
+      {label:"XL",chest:113.5,waist:101.5,rng:{chest:[109,118],waist:[97,106]}},
+      {label:"2XL",chest:124.5,waist:113,rng:{chest:[119,130],waist:[107,119]}},
+      {label:"3XL",chest:136.5,waist:126,rng:{chest:[131,142],waist:[120,132]}},
     ],
   },
   {
-    id:"levis-m", name:"Levi's", origin:"US", tier:"denim", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official UK branded size guide (via Next)",url:"https://www.levi.com/GB/en_GB/features/size-guide",checked:"2026-03"}],
+    id:"levis-m", name:"Levi's", origin:"US", tier:"denim", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Levi's GB size chart (men's tops)",url:"https://www.levi.com/GB/en_GB/info/sizechart",checked:"2026-10"}],
     notes:"Jeans: waist×inseam in inches. 501=relaxed, 511=slim, 512=taper, 513=slim straight. Different fits can vary 2–3 inches in actual waist.", fit:"Jeans: waist in inches. Cut varies hugely.",
     inconsistencyWarning:false, genericData:false, confidence:86,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:84,waist:68},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:76},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:99,waist:83},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:106,waist:91},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:114,waist:99},
+      {label:"XS",chest:83.85,waist:68.55,rng:{chest:[81.3,86.4],waist:[66,71.1]}},
+      {label:"S",chest:91.45,waist:76.2,rng:{chest:[88.9,94],waist:[73.7,78.7]}},
+      {label:"M",chest:99.05,waist:83.85,rng:{chest:[96.5,101.6],waist:[81.3,86.4]}},
+      {label:"L",chest:106.65,waist:91.45,rng:{chest:[104.1,109.2],waist:[88.9,94]}},
+      {label:"XL",chest:114.3,waist:99.05,rng:{chest:[111.8,116.8],waist:[96.5,101.6]}},
+      {label:"XXL",chest:121.95,waist:106.65,rng:{chest:[119.4,124.5],waist:[104.1,109.2]}},
+      {label:"3XL",chest:129.55,waist:114.3,rng:{chest:[127,132.1],waist:[111.8,116.8]}},
+      {label:"4XL",chest:139.7,waist:124.5,rng:{chest:[137.2,142.2],waist:[122,127]}},
     ],
   },
   {
-    id:"cos-m", name:"COS", origin:"SE", tier:"mid", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official size guide",url:"https://www.cos.com/en_gbp/size-guide.html",checked:"2026-03"}],
+    id:"cos-m", name:"COS", origin:"SE", tier:"mid", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official COS GB size guide (men, tops)",url:"https://www.cos.com/en-gb/customer-service/size-guide",checked:"2026-10"}],
     notes:"EU sizing. Boxy, relaxed, oversized Scandinavian cut. Size down for a more conventional fit. Drop-shoulder designs may seem large.", fit:"Deliberately oversized — size DOWN",
     inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:89,waist:74},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:95,waist:80},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:101,waist:86},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:107,waist:92},
-      {label:"XL",uk:"42–44",us:"XL",eu:"52–54",chest:114,waist:99},
+      {label:"EU 40",eu:"40",chest:80,waist:68,altLabel:"XS"},
+      {label:"EU 42",eu:"42",chest:84,waist:72},
+      {label:"EU 44",eu:"44",chest:88,waist:76,altLabel:"S"},
+      {label:"EU 46",eu:"46",chest:92,waist:80},
+      {label:"EU 48",eu:"48",chest:96,waist:84,altLabel:"M"},
+      {label:"EU 50",eu:"50",chest:100,waist:88},
+      {label:"EU 52",eu:"52",chest:104,waist:92,altLabel:"L"},
+      {label:"EU 54",eu:"54",chest:108,waist:96},
+      {label:"EU 56",eu:"56",chest:112,waist:100,altLabel:"XL"},
+      {label:"EU 58",eu:"58",chest:116,waist:104},
     ],
   },
   {
@@ -2679,6 +2769,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official UK size guide",url:"https://www.uniqlo.com/uk/en/size/men.html",checked:"2026-03"}],
     notes:"Japanese sizing — typically 1–2 sizes smaller than UK. Cut for narrower shoulders and shorter torso. Knitwear very precise, check measurements.", fit:"Runs 1–2 sizes SMALL vs UK",
     inconsistencyWarning:false, confidence:90,
+    auditFlag:"No official body chart: Uniqlo UK publishes garment measurements per product, not body sizes, so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:83,waist:68},
       {label:"S",uk:"36",us:"S",eu:"46",chest:88,waist:73},
@@ -2773,58 +2864,67 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"gap-m", name:"Gap", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official Gap size guide",url:"https://en.gap.com.kw/size-guide",checked:"2026-03"}],
+    id:"gap-m", name:"Gap", origin:"US", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Gap UK size guide (men's tops chest; letter-size waist)",url:"https://www.gap.co.uk/size-guide",checked:"2026-10"}],
     notes:"US sizing. American relaxed cut — wider chest and longer torso than European. Favourite for casual basics and denim.", fit:"Generous American — true to US",
     inconsistencyWarning:false, genericData:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:83,waist:76},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:88,waist:80},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:92,waist:82},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:97,waist:84},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:106,waist:86},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:115,waist:87},
+      {label:"XS",chest:90,waist:72.5,rng:{chest:[89,91],waist:[71,74]}},
+      {label:"S",chest:95.5,waist:77.5,rng:{chest:[94,97],waist:[76,79]}},
+      {label:"M",chest:101.5,waist:83.5,rng:{chest:[99,104],waist:[81,86]}},
+      {label:"L",chest:109.5,waist:91.5,rng:{chest:[107,112],waist:[89,94]}},
+      {label:"XL",chest:118,waist:100.5,rng:{chest:[114,122],waist:[97,104]}},
+      {label:"XXL",chest:128,waist:110.5,rng:{chest:[124,132],waist:[107,114]}},
+      {label:"3XL",chest:140},
     ],
   },
   {
-    id:"barbour-m", name:"Barbour", origin:"UK", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official Barbour men size chart",url:"https://www.monodsports.com/en-us/pages/barbour-mens-size-guide",checked:"2026-03"}],
-    notes:"UK chest sizing. British heritage brand. Very generous, traditional cut — designed to wear over thick layers. Their C34 (chest 34) = UK S.", fit:"Very generous British heritage cut",
+    id:"barbour-m", name:"Barbour", origin:"UK", tier:"premium", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Barbour size & fit guide (UK)",url:"https://www.barbour.com/gb/customer_service/size-and-fit-guides.html",checked:"2026-10"}],
+    notes:"UK heritage brand. Barbour's standard men's guide gives chest and waist ranges per size; it advises adding 10-15 cm (4-6 in) to your usual size to leave room for layers under jackets.", fit:"Very generous British heritage cut",
     inconsistencyWarning:false, genericData:false, confidence:86,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"S (C34)",uk:"34",us:"XS",eu:"44",chest:86,waist:71},
-      {label:"M (C36)",uk:"36",us:"S",eu:"46",chest:91,waist:76},
-      {label:"L (C38)",uk:"38",us:"M",eu:"48",chest:97,waist:81},
-      {label:"XL (C40)",uk:"40",us:"L",eu:"50",chest:102,waist:86},
-      {label:"2XL (C42)",uk:"42",us:"XL",eu:"52",chest:107,waist:91},
-      {label:"3XL (C44)",uk:"44",us:"XXL",eu:"54",chest:112,waist:96},
+      {label:"XS",chest:88.5,waist:73.5,rng:{chest:[86,91],waist:[71,76]}},
+      {label:"S",chest:93.5,waist:78.5,rng:{chest:[91,96],waist:[76,81]}},
+      {label:"M",chest:99,waist:83.5,rng:{chest:[96,102],waist:[81,86]}},
+      {label:"L",chest:104.5,waist:88.5,rng:{chest:[102,107],waist:[86,91]}},
+      {label:"XL",chest:109.5,waist:93.5,rng:{chest:[107,112],waist:[91,96]}},
+      {label:"XXL",chest:114.5,waist:98.5,rng:{chest:[112,117],waist:[96,101]}},
     ],
   },
   {
-    id:"ralphlauren-m", name:"Ralph Lauren", origin:"US", tier:"premium", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official size guide (McElhinneys RL stockist)",url:"https://www.mcelhinneys.com/pages/ralph-lauren-size-guide",checked:"2026-03"}],
+    id:"ralphlauren-m", name:"Ralph Lauren", origin:"US", tier:"premium", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official Ralph Lauren UK size guide (men's standard apparel)",url:"https://www.ralphlauren.co.uk/en/apparel/unisex_mens_standard.html",checked:"2026-10"}],
     notes:"US sizing. Runs VERY large — their L/XL/XXL are much bigger than UK equivalents. Classic American preppy cut. Size down if between sizes. Polo shirts consistently sized; dress shirts use collar×sleeve measurements.", fit:"Runs LARGE — US sizing, generous cut",
     inconsistencyWarning:false, genericData:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:69},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:89,waist:74},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:99,waist:83},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:109,waist:93},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:119,waist:104},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:130,waist:112},
+      {label:"XXS",chest:77.45,waist:63.5,rng:{chest:[76.2,78.7],waist:[61,66]}},
+      {label:"XS",chest:82.55,waist:68.55,rng:{chest:[78.7,86.4],waist:[66,71.1]}},
+      {label:"S",chest:91.45,waist:73.65,rng:{chest:[88.9,94],waist:[71.1,76.2]}},
+      {label:"M",chest:99.05,waist:82.55,rng:{chest:[96.5,101.6],waist:[78.7,86.4]}},
+      {label:"L",chest:110.5,waist:92.7,rng:{chest:[106.7,114.3],waist:[88.9,96.5]}},
+      {label:"XL",chest:119.35,waist:104.15,rng:{chest:[116.8,121.9],waist:[101.6,106.7]}},
+      {label:"XXL",chest:128.3,waist:111.75,rng:{chest:[124.5,132.1],waist:[109.2,114.3]}},
     ],
   },
   {
-    id:"primark-m", name:"Primark", origin:"IE/UK", tier:"value", chartYear:"2024", lastVerified:"2024-12",
-    sources:[{label:"Official size guide",url:"https://www.primark.com/en-gb/a/size-guides",checked:"2024-12"}],
+    id:"primark-m", name:"Primark", origin:"IE/UK", tier:"value", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official Primark men's size charts",url:"https://www.primark.com/en-gb/size-charts/men",checked:"2026-10"}],
     notes:"UK sizing. Very inconsistent — shirts especially vary by collection. Avoid for anything that needs to fit precisely.", fit:"⚠️ Inconsistent — always check labels",
     inconsistencyWarning:true, confidence:55,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:84,waist:69},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:89,waist:74},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:95,waist:80},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:101,waist:86},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:107,waist:92},
+      {label:"2XS",chest:87.5,rng:{chest:[86,89]}},
+      {label:"XS",chest:90,rng:{chest:[89,91]}},
+      {label:"S",chest:93.5,rng:{chest:[91,96]}},
+      {label:"M",chest:99,rng:{chest:[96.5,101.5]}},
+      {label:"L",chest:106.5,rng:{chest:[104,109]}},
+      {label:"XL",chest:114.5,rng:{chest:[112,117]}},
+      {label:"2XL",chest:122,rng:{chest:[119.5,124.5]}},
+      {label:"3XL",chest:129.5,rng:{chest:[127,132]}},
     ],
   },
 
@@ -2919,18 +3019,21 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"joules-m", name:"Joules", origin:"UK", tier:"mid", lastVerified:"2026-01",
-    sources:[{label:"Official size guide",url:"https://www.joules.com/page/size-guide",checked:"2026-01"}],
+    id:"joules-m", name:"Joules", origin:"UK", tier:"mid", lastVerified:"2026-10",
+    sources:[{label:"Official Joules men's shirt size guide (product pages)",url:"https://www.joules.com/style/sv200719/g48273",checked:"2026-10"}],
     notes:"UK countryside-to-coast lifestyle brand. UK chest sizing. Relaxed, comfortable cut. Particularly popular for quilted jackets and gilets — these run generous for layering.", fit:"Relaxed UK fit — outerwear especially generous",
     inconsistencyWarning:false, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:97,waist:83},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:103,waist:89},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:109,waist:95},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:115,waist:101},
-      {label:"3XL",uk:"46",us:"3XL",eu:"56",chest:122,waist:108},
-],
+      {label:"XS",chest:83.85,rng:{chest:[81.3,86.4]}},
+      {label:"S",chest:93.95,rng:{chest:[91.4,96.5]}},
+      {label:"M",chest:101.6,rng:{chest:[99.1,104.1]}},
+      {label:"L",chest:109.25,rng:{chest:[106.7,111.8]}},
+      {label:"XL",chest:119.35,rng:{chest:[116.8,121.9]}},
+      {label:"XXL",chest:129.55,rng:{chest:[127,132.1]}},
+      {label:"3XL",chest:139.7,rng:{chest:[137.2,142.2]}},
+      {label:"4XL",chest:149.85,rng:{chest:[147.3,152.4]}},
+    ],
   },
   {
     id:"farah-m", name:"Farah", origin:"UK", tier:"mid", lastVerified:"2026-01",
@@ -3762,32 +3865,37 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"whitestuff-m", name:"White Stuff", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.whitestuff.com/page/size-guide",checked:"2026-03"}],
+    id:"whitestuff-m", name:"White Stuff", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official White Stuff size guide (men)",url:"https://www.whitestuff.com/size-guide",checked:"2026-10"}],
     notes:"Quirky British lifestyle brand with a classic relaxed fit. UK sizing true to size — chest-based for shirts, generous through the body. Knitwear runs slightly roomy; shirts are relaxed-fit. Popular secondhand for quality cotton shirts and linen summer wear.",
     fit:"True to UK — relaxed regular fit", inconsistencyWarning:false, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:76},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:97,waist:82},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:103,waist:88},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:109,waist:94},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:115,waist:100},
-      {label:"3XL",uk:"46",us:"3XL",eu:"56",chest:122,waist:108},
-],
+      {label:"XS",chest:86,waist:76},
+      {label:"S",chest:91.5,waist:81,rng:{chest:[89,94]}},
+      {label:"M",chest:98.5,waist:86,rng:{chest:[96,101]}},
+      {label:"L",chest:106.5,waist:91,rng:{chest:[104,109]}},
+      {label:"XL",chest:114.5,waist:97,rng:{chest:[112,117]}},
+      {label:"XXL",chest:121.5,waist:102,rng:{chest:[119,124]}},
+      {label:"3XL",chest:129,waist:107,rng:{chest:[126,132]}},
+    ],
   },
   {
-    id:"fatface-m", name:"Fat Face", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.fatface.com/page/size-guide",checked:"2026-03"}],
+    id:"fatface-m", name:"Fat Face", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official FatFace size guide (men)",url:"https://www.fatface.com/size-guide",checked:"2026-10"}],
     notes:"British coastal lifestyle brand with a relaxed outdoor aesthetic. UK sizing — generous relaxed fit, especially in knitwear and fleeces. Shirts are relaxed; chinos true to waist. A reliable secondhand pick — quality holds up well and the brand is very popular on Vinted.",
     fit:"True to UK — relaxed generous fit", inconsistencyWarning:false, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"S",uk:"36",us:"S",eu:"46",chest:93,waist:78},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:99,waist:84},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:105,waist:90},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:111,waist:96},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:117,waist:103},
-      {label:"3XL",uk:"46",us:"3XL",eu:"56",chest:124,waist:110},
-],
+      {label:"XS",chest:88.5,waist:71,rng:{chest:[86,91]}},
+      {label:"S",chest:93.5,waist:78.5,rng:{chest:[91,96],waist:[76,81]}},
+      {label:"M",chest:99,waist:83.5,rng:{chest:[96,102],waist:[81,86]}},
+      {label:"L",chest:104.5,waist:88.5,rng:{chest:[102,107],waist:[86,91]}},
+      {label:"XL",chest:110,waist:93.5,rng:{chest:[107,113],waist:[91,96]}},
+      {label:"2XL",chest:116.5,waist:96,rng:{chest:[113,120]}},
+      {label:"3XL",chest:123.5,waist:102,rng:{chest:[120,127]}},
+      {label:"4XL",chest:131,waist:107,rng:{chest:[127,135]}},
+    ],
   },
   {
     id:"crewcloths-m", name:"Crew Clothing", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -4272,18 +4380,20 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"levis2-m", name:"Levi's (Tops & Outerwear)", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.levi.com/GB/en_GB/features/size-chart-men",checked:"2026-03"}],
+    id:"levis2-m", name:"Levi's (Tops & Outerwear)", origin:"US", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Levi's GB size chart (men's tops)",url:"https://www.levi.com/GB/en_GB/info/sizechart",checked:"2026-10"}],
     notes:"Extended Levi's sizing for tops, shirts and outerwear (complementing the denim entry). US/EU sizing for S/M/L — the Levi's chest sizing runs slightly generous vs European brands. Trucker and Type III jackets are their most popular outerwear; true to US chest size. An outstanding secondhand brand at every price point.",
     fit:"Slightly generous vs European — true to US chest size", inconsistencyWarning:false, confidence:86,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:72},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:98,waist:84},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:104,waist:90},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:110,waist:96},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:117,waist:103},
-      {label:"3XL",uk:"46",us:"3XL",eu:"56",chest:124,waist:110},
+      {label:"XS",chest:83.85,waist:68.55,rng:{chest:[81.3,86.4],waist:[66,71.1]}},
+      {label:"S",chest:91.45,waist:76.2,rng:{chest:[88.9,94],waist:[73.7,78.7]}},
+      {label:"M",chest:99.05,waist:83.85,rng:{chest:[96.5,101.6],waist:[81.3,86.4]}},
+      {label:"L",chest:106.65,waist:91.45,rng:{chest:[104.1,109.2],waist:[88.9,94]}},
+      {label:"XL",chest:114.3,waist:99.05,rng:{chest:[111.8,116.8],waist:[96.5,101.6]}},
+      {label:"XXL",chest:121.95,waist:106.65,rng:{chest:[119.4,124.5],waist:[104.1,109.2]}},
+      {label:"3XL",chest:129.55,waist:114.3,rng:{chest:[127,132.1],waist:[111.8,116.8]}},
+      {label:"4XL",chest:139.7,waist:124.5,rng:{chest:[137.2,142.2],waist:[122,127]}},
     ],
   },
   {
@@ -4318,6 +4428,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://shop.mango.com/gb/size-guide",checked:"2026-03"}],
     notes:"Mango's men's line — smart-casual with a Mediterranean edge. EU sizing — slim European fit, similar to Zara. Shirts and blazers run slim; size up if you have a broader chest or prefer more room. Chinos and trousers true to EU waist. A popular secondhand fashion buy.",
     fit:"Slim European fit — size up if broad chest", inconsistencyWarning:true, confidence:82,
+    auditFlag:"Not yet verified: Mango's site blocked automated checking (Oct 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:84,waist:70},
       {label:"S",uk:"36",us:"S",eu:"46",chest:90,waist:76},
@@ -4548,16 +4659,18 @@ const MEN_BRANDS = [
 ],
   },
   {
-    id:"seasalt-m", name:"Seasalt Cornwall (Men)", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.seasaltcornwall.co.uk/pages/size-guide",checked:"2026-03"}],
+    id:"seasalt-m", name:"Seasalt Cornwall (Men)", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Seasalt Cornwall size guide (men)",url:"https://www.seasaltcornwall.com/size-guide",checked:"2026-10"}],
     notes:"Cornish lifestyle brand. UK sizing — relaxed generous fit designed for layering outdoors. Linen shirts and striped tops are popular. A well-known secondhand brand; pieces rarely wear out and have a strong secondhand following.",
     fit:"True to UK — relaxed generous outdoor fit", inconsistencyWarning:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:98,waist:84},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:104,waist:90},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:110,waist:96},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:117,waist:103},
+      {label:"S",chest:91.5,waist:76.5,rng:{chest:[89,94],waist:[74,79]}},
+      {label:"M",chest:98.5,waist:83.5,rng:{chest:[96,101],waist:[81,86]}},
+      {label:"L",chest:106.5,waist:91.5,rng:{chest:[104,109],waist:[89,94]}},
+      {label:"XL",chest:113.5,waist:98.5,rng:{chest:[111,116],waist:[96,101]}},
+      {label:"XXL",chest:121.5,waist:106.5,rng:{chest:[119,124],waist:[104,109]}},
+      {label:"3XL",chest:129.5,waist:114,rng:{chest:[127,132],waist:[111,117]}},
     ],
   },
   {
@@ -4591,17 +4704,23 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"riverisland-mens-m", name:"River Island (Men)", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.riverisland.com/page/size-guides",checked:"2026-03"}],
+    id:"riverisland-mens-m", name:"River Island (Men)", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official River Island men's size guide (tops & shirts chest; bottoms waist)",url:"https://www.riverisland.com/how-can-we-help/size-guides/mens",checked:"2026-10"}],
     notes:"British high-street fashion brand. UK sizing — cut slightly slim, especially in jeans and shirts. Very active secondhand market. Size up if between sizes.",
     fit:"Slightly slim — size up if between sizes", inconsistencyWarning:true, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:71},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:76},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:96,waist:81},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:102,waist:86},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:107,waist:91},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:112,waist:97},
+      {label:"XXS",eu:"0",chest:76,waist:63.5,rng:{chest:[73,79],waist:[61,66]}},
+      {label:"XS",eu:"1",chest:84,waist:71,rng:{chest:[81,87],waist:[68,74]}},
+      {label:"S",eu:"2",chest:91.5,waist:79,rng:{chest:[89,94],waist:[76,82]}},
+      {label:"M",eu:"3",chest:99,waist:86.5,rng:{chest:[96,102],waist:[84,89]}},
+      {label:"L",eu:"4",chest:106.5,waist:94,rng:{chest:[104,109],waist:[91,97]}},
+      {label:"XL",eu:"5",chest:115,waist:101.5,rng:{chest:[113,117],waist:[99,104]}},
+      {label:"XXL",eu:"6",chest:121.5,waist:109,rng:{chest:[119,124],waist:[106,112]}},
+      {label:"3XL",eu:"7",chest:129.5,waist:117,rng:{chest:[127,132],waist:[114,120]}},
+      {label:"4XL",eu:"8",chest:137,waist:124.5,rng:{chest:[134,140],waist:[122,127]}},
+      {label:"5XL",eu:"9",chest:145,waist:132,rng:{chest:[142,148],waist:[129,135]}},
+      {label:"6XL",eu:"10",chest:152.5,waist:139.5,rng:{chest:[150,155],waist:[137,142]}},
     ],
   },
   {
@@ -4836,6 +4955,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.boden.co.uk/en-gb/help/size-guides",checked:"2026-03"}],
     notes:"British lifestyle brand known for colourful quality basics. UK sizing true to size — classic regular British fit. Consistent sizing makes buying secondhand without trying easy.",
     fit:"True to UK size — classic regular British fit", inconsistencyWarning:false, confidence:86,
+    auditFlag:"Archive data: Boden UK no longer lists menswear (Oct 2026), so this chart can't be checked against a current official guide.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:87,waist:73},
       {label:"S",uk:"36",us:"S",eu:"46",chest:93,waist:79},
@@ -9560,6 +9680,16 @@ async function submitToAirtable(data) {
   return { success: true };
 }
 
+// Distance from a body measurement to a size row. If the brand publishes a range
+// (row.rng[key] = [min,max]) any value inside it scores 0; otherwise distance to the single value.
+function dimDist(v, s, key) {
+  if (!v) return 0;
+  const r = key==="bust" ? (s.rng?.bust || s.rng?.chest) : s.rng?.[key];
+  if (Array.isArray(r)) return v < r[0] ? r[0]-v : v > r[1] ? v-r[1] : 0;
+  const x = key==="bust" ? (s.bust || s.chest) : s[key];
+  return x ? Math.abs(v - x) : 0;
+}
+
 // ─── GOOGLE OAUTH ────────────────────────────────────────────────────────────
 function useGoogleAuth(onSuccess) {
   const [loaded, setLoaded] = useState(false);
@@ -12739,10 +12869,9 @@ export default function App() {
         : brand.sizes;
       let best=null, bestScore=Infinity;
       sizeArr.forEach(s => {
-        const bv = s.bust||s.chest||0;
-        const diff = (triangulated.bust&&bv?Math.abs(triangulated.bust-bv)*1.2:0)
-                   + (triangulated.waist&&s.waist?Math.abs(triangulated.waist-s.waist)*1.5:0)
-                   + (triangulated.hips&&s.hips?Math.abs(triangulated.hips-s.hips)*1.0:0);
+        const diff = dimDist(triangulated.bust, s, "bust")*1.2
+                   + dimDist(triangulated.waist, s, "waist")*1.5
+                   + dimDist(triangulated.hips, s, "hips")*1.0;
         if (diff<bestScore){bestScore=diff;best=s;}
       });
       if (!best || bestScore > 25) return null;
@@ -12841,8 +12970,7 @@ export default function App() {
       const sizeArr = getSizeArr(brand);
       let best=null, bestDiff=Infinity;
       sizeArr.forEach(s => {
-        const bv = s.bust || s.chest || 0;
-        const diff = (bCm&&bv?Math.abs(bCm-bv):0) + (wCm&&s.waist?Math.abs(wCm-s.waist):0) + (hCm&&s.hips?Math.abs(hCm-s.hips):0);
+        const diff = dimDist(bCm, s, "bust") + dimDist(wCm, s, "waist") + dimDist(hCm, s, "hips");
         if (diff<bestDiff){bestDiff=diff;best=s;}
       });
       return best ? { brand, match:best, diff:bestDiff } : null;
@@ -13315,7 +13443,7 @@ export default function App() {
                                   <span className="ins" style={{marginLeft:8,fontSize:11,padding:"2px 8px",borderRadius:10,background:dark?"#1a3228":"#e8f4eb",color:dark?"#6dd49a":"#2d7a4a"}}>{brand.tier}</span>
                                 </div>
                                 <div style={{display:"flex",gap:6,flexWrap:"wrap"}}>
-                                  <span style={{fontSize:12,fontWeight:600,padding:"4px 10px",borderRadius:8,background:confBg(brand.confidence),color:confColor(brand.confidence)}}>{confLabel(brand.confidence)}</span>
+                                  <span style={{fontSize:12,fontWeight:600,padding:"4px 10px",borderRadius:8,background:brand.verifiedBy==="unverified"?"#fde8e4":confBg(brand.confidence),color:brand.verifiedBy==="unverified"?"#9e3520":confColor(brand.confidence)}}>{brand.verifiedBy==="unverified"?"Unverified":confLabel(brand.confidence)}</span>
                                 </div>
                               </div>
                               <div style={{display:"flex",gap:8,marginBottom:10,flexWrap:"wrap"}}>
@@ -14173,19 +14301,21 @@ function SizeCard({ brand, match, gender, garmType="tops", ratings, worn, saveRa
   const isSuit = garmType==="suit";
 
   const u = unit==="in" ? "in" : "cm";
-  const cv = (val) => {
+  const cv = (val, r) => {
+    const one = (v) => unit==="in" ? (Math.round(v / 2.54 * 2) / 2) : v;
+    if (Array.isArray(r) && r.length===2) return `${one(r[0])}–${one(r[1])}`;
     if (!val && val!==0) return "—";
-    return unit==="in" ? (Math.round(val / 2.54 * 2) / 2) : val;
+    return one(val);
   };
   const measureCells = isKids
-    ? [["Age",match.label],["UK",match.uk],["EU",match.eu],["US",match.us],[`Height (${u})`,cv(match.height)],[`Chest (${u})`,cv(match.chest)],[`Waist (${u})`,cv(match.waist)]]
+    ? [["Age",match.label],["UK",match.uk],["EU",match.eu],["US",match.us],[`Height (${u})`,cv(match.height, match.rng?.height)],[`Chest (${u})`,cv(match.chest, match.rng?.chest)],[`Waist (${u})`,cv(match.waist, match.rng?.waist)]]
     : isSuit
-      ? [["Label",match.label],["UK chest",match.uk],["EU",match.eu],[`Chest (${u})`,cv(match.chest)],[`Waist (${u})`,cv(match.waist)],match.fit?["Fit",match.fit]:null].filter(Boolean)
+      ? [["Label",match.label],["UK chest",match.uk],["EU",match.eu],[`Chest (${u})`,cv(match.chest, match.rng?.chest)],[`Waist (${u})`,cv(match.waist, match.rng?.waist)],match.fit?["Fit",match.fit]:null].filter(Boolean)
       : isBottoms
-        ? [["Label",match.label],["UK",match.uk],["US",match.us],["EU",match.eu],[`Waist (${u})`,cv(match.waist)],[`Hips (${u})`,cv(match.hips)],match.inseam?[`Inseam (${u})`,cv(match.inseam)]:null].filter(Boolean)
+        ? [["Label",match.label],["UK",match.uk],["US",match.us],["EU",match.eu],[`Waist (${u})`,cv(match.waist, match.rng?.waist)],[`Hips (${u})`,cv(match.hips, match.rng?.hips)],match.inseam?[`Inseam (${u})`,cv(match.inseam, match.rng?.inseam)]:null].filter(Boolean)
         : isOnePiece
-          ? [["Label",match.label],["UK",match.uk],["US",match.us],["EU",match.eu],[gender==="men"?`Chest (${u})`:`Bust (${u})`,cv(match.bust||match.chest)],[`Waist (${u})`,cv(match.waist)],[`Hips (${u})`,cv(match.hips)]]
-          : [["Label",match.label],["UK",match.uk],["US",match.us],["EU",match.eu],[gender==="men"?`Chest (${u})`:`Bust (${u})`,cv(match.bust||match.chest)],[`Waist (${u})`,cv(match.waist)],gender!=="men"?[`Hips (${u})`,cv(match.hips)]:null].filter(Boolean);
+          ? [["Label",match.label],["UK",match.uk],["US",match.us],["EU",match.eu],[gender==="men"?`Chest (${u})`:`Bust (${u})`,cv(match.bust||match.chest, match.rng?.bust||match.rng?.chest)],[`Waist (${u})`,cv(match.waist, match.rng?.waist)],[`Hips (${u})`,cv(match.hips, match.rng?.hips)]]
+          : [["Label",match.label],["UK",match.uk],["US",match.us],["EU",match.eu],[gender==="men"?`Chest (${u})`:`Bust (${u})`,cv(match.bust||match.chest, match.rng?.bust||match.rng?.chest)],[`Waist (${u})`,cv(match.waist, match.rng?.waist)],gender!=="men"?[`Hips (${u})`,cv(match.hips, match.rng?.hips)]:null].filter(Boolean);
 
   const highlight = (() => {
     const h = [];
@@ -14230,8 +14360,9 @@ function SizeCard({ brand, match, gender, garmType="tops", ratings, worn, saveRa
   return (
     <div style={inlined ? {} : {background:"white",borderRadius:14,boxShadow:"0 1px 10px rgba(0,0,0,0.07)",padding:"20px var(--px)",border:brand.inconsistencyWarning?"1.5px solid #f0d090":"1.5px solid transparent"}}>
       {brand.inconsistencyWarning&&<div className="ins warn-stripe" style={{fontSize:11,marginBottom:14,padding:"8px 12px"}}>⚠️ This brand is known for inconsistent sizing — measurements are the only reliable guide here</div>}
+      {brand.auditFlag&&<div className="ins" style={{fontSize:11,marginBottom:14,padding:"8px 12px",background:"#fdecea",color:"#8a2a1a",borderRadius:8}}>🔍 {brand.auditFlag}</div>}
       {brand.genericData&&<div className="ins" style={{fontSize:11,marginBottom:14,padding:"8px 12px",background:"#fff8e8",borderRadius:8,border:"1px solid #f0d080",color:"#7a5010"}}>📋 <strong>Measurements estimated</strong> — these are based on standard UK conversion tables, not this brand's published size chart. Use as a rough guide only and verify on the brand's website before buying.</div>}
-      {hasHistoricalData&&<div className="ins" style={{fontSize:11,marginBottom:14,padding:"8px 12px",background:"#fef3e2",borderRadius:8,border:"1px solid #f0c060",color:"#7a4800"}}>📅 <strong>Historical data ({YEAR_OPTIONS.find(y=>y.value===selectedYear)?.label})</strong> — measurements reconstructed from archive size guides and BSI standards. Use as a guide for vintage sizing; exact values may vary by item.</div>}
+      {hasHistoricalData&&<div className="ins" style={{fontSize:11,marginBottom:14,padding:"8px 12px",background:"#fef3e2",borderRadius:8,border:"1px solid #f0c060",color:"#7a4800"}}>📅 <strong>Historical data ({YEAR_OPTIONS.find(y=>y.value===selectedYear)?.label})</strong> — <strong>unverified</strong>: these decade figures don't yet have a recorded source and are being audited against original catalogues and standards. Treat them as a rough indication only.</div>}
       {noHistoricalData&&<div className="ins" style={{fontSize:11,marginBottom:14,padding:"8px 12px",background:"#f5f0ff",borderRadius:8,border:"1px solid #c8b8f0",color:"#4a2a8a"}}>📅 No historical data for {brand.name} in {YEAR_OPTIONS.find(y=>y.value===selectedYear)?.label} — showing current 2026 sizing. <span style={{cursor:"pointer",textDecoration:"underline"}} onClick={()=>{}}>Contribute historical data ›</span></div>}
       {isBottoms&&bottomOverride&&(
         <div className="ins" style={{fontSize:11,marginBottom:12,padding:"8px 12px",background:"#e8f4eb",borderRadius:8,color:"#1e5c30",border:"1px solid #b8dfc4"}}>
@@ -14274,8 +14405,8 @@ function SizeCard({ brand, match, gender, garmType="tops", ratings, worn, saveRa
           <div style={{display:"flex",alignItems:"center",gap:8,marginBottom:6,flexWrap:"wrap"}}>
             <span style={{fontSize:17,fontWeight:600,color:"#122318"}}>{brand.name}</span>
             <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#eef4f0",color:"#2d7a4a",fontWeight:700,letterSpacing:"0.04em"}}>{brand.origin}</span>
-            <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:confBg(conf),color:confColor(conf),fontWeight:700}}>
-              {conf}% {confLabel(conf)}
+            <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:brand.verifiedBy==="unverified"?"#fde8e4":confBg(conf),color:brand.verifiedBy==="unverified"?"#9e3520":confColor(conf),fontWeight:700}}>
+              {brand.verifiedBy==="unverified" ? "Unverified" : `${conf}% ${confLabel(conf)}`}
             </span>
             {age>6&&<span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#fde8e4",color:"#9e3520",fontWeight:700}}>⏰ {age}mo — verify</span>}
           </div>
@@ -14337,9 +14468,11 @@ function BrandCard({ brand, gender, garmType="tops", ratings, worn, saveRating, 
 
   const u = unit==="in" ? "in" : "cm";
   // Convert cm → inches if needed (round to 1 decimal)
-  const cv = (val) => {
+  const cv = (val, r) => {
+    const one = (v) => unit==="in" ? (Math.round(v / 2.54 * 2) / 2) : v;
+    if (Array.isArray(r) && r.length===2) return `${one(r[0])}–${one(r[1])}`;
     if (!val && val!==0) return "—";
-    return unit==="in" ? (Math.round(val / 2.54 * 2) / 2) : val;
+    return one(val);
   };
   const topHeaders    = !isKids ? ["Label","UK","US","EU",gender==="men"?`Chest (${u})`:`Bust (${u})`,`Waist (${u})`, gender!=="men"?`Hips (${u})`:null].filter(Boolean) : ["Age","UK","EU","US",`Height (${u})`,`Chest (${u})`,`Waist (${u})`];
   const bottomHeaders = ["Label","UK","US","EU",`Waist (${u})`,`Hips (${u})`,`Inseam (${u})`];
@@ -14352,13 +14485,14 @@ function BrandCard({ brand, gender, garmType="tops", ratings, worn, saveRating, 
           <div style={{display:"flex",gap:8,alignItems:"center",flexWrap:"wrap",marginBottom:8}}>
             <span style={{fontSize:18,fontWeight:600,color:"#122318"}}>{brand.name}</span>
             <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#eef4f0",color:"#2d7a4a",fontWeight:700}}>{brand.origin}</span>
-            <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:confBg(conf),color:confColor(conf),fontWeight:700}}>{conf}% {confLabel(conf)}</span>
+            <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:brand.verifiedBy==="unverified"?"#fde8e4":confBg(conf),color:brand.verifiedBy==="unverified"?"#9e3520":confColor(conf),fontWeight:700}}>{brand.verifiedBy==="unverified" ? "Unverified" : `${conf}% ${confLabel(conf)}`}</span>
             {age>6&&<span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#fde8e4",color:"#9e3520",fontWeight:700}}>⏰ Verify ({age}mo)</span>}
             {brand.inconsistencyWarning&&<span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#fff8e1",color:"#8a6020",fontWeight:700}}>⚠️ Inconsistent</span>}
             {brand.genericData&&<span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#fff8e8",color:"#7a5010",fontWeight:700}}>📋 Estimated data</span>}
             {hasBottomOverride&&<span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#f0ecfb",color:"#5b3fa8",fontWeight:700}}>👖 Bottoms data</span>}
             {hasSuitOverride&&<span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:"#f0f0ee",color:"#122318",fontWeight:700}}>🤵 Suit data</span>}
           </div>
+          {brand.auditFlag&&<p className="ins" style={{fontSize:12,color:"#8a2a1a",background:"#fdecea",borderRadius:8,padding:"6px 10px",lineHeight:1.5,maxWidth:580,marginBottom:8}}>🔍 {brand.auditFlag}</p>}
           <p className="ins" style={{fontSize:12,color:"#666",lineHeight:1.6,maxWidth:580,marginBottom:8}}>{brand.notes}</p>
           <div style={{display:"flex",gap:8,flexWrap:"wrap",alignItems:"center"}}>
             <span className="ins" style={{fontSize:11,padding:"4px 10px",borderRadius:20,background:"#eef4f0",color:"#1e5c30",fontWeight:600}}>✂️ {brand.fit}</span>
@@ -14422,24 +14556,24 @@ function BrandCard({ brand, gender, garmType="tops", ratings, worn, saveRating, 
                       <td className="sc"><strong style={{color:"#122318"}}>{s.label}</strong></td>
                       <td className="sc" style={{fontWeight:600,color:"#122318"}}>{s.uk}</td>
                       <td className="sc">{s.eu}</td>
-                      <td className="sc" style={{fontWeight:600,color:"#1e5c30"}}>{cv(s.chest)}</td>
-                      <td className="sc">{cv(s.waist)}</td>
+                      <td className="sc" style={{fontWeight:600,color:"#1e5c30"}}>{cv(s.chest, s.rng?.chest)}</td>
+                      <td className="sc">{cv(s.waist, s.rng?.waist)}</td>
                       <td className="sc">{s.fit||"—"}</td>
                     </>) : displayTab==="bottoms"&&hasBottomOverride ? (<>
                       <td className="sc"><strong style={{color:"#122318"}}>{s.label}</strong></td>
                       <td className="sc">{s.uk}</td><td className="sc">{s.us}</td><td className="sc">{s.eu}</td>
-                      <td className="sc" style={{fontWeight:600,color:"#1e5c30"}}>{cv(s.waist)}</td>
-                      <td className="sc" style={{fontWeight:600,color:"#1e5c30"}}>{cv(s.hips)}</td>
-                      <td className="sc">{cv(s.inseam)}</td>
+                      <td className="sc" style={{fontWeight:600,color:"#1e5c30"}}>{cv(s.waist, s.rng?.waist)}</td>
+                      <td className="sc" style={{fontWeight:600,color:"#1e5c30"}}>{cv(s.hips, s.rng?.hips)}</td>
+                      <td className="sc">{cv(s.inseam, s.rng?.inseam)}</td>
                     </>) : !isKids ? (<>
                       <td className="sc"><strong style={{color:"#122318"}}>{s.label}</strong></td>
                       <td className="sc">{s.uk}</td><td className="sc">{s.us}</td><td className="sc">{s.eu}</td>
-                      <td className="sc">{cv(s.bust||s.chest)}</td><td className="sc">{cv(s.waist)}</td>
-                      {gender==="women"&&<td className="sc">{cv(s.hips)}</td>}
+                      <td className="sc">{cv(s.bust||s.chest, s.rng?.bust||s.rng?.chest)}</td><td className="sc">{cv(s.waist, s.rng?.waist)}</td>
+                      {gender==="women"&&<td className="sc">{cv(s.hips, s.rng?.hips)}</td>}
                     </>) : (<>
                       <td className="sc"><strong style={{color:"#122318"}}>{s.label}</strong></td>
                       <td className="sc">{s.uk}</td><td className="sc">{s.eu}</td><td className="sc">{s.us}</td>
-                      <td className="sc">{cv(s.height)}</td><td className="sc">{cv(s.chest)}</td><td className="sc">{cv(s.waist)}</td>
+                      <td className="sc">{cv(s.height, s.rng?.height)}</td><td className="sc">{cv(s.chest, s.rng?.chest)}</td><td className="sc">{cv(s.waist, s.rng?.waist)}</td>
                     </>)}
                   </tr>
                 ))}
@@ -14481,7 +14615,7 @@ function ProfileRecCard({ brand, match, score, garmType, bottomOverride, unit="c
             <span className="ins" style={{fontSize:10,padding:"3px 10px",borderRadius:20,background:scoreBg,color:scoreColor,fontWeight:700}}>
               {combinedScore}% match
             </span>
-            <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:confBg(conf),color:confColor(conf),fontWeight:700}}>
+            <span className="ins" style={{fontSize:10,padding:"2px 8px",borderRadius:20,background:brand.verifiedBy==="unverified"?"#fde8e4":confBg(conf),color:brand.verifiedBy==="unverified"?"#9e3520":confColor(conf),fontWeight:700}}>
               {conf}% data confidence
             </span>
           </div>
@@ -14632,6 +14766,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.2.0","2026-10-22","Data audit, batch 1: 34 brand charts re-checked line by line against the brands' own size guides (adidas, ASOS, Barbour, COS, Fat Face, Gap, H&M, Joules, Levi's, M&S, Next men, Nike, Primark men, Ralph Lauren, River Island, Seasalt, White Stuff, Boden women). Where a brand publishes a range (e.g. 86–90 cm) the full range is now shown and matching counts anything inside it as a perfect fit. Brands whose figures couldn't be confirmed carry a 🔍 audit note. Decade (historical) figures are now labelled unverified while they're audited."],
   ["v1.1.1","2026-10-22","Privacy policy published at /privacy and linked from sign-in and Help."],
   ["v1.1.0","2026-10-22","Help section added. Google sign-in configured for willthisfit.me; button now resizes on phones. Corrections are sent securely via the server (no keys in the browser)."],
   ["v1.0.1","2026-10-11","Mobile layout fixes: no sideways scrolling, readable hero, header no longer covers the screen, no zoom when tapping inputs."],
@@ -14652,6 +14787,7 @@ function HelpModal({ onClose }) {
         <H>My Sizes &amp; History</H><P>Save sizes that fit you, and see how a label size from an older year compares with today.</P>
         <H>Shoes</H><P>Compare UK, EU, US and cm shoe sizes by brand.</P>
         <H>How accurate is the data?</H><P>Every brand shows a confidence score, a last-verified date and a link to its source. Charts are body measurements published by the brand; individual garments vary, so check the item's own measurements when a listing gives them. "Data quality" explains how entries are checked.</P>
+        <H>Ranges and audit notes</H><P>Many brands publish a range for each size (e.g. bust 86–90 cm). We show the range exactly as published, and the Measure tab treats any measurement inside it as a perfect match. Where a brand only publishes inches, we convert at exactly 2.54 cm per inch. A red 🔍 note means we couldn't confirm that brand's figures on its own website at the last audit, so treat them with caution. Figures for past decades are still being checked and are marked unverified.</P>
         <H>Spotted a mistake?</H><P>Use "+ Contribute" to submit a correction. Signing in with Google lets us credit you and follow up.</P>
         <H>Privacy</H><P>No analytics or tracking cookies. See the <a href="/privacy.html" target="_blank" rel="noopener">privacy policy</a>.</P>
         <H>What's new</H>

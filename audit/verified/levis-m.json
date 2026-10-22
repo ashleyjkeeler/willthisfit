@@ -1,0 +1,102 @@
+{
+ "id": "levis-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Levi's GB size chart (men's tops)",
+   "url": "https://www.levi.com/GB/en_GB/info/sizechart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    81.3,
+    86.4
+   ],
+   "waist": [
+    66.0,
+    71.1
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    88.9,
+    94.0
+   ],
+   "waist": [
+    73.7,
+    78.7
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    96.5,
+    101.6
+   ],
+   "waist": [
+    81.3,
+    86.4
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    104.1,
+    109.2
+   ],
+   "waist": [
+    88.9,
+    94.0
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    111.8,
+    116.8
+   ],
+   "waist": [
+    96.5,
+    101.6
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    119.4,
+    124.5
+   ],
+   "waist": [
+    104.1,
+    109.2
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    127.0,
+    132.1
+   ],
+   "waist": [
+    111.8,
+    116.8
+   ]
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    137.2,
+    142.2
+   ],
+   "waist": [
+    122.0,
+    127.0
+   ]
+  }
+ ],
+ "audit": "Men's tops chest/waist ranges from Levi's GB. Levi's lists 5XL chest as 157.5-162.6 in one table and 147.3-152.4 in another, so 5XL is left out. levis-m and levis2-m are duplicate entries for the same chart; recommend merging. Old source for levis-m was a Next page labelled 'official'."
+}

@@ -1,0 +1,149 @@
+{
+ "id": "nike-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Nike UK men's tops & t-shirts size chart",
+   "url": "https://www.nike.com/gb/size-fit/mens-tops-alpha"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "chest": [
+    71.4,
+    80.0
+   ],
+   "waist": [
+    57.1,
+    64.8
+   ],
+   "_in": [
+    "28.1 - 31.5",
+    "22.5 - 25.5"
+   ]
+  },
+  {
+   "label": "XS",
+   "chest": [
+    80.0,
+    88.9
+   ],
+   "waist": [
+    64.8,
+    73.7
+   ],
+   "_in": [
+    "31.5 - 35",
+    "25.5 - 29"
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    88.9,
+    95.2
+   ],
+   "waist": [
+    73.7,
+    81.3
+   ],
+   "_in": [
+    "35 - 37.5",
+    "29 - 32"
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    95.2,
+    104.1
+   ],
+   "waist": [
+    81.3,
+    88.9
+   ],
+   "_in": [
+    "37.5 - 41",
+    "32 - 35"
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    104.1,
+    111.8
+   ],
+   "waist": [
+    88.9,
+    96.5
+   ],
+   "_in": [
+    "41 - 44",
+    "35 - 38"
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    111.8,
+    123.2
+   ],
+   "waist": [
+    96.5,
+    109.2
+   ],
+   "_in": [
+    "44 - 48.5",
+    "38 - 43"
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    123.2,
+    135.9
+   ],
+   "waist": [
+    109.2,
+    120.7
+   ],
+   "_in": [
+    "48.5 - 53.5",
+    "43 - 47.5"
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    135.9,
+    147.3
+   ],
+   "waist": [
+    120.7,
+    133.3
+   ],
+   "_in": [
+    "53.5 - 58",
+    "47.5 - 52.5"
+   ]
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    147.3,
+    160.0
+   ],
+   "waist": [
+    133.3,
+    144.8
+   ],
+   "_in": [
+    "58 - 63",
+    "52.5 - 57"
+   ]
+  }
+ ],
+ "audit": "Inches only on Nike UK; converted x2.54. Tall sizes share the same body measurements (longer length) and are not separate rows."
+}

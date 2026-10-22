@@ -1,0 +1,114 @@
+{
+ "id": "whitestuff-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official White Stuff size guide",
+   "url": "https://www.whitestuff.com/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 78,
+   "waist": 58,
+   "hips": 86,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 83,
+   "waist": 65,
+   "hips": 91,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88,
+   "waist": 70,
+   "hips": 96,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 93,
+   "waist": 75,
+   "hips": 101,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98,
+   "waist": 80,
+   "hips": 106,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 103,
+   "waist": 85,
+   "hips": 111,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 108,
+   "waist": 90,
+   "hips": 116,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 114,
+   "waist": 96,
+   "hips": 122,
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 120,
+   "waist": 102,
+   "hips": 128,
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 126,
+   "waist": 108,
+   "hips": 134,
+   "altLabel": "XXL"
+  }
+ ],
+ "audit": "UK 6/8/10 previously wrong (UK 10 bust duplicated UK 12); 18-22 off by 1-2 cm; UK 24 missing; source was a retailer."
+}

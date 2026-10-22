@@ -1,0 +1,70 @@
+{
+ "id": "primark-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Primark men's size charts",
+   "url": "https://www.primark.com/en-gb/size-charts/men"
+  }
+ ],
+ "rows": [
+  {
+   "label": "2XS",
+   "chest": [
+    86.0,
+    89.0
+   ]
+  },
+  {
+   "label": "XS",
+   "chest": [
+    89.0,
+    91.0
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    91.0,
+    96.0
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    96.5,
+    101.5
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    104.0,
+    109.0
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    112.0,
+    117.0
+   ]
+  },
+  {
+   "label": "2XL",
+   "chest": [
+    119.5,
+    124.5
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    127.0,
+    132.0
+   ]
+  }
+ ],
+ "audit": "Chest ranges per letter size from Primark's men's chart. Primark also shows a letter-size table of what appear to be waist figures, but its row labels are garbled on the page (EU/IT labels on inch/cm rows), so waist is left out rather than guessed. Old entry had no 2XS/3XL and chest points up to 6 cm off."
+}

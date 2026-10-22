@@ -1,0 +1,167 @@
+{
+ "id": "hm-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official H&M size guide (tops, regular), shown on product pages",
+   "url": "https://www2.hm.com/en_gb/productpage.1361447002.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "4",
+   "eu": "32",
+   "bust": [
+    75.0,
+    78.0
+   ],
+   "waist": [
+    62.0,
+    64.0
+   ],
+   "hips": [
+    82.0,
+    86.0
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "6",
+   "eu": "34",
+   "bust": [
+    78.0,
+    82.0
+   ],
+   "waist": [
+    64.0,
+    66.0
+   ],
+   "hips": [
+    86.0,
+    90.0
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8-10",
+   "eu": "36-38",
+   "bust": [
+    82.0,
+    90.0
+   ],
+   "waist": [
+    66.0,
+    74.0
+   ],
+   "hips": [
+    90.0,
+    97.5
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12-14",
+   "eu": "40-42",
+   "bust": [
+    90.0,
+    98.0
+   ],
+   "waist": [
+    74.0,
+    82.5
+   ],
+   "hips": [
+    97.5,
+    103.5
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "16-18",
+   "eu": "44-46",
+   "bust": [
+    98.0,
+    107.0
+   ],
+   "waist": [
+    82.5,
+    93.0
+   ],
+   "hips": [
+    103.5,
+    110.5
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "20-22",
+   "eu": "48-50",
+   "bust": [
+    107.0,
+    119.0
+   ],
+   "waist": [
+    93.0,
+    105.0
+   ],
+   "hips": [
+    110.5,
+    120.5
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "24-26",
+   "eu": "52-54",
+   "bust": [
+    119.0,
+    131.0
+   ],
+   "waist": [
+    105.0,
+    117.5
+   ],
+   "hips": [
+    120.5,
+    131.0
+   ]
+  },
+  {
+   "label": "3XL",
+   "uk": "28-30",
+   "eu": "56-58",
+   "bust": [
+    131.0,
+    143.0
+   ],
+   "waist": [
+    117.5,
+    131.5
+   ],
+   "hips": [
+    131.0,
+    143.0
+   ]
+  },
+  {
+   "label": "4XL",
+   "uk": "32-34",
+   "eu": "60-62",
+   "bust": [
+    143.0,
+    155.0
+   ],
+   "waist": [
+    131.5,
+    145.5
+   ],
+   "hips": [
+    143.0,
+    155.0
+   ]
+  }
+ ],
+ "audit": "Old source URL redirects to an FAQ; chart now only on product pages. H&M publishes ranges and dual UK sizes (S = UK 8-10). H&M labels the hip measurement 'low hip'. US not shown on the UK chart."
+}

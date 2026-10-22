@@ -1,0 +1,84 @@
+{
+ "id": "next-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Next size guide (men's chest)",
+   "url": "https://www.next.co.uk/sizeguide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "chest": [
+    76.0,
+    81.5
+   ]
+  },
+  {
+   "label": "XS",
+   "chest": [
+    84.0,
+    89.0
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    91.5,
+    96.5
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    99.0,
+    104.0
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    106.5,
+    112.0
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    114.5,
+    119.5
+   ]
+  },
+  {
+   "label": "2XL",
+   "chest": [
+    122.0,
+    127.0
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    129.5,
+    134.5
+   ]
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    137.0,
+    142.0
+   ]
+  },
+  {
+   "label": "5XL",
+   "chest": [
+    145.0,
+    150.0
+   ]
+  }
+ ],
+ "audit": "Next publishes chest ranges per letter size; waist is published only as trouser waist sizes (26-46 in), not per letter size, so waist removed from letter rows. Old values (e.g. M chest 97) sat below Next's M range (99-104)."
+}

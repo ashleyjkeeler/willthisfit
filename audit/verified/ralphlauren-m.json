@@ -1,0 +1,91 @@
+{
+ "id": "ralphlauren-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Ralph Lauren UK size guide (men's standard apparel)",
+   "url": "https://www.ralphlauren.co.uk/en/apparel/unisex_mens_standard.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "chest": [
+    76.2,
+    78.7
+   ],
+   "waist": [
+    61.0,
+    66.0
+   ]
+  },
+  {
+   "label": "XS",
+   "chest": [
+    78.7,
+    86.4
+   ],
+   "waist": [
+    66.0,
+    71.1
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    88.9,
+    94.0
+   ],
+   "waist": [
+    71.1,
+    76.2
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    96.5,
+    101.6
+   ],
+   "waist": [
+    78.7,
+    86.4
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    106.7,
+    114.3
+   ],
+   "waist": [
+    88.9,
+    96.5
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    116.8,
+    121.9
+   ],
+   "waist": [
+    101.6,
+    106.7
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    124.5,
+    132.1
+   ],
+   "waist": [
+    109.2,
+    114.3
+   ]
+  }
+ ],
+ "audit": "Native cm ranges from ralphlauren.co.uk men's standard apparel. Ranges have gaps as published (e.g. M chest to 101.6, L from 106.7). Old source was a third-party retailer (mcelhinneys)."
+}

@@ -1,0 +1,131 @@
+{
+ "id": "gap-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Gap UK size guide (women's tops)",
+   "url": "https://www.gap.co.uk/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "2",
+   "eu": "30",
+   "us": "00",
+   "bust": 79.0,
+   "waist": 62.0,
+   "hips": 86.0
+  },
+  {
+   "label": "XS",
+   "uk": "4-6",
+   "eu": "32-34",
+   "us": "0-2",
+   "bust": [
+    81.0,
+    84.0
+   ],
+   "waist": [
+    65.0,
+    67.0
+   ],
+   "hips": [
+    89.0,
+    91.0
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8-10",
+   "eu": "36-38",
+   "us": "4-6",
+   "bust": [
+    86.0,
+    89.0
+   ],
+   "waist": [
+    70.0,
+    72.0
+   ],
+   "hips": [
+    94.0,
+    96.5
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12-14",
+   "eu": "40-42",
+   "us": "8-10",
+   "bust": [
+    91.0,
+    94.0
+   ],
+   "waist": [
+    75.0,
+    77.5
+   ],
+   "hips": [
+    99.0,
+    102.0
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "16-18",
+   "eu": "44-46",
+   "us": "12-14",
+   "bust": [
+    96.5,
+    102.0
+   ],
+   "waist": [
+    81.0,
+    85.0
+   ],
+   "hips": [
+    105.0,
+    109.0
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "20-22",
+   "eu": "48-50",
+   "us": "16-18",
+   "bust": [
+    107.0,
+    109.0
+   ],
+   "waist": [
+    90.0,
+    95.0
+   ],
+   "hips": [
+    114.0,
+    119.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "24",
+   "eu": "52",
+   "us": "20",
+   "bust": [
+    114.0,
+    119.0
+   ],
+   "waist": [
+    100.0,
+    105.0
+   ],
+   "hips": [
+    124.0,
+    129.5
+   ]
+  }
+ ],
+ "audit": "Native cm from gap.co.uk women's tops chart; UK/EU/US from Gap's conversion table. Gap's jeans use a separate waist-number chart."
+}

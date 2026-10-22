@@ -1,0 +1,84 @@
+{
+ "id": "fatface-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official FatFace size guide",
+   "url": "https://www.fatface.com/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "bust": 79,
+   "waist": 61,
+   "hips": 87
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "bust": 84,
+   "waist": 66,
+   "hips": 92
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "bust": 89,
+   "waist": 71,
+   "hips": 97
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "bust": 94,
+   "waist": 76,
+   "hips": 102
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "bust": 99,
+   "waist": 81,
+   "hips": 107
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "bust": 105,
+   "waist": 87,
+   "hips": 113
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "bust": 111,
+   "waist": 93,
+   "hips": 119
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "bust": 118,
+   "waist": 100,
+   "hips": 126
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "bust": 125,
+   "waist": 107,
+   "hips": 133
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "bust": 132,
+   "waist": 114,
+   "hips": 140
+  }
+ ],
+ "audit": "Re-read 2026-10-22 on fatface.com/size-guide (now runs UK 6-24). All sizes previously 1-6 cm under official. US/EU not shown on the FatFace chart, so left blank rather than converted."
+}

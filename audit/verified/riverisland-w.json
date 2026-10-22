@@ -1,0 +1,95 @@
+{
+ "id": "riverisland-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official River Island women's size guide (tops, dresses, outerwear, 6-22)",
+   "url": "https://www.riverisland.com/how-can-we-help/size-guides/womens"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 81,
+   "waist": 63,
+   "hips": 90
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 67,
+   "hips": 94
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 71,
+   "hips": 98
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 93,
+   "waist": 75,
+   "hips": 102
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98,
+   "waist": 80,
+   "hips": 107
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 86,
+   "hips": 113
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 92,
+   "hips": 119
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 116,
+   "waist": 98,
+   "hips": 125
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 122,
+   "waist": 104,
+   "hips": 131
+  }
+ ],
+ "audit": "From River Island's 'Womens clothing to fit 6-18' tops/dresses chart (runs to 22). River Island's swimwear and skirt charts use slightly different numbers; this entry uses the main clothing chart."
+}

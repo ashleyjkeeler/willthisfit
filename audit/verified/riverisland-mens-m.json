@@ -1,0 +1,146 @@
+{
+ "id": "riverisland-mens-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official River Island men's size guide (tops & shirts chest; bottoms waist)",
+   "url": "https://www.riverisland.com/how-can-we-help/size-guides/mens"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "eu": "0",
+   "chest": [
+    73.0,
+    79.0
+   ],
+   "waist": [
+    61.0,
+    66.0
+   ]
+  },
+  {
+   "label": "XS",
+   "eu": "1",
+   "chest": [
+    81.0,
+    87.0
+   ],
+   "waist": [
+    68.0,
+    74.0
+   ]
+  },
+  {
+   "label": "S",
+   "eu": "2",
+   "chest": [
+    89.0,
+    94.0
+   ],
+   "waist": [
+    76.0,
+    82.0
+   ]
+  },
+  {
+   "label": "M",
+   "eu": "3",
+   "chest": [
+    96.0,
+    102.0
+   ],
+   "waist": [
+    84.0,
+    89.0
+   ]
+  },
+  {
+   "label": "L",
+   "eu": "4",
+   "chest": [
+    104.0,
+    109.0
+   ],
+   "waist": [
+    91.0,
+    97.0
+   ]
+  },
+  {
+   "label": "XL",
+   "eu": "5",
+   "chest": [
+    113.0,
+    117.0
+   ],
+   "waist": [
+    99.0,
+    104.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "eu": "6",
+   "chest": [
+    119.0,
+    124.0
+   ],
+   "waist": [
+    106.0,
+    112.0
+   ]
+  },
+  {
+   "label": "3XL",
+   "eu": "7",
+   "chest": [
+    127.0,
+    132.0
+   ],
+   "waist": [
+    114.0,
+    120.0
+   ]
+  },
+  {
+   "label": "4XL",
+   "eu": "8",
+   "chest": [
+    134.0,
+    140.0
+   ],
+   "waist": [
+    122.0,
+    127.0
+   ]
+  },
+  {
+   "label": "5XL",
+   "eu": "9",
+   "chest": [
+    142.0,
+    148.0
+   ],
+   "waist": [
+    129.0,
+    135.0
+   ]
+  },
+  {
+   "label": "6XL",
+   "eu": "10",
+   "chest": [
+    150.0,
+    155.0
+   ],
+   "waist": [
+    137.0,
+    142.0
+   ]
+  }
+ ],
+ "audit": "Chest from River Island's Tops & Shirts chart and waist from its Bottoms chart, both keyed by the same letter sizes. EU column is River Island's own 0-10 numbering."
+}

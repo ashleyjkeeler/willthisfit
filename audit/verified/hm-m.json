@@ -1,0 +1,92 @@
+{
+ "id": "hm-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official H&M size guide (men's tops, shirts, jackets), shown on product pages",
+   "url": "https://www2.hm.com/en_gb/productpage.1331624001.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "30R-32R",
+   "eu": "40-42",
+   "chest": [
+    78.0,
+    86.0
+   ],
+   "waist": [
+    66.0,
+    74.0
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "34R-36R",
+   "eu": "44-46",
+   "chest": [
+    86.0,
+    94.0
+   ],
+   "waist": [
+    74.0,
+    82.0
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "38R-40R",
+   "eu": "48-50",
+   "chest": [
+    94.0,
+    102.0
+   ],
+   "waist": [
+    82.0,
+    90.0
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "42R-44R",
+   "eu": "52-54",
+   "chest": [
+    102.0,
+    110.0
+   ],
+   "waist": [
+    90.0,
+    98.5
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "46R-48R",
+   "eu": "56-58",
+   "chest": [
+    110.0,
+    118.0
+   ],
+   "waist": [
+    98.5,
+    107.5
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "50R-52R",
+   "eu": "60-62",
+   "chest": [
+    118.0,
+    126.0
+   ],
+   "waist": [
+    107.5,
+    116.5
+   ]
+  }
+ ],
+ "audit": "Chart now only on product pages. UK column is H&M's suit-style chest sizing (e.g. M = 38R-40R)."
+}
