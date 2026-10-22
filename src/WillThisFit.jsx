@@ -34,7 +34,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.1.0";
+export const APP_VERSION = "v1.1.1";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -14632,6 +14632,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.1.1","2026-10-22","Privacy policy published at /privacy and linked from sign-in and Help."],
   ["v1.1.0","2026-10-22","Help section added. Google sign-in configured for willthisfit.me; button now resizes on phones. Corrections are sent securely via the server (no keys in the browser)."],
   ["v1.0.1","2026-10-11","Mobile layout fixes: no sideways scrolling, readable hero, header no longer covers the screen, no zoom when tapping inputs."],
   ["v1.0.0","2026-03","First public version."],
@@ -14652,6 +14653,7 @@ function HelpModal({ onClose }) {
         <H>Shoes</H><P>Compare UK, EU, US and cm shoe sizes by brand.</P>
         <H>How accurate is the data?</H><P>Every brand shows a confidence score, a last-verified date and a link to its source. Charts are body measurements published by the brand; individual garments vary, so check the item's own measurements when a listing gives them. "Data quality" explains how entries are checked.</P>
         <H>Spotted a mistake?</H><P>Use "+ Contribute" to submit a correction. Signing in with Google lets us credit you and follow up.</P>
+        <H>Privacy</H><P>No analytics or tracking cookies. See the <a href="/privacy.html" target="_blank" rel="noopener">privacy policy</a>.</P>
         <H>What's new</H>
         {CHANGELOG.map(([v,d,t])=>(<P key={v}><strong>{v}</strong> <span style={{color:"#999"}}>({d})</span> — {t}</P>))}
         <button className="btn ins" onClick={onClose} style={{marginTop:12,padding:"10px 22px",background:"#2d7a4a",color:"white",borderRadius:8,fontSize:14,fontWeight:600}}>Close</button>
@@ -14827,7 +14829,7 @@ function LoginModal({ setUser, onClose, googleLoaded }) {
             <button className="btn ins" disabled style={{padding:"12px 20px",borderRadius:10,border:"1.5px solid #ddd",fontSize:13,color:"#999",background:"#f7f7f5",width:"100%",cursor:"not-allowed"}}>📧 Email sign-in coming soon</button>
           </div>
         )}
-        <p className="ins" style={{fontSize:11,color:"#ccc",marginTop:18,textAlign:"center",lineHeight:1.6}}>By signing in you agree to our terms. We never share your data with brands or advertisers.</p>
+        <p className="ins" style={{fontSize:11,color:"#ccc",marginTop:18,textAlign:"center",lineHeight:1.6}}>We never share your data with brands or advertisers. <a href="/privacy.html" target="_blank" rel="noopener" style={{color:"#999"}}>Privacy policy</a></p>
       </div>
     </div>
   );
