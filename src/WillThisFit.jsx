@@ -24,6 +24,7 @@
 */
 
 import { useState, useEffect, useMemo, useCallback, useRef } from "react";
+import Wardrobe, { api as apiCall } from "./Wardrobe.jsx";
 
 // ─── API CONFIG (replace with real values) ──────────────────────────────────
 const CONFIG = {
@@ -34,7 +35,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.3.0";
+export const APP_VERSION = "v1.4.0";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -9706,7 +9707,7 @@ function useGoogleAuth(onSuccess) {
         callback: (res) => {
           const b64 = res.credential.split(".")[1].replace(/-/g,"+").replace(/_/g,"/");
           const payload = JSON.parse(decodeURIComponent(atob(b64).split("").map(c=>"%"+("00"+c.charCodeAt(0).toString(16)).slice(-2)).join("")));
-          onSuccess({ name: payload.name, email: payload.email, picture: payload.picture, provider: "google" });
+          onSuccess({ name: payload.name, email: payload.email, picture: payload.picture, provider: "google" }, res.credential, payload.exp);
         },
       });
       setLoaded(true);
@@ -10070,7 +10071,31 @@ export default function App() {
     try { await window.storage.set("wtf_prefs", JSON.stringify(n)); } catch {}
   };
 
-  const googleLoaded = useGoogleAuth((u) => { setUser(u); setShowLogin(false); });
+  // Google ID token: sent to our server, which verifies it before reading or writing anything.
+  // Kept for this browser tab only (sessionStorage) and dropped when it expires (about an hour).
+  const [idToken, setIdToken] = useState(null);
+  const [kudos, setKudos] = useState(null);
+  const [authNote, setAuthNote] = useState("");
+  useEffect(() => {
+    try {
+      const s = JSON.parse(sessionStorage.getItem("wtf_session") || "null");
+      if (s && s.exp * 1000 > Date.now() + 60000) { setUser(s.user); setIdToken(s.token); }
+    } catch { /* storage unavailable */ }
+  }, []);
+  const googleLoaded = useGoogleAuth((u, token, exp) => {
+    setUser(u); setIdToken(token); setShowLogin(false); setAuthNote("");
+    try { sessionStorage.setItem("wtf_session", JSON.stringify({ user: u, token, exp })); } catch { /* ignore */ }
+  });
+  const signOut = useCallback(() => {
+    setUser(null); setIdToken(null); setKudos(null);
+    try { sessionStorage.removeItem("wtf_session"); } catch { /* ignore */ }
+    try { window.google?.accounts.id.disableAutoSelect(); } catch { /* ignore */ }
+  }, []);
+  const onAuthError = useCallback(() => { signOut(); setAuthNote("Your sign-in has expired. Please sign in again."); setShowLogin(true); }, [signOut]);
+  useEffect(() => {
+    if (!idToken) return;
+    apiCall("/api/me", { token: idToken }).then((d) => setKudos(d.kudos)).catch((e) => { if (e.status === 401) onAuthError(); });
+  }, [idToken, onAuthError]);
 
   useEffect(() => {
     (async () => {
@@ -10376,7 +10401,8 @@ export default function App() {
             <button className="btn ins hide-mob" onClick={()=>setShowValidation(true)} style={{padding:"7px 14px",background:"rgba(255,255,255,0.07)",color:"white",borderRadius:8,fontSize:12,border:"1px solid rgba(255,255,255,0.1)"}}>Data quality</button>
             <button className="btn ins hide-mob" onClick={()=>setShowSubmit(true)} style={{padding:"7px 14px",background:"rgba(255,255,255,0.07)",color:"white",borderRadius:8,fontSize:12,border:"1px solid rgba(255,255,255,0.1)"}}>+ Contribute</button>
             {user ? (
-              <div style={{display:"flex",alignItems:"center",gap:8,cursor:"pointer"}} onClick={()=>setUser(null)}>
+              <div role="button" tabIndex={0} aria-label="Open my wardrobe" style={{display:"flex",alignItems:"center",gap:8,cursor:"pointer"}} onClick={()=>setMode("wardrobe")} onKeyDown={e=>{if(e.key==="Enter")setMode("wardrobe");}}>
+                {kudos&&<span className="ins" title="Your kudos" style={{fontSize:12,fontWeight:700,color:"#8ee6b2",whiteSpace:"nowrap"}}>★ {kudos.total}</span>}
                 <div style={{width:32,height:32,borderRadius:"50%",background:"#2d7a4a",display:"flex",alignItems:"center",justifyContent:"center",fontSize:13,fontWeight:600,fontFamily:"Instrument Sans"}}>
                   {user.name?.[0]?.toUpperCase()}
                 </div>
@@ -10439,7 +10465,7 @@ export default function App() {
             ))}
           </div>
           <div style={{display:"flex",gap:6,padding:"10px 0",flexWrap:"wrap"}}>
-            {[["converter","Convert"],["finder","Measure"],["profile","My Sizes"],["shoes","Shoes"],["history","📜 History"]].map(([k,v])=>(
+            {[["converter","Convert"],["finder","Measure"],["wardrobe","👕 Wardrobe"],["profile","My Sizes"],["shoes","Shoes"],["history","📜 History"]].map(([k,v])=>(
               <button key={k} className="btn pill" onClick={()=>setMode(k)} style={{
                 borderColor:mode===k?"#2d7a4a":dark?"#2a4535":"#d8d4cc",
                 background:mode===k?"#2d7a4a":dark?"#1a2e20":"white",
@@ -10939,6 +10965,10 @@ export default function App() {
         )}
 
         {/* PROFILE BUILDER */}
+        {mode==="wardrobe"&&(
+          <Wardrobe user={user} token={idToken} onAuthError={onAuthError} onSignIn={()=>setShowLogin(true)} onSignOut={signOut}
+            brandsByGender={{women:WOMEN_BRANDS,men:MEN_BRANDS,kids:KIDS_BRANDS}} gender={gender} dark={dark} kudos={kudos} setKudos={setKudos}/>
+        )}
         {mode==="profile"&&(
           <div className="stagger">
             {/* Header with prominent gender indicator */}
@@ -11400,7 +11430,7 @@ export default function App() {
       </footer>
 
       {/* ── MODALS ── */}
-      {showLogin&&<LoginModal user={user} setUser={setUser} onClose={()=>setShowLogin(false)} googleLoaded={googleLoaded}/>}
+      {showLogin&&<LoginModal user={user} setUser={setUser} onClose={()=>setShowLogin(false)} googleLoaded={googleLoaded} note={authNote}/>}
       {showSubmit&&<SubmitModal onClose={()=>setShowSubmit(false)} user={user} setShowLogin={setShowLogin}/>}
       {showValidation&&<ValidationModal onClose={()=>setShowValidation(false)} brands={{women:WOMEN_BRANDS,men:MEN_BRANDS,kids:KIDS_BRANDS}}/>}
       {showMeasureGuide&&<MeasureGuideModal gender={gender} onClose={()=>setShowMeasureGuide(false)}/>}
@@ -12006,6 +12036,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.4.0","2026-10-24","My Wardrobe: sign in with Google to log clothes you own, how they fit and (optionally) their flat measurements. Earn kudos for fit reports and join the opt-in monthly and all-time leaderboard. Your sign-in is now checked by our server before anything is saved, and you can delete your account at any time. Privacy policy updated."],
   ["v1.3.0","2026-10-24","Vintage sizing rebuilt from real evidence: Marks & Spencer women’s sizes for the 1950s–1990s, taken from 290+ dated St Michael labels in the M&S Company Archive. Choosing a decade now actually shows that decade’s measurements (before, it showed today’s under a ‘historical’ banner). Unsourced decade figures for other brands have been removed; those brands show today’s chart and say so. The History page chart now uses the M&S label evidence."],
   ["v1.2.1","2026-10-22","Banner rebuilt so the headline is always fully readable and resizes on every screen. Header fits small phones. Footer and Data quality panel updated with current figures (500+ brands, Oct 2026 audit) and claims we can't yet back up removed. Data quality link added to the footer for phones."],
   ["v1.2.0","2026-10-22","Data audit, batch 1: 34 brand charts re-checked line by line against the brands' own size guides (adidas, ASOS, Barbour, COS, Fat Face, Gap, H&M, Joules, Levi's, M&S, Next men, Nike, Primark men, Ralph Lauren, River Island, Seasalt, White Stuff, Boden women). Where a brand publishes a range (e.g. 86–90 cm) the full range is now shown and matching counts anything inside it as a perfect fit. Brands whose figures couldn't be confirmed carry a 🔍 audit note. Decade (historical) figures are now labelled unverified while they're audited."],
@@ -12026,6 +12057,7 @@ function HelpModal({ onClose }) {
         </div>
         <H>Convert</H><P>Pick the size system you know (e.g. UK), enter your size, and see what it corresponds to at every brand, with body measurements in cm or inches.</P>
         <H>Measure</H><P>Enter your bust/chest, waist and hips. Brands are ranked by how closely their size chart matches your body. Use "How to measure" for tips.</P>
+        <H>My Wardrobe and kudos</H><P>Sign in with Google and open Wardrobe to log clothes you own: the brand, the size on the label and how it fits you. Each report helps other second-hand shoppers, and you earn kudos: 2 for a fit verdict, 5 for two or more flat garment measurements, and 3 extra if you're the first to report that brand and size (up to 40 a day). Removing an item removes its kudos. Join the leaderboard in Wardrobe → Settings with a display name of your choice; it's opt-in, and your email and measurements are never shown. You can delete your account there too.</P>
         <H>My Sizes</H><P>Save sizes that fit you so we can work out your measurements and suggest sizes at other brands.</P>
         <H>Vintage sizes (Year)</H><P>A size 12 from 1985 isn’t the same as a size 12 today. Pick a decade under “Year” and, where we have evidence, the brand’s sizes from that decade replace today’s. Our decade figures come only from evidence we can point to: the brand’s own dated garment labels that print the body measurements they were made to fit (“to fit bust 34in, hips 36in”), as recorded in the brand’s archive. So far that’s Marks &amp; Spencer women’s sizes from the 1950s to the 1990s, from 290+ dated labels in the M&amp;S Company Archive. Where we don’t have evidence for a brand and decade, we say so and show today’s chart. If you have an old label with “to fit” measurements and know roughly when it was bought, send the details via Contribute.</P>
         <H>Shoes</H><P>Compare UK, EU, US and cm shoe sizes by brand.</P>
@@ -12149,7 +12181,7 @@ function ValidationModal({ onClose, brands }) {
 }
 
 // ─── LOGIN MODAL ─────────────────────────────────────────────────────────────
-function LoginModal({ setUser, onClose, googleLoaded }) {
+function LoginModal({ setUser, onClose, googleLoaded, note }) {
   const googleRef = useRef(null);
   useEffect(() => {
     if (CONFIG.DEMO_MODE || !GOOGLE_READY || !googleLoaded || !window.google) return;
@@ -12185,7 +12217,8 @@ function LoginModal({ setUser, onClose, googleLoaded }) {
             <div style={{fontSize:22,fontWeight:500,color:"#122318"}}>WillThisFit<span style={{color:"#4db87a"}}>.me</span></div>
           </div>
           <h2 style={{fontSize:22,color:"#122318",fontWeight:500,marginBottom:8}}>Sign in to WillThisFit</h2>
-          <p className="ins" style={{fontSize:13,color:"#888",lineHeight:1.6}}>Save ratings, confirm fit, submit corrections, and help the community shop second-hand with confidence.</p>
+          {note&&<p className="ins" role="status" style={{fontSize:13,color:"#8a2a1a",background:"#fdecea",borderRadius:8,padding:"8px 12px"}}>{note}</p>}
+          <p className="ins" style={{fontSize:13,color:"#888",lineHeight:1.6}}>Build your wardrobe, earn kudos for fit reports, and help the community shop second-hand with confidence.</p>
         </div>
         {CONFIG.DEMO_MODE?(
           <div style={{display:"flex",flexDirection:"column",gap:10}}>
