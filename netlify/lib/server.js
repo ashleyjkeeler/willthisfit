@@ -20,7 +20,7 @@ export async function verifyGoogle(req) {
   const auth = req.headers.get("authorization") || "";
   const token = auth.startsWith("Bearer ") ? auth.slice(7) : null;
   if (!token) throw new HttpError(401, "sign-in required");
-  const aud = process.env.GOOGLE_CLIENT_ID || process.env.VITE_GOOGLE_CLIENT_ID;
+  const aud = env("GOOGLE_CLIENT_ID") || env("VITE_GOOGLE_CLIENT_ID");
   if (!aud) throw new HttpError(503, "sign-in not configured");
   try {
     const { payload } = await jwtVerify(token, GOOGLE_JWKS, {
@@ -34,10 +34,20 @@ export async function verifyGoogle(req) {
   }
 }
 
+// Read a setting from process.env, falling back to Netlify's runtime API.
+const env = (name) => {
+  const v = process.env[name] ?? globalThis.Netlify?.env?.get?.(name);
+  return typeof v === "string" ? v.trim() : v;
+};
+
 function dbConfig() {
-  const url = process.env.SUPABASE_URL;
-  const key = process.env.SUPABASE_SECRET_KEY;
-  if (!url || !key) throw new HttpError(503, "database not configured");
+  const url = env("SUPABASE_URL");
+  const key = env("SUPABASE_SECRET_KEY");
+  if (!url || !key) {
+    console.error("db config missing:", [!url && "SUPABASE_URL", !key && "SUPABASE_SECRET_KEY"].filter(Boolean).join(", "),
+      "| context:", env("CONTEXT") || "?");
+    throw new HttpError(503, "database not configured");
+  }
   return { url: url.replace(/\/$/, ""), key };
 }
 
@@ -81,7 +91,10 @@ export function handle(fn) {
   return async (req, ctx) => {
     try { return await fn(req, ctx); }
     catch (e) {
-      if (e instanceof HttpError) return json(e.status, { ok: false, error: e.message });
+      if (e instanceof HttpError) {
+        if (e.status >= 500) console.error("http", e.status, e.message, new URL(req.url).pathname, req.method);
+        return json(e.status, { ok: false, error: e.message });
+      }
       console.error(e);
       return json(500, { ok: false, error: "server error" });
     }
