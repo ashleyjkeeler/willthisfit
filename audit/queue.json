@@ -1,0 +1,5366 @@
+[
+ {
+  "id": "andotherstories-w",
+  "name": "& Other Stories",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "stories.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "abercrombie-w",
+  "name": "Abercrombie & Fitch",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "abercrombie.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "allsaints-w",
+  "name": "AllSaints",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "allsaints.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "arket-w",
+  "name": "Arket",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "arket.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "boohoo-w",
+  "name": "Boohoo",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "boohoo.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "coast-w",
+  "name": "Coast",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "coast-stores.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "fredperry-w",
+  "name": "Fred Perry (Women)",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "fredperry.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "freepeople-w",
+  "name": "Free People",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "freepeople.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gymshark-w",
+  "name": "Gymshark",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "support.gymshark.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hobbs-w",
+  "name": "Hobbs",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "hobbs.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hollister-w",
+  "name": "Hollister (Women)",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "hollisterco.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hugoboss-w",
+  "name": "Hugo Boss (Women)",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "hugoboss.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jackwills-w",
+  "name": "Jack Wills",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "jackwills.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "jigsaw-w",
+  "name": "Jigsaw",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "jigsaw-online.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "karenmillen-w",
+  "name": "Karen Millen",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "karenmillen.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lacoste-w",
+  "name": "Lacoste (Women)",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "lacoste.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lipsy-w",
+  "name": "Lipsy",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "next.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "lululemon-w",
+  "name": "Lululemon",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "lululemon.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "mintvelvet-w",
+  "name": "Mint Velvet",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "mintvelvet.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "missselfridge-w",
+  "name": "Miss Selfridge",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "monki-w",
+  "name": "Monki",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "monki.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "monsoon-w",
+  "name": "Monsoon",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "uk.monsoon.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mountainwarehouse-w",
+  "name": "Mountain Warehouse",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "mountainwarehouse.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "oasis-w",
+  "name": "Oasis",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "patagonia-w",
+  "name": "Patagonia",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "outdoorbrands.nl",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "phaseeight-w",
+  "name": "Phase Eight",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "phase-eight.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "prettylittlething-w",
+  "name": "PrettyLittleThing",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "prettylittlething.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "reiss-w",
+  "name": "Reiss",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "reiss.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "shein-w",
+  "name": "Shein",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "uk.shein.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "simplyBe-w",
+  "name": "Simply Be",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "simplybe.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "superdry-w",
+  "name": "Superdry",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "superdry.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "tedbaker-w",
+  "name": "Ted Baker",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "tedbaker.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "thenorthface-w",
+  "name": "The North Face",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "thenorthface.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "tommyhilfiger-w",
+  "name": "Tommy Hilfiger (Women)",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "uk.tommy.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "topshop-w",
+  "name": "Topshop",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "urbanoutfitters-w",
+  "name": "Urban Outfitters",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "urbanoutfitters.com",
+  "lastVerified": "2024-12",
+  "status": "todo"
+ },
+ {
+  "id": "warehouse-w",
+  "name": "Warehouse",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "whistles-w",
+  "name": "Whistles",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "whistles.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "whbm-w",
+  "name": "White House Black Market",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "whbm.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "yoursclothing-w",
+  "name": "Yours Clothing",
+  "list": "women",
+  "priority": 1,
+  "stored_source": "yoursclothing.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "abercrombie-m",
+  "name": "Abercrombie & Fitch",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "abercrombie.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "allsaints-m",
+  "name": "AllSaints",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "allsaints.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "arket-m",
+  "name": "Arket",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "arket.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "arket-m2",
+  "name": "Arket",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "arket.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "boohoo-m",
+  "name": "Boohoo Man",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "boohooman.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "boss-m",
+  "name": "BOSS",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "hugoboss.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "fredperry-m",
+  "name": "Fred Perry",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "fredperry.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "gymshark-m",
+  "name": "Gymshark",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "uk.gymshark.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "hollister-m",
+  "name": "Hollister",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "hollisterco.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "jackjones-m",
+  "name": "Jack & Jones",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "mcelhinneys.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jackwills-m",
+  "name": "Jack Wills",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "jackwills.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "lacoste-m",
+  "name": "Lacoste",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "lacoste.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "lululemon-m",
+  "name": "Lululemon",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "shop.barrys.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "patagonia-m",
+  "name": "Patagonia",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "skirack.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "patagonia-board-m",
+  "name": "Patagonia (Boardshorts & Wetsuits)",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "eu.patagonia.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "reiss-m",
+  "name": "Reiss",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "reiss.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "superdry-m",
+  "name": "Superdry",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "superdry.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tedbaker-m",
+  "name": "Ted Baker",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "mcelhinneys.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "thenorthface-m",
+  "name": "The North Face",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "thenorthface.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "tommyhilfiger-m",
+  "name": "Tommy Hilfiger",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "mckennaman.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "weekday-m",
+  "name": "Weekday",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "weekday.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "weekday-m2",
+  "name": "Weekday",
+  "list": "men",
+  "priority": 1,
+  "stored_source": "weekday.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "boss-k",
+  "name": "BOSS (Kids)",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "hugoboss.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jlkids-k",
+  "name": "Jack Wills Kids",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "jackwills.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jigsawjr-k",
+  "name": "Jigsaw Junior",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "jigsaw-online.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lacoste-k",
+  "name": "Lacoste Kids",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "lacoste.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "monsoon3-k",
+  "name": "Monsoon (Occasion Wear)",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "uk.monsoon.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "monsoon2-k",
+  "name": "Monsoon Accessorize (Kids)",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "uk.monsoon.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "monsoon-k",
+  "name": "Monsoon Kids",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "uk.monsoon.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mwtns-k",
+  "name": "Mountain Warehouse Kids",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "mountainwarehouse.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "patagonia-k",
+  "name": "Patagonia (Kids)",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "patagonia.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "tednudge-k",
+  "name": "Ted Baker Kids",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "tedbaker.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "northface-k",
+  "name": "The North Face (Kids)",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "thenorthface.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tommykids-k",
+  "name": "Tommy Hilfiger Kids",
+  "list": "kids",
+  "priority": 1,
+  "stored_source": "uk.tommy.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "fred-perry-s",
+  "name": "Fred Perry",
+  "list": "shoes",
+  "priority": 1,
+  "stored_source": "fredperry.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lacoste-s",
+  "name": "Lacoste",
+  "list": "shoes",
+  "priority": 1,
+  "stored_source": "lacoste.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "acnestudios-w",
+  "name": "Acne Studios",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "acnestudios.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "albaray-w",
+  "name": "Albaray",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "albaray.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "americanvintage-w",
+  "name": "American Vintage",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "american-vintage.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "animalclothing-w",
+  "name": "Animal",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "animal.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "anntaylor-w",
+  "name": "Ann Taylor",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "anntaylor.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "anthropologie-w",
+  "name": "Anthropologie",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "anthropologie.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "aritzia-w",
+  "name": "Aritzia",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "aritzia.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "asics-w",
+  "name": "Asics (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "asics.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "athleta-w",
+  "name": "Athleta",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "athleta.gap.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bash-w",
+  "name": "Ba&sh",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "ba-sh.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bananarepublic-w",
+  "name": "Banana Republic",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "bananarepublic.gap.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "berghaus-w",
+  "name": "Berghaus",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "berghaus.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "bershka-w",
+  "name": "Bershka",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "bershka.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "billabong-w",
+  "name": "Billabong (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "billabong.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bonprix-w",
+  "name": "Bonprix",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "bonprix.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "brakeburn-w",
+  "name": "Brakeburn",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "brakeburn.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "bravissimo-w",
+  "name": "Bravissimo",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "bravissimo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "brooksrunning-w",
+  "name": "Brooks Running (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "brooksrunning.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "calvinklein-w",
+  "name": "Calvin Klein (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "calvinklein.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "castore-w",
+  "name": "Castore",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "castore.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "cath-kidston-w",
+  "name": "Cath Kidston",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "cathkidston.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "champion-w",
+  "name": "Champion",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "champion.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "chelseapeers-w",
+  "name": "Chelsea Peers",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "chelseapeers.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "cider-w",
+  "name": "Cider",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "shopcider.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "colorfulstandard-w",
+  "name": "Colorful Standard (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "colorfulstandard.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "columbia-w",
+  "name": "Columbia",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "columbia.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "cottontraders-w",
+  "name": "Cotton Traders",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "cottontraders.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "craghoppers-w",
+  "name": "Craghoppers",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "craghoppers.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "dare2b-w",
+  "name": "Dare 2b",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "dare2b.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "desigual-w",
+  "name": "Desigual",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "desigual.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "dvf-w",
+  "name": "Diane von Furstenberg",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "dvf.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "disturbia-w",
+  "name": "Disturbia",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "disturbia.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dorothyperkins-w",
+  "name": "Dorothy Perkins",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "eileenfisher-w",
+  "name": "Eileen Fisher",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "eileenfisher.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "ellesse-w",
+  "name": "Ellesse",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "ellesse.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "everlane-w",
+  "name": "Everlane",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "everlane.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "fftesco-w",
+  "name": "F&F (Tesco)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "clothingattesco.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "fila-w",
+  "name": "FILA",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "fila.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "finisterre-w",
+  "name": "Finisterre",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "finisterre.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "frenchconnection-w",
+  "name": "French Connection",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "frenchconnection.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "frugi-w",
+  "name": "Frugi",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "frugi.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "ganni-w",
+  "name": "Ganni",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "ganni.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "georgeasda-w",
+  "name": "George (ASDA)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "direct.asda.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "girlfriendcollect-w",
+  "name": "Girlfriend Collective",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "girlfriend.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "goosestudios-w",
+  "name": "Goose Studios",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "goosestudios.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "guess-w",
+  "name": "GUESS",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "guess.eu",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "hellyhansen-w",
+  "name": "Helly Hansen (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "hellyhansen.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hush-w",
+  "name": "Hush",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "hush-uk.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "isawit-w",
+  "name": "I Saw It First",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "isawitfirst.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "idioma-w",
+  "name": "Idioma",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "idioma-clothing.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "inthestyle-w",
+  "name": "In The Style",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "inthestyle.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jcrew-w",
+  "name": "J.Crew",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "jcrew.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jdwilliams-w",
+  "name": "JD Williams",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "jdwilliams.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "johnlewis-w",
+  "name": "John Lewis",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "johnlewis.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lauraashley-w",
+  "name": "Laura Ashley",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "lauraashley.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lee-w",
+  "name": "Lee Jeans (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "lee.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lkbennett-w",
+  "name": "LK Bennett",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "lkbennett.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "lucyandyak-w",
+  "name": "Lucy & Yak",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "lucyandyak.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "lulus-w",
+  "name": "Lulus",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "lulus.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "maje-w",
+  "name": "Maje",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "maje.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "massimoDutti-w",
+  "name": "Massimo Dutti",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "massimodutti.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "matalan-w",
+  "name": "Matalan",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "matalan.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "me-em-w",
+  "name": "ME+EM",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "me-em.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "missguided-w",
+  "name": "Missguided",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "missguided.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "nakd-w",
+  "name": "NA-KD",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "na-kd.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "nastygal-w",
+  "name": "Nasty Gal",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "nastygal.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "newbalance-w",
+  "name": "New Balance (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "newbalance.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "nobodyschild-w",
+  "name": "Nobody's Child",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "nobodyschild.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "oneill-w",
+  "name": "O'Neill (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "oneill.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "only-w",
+  "name": "ONLY",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "only.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "organicbasics-w",
+  "name": "Organic Basics",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "organicbasics.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "pangaia-w",
+  "name": "Pangaia",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "pangaia.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "passengercloths-w",
+  "name": "Passenger Clothing",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "passenger-clothing.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "paynter-w",
+  "name": "Paynter",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "paynter.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "peopletree-w",
+  "name": "People Tree",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "peopletree.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "pepejeans-w",
+  "name": "Pepe Jeans",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "pepejeans.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "protest-w",
+  "name": "Protest (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "protest.eu",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "pullbear-w",
+  "name": "Pull & Bear",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "pullandbear.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "puma-w",
+  "name": "Puma",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "eu.puma.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "quiz-w",
+  "name": "Quiz",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "quizclothing.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "rapanui-w",
+  "name": "Rapanui",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "rapanuiclothing.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "reebok-w",
+  "name": "Reebok",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "reebok.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "reformation-w",
+  "name": "Reformation",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "thereformation.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "regatta-w",
+  "name": "Regatta",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "regatta.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "rixo-w",
+  "name": "RIXO",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "rixo.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "rohan-w",
+  "name": "Rohan",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "rohan.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "roman-w",
+  "name": "Roman",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "romanoriginals.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "roxy-w",
+  "name": "Roxy",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "roxy.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sandro-w",
+  "name": "Sandro",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "uk.sandro-paris.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "selfportrait-w",
+  "name": "Self-Portrait",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "self-portrait-studio.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sezane-w",
+  "name": "Sézane",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "sezane.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "sosandar-w",
+  "name": "Sosandar",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "sosandar.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "stradivarius-w",
+  "name": "Stradivarius",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "stradivarius.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "studio-w",
+  "name": "Studio",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "studio.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sunraysportswear-w",
+  "name": "Sunray Sportswear",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "sunraysportswear.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "sweatybetty-w",
+  "name": "Sweaty Betty",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "sweatybetty.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "talbots-w",
+  "name": "Talbots",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "talbots.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "levelcollective-w",
+  "name": "The Level Collective",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "thelevelcollective.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "thewhitecompany-w",
+  "name": "The White Company",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "thewhitecompany.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "theory-w",
+  "name": "Theory",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "theory.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "thoughtclothing-w",
+  "name": "Thought Clothing",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "thoughtclothing.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "timberland-w",
+  "name": "Timberland (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "timberland.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "toast-w",
+  "name": "Toast",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "toa.st",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "toryburch-w",
+  "name": "Tory Burch",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "toryburch.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "trespass-w",
+  "name": "Trespass",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "trespass.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "underarmour-w",
+  "name": "Under Armour",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "underarmour.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "veromoda-w",
+  "name": "Vero Moda",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "veromoda.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "victoriassecret-w",
+  "name": "Victoria's Secret",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "victoriassecret.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "vila-w",
+  "name": "Vila",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "vila.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vince-w",
+  "name": "Vince",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "vince.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "wallis-w",
+  "name": "Wallis",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "weirdfish-w",
+  "name": "Weird Fish",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "weirdfish.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "wrangler-w",
+  "name": "Wrangler (Women)",
+  "list": "women",
+  "priority": 2,
+  "stored_source": "wrangler.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sixtysixnorth-m",
+  "name": "66°North",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "66north.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "apc-m",
+  "name": "A.P.C.",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "apc.fr",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "apc-paris-m",
+  "name": "A.P.C.",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "apc.fr",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "albam-m",
+  "name": "Albam Clothing",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "albamclothing.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ami-paris-m",
+  "name": "AMI Paris",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "amiparis.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "animalclothing-m",
+  "name": "Animal",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "animal.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "arc2-m",
+  "name": "Arc'teryx",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "arcteryx.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "armourlux-m",
+  "name": "Armor Lux",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "armor-lux.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "asics-m",
+  "name": "ASICS",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "asics.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "asicsm2-m",
+  "name": "Asics (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "asics.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "asket-m",
+  "name": "Asket",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "asket.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "asket-wardrobe-m",
+  "name": "Asket",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "asket.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "belstaff-wax-m",
+  "name": "Belstaff",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "belstaff.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bensherman-m",
+  "name": "Ben Sherman",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "bensherman.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "berghaus-m",
+  "name": "Berghaus",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "moresports.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "bershka-m",
+  "name": "Bershka",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "bershka.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "billabong-surf-m",
+  "name": "Billabong",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "billabong.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "brakeburn-m",
+  "name": "Brakeburn",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "brakeburn.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "brotherswestand-m",
+  "name": "Brothers We Stand",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "brotherswestand.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "brutus-m",
+  "name": "Brutus Trimfit",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "brutustrimfit.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "burton-m",
+  "name": "Burton Menswear",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "burton.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "burton-menswear-m",
+  "name": "Burton Menswear",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "burton.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "cpcompany-m",
+  "name": "C.P. Company",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "cpcompany.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "calvinklein-m",
+  "name": "Calvin Klein",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "mckennaman.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "carhartt-m",
+  "name": "Carhartt WIP",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "carhartt-wip.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "castore-m",
+  "name": "Castore",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "castore.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "champion-m",
+  "name": "Champion",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "champion.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "champion-reverse-m",
+  "name": "Champion",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "champion.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "colorfulstd-m",
+  "name": "Colorful Standard",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "colorfulstandard.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "colorfulstandard-m",
+  "name": "Colorful Standard",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "colorfulstandard.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "columbia-m",
+  "name": "Columbia",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "outsidersstore.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "cottontraders-m",
+  "name": "Cotton Traders",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "cottontraders.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "craghoppers-m",
+  "name": "Craghoppers",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "craghoppers.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "crewcloths-m",
+  "name": "Crew Clothing",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "crewclothing.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dare2b-m",
+  "name": "Dare 2b",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "dare2b.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "debenhams-m",
+  "name": "Debenhams (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "debenhams.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dickies-m",
+  "name": "Dickies",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "dickies.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "dockers-m",
+  "name": "Dockers",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "dockers.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "drakes-london-m",
+  "name": "Drake's London",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "drakes.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "drykorn-m",
+  "name": "Drykorn",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "drykorn.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ellesse-m",
+  "name": "Ellesse",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "ellesse.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "farah-m",
+  "name": "Farah",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "farah.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "fila-heritage-m",
+  "name": "Fila",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "fila.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "fila-m",
+  "name": "FILA",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "fila.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "filippa-m",
+  "name": "Filippa K",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "filippa-k.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "finisterre-m",
+  "name": "Finisterre",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "finisterre.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "folk-m",
+  "name": "Folk",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "folkclothing.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "foret-outdoor-m",
+  "name": "Forét",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "foret.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gstar-m",
+  "name": "G-Star Raw",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "g-star.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "gabicci-m",
+  "name": "Gabicci",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "gabicci.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "georgeasda-m",
+  "name": "George (ASDA)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "direct.asda.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "georgenorm-m",
+  "name": "George at Asda (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "direct.asda.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gillet-m",
+  "name": "Gillette Clothing (Peter Werth)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "peterwerth.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gramicci-m",
+  "name": "Gramicci",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "gramicci.jp",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hackett-m",
+  "name": "Hackett London",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "hackett.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "hellyh-m",
+  "name": "Helly Hansen",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "hellyhansen.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "howies-m",
+  "name": "Howies",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "howies.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "howies-wales-m",
+  "name": "Howies",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "howies.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hugo-diffusion-m",
+  "name": "HUGO",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "hugoboss.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "icebreaker-m",
+  "name": "Icebreaker",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "icebreaker.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "icebreaker-merino-m",
+  "name": "Icebreaker",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "icebreaker.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "johnlewis-m",
+  "name": "John Lewis (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "johnlewis.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "johnsmedley-m",
+  "name": "John Smedley",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "johnsmedley.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "kappa-m",
+  "name": "Kappa",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "kappa.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "kathmandu-m",
+  "name": "Kathmandu",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "kathmandu.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "kestin-m",
+  "name": "Kestin",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "kestin.co",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "komodo-m",
+  "name": "Komodo",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "komodo.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ksubi-denim-m",
+  "name": "Ksubi",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "ksubi.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "leecooper-m",
+  "name": "Lee Cooper",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "leecooper.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "leejeans-m",
+  "name": "Lee Jeans",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "lee.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lee-denim-m",
+  "name": "Lee Jeans",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "lee.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lylescott-m",
+  "name": "Lyle & Scott",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "lyleandscott.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "lyle2-m",
+  "name": "Lyle & Scott (Extended)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "lyleandscott.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "maharishi-m",
+  "name": "Maharishi",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "maharishi.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mamut-m",
+  "name": "Mammut",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "mammut.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "matalan-m",
+  "name": "Matalan",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "matalan.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "merclon-m",
+  "name": "Merc London",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "merclondon.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "millet-m",
+  "name": "Millet",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "millet.fr",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "moncler-down-m",
+  "name": "Moncler",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "moncler.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "montane-m",
+  "name": "Montane",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "montane.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "montane-trail-m",
+  "name": "Montane",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "montane.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "musto-m",
+  "name": "Musto",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "musto.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "napapijri-m",
+  "name": "Napapijri",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "napapijri.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "newbalance-m",
+  "name": "New Balance",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "moresports.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "norrona-m",
+  "name": "Norrøna",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "norrona.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "norseprojects-m",
+  "name": "Norse Projects",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "norseprojects.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "nudiejeans-m",
+  "name": "Nudie Jeans",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "nudiejeans.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "nudie-jeans-m",
+  "name": "Nudie Jeans",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "nudiejeans.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "oliverspencer-m",
+  "name": "Oliver Spencer",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "oliverspencer.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "onrunning-m",
+  "name": "On Running",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "on-running.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "organicbasics-m",
+  "name": "Organic Basics",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "organicbasics.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "orlebar-m",
+  "name": "Orlebar Brown",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "orlebarbrown.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "orlebarbrown-swim-m",
+  "name": "Orlebar Brown",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "orlebarbrown.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "oslowin-m",
+  "name": "Oslo by Winter",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "osooslo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "parajumpers-down-m",
+  "name": "Parajumpers",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "parajumpers.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "cyclepass-m",
+  "name": "Pas Normal Studios",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "pasnormalstudios.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "passengercloths-m",
+  "name": "Passenger Clothing",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "passenger-clothing.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "paulsmith-m",
+  "name": "Paul Smith",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "paulsmith.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "penfield-m",
+  "name": "Penfield",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "penfield.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "peopletree-m",
+  "name": "People Tree",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "peopletree.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "pepejeans-m",
+  "name": "Pepe Jeans",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "pepejeans.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "percival-m",
+  "name": "Percival",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "percivalclo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "percival-knit-m",
+  "name": "Percival",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "percivalclo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "peterborough-m",
+  "name": "Peter Millar",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "petermillar.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "prettygreen-m",
+  "name": "Pretty Green",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "prettygreen.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "protest-m",
+  "name": "Protest (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "protest.eu",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "pullbear-m",
+  "name": "Pull & Bear",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "pullandbear.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "puma-m",
+  "name": "Puma",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "eu.puma.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "quiksilver-surf-m",
+  "name": "Quiksilver",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "quiksilver.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "rab-m",
+  "name": "Rab",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "rab.equipment",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "rains-rain-m",
+  "name": "Rains",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "rains.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "rapanui-m",
+  "name": "Rapanui",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "rapanuiclothing.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "rapha-m",
+  "name": "Rapha",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "rapha.cc",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "regatta-m",
+  "name": "Regatta",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "gsequestrian.co.uk",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "reigningchamp-fleece-m",
+  "name": "Reigning Champ",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "reigningchamp.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "represent-mcr-m",
+  "name": "Represent",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "representclo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "represent-m",
+  "name": "Represent Clothing",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "representclo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "rohan-travel-m",
+  "name": "Rohan",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "rohan.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "salomon-m",
+  "name": "Salomon",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "salomon.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sandro-paris-m",
+  "name": "Sandro (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "uk.sandro-paris.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "scotchsoda-m",
+  "name": "Scotch & Soda",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "scotch-soda.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "selectedhomme-m",
+  "name": "Selected Homme",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "selected.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "soulcal-m",
+  "name": "SoulCal & Co",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "sportsdirect.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "speedo-m",
+  "name": "Speedo (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "speedo.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "stanray-work-m",
+  "name": "Stan Ray",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "stanray.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "stoneisland-m",
+  "name": "Stone Island",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "stoneisland.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "stoneisland-badge-m",
+  "name": "Stone Island",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "stoneisland.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "stussy-skate-m",
+  "name": "Stüssy",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "stussy.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "suitsupply-suits-m",
+  "name": "Suitsupply",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "us.suitsupply.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sunspel-m",
+  "name": "Sunspel",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "sunspel.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sunspel-cotton-m",
+  "name": "Sunspel",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "sunspel.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "supreme-skate-m",
+  "name": "Supreme",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "supremenewyork.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "timberland-m",
+  "name": "Timberland",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "timberland.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "topman-asos-m",
+  "name": "Topman (now at ASOS)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "topman-m",
+  "name": "Topman (via ASOS)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "truereligi-m",
+  "name": "True Religion",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "truereligion.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tuatains-m",
+  "name": "Tu at Sainsbury's (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "tuclothing.sainsburys.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "umbro-m",
+  "name": "Umbro",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "umbro.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "underarmour-m",
+  "name": "Under Armour",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "moresports.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "universalworks-m",
+  "name": "Universal Works",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "universalworks.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vans-m",
+  "name": "Vans",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "vans.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "viviennewestwood-luxury-m",
+  "name": "Vivienne Westwood (Men)",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "viviennewestwood.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "waxlondon-m",
+  "name": "Wax London",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "waxlondon.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "weirdfish-coastal-m",
+  "name": "Weird Fish",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "weirdfish.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "woolrich-m",
+  "name": "Woolrich",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "woolrich.eu",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "woolrich-arctic-m",
+  "name": "Woolrich",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "eu.woolrich.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "wrangler-m",
+  "name": "Wrangler",
+  "list": "men",
+  "priority": 2,
+  "stored_source": "wrangler.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "accessorize-k",
+  "name": "Accessorize (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "uk.monsoon.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "adidas-k",
+  "name": "Adidas (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "adidas.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "aldi-k",
+  "name": "Aldi Kids (Lily & Dan)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "aldi.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "armanikids-k",
+  "name": "Armani Junior",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "armani.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "asics-k",
+  "name": "Asics Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "asics.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "berghaus-k",
+  "name": "Berghaus (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "berghaus.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bluezoo-k",
+  "name": "Bluezoo (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bobochoses-k",
+  "name": "Bobo Choses",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "bobochoses.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bobux-k",
+  "name": "Bobux (Kids Shoes)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "bobux.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bonpoint-k",
+  "name": "Bonpoint",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "bonpoint.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "burberry-k",
+  "name": "Burberry (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "uk.burberry.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "burberrykids-k",
+  "name": "Burberry Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "uk.burberry.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "carlijnq-k",
+  "name": "Carlijn Q",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "carlijnq.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "cartersk-k",
+  "name": "Carter's",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "carters.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "cath-k",
+  "name": "Cath Kidston (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "cathkidston.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "catimini-k",
+  "name": "Catimini",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "catimini.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "columbia-k",
+  "name": "Columbia (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "columbiasportswear.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "converse-k",
+  "name": "Converse (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "converse.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "coq-k",
+  "name": "Coq en Pâte",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "coq-en-pate.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "craghoppers-k",
+  "name": "Craghoppers Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "craghoppers.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "crewkids-k",
+  "name": "Crew Clothing Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "crewclothing.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "cyrillus-k",
+  "name": "Cyrillus",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "cyrillus.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dare2b-k",
+  "name": "Dare 2b (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "dare2b.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "debenhams-k",
+  "name": "Debenhams (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "decathlon-k",
+  "name": "Decathlon (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "decathlon.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dpam-k",
+  "name": "Du Pareil au Même (DPAM)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "dpam.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "elc-k",
+  "name": "Early Learning Centre (ELC)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "elc.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "esprit-k",
+  "name": "Esprit (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "esprit.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "f-and-f-k",
+  "name": "F&F at Tesco (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "direct.tesco.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "fatface-k2",
+  "name": "Fat Face (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "fatface.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "firetrap-k",
+  "name": "Firetrap (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "sportsdirect.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "frog-k",
+  "name": "Frog (Joules Kids 2nd line)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "joules.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "frugi-k",
+  "name": "Frugi (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "frugi.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gap-k-old",
+  "name": "Gap Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "gap.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gap-k",
+  "name": "Gap Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "gap.co.uk",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "asda-k",
+  "name": "George at Asda (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "direct.asda.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "guesskids-k",
+  "name": "Guess Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "guess.eu",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hm-k",
+  "name": "H&M",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "www2.hm.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hm2-k",
+  "name": "H&M (Teen / Divided)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "www2.hm.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hanna-k",
+  "name": "Hanna Andersson",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "hannaandersson.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hatleyfarm-k",
+  "name": "Hatley",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "hatley.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hipkin-k",
+  "name": "Hipkin",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "hipkin.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hummel-k",
+  "name": "Hummel (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "hummel.net",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hust-k",
+  "name": "Hust & Claire",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "hustandclaire.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jacadi-k",
+  "name": "Jacadi (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "jacadi.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "johnlewis-k-old",
+  "name": "John Lewis",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "johnlewis.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "johnlewis-k",
+  "name": "John Lewis",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "johnlewis.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "johnlewis2-k",
+  "name": "John Lewis (Baby 0–2y)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "johnlewis.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jojobabyitems-k",
+  "name": "JoJo Maman Bébé",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "jojomamanbebe.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "joules-k",
+  "name": "Joules (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "joules.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "joules3-k",
+  "name": "Joules Baby & Toddler",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "joules.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "joules2-k",
+  "name": "Junior J by Jasper Conran",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "joules.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "kenzo-k",
+  "name": "Kenzo Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "kenzo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "kite-k",
+  "name": "Kite Clothing",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "kite-clothing.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lidl-k",
+  "name": "Lidl Kids (Lupilu/Pepperts)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "lidl.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "liewood-k",
+  "name": "Liewood",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "liewood.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lindex-k",
+  "name": "Lindex (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "lindex.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lgrads-k",
+  "name": "Little Green Radicals",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "littlegreenradicals.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "loudapp-k",
+  "name": "Loud Apparel",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "loudapparel.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lucyandyak-k",
+  "name": "Lucy & Yak (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "lucyandyak.com",
+  "lastVerified": "2026-02",
+  "status": "todo"
+ },
+ {
+  "id": "mango-k",
+  "name": "Mango Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "shop.mango.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ms-k",
+  "name": "Marks & Spencer",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "marksandspencer.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dunelm-k",
+  "name": "Matalan (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "matalan.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "maxomorra-k",
+  "name": "Maxomorra",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "maxomorra.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mayoral-k",
+  "name": "Mayoral",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "mayoral.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "miniboden-k",
+  "name": "Mini Boden",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "boden.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "minirodini-k",
+  "name": "Mini Rodini",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "minirodini.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "minymo-k",
+  "name": "Minymo",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "minymo.eu",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "moncler-k",
+  "name": "Moncler (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "moncler.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mothercare-k",
+  "name": "Mothercare",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "very.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "nameit-k",
+  "name": "Name It",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "nameit.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "newbalance-k",
+  "name": "New Balance Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "newbalance.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "next-k",
+  "name": "Next",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "zendesk.next.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "next2-k",
+  "name": "Next (Baby & Toddler)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "cathkidston.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "nike-k",
+  "name": "Nike Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "nike.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "organicbasics-k",
+  "name": "Organic Basics (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "organicbasics.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "oshkosh-k",
+  "name": "OshKosh B'Gosh",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "oshkosh.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "petit-bateau-k",
+  "name": "Petit Bateau",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "petit-bateau.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "piccalilly-k",
+  "name": "Piccalilly",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "piccalilly.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "piccolopelo-k",
+  "name": "Piccolo",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "wearepiccolo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "polarn-k",
+  "name": "Polarn O. Pyret",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "polarnopyret.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "polarnext-k",
+  "name": "Polarn O. Pyret (Extra)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "polarnopyret.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "primark-k",
+  "name": "Primark (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "primark.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "protest-k",
+  "name": "Protest (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "protest.eu",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "puffa-k",
+  "name": "Puffa Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "puffa.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "puma-k",
+  "name": "Puma Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "eu.puma.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "purebaby-k",
+  "name": "Purebaby",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "purebaby.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ralphlauren-k",
+  "name": "Ralph Lauren (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "ralphlauren.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ralphkids-k",
+  "name": "Ralph Lauren Kids (Polo)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "ralphlauren.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "reebok-k",
+  "name": "Reebok Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "reebok.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "regatta-k",
+  "name": "Regatta (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "regatta.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "reserved-k",
+  "name": "Reserved Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "reserved.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "river-k",
+  "name": "River Island Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "riverisland.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "rockabyrose-k",
+  "name": "Rock A Bye Rosie",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "rockabyelondon.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "saltwater-k",
+  "name": "Saltwater",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "saltwater.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "senseorg-k",
+  "name": "Sense Organics",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "sense-organics.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "speedo-k",
+  "name": "Speedo Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "speedo.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sproetsprout-k",
+  "name": "Sproet & Sprout",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "sproetandsprout.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "staccato-k",
+  "name": "Staccato (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "staccato.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "stellamcc-k",
+  "name": "Stella McCartney Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "stellamccartney.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sunuva-k",
+  "name": "Sunuva",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "sunuva.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tchibo-k",
+  "name": "Tchibo (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "tchibo.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "thenewsociety-k",
+  "name": "The New Society",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "thenewsociety.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "thought-k",
+  "name": "Thought Clothing (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "thoughtclothing.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tiger-k",
+  "name": "Tiger + Bunny",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "tigerandbunny.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tinycottons-k",
+  "name": "Tinycottons",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "tinycottons.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tobias-k",
+  "name": "Tobias & the Bear",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "tobiasandthebear.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tobytiger-k",
+  "name": "Toby Tiger",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "tobytiger.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "trotters-k",
+  "name": "Trotters",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "trotters.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tu-k",
+  "name": "Tu at Sainsbury's (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "sainsburys.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tuc-tuc-k",
+  "name": "Tuc Tuc",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "tuctuc.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "underarmour-k",
+  "name": "Under Armour Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "underarmour.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "uniqlo-k",
+  "name": "Uniqlo (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "uniqlo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "uniqlo2-k",
+  "name": "Uniqlo Kids (Baby)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "uniqlo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vertbaudet-k",
+  "name": "Vertbaudet",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "vertbaudet.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vertbaudet2-k",
+  "name": "Vertbaudet (Teen)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "vertbaudet.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "villervalla-k",
+  "name": "Villervalla",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "villervalla.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "walkiddy-k",
+  "name": "Walkiddy",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "walkiddy.de",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "wheat-k",
+  "name": "Wheat",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "wheat.dk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tu2-k",
+  "name": "White Stuff (Kids)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "whitestuff.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "zara-k",
+  "name": "Zara Kids",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "zara.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "zara3-k",
+  "name": "Zara Kids (8–14)",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "zara.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "zara2-k",
+  "name": "Zara Mini",
+  "list": "kids",
+  "priority": 3,
+  "stored_source": "zara.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "adidas-s",
+  "name": "Adidas",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "adidas.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "adidas-kids-s",
+  "name": "Adidas Kids",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "adidas.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "allbirds-s",
+  "name": "Allbirds",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "allbirds.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "allenedmonds-s",
+  "name": "Allen Edmonds",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "allenedmonds.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ancientgreeksandals-s",
+  "name": "Ancient Greek Sandals",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "ancient-greek-sandals.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "asics-s",
+  "name": "ASICS",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "asics.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "asos-s",
+  "name": "ASOS Footwear (own brand)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "asos.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "barbour-s",
+  "name": "Barbour Footwear",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "barbour.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "birkenstock-s",
+  "name": "Birkenstock",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "birkenstock.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "blundstone-s",
+  "name": "Blundstone",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "blundstone.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "bodenbr-s",
+  "name": "Boden",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "boden.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "brooks-s",
+  "name": "Brooks Running",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "brooksrunning.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "camper-s",
+  "name": "Camper",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "camper.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "churchs-s",
+  "name": "Church's",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "church-footwear.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "clarks-s",
+  "name": "Clarks",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "clarks.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "clarks-kids-s",
+  "name": "Clarks (Kids)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "clarks.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "columbia-s",
+  "name": "Columbia Sportswear",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "columbiasportswear.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "converse-s",
+  "name": "Converse",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "thinkempire.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "converse-kids-s",
+  "name": "Converse (Kids)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "converse.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "crockettjones-s",
+  "name": "Crockett & Jones",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "crockettandjones.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "crocs-s",
+  "name": "Crocs",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "crocs.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "drmartens-s",
+  "name": "Dr. Martens",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "drmartens.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dubarry-s",
+  "name": "Dubarry",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "dubarry.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "dunelondon-s",
+  "name": "Dune London",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "dunelondon.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ecco-s",
+  "name": "Ecco",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "ecco.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "edwardgreen-s",
+  "name": "Edward Green",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "edwardgreen.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "filling-s",
+  "name": "Filling Pieces",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "fillingpieces.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "fitflop-s",
+  "name": "FitFlop",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "fitflop.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "flylondon-s",
+  "name": "Fly London",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "flylondon.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ghbass-s",
+  "name": "G.H. Bass & Co.",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "ghbass.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gabor-s",
+  "name": "Gabor",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "gabrouk.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "geox-s",
+  "name": "Geox",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "geox.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "geox-kids-s",
+  "name": "Geox (Kids)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "geox.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "gola-s",
+  "name": "Gola",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "gola.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "grenson-s",
+  "name": "Grenson",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "grenson.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "grenson-s",
+  "name": "Grenson",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "grenson.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "havaianas-s",
+  "name": "Havaianas",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "havaianas.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hoka-s",
+  "name": "Hoka",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "hoka.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "hunter-s",
+  "name": "Hunter",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "hunterboots.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "irregularchoice-s",
+  "name": "Irregular Choice",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "irregularchoice.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "jimmychoo-s",
+  "name": "Jimmy Choo",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "uk.jimmychoo.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "joules-s",
+  "name": "Joules",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "joules.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "keen-s",
+  "name": "KEEN",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "keenfootwear.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "kickers-s",
+  "name": "Kickers",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "kickers.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "kurtgeiger-s",
+  "name": "Kurt Geiger",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "kurtgeiger.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lechameau-s",
+  "name": "Le Chameau",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "lechameau.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lellikelly-s",
+  "name": "Lelli Kelly",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "lellikelly.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lkbennett-s",
+  "name": "LK Bennett",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "lkbennett.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "loake-s",
+  "name": "Loake",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "loake.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "loake-s",
+  "name": "Loake",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "loake.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lotus-s",
+  "name": "Lotus Shoes",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "lotusshoes.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "lowa-s",
+  "name": "LOWA",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "lowa.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ms-s",
+  "name": "M&S (shoes)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "marksandspencer.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "magnanni-s",
+  "name": "Magnanni",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "magnanni.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mango-s",
+  "name": "Mango (shoes)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "shop.mango.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mephisto-s",
+  "name": "Mephisto",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "mephisto.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "merrell-s",
+  "name": "Merrell",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "merrell.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "mizuno-s",
+  "name": "Mizuno",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "emea.mizuno.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "naturalizer-s",
+  "name": "Naturalizer",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "naturalizer.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "newbalance-s",
+  "name": "New Balance",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "thesolesupplier.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "newbalance-kids-s",
+  "name": "New Balance Kids",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "newbalance.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "next-s",
+  "name": "Next (shoes)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "cathkidston.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "nike-s",
+  "name": "Nike",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "nike.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "nike-kids-s",
+  "name": "Nike Kids (GS/PS)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "nike.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "novesta-s",
+  "name": "Novesta",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "novesta.eu",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "oliversweeney-s",
+  "name": "Oliver Sweeney",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "oliversweeney.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "on-s",
+  "name": "On Running",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "on-running.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "onitsuka-s",
+  "name": "Onitsuka Tiger",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "onitsukatiger.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "palladium-s",
+  "name": "Palladium",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "palladiumboots.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "paraboot-s",
+  "name": "Paraboot",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "paraboot.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "puma-s",
+  "name": "Puma",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "eu.puma.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "redwing-s",
+  "name": "Red Wing Heritage",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "redwingheritage.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "reebok-s",
+  "name": "Reebok",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "reebok.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ricosta-s",
+  "name": "Ricosta (Kids)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "ricosta.de",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "russellandbromley-s",
+  "name": "Russell & Bromley",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "russellandbromley.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "salomon-s",
+  "name": "Salomon",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "salomon.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "samedelman-s",
+  "name": "Sam Edelman",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "nordstrom.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "saucony-s",
+  "name": "Saucony",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "saucony.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "scarpa-s",
+  "name": "Scarpa",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "scarpa.net",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "schuh-s",
+  "name": "Schuh",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "schuh.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sebago-s",
+  "name": "Sebago",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "sebago.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "skechers-s",
+  "name": "Skechers",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "skechers.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sorel-s",
+  "name": "Sorel",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "sorel.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "sperry-s",
+  "name": "Sperry",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "sperrytopsider.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "startrite-s",
+  "name": "Start-Rite",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "startriteshoes.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "stevemadden-s",
+  "name": "Steve Madden",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "stevemadden.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "striderite-s",
+  "name": "Stride Rite (Kids)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "striderite.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "superfit-s",
+  "name": "Superfit (Kids)",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "superfit.at",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "superga-s",
+  "name": "Superga",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "superga.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "teva-s",
+  "name": "Teva",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "teva.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "thursdayboot-s",
+  "name": "Thursday Boot Co.",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "thursdayboots.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "timberland-s",
+  "name": "Timberland",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "timberland.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "tods-s",
+  "name": "Tod's",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "tods.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "trickers-s",
+  "name": "Tricker's",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "trickers.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ugg-s",
+  "name": "UGG",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "ugg.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "underarmour-s",
+  "name": "Under Armour",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "underarmour.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vans-s",
+  "name": "Vans",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "vans.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vans-kids-s",
+  "name": "Vans Kids",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "vans.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "veja-s",
+  "name": "Veja",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "thesolesupplier.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vionic-s",
+  "name": "Vionic",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "vionicshoes.co.uk",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "vivobarefoot-s",
+  "name": "Vivobarefoot",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "vivobarefoot.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "wolverine1000-s",
+  "name": "Wolverine 1000 Mile",
+  "list": "shoes",
+  "priority": 4,
+  "stored_source": "wolverine.com",
+  "lastVerified": "2026-03",
+  "status": "todo"
+ },
+ {
+  "id": "ap-bra",
+  "name": "Agent Provocateur",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "agentprovocateur.com",
+  "lastVerified": "2025-08",
+  "status": "todo"
+ },
+ {
+  "id": "bluebella-bra",
+  "name": "Bluebella",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "bluebella.com",
+  "lastVerified": "2025-09",
+  "status": "todo"
+ },
+ {
+  "id": "boux-bra",
+  "name": "Boux Avenue",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "bouxavenue.com",
+  "lastVerified": "2025-11",
+  "status": "todo"
+ },
+ {
+  "id": "chantelle-bra",
+  "name": "Chantelle",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "uk.chantelle.com",
+  "lastVerified": "2025-09",
+  "status": "todo"
+ },
+ {
+  "id": "charnos-bra",
+  "name": "Charnos",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "charnos.co.uk",
+  "lastVerified": "2025-09",
+  "status": "todo"
+ },
+ {
+  "id": "curvy-kate-bra",
+  "name": "Curvy Kate",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "curvykate.com",
+  "lastVerified": "2025-11",
+  "status": "todo"
+ },
+ {
+  "id": "elomi-bra",
+  "name": "Elomi",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "elomilingerie.com",
+  "lastVerified": "2025-11",
+  "status": "todo"
+ },
+ {
+  "id": "fantasie-bra",
+  "name": "Fantasie",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "eu.fantasie.com",
+  "lastVerified": "2025-11",
+  "status": "todo"
+ },
+ {
+  "id": "freya-bra",
+  "name": "Freya",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "eu.freyalingerie.com",
+  "lastVerified": "2025-12",
+  "status": "todo"
+ },
+ {
+  "id": "george-bra",
+  "name": "George (Asda)",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "direct.asda.com",
+  "lastVerified": "2025-08",
+  "status": "todo"
+ },
+ {
+  "id": "gossard-bra",
+  "name": "Gossard",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "gossard.com",
+  "lastVerified": "2025-09",
+  "status": "todo"
+ },
+ {
+  "id": "hm-bra",
+  "name": "H&M",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "www2.hm.com",
+  "lastVerified": "2025-10",
+  "status": "todo"
+ },
+ {
+  "id": "ms-bra",
+  "name": "M&S",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "marksandspencer.com",
+  "lastVerified": "2026-01",
+  "status": "todo"
+ },
+ {
+  "id": "next-bra",
+  "name": "Next",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "next.co.uk",
+  "lastVerified": "2025-10",
+  "status": "todo"
+ },
+ {
+  "id": "panache-bra",
+  "name": "Panache",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "panache.com",
+  "lastVerified": "2025-12",
+  "status": "todo"
+ },
+ {
+  "id": "pour-moi-bra",
+  "name": "Pour Moi",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "pourmoi.co.uk",
+  "lastVerified": "2025-10",
+  "status": "todo"
+ },
+ {
+  "id": "primark-bra",
+  "name": "Primark",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "primark.com",
+  "lastVerified": "2025-09",
+  "status": "todo"
+ },
+ {
+  "id": "shock-absorber-bra",
+  "name": "Shock Absorber",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "shockabsorber.co.uk",
+  "lastVerified": "2025-11",
+  "status": "todo"
+ },
+ {
+  "id": "sweaty-betty-bra",
+  "name": "Sweaty Betty",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "sweatybetty.com",
+  "lastVerified": "2025-10",
+  "status": "todo"
+ },
+ {
+  "id": "triumph-bra",
+  "name": "Triumph",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "uk.triumph.com",
+  "lastVerified": "2025-10",
+  "status": "todo"
+ },
+ {
+  "id": "vs-bra",
+  "name": "Victoria's Secret",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "victoriassecret.com",
+  "lastVerified": "2025-11",
+  "status": "todo"
+ },
+ {
+  "id": "wacoal-bra",
+  "name": "Wacoal",
+  "list": "bras",
+  "priority": 4,
+  "stored_source": "uk.wacoal.com",
+  "lastVerified": "2025-09",
+  "status": "todo"
+ },
+ {
+  "id": "ap-kn",
+  "name": "Agent Provocateur",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "bluebella-kn",
+  "name": "Bluebella",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "boux-kn",
+  "name": "Boux Avenue",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "calvink-kn",
+  "name": "Calvin Klein",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "curvy-kn",
+  "name": "Curvy Kate",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "elomi-kn",
+  "name": "Elomi",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "george-kn",
+  "name": "George (Asda)",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "gossard-kn",
+  "name": "Gossard",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "hm-kn",
+  "name": "H&M",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "ms-kn",
+  "name": "M&S",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "next-kn",
+  "name": "Next",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "primark-kn",
+  "name": "Primark",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ },
+ {
+  "id": "vsin-kn",
+  "name": "Victoria's Secret",
+  "list": "knickers",
+  "priority": 4,
+  "stored_source": "",
+  "lastVerified": null,
+  "status": "todo"
+ }
+]
