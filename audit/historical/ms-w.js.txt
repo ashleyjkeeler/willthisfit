@@ -1,0 +1,38 @@
+  "ms-w": {
+    "1950": [
+      {label:"UK 12",uk:"12",bust:86.4,hips:91.4,inch:{bust:34,hips:36},labels:{bust:3,hips:3},cmFromInches:["bust","hips"]},
+      {label:"UK 14",uk:"14",bust:91.4,hips:96.5,inch:{bust:36,hips:38},labels:{bust:3,hips:3},cmFromInches:["bust","hips"]},
+      {label:"UK 18",uk:"18",waist:86.4,hips:106.7,inch:{waist:34,hips:42},labels:{waist:2,hips:2},cmFromInches:["waist","hips"]},
+      {label:"UK 26",uk:"26",waist:106.7,hips:127,inch:{waist:42,hips:50},labels:{waist:1,hips:1},cmFromInches:["waist","hips"]},
+    ],
+    "1960": [
+      {label:"UK 12",uk:"12",bust:86.4,inch:{bust:34},labels:{bust:2},cmFromInches:["bust"]},
+      {label:"UK 14",uk:"14",bust:91.4,inch:{bust:36},labels:{bust:2},cmFromInches:["bust"]},
+      {label:"UK 16",uk:"16",bust:96.5,hips:101.6,inch:{bust:38,hips:40},labels:{bust:2,hips:2},cmFromInches:["bust","hips"]},
+      {label:"UK 18",uk:"18",bust:101.6,inch:{bust:40},labels:{bust:4},cmFromInches:["bust"]},
+      {label:"UK 20",uk:"20",bust:106.7,hips:111.8,inch:{bust:42,hips:44},labels:{bust:1,hips:1},cmFromInches:["bust","hips"]},
+    ],
+    "1970": [
+      {label:"UK 12",uk:"12",bust:86,hips:91.4,inch:{bust:34,hips:36},labels:{bust:15,hips:4},cmFromInches:["hips"]},
+      {label:"UK 14",uk:"14",bust:91,hips:97,inch:{bust:36,hips:38},labels:{bust:17,hips:9}},
+      {label:"UK 16",uk:"16",bust:97,hips:102,inch:{bust:38,hips:40},labels:{bust:14,hips:10}},
+      {label:"UK 18",uk:"18",bust:102,waist:76,hips:107,inch:{bust:40,waist:30,hips:42},labels:{bust:7,waist:1,hips:3}},
+      {label:"UK 20",uk:"20",hips:112,inch:{hips:44},labels:{hips:3}},
+    ],
+    "1980": [
+      {label:"UK 8",uk:"8",bust:80,inch:{bust:31},labels:{bust:2}},
+      {label:"UK 10",uk:"10",bust:81,waist:61,hips:89,inch:{bust:32,waist:24,hips:35},labels:{bust:13,waist:2,hips:4}},
+      {label:"UK 12",uk:"12",bust:86,waist:66,hips:91,inch:{bust:34,waist:26,hips:36},labels:{bust:26,waist:6,hips:21}},
+      {label:"UK 14",uk:"14",bust:91,waist:71,hips:97,inch:{bust:36,waist:28,hips:38},labels:{bust:12,waist:2,hips:15}},
+      {label:"UK 16",uk:"16",bust:97,waist:76,hips:102,inch:{bust:38,waist:30,hips:40},labels:{bust:19,waist:3,hips:13}},
+      {label:"UK 18",uk:"18",bust:102,waist:81,hips:107,inch:{bust:40,waist:32,hips:42},labels:{bust:3,waist:1,hips:2}},
+      {label:"UK 20",uk:"20",bust:107,hips:112,inch:{bust:42,hips:44},labels:{bust:1,hips:1}},
+    ],
+    "1990": [
+      {label:"UK 10",uk:"10",bust:84,hips:91,inch:{bust:33,hips:36},labels:{bust:1,hips:1}},
+      {label:"UK 12",uk:"12",bust:86,waist:67,inch:{bust:34,waist:26},labels:{bust:8,waist:3}},
+      {label:"UK 14",uk:"14",bust:91,waist:71,inch:{bust:36,waist:28},labels:{bust:2,waist:1}},
+      {label:"UK 16",uk:"16",bust:96,waist:75,hips:102,inch:{bust:38,waist:30,hips:40},labels:{bust:4,waist:2,hips:3}},
+      {label:"UK 20",uk:"20",bust:106,hips:113,inch:{bust:42,hips:44},labels:{bust:1,hips:1}},
+    ],
+  },

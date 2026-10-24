@@ -1,0 +1,2184 @@
+[
+ {
+  "decade": 1950,
+  "size": "12",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    86.4
+   ],
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_ae442f8c-b962-46a6-a957-20ba10d14faa/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b3a09bcd-527b-449a-ae03-215b0d6ddef8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_edf7a558-960f-4eca-9acb-fe135c59dbf0/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    91.4
+   ],
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_ae442f8c-b962-46a6-a957-20ba10d14faa/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b3a09bcd-527b-449a-ae03-215b0d6ddef8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_edf7a558-960f-4eca-9acb-fe135c59dbf0/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1950,
+  "size": "14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    91.4
+   ],
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_323c0896-489e-47e3-bcb0-b558da6bbd83/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5350a2a7-464e-43d8-bdc4-a1dcdf0bcc20/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_33e0d775-1d27-46e1-ad32-176cee3dee0f/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    96.5
+   ],
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_323c0896-489e-47e3-bcb0-b558da6bbd83/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5350a2a7-464e-43d8-bdc4-a1dcdf0bcc20/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_33e0d775-1d27-46e1-ad32-176cee3dee0f/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1950,
+  "size": "18",
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    86.4
+   ],
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_03a40d5b-f435-4995-ba48-be051d67256f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3707c540-b110-407d-9734-857d16293530/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    106.7
+   ],
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_03a40d5b-f435-4995-ba48-be051d67256f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3707c540-b110-407d-9734-857d16293530/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1950,
+  "size": "26",
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    106.7
+   ],
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_82d316c1-63dc-44af-8497-f049c001a2cc/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     50.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    127.0
+   ],
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_82d316c1-63dc-44af-8497-f049c001a2cc/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1960,
+  "size": "10",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     33.0,
+     34.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    83.8,
+    86.4
+   ],
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_08418887-a787-4c7e-a140-a77fac24dc49/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1960,
+  "size": "12",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    86.4
+   ],
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_44fc6fad-7183-4055-bca9-298209957a81/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5089b749-5f94-4fdb-8b6e-6a876e08824c/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1960,
+  "size": "12-14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0,
+     37.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    86.4,
+    94.0
+   ],
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_ba09c2e3-59c4-4bc0-84a1-374f5904edbb/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1960,
+  "size": "14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    91.4
+   ],
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_a685c365-212f-4dd1-858c-43cb82e6c6f6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d9553ab9-41e9-4284-b6a3-abb7293b3b59/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1960,
+  "size": "16",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    96.5
+   ],
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_9151acc6-806f-43f7-b4df-36cb0d7e3674/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7d4b6a82-5ca8-495b-8b2e-4078474e9739/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    101.6
+   ],
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_9151acc6-806f-43f7-b4df-36cb0d7e3674/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7d4b6a82-5ca8-495b-8b2e-4078474e9739/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1960,
+  "size": "18",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    101.6
+   ],
+   "labels_agree": 4,
+   "labels_total": 4,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_e072d0bd-48db-469e-8660-a29b6aadbe57/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_dcb7950a-dc8f-4802-978c-b59058f5f52a/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_6dfcd845-eadc-4a9e-a5ca-f86f5e33b88b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3a382fc7-7966-4999-a792-6fd2c4680918/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    106.7
+   ],
+   "labels_agree": 1,
+   "labels_total": 2,
+   "tie": true,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_6dfcd845-eadc-4a9e-a5ca-f86f5e33b88b/"
+   ],
+   "disagree": [
+    {
+     "printed": "[38.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_3a382fc7-7966-4999-a792-6fd2c4680918/",
+     "date": "1968",
+     "title": "Navy Blue Crimplene Shift Dress with White Daisy Trim"
+    }
+   ]
+  }
+ },
+ {
+  "decade": 1960,
+  "size": "20",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    106.7
+   ],
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_1eb57728-1623-4f98-8f10-e18efbb392de/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     44.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    111.8
+   ],
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_1eb57728-1623-4f98-8f10-e18efbb392de/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1970,
+  "size": "12",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0
+    ]
+   },
+   "cm_printed": [
+    86.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 15,
+   "labels_total": 15,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_56119bcb-221c-4890-9d53-3f0b899d3c21/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7a44b12d-b9c4-464d-afca-49097cd71af9/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_50f9951e-ede8-4e7c-aac6-e0d4ef5954f3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8205f1bb-5cc2-4ea4-9678-05626acae682/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7803be8b-d43a-41cc-aba5-1c41aea70ad6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2fd4c575-e0ed-4ac0-b415-7da7fc10f94f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_716e2204-0dfb-40ff-867d-084aaba10ddc/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_60a10fea-f971-441d-a57d-a1cc45a0356f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_103cfbe3-b198-44a2-ad53-07fdbd5bfc19/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c627dfe8-55f3-4260-acff-1a9a5848c857/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a4883ca3-de2d-469d-b4d7-bfdd13e1e7b7/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_63b8f3ce-3b91-429f-862a-6b5fff375a01/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_50e44095-d1b3-4e11-b5f4-a3e53687c16e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_368df989-fb62-4248-9b20-68e6b68f8f9c/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_29a3fa3f-cddb-41a8-87f3-9dbc4a45a480/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    91.4
+   ],
+   "labels_agree": 4,
+   "labels_total": 5,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_716e2204-0dfb-40ff-867d-084aaba10ddc/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_60a10fea-f971-441d-a57d-a1cc45a0356f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_50e44095-d1b3-4e11-b5f4-a3e53687c16e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_368df989-fb62-4248-9b20-68e6b68f8f9c/"
+   ],
+   "disagree": [
+    {
+     "printed": "[91.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_2fd4c575-e0ed-4ac0-b415-7da7fc10f94f/",
+     "date": "Feb 1977",
+     "title": "Royal Blue Nylon and Elastane Spandex Lycra Blend Ladies' Swimsuit with Green, Blue and Pink Floral Motif"
+    }
+   ]
+  }
+ },
+ {
+  "decade": 1970,
+  "size": "12-14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0,
+     36.0
+    ]
+   },
+   "cm_printed": [
+    86.0,
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_c6c38beb-4b9e-420c-9280-04b4a28e3d89/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3a2cdbb5-18c8-4133-bc29-229076a73b65/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1970,
+  "size": "14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": [
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 17,
+   "labels_total": 17,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_73200cc8-660a-451b-8d4c-690bb29d2516/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_35c07eac-0ebc-4a0a-b79a-9298a4dc101f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_4f95d90c-43e6-498c-99ab-567d68d71ba6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e6ca1e4a-1df9-4cdf-aab5-810e318ba359/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7efe37d5-86be-402c-b627-1711bfbc4851/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e004c216-51ee-4768-a221-7b1c62651662/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_81ce4b99-6ae1-4258-970f-6f193f639dae/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5e16d376-53eb-43b1-be90-f4cc668ca450/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_35f2b115-2968-4d62-b00b-e01e20a885fb/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_32cf3ffc-ca35-426b-a899-8951fd801459/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b1ee4c4f-e36d-4777-a6a2-4c00a548cc9f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f4f8ad33-5e22-48eb-b962-a4b97ae0481b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d21c85e9-98c4-4aff-bf39-2301fbed9f98/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8ad8eecd-8831-4aab-b4e7-df37b9d30236/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2c5377c0-657c-474f-b79d-b5268590c5d8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_706190b2-17ca-4893-8a9e-68ce267c75c8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5bc895a8-2970-4fb9-96bc-f05482c96388/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": [
+    97.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 9,
+   "labels_total": 9,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_e004c216-51ee-4768-a221-7b1c62651662/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5e16d376-53eb-43b1-be90-f4cc668ca450/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_35f2b115-2968-4d62-b00b-e01e20a885fb/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2c5377c0-657c-474f-b79d-b5268590c5d8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_706190b2-17ca-4893-8a9e-68ce267c75c8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5bc895a8-2970-4fb9-96bc-f05482c96388/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b786e86d-c80b-4933-9cd4-6c701727eb91/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b7ea9f39-a273-4c1a-a254-a884aacffb15/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_46be76f6-3072-453a-a80b-2464c4da5821/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1970,
+  "size": "16",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": [
+    97.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 14,
+   "labels_total": 14,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_5aa9fc12-32ee-4505-946c-c9fd8d9e09b3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e2b0650a-527e-47e8-b8f1-a210c3944d72/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_40f8cd80-968a-4616-97d2-6803bf20cee6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2c80a66c-f012-41ab-8eff-1e7e09f4dae9/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_fa6ee977-b8b8-415d-b0b0-ba10eccacc61/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_ea89f9f7-4121-4cdd-a59c-ff5a183d7cd8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5168d671-765b-49b1-967d-8d114c2cab33/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f33aa8c0-cbc7-429a-8b35-d83e17b81f7c/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_30233851-4918-4043-8bd4-01e3179de774/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_42a0d6b8-626c-4bee-8438-b464ce91067b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c9caa8b9-9711-4768-bb39-a52393c23237/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_635b2add-2869-4e20-a1a9-41332720c023/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_67014022-d514-47b4-8417-30e0379d794a/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b3a2935d-506c-4721-b491-5665d957be70/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0
+    ]
+   },
+   "cm_printed": [
+    102.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 10,
+   "labels_total": 10,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_2c80a66c-f012-41ab-8eff-1e7e09f4dae9/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_fa6ee977-b8b8-415d-b0b0-ba10eccacc61/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_ea89f9f7-4121-4cdd-a59c-ff5a183d7cd8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5168d671-765b-49b1-967d-8d114c2cab33/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f33aa8c0-cbc7-429a-8b35-d83e17b81f7c/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_635b2add-2869-4e20-a1a9-41332720c023/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_67014022-d514-47b4-8417-30e0379d794a/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b3a2935d-506c-4721-b491-5665d957be70/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_fdd0ab34-5132-4fc5-8a6d-c460223b30a5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_039ffada-1776-480e-ab65-9ee3d6ca3557/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1970,
+  "size": "18",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0
+    ]
+   },
+   "cm_printed": [
+    102.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 7,
+   "labels_total": 7,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_ed5b8514-8ca9-4dfd-b005-6f816e0c3dc8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5c1cdbd9-efe5-4dd9-8436-54ff3862ed64/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_406448b9-d607-4820-9f19-931f63e933a9/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_384e0717-bad0-451b-8511-5110bbe27af5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d832be4d-66f9-499f-b510-0223da7c43b2/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_43f3e680-4f81-4e30-a5c3-8471696dd96f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_9775d3d1-533d-48a1-bcb0-18c42a65565e/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": [
+    107.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_43f3e680-4f81-4e30-a5c3-8471696dd96f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_9775d3d1-533d-48a1-bcb0-18c42a65565e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d480e518-8244-4753-9ca4-428fb4f0950d/"
+   ],
+   "disagree": []
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     30.0
+    ]
+   },
+   "cm_printed": [
+    76.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_d480e518-8244-4753-9ca4-428fb4f0950d/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1970,
+  "size": "20",
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     44.0
+    ]
+   },
+   "cm_printed": [
+    112.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_ce18182b-f500-456d-a23a-7eb87148464d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_55747b7d-ed5b-476d-b668-0269f591af8e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_ffdb2913-584d-446d-9411-eb6e89e10ca3/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "8",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     31.0
+    ]
+   },
+   "cm_printed": [
+    80.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_2ba65e5e-e05e-43a6-915a-d07267e82829/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d36e2980-a43e-4cfd-84f7-7ffff4195d45/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0
+    ]
+   },
+   "cm_printed": [
+    87.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 2,
+   "tie": true,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_d36e2980-a43e-4cfd-84f7-7ffff4195d45/"
+   ],
+   "disagree": [
+    {
+     "printed": "[32.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_af60de76-be45-404c-bd9c-04caa66d0452/",
+     "date": "Sep 1983",
+     "title": "Silver Satin Polyester Ladies' Skirt with Front Pleat Detail"
+    }
+   ]
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "8-10",
+  "bust": {
+   "printed": {
+    "unit": "cm",
+    "value": [
+     76.0,
+     81.0
+    ]
+   },
+   "cm_printed": [
+    76.0,
+    81.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 3,
+   "tie": true,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_e499aa13-cfce-4192-b120-de9172b0e1ce/"
+   ],
+   "disagree": [
+    {
+     "printed": "[30.0, 32.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_8444dd3e-f427-4ca6-b710-e0013219383e/",
+     "date": "Nov 1989",
+     "title": "Navy and White Striped Cotton, Short Sleeve Cardigan"
+    },
+    {
+     "printed": "[31.0, 33.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_24e384c5-5290-49bc-9a5f-6d472b483659/",
+     "date": "1980s",
+     "title": "Pink ladies 2 piece tracksuit"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0,
+     36.0
+    ]
+   },
+   "cm_printed": [
+    87.0,
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_91c7d681-20a8-4258-a428-f4c095a1161a/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_24e384c5-5290-49bc-9a5f-6d472b483659/"
+   ],
+   "disagree": []
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     23.0,
+     25.0
+    ]
+   },
+   "cm_printed": [
+    59.0,
+    63.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_24e384c5-5290-49bc-9a5f-6d472b483659/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "10",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     32.0
+    ]
+   },
+   "cm_printed": [
+    81.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 13,
+   "labels_total": 13,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_eb5e05ca-9083-4317-8ac0-48e9e24ec178/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_21b60d27-c92b-4912-b6a0-08c99cfb31b3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e895d900-ead9-4c87-bc8e-74f30c77733e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7a34a361-d2d4-49b0-bfe5-d08c68ae1461/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_717a9dcc-615c-44b2-bf35-ccfb3c93c871/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_09f62def-a59f-4413-abdc-75315da50864/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_dc30ce65-d21b-4437-9e58-137a0b867952/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c568e059-a5c7-4a16-81e7-51f89e989b47/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_af3629d0-4390-4dff-be2c-208717b1d0eb/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_92d9103c-a275-4d93-bde9-d38d9c43cf41/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d32e4bb0-0145-4d1c-83b2-2aa38a591dc6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_06263afb-a5e5-448f-8572-f456fa1914d2/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_237a2d33-523d-4383-bcf8-8ed90a4bd91e/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     35.0
+    ]
+   },
+   "cm_printed": [
+    89.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 4,
+   "labels_total": 7,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_7a34a361-d2d4-49b0-bfe5-d08c68ae1461/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_af3629d0-4390-4dff-be2c-208717b1d0eb/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_781167bf-0c67-41b2-a0cc-b266b779a5e5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_33497378-073e-4b9d-b0da-8608787f101a/"
+   ],
+   "disagree": [
+    {
+     "printed": "[34.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_92d9103c-a275-4d93-bde9-d38d9c43cf41/",
+     "date": "1980s",
+     "title": "Floral Dress with Shoulder Pads"
+    },
+    {
+     "printed": "[34.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_f7558439-78c9-4527-8cb5-cf669774f550/",
+     "date": "1983",
+     "title": "Cream Polyester and Viscose Blend Ladies' Skirt with Belt"
+    },
+    {
+     "printed": "[34.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_9568f61e-eff0-4711-afda-5735fa24dac2/",
+     "date": "1980s",
+     "title": "Turquoise Polyester Ladies' Skirt with Kick Pleat Detail"
+    }
+   ]
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     24.0
+    ]
+   },
+   "cm_printed": [
+    61.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_f7558439-78c9-4527-8cb5-cf669774f550/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_9568f61e-eff0-4711-afda-5735fa24dac2/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "10-12",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     32.0,
+     34.0
+    ]
+   },
+   "cm_printed": [
+    81.0,
+    86.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_385b4acd-c510-4d86-8668-e37b81062b3b/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0,
+     36.0
+    ]
+   },
+   "cm_printed": [
+    86.0,
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 23,
+   "labels_total": 24,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_1bca371c-8676-48bd-828e-5041059107ad/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3c65fd3d-3acd-4c86-9492-74589c96b92d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_23280376-b24a-487f-9c91-274f6645c3ef/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_0d65fa3c-d848-420f-b206-945cb89ccc84/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_da3f0635-6ffb-4a5e-8094-cf4d8d7d4227/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d82d07d1-2a21-443a-bf3a-64df7a3bf5c5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e64e5fdf-fd58-4bff-8c59-62c7f1cc3642/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_26264b50-460c-41fa-a443-d8c4b26ff819/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d3ad3551-3f4f-477a-b5e1-b5830e5543e1/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_30cf9c59-e35b-479f-adda-e7405f5b232e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_084f736a-18ba-4187-b91e-813249ae5a57/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_84f41d00-2659-458b-b097-96b181c630a9/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f7a8cd11-92f7-4273-a819-ed4d27948c08/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_89f8f9f2-ce62-43a4-852d-bd0cdedf10c8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f4d4c744-b703-4816-9d48-6686c33279c4/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_284df5f9-12ce-4c94-8ae6-16f7ba1db445/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_bf5b83fc-dd0f-49f1-9074-89ba0c8ee701/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3a0b49fd-ff5f-4fb5-a380-24e3c27a6979/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_06d2c53d-99de-47b6-8115-49b0136405cc/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a62a7a31-6d0e-4337-a2f7-7d37fc0a29a3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_57d18791-5f49-470e-9002-9be74e57cd41/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_ad69fbf3-cc48-4723-a29b-552e036cd023/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f1871c22-174a-427f-a88c-cd7625dfa14e/"
+   ],
+   "disagree": [
+    {
+     "printed": "[86.0, 91.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_3b082448-6f7a-4445-a3f2-512fb719cbcf/",
+     "date": "Mar 1986",
+     "title": "White Nylon Knickers with Satin Waistband"
+    }
+   ]
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "12",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0
+    ]
+   },
+   "cm_printed": [
+    86.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 26,
+   "labels_total": 27,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_d630a556-df0e-4c2b-8aef-0eed18431df5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_436bfa51-a3ca-4756-8c56-c32bae8cfc95/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_19171382-4771-48e3-b62c-be8a679a1434/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7d45f299-39c9-4ebd-8c92-1a651d795ea2/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d744eb61-f8bc-4c5f-80b2-9a120afd716e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_aeed3ab6-2854-4c99-ae4b-490fd81b65ba/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3f41c200-b182-48d6-9d99-11b57e8f8e67/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b37fe0b5-a109-46ee-91af-dbeda28bf458/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_53816ed6-b31a-42a8-846b-b771b0d149b5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_1327566f-cd94-4289-9228-5edc65e3c05b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7b6b7b26-6055-4d9a-b0ed-d61afb35a573/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c81cae6c-9c55-46e0-ae8d-c30a5d9d08b3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c249e354-73b2-47c1-b1f6-8429a7173d37/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_81f8de27-8809-413a-b01a-7f3af1c778f3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f469c100-483c-48f2-b13e-0a72d6635d02/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_4037b4a3-9d32-4684-b80d-f409f051964a/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2d71cb0f-176f-4cc1-8805-8e6837b80ed8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_ba12e13c-4224-4902-8999-7a80d715b195/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8c0858f3-0d58-40ce-a4ed-69c986c73018/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_50408030-1ab9-495f-826e-7f28576a17f3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_1e7e808e-e2fd-42f1-9fc1-cdfe5b193ad0/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a63f6903-cc02-472e-a7b6-a5cb8d6eeddd/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_bce66b3b-431f-42aa-9a98-7a78f8f72abf/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_87a245ab-a814-4312-a987-43aa683c685e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7d985db5-4df3-401d-abdb-4176c50c891f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_cf7c3bf9-2b6f-4905-beb5-49b7ea3c62e5/"
+   ],
+   "disagree": [
+    {
+     "printed": "[86.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_423a4a50-fe9b-426d-841a-87bc02591fa3/",
+     "date": "1987",
+     "title": "Black and White Dress"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": [
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 21,
+   "labels_total": 23,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_d744eb61-f8bc-4c5f-80b2-9a120afd716e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e895d900-ead9-4c87-bc8e-74f30c77733e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3f41c200-b182-48d6-9d99-11b57e8f8e67/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b37fe0b5-a109-46ee-91af-dbeda28bf458/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_53816ed6-b31a-42a8-846b-b771b0d149b5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_50408030-1ab9-495f-826e-7f28576a17f3/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_1e7e808e-e2fd-42f1-9fc1-cdfe5b193ad0/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a63f6903-cc02-472e-a7b6-a5cb8d6eeddd/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_cf7c3bf9-2b6f-4905-beb5-49b7ea3c62e5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7e63be12-a541-41c2-8446-e4e60a28b72c/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e212a2e9-3592-4901-9939-be23b9535001/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c46159b4-c7a8-488e-84de-6269f40ef90f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d0cc3d12-85d2-46d3-8f06-a070e44ef53d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_417a3bf2-6602-46e1-bed2-36937373c384/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_6739a028-3120-4964-8b27-78ea7c69701b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_81b70184-d6da-45f4-8d24-12504b75be25/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_481948d5-0784-4ea0-b2d5-1cc079841fe6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2162949e-aeb3-4f7c-a3cc-cf85f01cfd8e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d3808d64-d44f-4ffe-9ff1-62020536b033/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_9c94008b-ed26-4bd9-b9eb-e2bcfe7cf1e5/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3c206791-3ca7-4405-be6f-7643c0ddec5d/"
+   ],
+   "disagree": [
+    {
+     "printed": "[91.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_423a4a50-fe9b-426d-841a-87bc02591fa3/",
+     "date": "1987",
+     "title": "Black and White Dress"
+    },
+    {
+     "printed": "[37.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_95e8ad45-5807-4c80-9086-8d9f102687cb/",
+     "date": "c1985",
+     "title": "Black Viscose Long Culottes with Pleat Detail"
+    }
+   ]
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     26.0
+    ]
+   },
+   "cm_printed": [
+    66.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 6,
+   "labels_total": 6,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_e895d900-ead9-4c87-bc8e-74f30c77733e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e212a2e9-3592-4901-9939-be23b9535001/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c46159b4-c7a8-488e-84de-6269f40ef90f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_95e8ad45-5807-4c80-9086-8d9f102687cb/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_6739a028-3120-4964-8b27-78ea7c69701b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3c206791-3ca7-4405-be6f-7643c0ddec5d/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "12-14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0,
+     36.0
+    ]
+   },
+   "cm_printed": [
+    86.0,
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 2,
+   "tie": true,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_aa747ffb-47ce-4758-bf91-7d1839d6c2db/"
+   ],
+   "disagree": [
+    {
+     "printed": "[35.0, 36.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_45df37e1-6546-41c1-9303-11596da0eb05/",
+     "date": "c1985",
+     "title": "Pale Green Bra Top with Bow Detail"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     37.0,
+     39.0
+    ]
+   },
+   "cm_printed": [
+    95.0,
+    99.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 5,
+   "labels_total": 5,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_010483b9-63d4-44ac-8ecd-241d26d52e16/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c9242f7b-1cf1-4546-9b73-c1e4c5a56dd0/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_bd5ed589-5fe3-42a3-ab75-23a425082eb1/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_d4f2f828-0a0e-48ac-886a-512311576b39/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7c12ff2b-de7c-48b4-8d4d-5789b185f8ed/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": [
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 12,
+   "labels_total": 13,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_22d1fc0d-40cd-46d1-b5d2-216d8efb0d2a/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_12218db1-2347-4ab6-b13f-64869eaa3f57/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c00e2d53-9af7-437a-b5bc-5e0e696c2edc/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_621c6d47-d37d-465a-9081-97a3bfef309e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3f33849e-219b-4a25-ac6e-81d23c1ac586/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_1a5a46d5-235f-445e-98fa-3bcdf38ca23f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b5b9a1ee-efc8-4147-ac4a-09e6f7d1d9ec/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c34d3410-6406-46a0-a70b-323017f0fa11/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_192debe6-a3ec-4a29-8ef7-9a576bf9949b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_db6b2dea-f102-4004-bb80-50821ec83420/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_26cd3ec2-5ef4-48af-b9fb-dee6b7695255/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_27efb026-1396-4894-b7aa-15429685b7a2/"
+   ],
+   "disagree": [
+    {
+     "printed": "[91.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_fd4e403d-c20c-4d5b-8714-34f95ed0126e/",
+     "date": "Apr 1983",
+     "title": "Striped Dress"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": [
+    97.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 15,
+   "labels_total": 16,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_c34d3410-6406-46a0-a70b-323017f0fa11/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_192debe6-a3ec-4a29-8ef7-9a576bf9949b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_db6b2dea-f102-4004-bb80-50821ec83420/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_26cd3ec2-5ef4-48af-b9fb-dee6b7695255/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_27efb026-1396-4894-b7aa-15429685b7a2/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_87a245ab-a814-4312-a987-43aa683c685e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e4b9f9c4-3b21-4a02-ae56-8458da1c5a70/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_1c62faad-0b0a-4d6c-a89c-cfd8a8a8f9da/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f89b7e1d-5805-45dd-a89b-accd73065f48/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_ba5acb2b-4e61-41c9-9080-f83d682c91ae/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f26f51fc-92e6-49d1-98d6-ac5455546de7/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7abb934e-c0f4-4fbd-9fac-3b2238294b06/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a5ec5077-91ff-488f-93b9-e0aef2d54b64/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_40f60713-2320-4081-b158-24b5edecc533/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_533212de-6564-498c-a193-32e0883e5ad9/"
+   ],
+   "disagree": [
+    {
+     "printed": "[97.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_fd4e403d-c20c-4d5b-8714-34f95ed0126e/",
+     "date": "Apr 1983",
+     "title": "Striped Dress"
+    }
+   ]
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     28.0
+    ]
+   },
+   "cm_printed": [
+    71.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_87a245ab-a814-4312-a987-43aa683c685e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_1c62faad-0b0a-4d6c-a89c-cfd8a8a8f9da/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "14-16",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0,
+     38.0
+    ]
+   },
+   "cm_printed": [
+    91.0,
+    97.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_299861d9-5326-41ff-9b3c-4d721ebbada9/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0,
+     40.0
+    ]
+   },
+   "cm_printed": [
+    97.0,
+    102.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 5,
+   "labels_total": 5,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_b43a5e63-8027-484e-98d0-b68399c46323/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_590c635e-c047-4ff5-88e2-080f9aa331cf/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8567b400-a3d3-476a-8ab7-5a330505bd12/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_6f8e1f74-94a3-4a6c-ace7-5d5b986a8b34/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a833bd49-bcaa-4da7-89eb-93ba2320fc2c/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "16",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": [
+    97.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 19,
+   "labels_total": 20,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_970c41d3-92d9-4429-8a94-b42126ddce59/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_01782173-9dba-4ea7-b13e-e4ba54f175e7/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_947b88c1-f22e-4090-8a19-d0df1b1ce967/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_60f2d1c2-c2e7-41f6-8083-f41910c14e91/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_c67eccce-6ec4-4d06-a1fb-48ab88cfc7ae/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8880946f-7147-4d8d-abcb-3f23bcc28556/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_05bbf4a9-6bfa-49ec-a0fe-ba5c88fda4d0/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_fddd2328-b2bf-4794-b49b-6648e8c2416e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_83a19121-98ba-4448-b061-b7ea3c05788e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2c8b73a9-46e2-4827-9507-49fb3740c78d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_adeab766-351a-42ea-8fbc-9a94bcdd7148/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_9cc17902-c580-44b7-a383-5840a96cf680/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2369d77b-08ae-4163-806a-285b4c15b8da/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_71016204-5df8-41b9-9eb7-83e8b9a11a3d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f7eec078-dbe4-47e0-964f-287bf62eb059/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_34463856-e10e-44c1-a015-e9f869df3c6f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_4b661804-6161-4020-a1c3-19d81a3dbf0e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_2461ab65-6615-459f-adf7-080a37fe43f1/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a04e144e-1549-4ca5-843f-c50f7b733c3a/"
+   ],
+   "disagree": [
+    {
+     "printed": "[36.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_70ca7c8d-fdf1-4740-983c-ac9909762f71/",
+     "date": "1985",
+     "title": "Black, Grey and Cream Polyester Dress with Bold Check Design and Black Belt"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0
+    ]
+   },
+   "cm_printed": [
+    102.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 13,
+   "labels_total": 14,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_970c41d3-92d9-4429-8a94-b42126ddce59/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8880946f-7147-4d8d-abcb-3f23bcc28556/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_05bbf4a9-6bfa-49ec-a0fe-ba5c88fda4d0/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_71016204-5df8-41b9-9eb7-83e8b9a11a3d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f7eec078-dbe4-47e0-964f-287bf62eb059/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_34463856-e10e-44c1-a015-e9f869df3c6f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_4b661804-6161-4020-a1c3-19d81a3dbf0e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_34fc5d68-c71a-48d6-a356-2b24942d6764/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_ac3414f6-7b53-4974-8606-b984443bcdf7/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8a01500e-8b84-4352-bf9b-f45c27a4ef05/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_bab50e93-4121-444c-b9ca-9ceaffcb5d70/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_10791380-e221-40ac-a5e6-f6321b3563a0/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_0f80fc04-5f4a-4088-a85b-28d2ffb19d89/"
+   ],
+   "disagree": [
+    {
+     "printed": "[38.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_70ca7c8d-fdf1-4740-983c-ac9909762f71/",
+     "date": "1985",
+     "title": "Black, Grey and Cream Polyester Dress with Bold Check Design and Black Belt"
+    }
+   ]
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     30.0
+    ]
+   },
+   "cm_printed": [
+    76.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_ac3414f6-7b53-4974-8606-b984443bcdf7/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8a01500e-8b84-4352-bf9b-f45c27a4ef05/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_bab50e93-4121-444c-b9ca-9ceaffcb5d70/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "16-18",
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0,
+     42.0
+    ]
+   },
+   "cm_printed": [
+    102.0,
+    107.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 2,
+   "tie": true,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_d042d7cf-7546-41d2-a8a2-46c9f024a6a3/"
+   ],
+   "disagree": [
+    {
+     "printed": "[41.0, 43.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_9316c67f-cb2d-4520-83e2-08a1b1ae0ed4/",
+     "date": "c 1984",
+     "title": "Black and White Polka Dot 'Wild Rose' Ladies' Petticoat Slip"
+    }
+   ]
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "18",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0
+    ]
+   },
+   "cm_printed": [
+    102.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 3,
+   "labels_total": 4,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_bb07472f-1607-41ae-8d9d-953efa25b48b/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3f6130ed-ca78-4983-9a08-d3ec797b6e50/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f969249d-69ec-4606-bd04-918c5fc7bb7e/"
+   ],
+   "disagree": [
+    {
+     "printed": "[102.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_993d90be-47cf-4fd7-b450-5e77341e4cfd/",
+     "date": "c 1984",
+     "title": "White Nylon Ladies' Underdress Slip with White Lace Trim"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": [
+    107.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_f969249d-69ec-4606-bd04-918c5fc7bb7e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_986b5f91-fdbf-4828-8252-92325c55834f/"
+   ],
+   "disagree": []
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     32.0
+    ]
+   },
+   "cm_printed": [
+    81.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_986b5f91-fdbf-4828-8252-92325c55834f/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "18-20",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0,
+     42.0
+    ]
+   },
+   "cm_printed": [
+    102.0,
+    107.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_67001ed7-672f-48a5-bd9c-ed854eb3ede8/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0,
+     44.0
+    ]
+   },
+   "cm_printed": [
+    107.0,
+    112.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_83f503c5-91b3-40a4-a6e8-c381aeb9946a/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_3fa60f8c-6649-4795-a326-abaed9eb4acc/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8156b613-6a18-445d-8173-fd2a1338e392/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1980,
+  "size": "20",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": [
+    107.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_08ccd570-ccda-4b5c-a551-f3195f75d10d/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     44.0
+    ]
+   },
+   "cm_printed": [
+    112.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_d393a0dd-4d03-4344-8512-f0a8226d9df9/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "10",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     33.0
+    ]
+   },
+   "cm_printed": [
+    84.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_dd9d6499-cce8-412a-b686-f41a792c48d1/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": [
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_dd9d6499-cce8-412a-b686-f41a792c48d1/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "10-12",
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0,
+     36.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    86.4,
+    91.4
+   ],
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_29046714-8118-4892-b8df-06bcab32989c/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "12",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0
+    ]
+   },
+   "cm_printed": [
+    86.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 8,
+   "labels_total": 14,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_363b8249-1fed-4c14-9378-3a56a080e740/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_4428256f-3510-4ecd-ab0f-3487bae47a62/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_a641b811-7b87-414e-b326-32b2b2b91a39/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_7f679298-1465-464b-9881-544017f5be2d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_bc565a58-1185-4db1-84f4-3ecc9b626adf/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_4d9ebe9a-f71d-4eea-96d9-e53d281f398e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_469de511-eca2-44a2-8d89-879b60603d9f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b58c3e44-4db2-44ab-9dd1-36770bcd42a8/"
+   ],
+   "disagree": [
+    {
+     "printed": "[35.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_c679493d-ed48-4df9-a457-6c4192247982/",
+     "date": "1990",
+     "title": "Pink Acrylic Cardigan with Fold Down Cable Collar"
+    },
+    {
+     "printed": "[88.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_05187d8b-0fba-4c07-858b-50a6aa89ade0/",
+     "date": "c1990s",
+     "title": "Red Jersey Dress with Suede Belt"
+    },
+    {
+     "printed": "[35.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_db73c59c-cfa7-4670-a580-101b51495375/",
+     "date": "c1990",
+     "title": "Red Ground Viscose and Cotton Blend Button-through Dress with Multi-Coloured Floral Print"
+    },
+    {
+     "printed": "[35.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_09a9b59e-2786-4f8f-ab5f-8a3e3b054bba/",
+     "date": "c1990",
+     "title": "Multi-Coloured Viscose and Cotton Blend Dress with Floral Design"
+    },
+    {
+     "printed": "[35.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_23e44689-fb2f-434f-b0e0-9e05de2aa715/",
+     "date": "Sep 1990",
+     "title": "White Crystal Collection Vest Top"
+    },
+    {
+     "printed": "[35.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_67743245-ef8b-4f58-b2fa-2c966cb755b3/",
+     "date": "1993-1999",
+     "title": "Navy Ground Uniform Dress with Diamond Print"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": [
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 5,
+   "labels_total": 10,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_7f679298-1465-464b-9881-544017f5be2d/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_4d9ebe9a-f71d-4eea-96d9-e53d281f398e/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_469de511-eca2-44a2-8d89-879b60603d9f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b58c3e44-4db2-44ab-9dd1-36770bcd42a8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_e2d84c41-a1cc-40ba-88cb-7e1378402eb8/"
+   ],
+   "disagree": [
+    {
+     "printed": "[95.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_05187d8b-0fba-4c07-858b-50a6aa89ade0/",
+     "date": "c1990s",
+     "title": "Red Jersey Dress with Suede Belt"
+    },
+    {
+     "printed": "[37.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_09a9b59e-2786-4f8f-ab5f-8a3e3b054bba/",
+     "date": "c1990",
+     "title": "Multi-Coloured Viscose and Cotton Blend Dress with Floral Design"
+    },
+    {
+     "printed": "[37.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_67743245-ef8b-4f58-b2fa-2c966cb755b3/",
+     "date": "1993-1999",
+     "title": "Navy Ground Uniform Dress with Diamond Print"
+    },
+    {
+     "printed": "[37.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_9eb12b04-a2c4-47ac-94b0-45d5354b90c6/",
+     "date": "1991",
+     "title": "Black Viscose Ladies' Skirt with Brown Floral Motif and Pleat Detail"
+    },
+    {
+     "printed": "[37.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_b4ffac19-1d66-4b84-9bae-28f98f90a4ec/",
+     "date": "1998",
+     "title": "Multi-Coloured Diamond Print Uniform Dress and Tabard-Style Uniform Apron"
+    }
+   ]
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     26.0
+    ]
+   },
+   "cm_printed": [
+    67.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_e2d84c41-a1cc-40ba-88cb-7e1378402eb8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_9eb12b04-a2c4-47ac-94b0-45d5354b90c6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_b4ffac19-1d66-4b84-9bae-28f98f90a4ec/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "12-14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     34.0,
+     36.0
+    ]
+   },
+   "cm_printed": [
+    86.0,
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 2,
+   "tie": true,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_21f4f85c-7751-4632-b0cc-e54b367680fb/"
+   ],
+   "disagree": [
+    {
+     "printed": "[35.0, 36.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_500fd80b-9552-491f-9e1b-28b6e720a63f/",
+     "date": "1990",
+     "title": "White Polyester Thermal Camisoles with Lace Trim"
+    }
+   ]
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     37.0,
+     39.0
+    ]
+   },
+   "cm_printed": [
+    95.0,
+    99.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_5a555f8e-4ee7-4698-bb0b-efa5b3fd3a49/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_fc08591b-e3f2-4883-a1fe-e10c20d03c84/"
+   ],
+   "disagree": [
+    {
+     "printed": "[95.0, 99.0] cm",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_412ec04e-2c85-4e72-b0e1-1337cfafc847/",
+     "date": "1990",
+     "title": "Cream Body with Polka Dot Print"
+    }
+   ]
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "14",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     36.0
+    ]
+   },
+   "cm_printed": [
+    91.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_229e80c8-3ca5-4e71-a97e-4e728b6f64e9/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_06b20917-3eb5-4390-b781-66c5a7d2119e/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": [
+    97.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 2,
+   "tie": true,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_229e80c8-3ca5-4e71-a97e-4e728b6f64e9/"
+   ],
+   "disagree": [
+    {
+     "printed": "[39.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_f77c68e4-e28a-4dbe-9345-7373028babc3/",
+     "date": "c1990",
+     "title": "Black Polyester and Viscose Blend Trousers with Side Button Detail"
+    }
+   ]
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     28.0
+    ]
+   },
+   "cm_printed": [
+    71.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_f77c68e4-e28a-4dbe-9345-7373028babc3/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "14-16",
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0,
+     40.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    96.5,
+    101.6
+   ],
+   "labels_agree": 5,
+   "labels_total": 5,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_10e5b276-5006-48eb-8264-a4ae83b412a6/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_6741e9a3-62ef-439f-98f8-304dc54c3e56/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_504a3eab-f354-4f09-b611-48cd2aff9d07/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_cfda62e1-e0e9-404e-9088-41b482deecc8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_8aa6523a-d373-41d4-9dba-650b35dccca3/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "16",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     38.0
+    ]
+   },
+   "cm_printed": [
+    96.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 4,
+   "labels_total": 4,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_e7d1befd-2e63-4146-8f9a-441393558399/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_f7569206-be57-4117-ba73-99116ae3901f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_633bf33e-6639-4bb8-a9ec-56f50d73c119/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_25cfecfa-1935-45d2-9bfc-308855bbbfb7/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     40.0
+    ]
+   },
+   "cm_printed": [
+    102.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 3,
+   "labels_total": 4,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_f7569206-be57-4117-ba73-99116ae3901f/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_25cfecfa-1935-45d2-9bfc-308855bbbfb7/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_270a1474-7aa2-4975-bacc-dbe17ccc4c58/"
+   ],
+   "disagree": [
+    {
+     "printed": "[41.0] in",
+     "url": "https://msheritage.access.preservica.com/uncategorized/SO_d2505fb0-317e-4678-97a3-94842a2df091/",
+     "date": "Dec 1991",
+     "title": "White Ground Viscose and Cotton Blend Ladies' Skirt with Green, Blue and Purple Bold Floral Print"
+    }
+   ]
+  },
+  "waist": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     30.0
+    ]
+   },
+   "cm_printed": [
+    75.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 2,
+   "labels_total": 2,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_d2505fb0-317e-4678-97a3-94842a2df091/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_270a1474-7aa2-4975-bacc-dbe17ccc4c58/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "18-20",
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0,
+     44.0
+    ]
+   },
+   "cm_printed": null,
+   "cm_derived": [
+    106.7,
+    111.8
+   ],
+   "labels_agree": 3,
+   "labels_total": 3,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_2780e5c0-3a10-4097-a495-92d5ba2dcad8/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_5a54cede-359f-4b12-ad62-a40021114a30/",
+    "https://msheritage.access.preservica.com/uncategorized/SO_1b00d735-b6c5-4d6e-b097-18c55aadedfb/"
+   ],
+   "disagree": []
+  }
+ },
+ {
+  "decade": 1990,
+  "size": "20",
+  "bust": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     42.0
+    ]
+   },
+   "cm_printed": [
+    106.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_0372b95c-18f3-441d-bd45-1e1a8cb11dc4/"
+   ],
+   "disagree": []
+  },
+  "hips": {
+   "printed": {
+    "unit": "in",
+    "value": [
+     44.0
+    ]
+   },
+   "cm_printed": [
+    113.0
+   ],
+   "cm_derived": null,
+   "labels_agree": 1,
+   "labels_total": 1,
+   "tie": false,
+   "evidence": [
+    "https://msheritage.access.preservica.com/uncategorized/SO_0372b95c-18f3-441d-bd45-1e1a8cb11dc4/"
+   ],
+   "disagree": []
+  }
+ }
+]

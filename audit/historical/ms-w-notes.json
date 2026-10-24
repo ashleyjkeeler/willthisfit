@@ -1,0 +1,10 @@
+{
+ "skipped": [
+  "1960s UK 10 bust: printed as a range [33.0, 34.0]",
+  "1960s UK 18 hips: labels disagree (1 of 2)",
+  "1980s UK 8 hips: labels disagree (1 of 2)",
+  "1990s UK 12 hips: labels disagree (5 of 10)",
+  "1990s UK 14 hips: labels disagree (1 of 2)"
+ ],
+ "labels_used": 293
+}
