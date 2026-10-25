@@ -1,0 +1,72 @@
+{
+ "id": "fredperry-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Fred Perry UK women's size guide (cm)",
+   "url": "https://www.fredperry.com/size-guides/womens"
+  },
+  {
+   "label": "Official Fred Perry size conversion chart (women's clothing)",
+   "url": "https://www.fredperry.com/size-guides/conversion-charts"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80,
+   "waist": 62,
+   "hips": 86
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 66,
+   "hips": 90
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88,
+   "waist": 70,
+   "hips": 94
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 92,
+   "waist": 74,
+   "hips": 98
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98,
+   "waist": 80,
+   "hips": 104
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 86,
+   "hips": 110
+  }
+ ],
+ "audit": "UK 6\u201312 were correct. UK 14 and 16 were wrong: UK 14 bust 96\u219298, waist 78\u219280, hips 102\u2192104; UK 16 bust 100\u2192104, waist 82\u219286, hips 106\u2192110. Hips are Fred Perry's 'Low Hip'. EU uses the France/Belgium/Portugal/Spain row of Fred Perry's conversion chart (Germany/NL/Sweden row is 2 lower: UK 6 = 32). Old /size-guide URL is a 404."
+}

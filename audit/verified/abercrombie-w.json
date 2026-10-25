@@ -1,0 +1,79 @@
+{
+ "id": "abercrombie-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official A&F UK size guide (women's tops, product-page Size & Fit, UK region, cm)",
+   "url": "https://www.abercrombie.com/shop/uk/p/equestrian-skimming-tee-63718427-1005"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "4-6",
+   "bust": [
+    75,
+    80
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "8",
+   "bust": [
+    80,
+    85
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "bust": [
+    85,
+    90
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "bust": [
+    90,
+    97
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "14-16",
+   "bust": [
+    97,
+    104
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "18-20",
+   "bust": [
+    104,
+    114
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "22-24",
+   "bust": [
+    114,
+    124
+   ]
+  },
+  {
+   "label": "XXXL",
+   "uk": "26",
+   "bust": [
+    124,
+    135
+   ]
+  }
+ ],
+ "audit": "Was XXS–XXL with single bust/waist/hips values and US/EU sizes not on the UK chart. Official A&F UK women's tops chart publishes only chest (cm ranges) and UK size per A&F size, XXS–XXXL; waist/hips/US/EU removed. UK sizes changed (e.g. XXS was UK 6 → 4-6, L was UK 14 → 14-16, XL 16 → 18-20). The old /help-size-guide URLs no longer resolve.",
+ "notes": "US casual brand. The official UK tops chart runs XXS–XXXL and gives chest only: XXS = UK 4-6, XS = UK 8, S = UK 10, M = UK 12, L = UK 14-16, XL = UK 18-20. Knits run more generously than wovens. Denim sold by waist/inseam inch measurement separately."
+}

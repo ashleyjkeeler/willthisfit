@@ -1,0 +1,113 @@
+{
+ "id": "coast-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Coast size guide (Main Range cm + international conversion)",
+   "url": "https://www.coastfashion.com/pages/informational/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 80,
+   "waist": 62,
+   "hips": 88
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82.5,
+   "waist": 64.5,
+   "hips": 90.5
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 67,
+   "hips": 93
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 72,
+   "hips": 98
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 77,
+   "hips": 103
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 82,
+   "hips": 108
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 105,
+   "waist": 87,
+   "hips": 113
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 111,
+   "waist": 93,
+   "hips": 119
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 117,
+   "waist": 99,
+   "hips": 125
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 123,
+   "waist": 105,
+   "hips": 131
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 129,
+   "waist": 111,
+   "hips": 137
+  }
+ ],
+ "audit": "Was 6 letter rows XS\u2013XXL (UK 8\u201318) with figures not on the official chart. Coast now publishes numeric UK 4\u201324 only: e.g. UK 8 bust 83\u219285, waist 63\u219267, hips 88\u219293; UK 12 bust 90\u219295, waist 70\u219277, hips 95\u2192103; UK 18 bust 107\u2192111, hips 112\u2192119. US/EU from Coast's own conversion table. Site moved from coast-stores.com to coastfashion.com (old /size-guide is a 404)."
+}
