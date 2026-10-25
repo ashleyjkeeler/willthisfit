@@ -27,10 +27,14 @@ This is how every audit run works, whether by hand or as a scheduled task. **Acc
    node tests/api.test.mjs    # must pass
    ```
    - If `verify.mjs` fails, fix the cause, or revert that brand and flag it. Never commit with failures.
-5. Release (standing rule: every change gets a version bump and a Help/changelog entry).
-   - Bump the patch version in `APP_VERSION`.
-   - Add a `CHANGELOG` line naming the brands verified or flagged.
-   - Commit, then push to `main` (Netlify deploys automatically).
+5. Release to the **`audit` branch, not `main`.** Every push to `main` triggers a Netlify production deploy, which costs hosting credits. Batches therefore collect on the `audit` branch, and Ashley (or a session she asks) merges them into `main` about once a week.
+   ```
+   git fetch origin && (git checkout audit 2>/dev/null || git checkout -b audit origin/main)
+   git merge --no-edit origin/main     # keep the branch current with main
+   # ...apply the batch, then run the checks...
+   git push origin audit
+   ```
+   - Standing rule: every change gets a version bump and a Help/changelog entry. Bump the patch version in `APP_VERSION` and add a `CHANGELOG` line naming the brands verified or flagged.
 6. Report: append a dated section to `audit/runs.md`, listing each brand, its outcome, what changed (old value to new value for notable fixes) and the official URL.
 
 ## If the run can't work properly
