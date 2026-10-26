@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.1";
+export const APP_VERSION = "v1.5.2";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -338,18 +338,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"gymshark-w", name:"Gymshark", origin:"UK", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://support.gymshark.com/en/articles/11204065-women-s-size-guide",checked:"2026-03"}],
+    id:"gymshark-w", name:"Gymshark", origin:"UK", tier:"sports", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Gymshark women's size guide (tops + bottoms)",url:"https://support.gymshark.com/en/articles/11204065-women-s-size-guide",checked:"2026-10"}],
     notes:"UK activewear sizing — compression fabrics run true to the body measurements on their chart. Size up for a looser, more comfortable fit; size down for maximum compression. Vital Seamless is their tightest collection. Bottoms sizing is waist-and-hip based — hips are the critical measurement for leggings.", fit:"True to chart — size up for comfort, down for compression",
     inconsistencyWarning:false, confidence:90,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"4–6",us:"0–2",eu:"32–34",bust:80,waist:61,hips:90},
-      {label:"XS", uk:"6–8",us:"2–4",eu:"34–36",bust:85,waist:66,hips:95},
-      {label:"S",  uk:"8–10",us:"4–6",eu:"36–38",bust:90,waist:71,hips:100},
-      {label:"M",  uk:"10–12",us:"6–8",eu:"38–40",bust:95,waist:76,hips:105},
-      {label:"L",  uk:"12–14",us:"8–10",eu:"40–42",bust:100,waist:81,hips:110},
-      {label:"XL", uk:"14–16",us:"10–12",eu:"42–44",bust:105,waist:86,hips:115},
-      {label:"XXL",uk:"16–18",us:"12–14",eu:"44–46",bust:110,waist:91,hips:120},
+      {label:"XXS",uk:"4-6",us:"0-2",eu:"32-34",bust:80,waist:61,hips:90},
+      {label:"XS",uk:"6-8",us:"2-4",eu:"34-36",bust:85,waist:66,hips:95},
+      {label:"S",uk:"8-10",us:"4-6",eu:"36-38",bust:90,waist:71,hips:100},
+      {label:"M",uk:"10-12",us:"6-8",eu:"38-40",bust:95,waist:76,hips:105},
+      {label:"L",uk:"12-14",us:"8-10",eu:"40-42",bust:100,waist:81,hips:110},
+      {label:"XL",uk:"14-16",us:"10-12",eu:"42-44",bust:105,waist:86,hips:115},
+      {label:"XXL",uk:"16-18",us:"12-14",eu:"44-46",bust:110,waist:91,hips:120},
     ],
   },
   {
@@ -503,16 +504,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"jigsaw-w", name:"Jigsaw", origin:"UK", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide (jigsaw-online.com)",url:"https://www.jigsaw-online.com/help/size-guide",checked:"2026-03"}],
-    notes:"UK sizing. Premium British lifestyle brand. Classic, precise cut — very consistent and accurate to published measurements. Sizes XS (UK 8) to XL (UK 16). No UK 6 in standard range.", fit:"Accurate UK standard — premium reliable fit",
+    id:"jigsaw-w", name:"Jigsaw", origin:"UK", tier:"premium", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Jigsaw size guide (clothing, inches)",url:"https://www.jigsaw-online.com/pages/size-guide",checked:"2026-10"}],
+    notes:"UK sizing. Premium British lifestyle brand. Classic, precise cut — very consistent and accurate to published measurements. Official chart runs UK 6–18.", fit:"Accurate UK standard — premium reliable fit",
     inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8", us:"4",eu:"36",bust:83,waist:63,hips:88},
-      {label:"S", uk:"10",us:"6",eu:"38",bust:86,waist:66,hips:91},
-      {label:"M", uk:"12",us:"8",eu:"40",bust:90,waist:70,hips:95},
-      {label:"L", uk:"14",us:"10",eu:"42",bust:95,waist:75,hips:100},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:100,waist:80,hips:105},
+      {label:"UK 6",uk:"6",bust:81.3,waist:62.2,hips:88.9},
+      {label:"UK 8",uk:"8",bust:83.8,waist:64.8,hips:91.4},
+      {label:"UK 10",uk:"10",bust:88.9,waist:69.8,hips:96.5},
+      {label:"UK 12",uk:"12",bust:94,waist:74.9,hips:101.6},
+      {label:"UK 14",uk:"14",bust:99.1,waist:78.7,hips:106.7},
+      {label:"UK 16",uk:"16",bust:104.1,waist:83.8,hips:111.8},
+      {label:"UK 18",uk:"18",bust:109.2,waist:88.9,hips:116.8},
     ],
   },
   {
@@ -538,16 +542,18 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"freepeople-w", name:"Free People", origin:"US", tier:"boho", chartYear:"2026", lastVerified:"2026-03",
-    sources:[{label:"Official size guide",url:"https://www.freepeople.com/help/size-guide/",checked:"2026-03"},{label:"Free People UK size guide (/en-gb)",url:"https://www.freepeople.com/en-gb/help/size-guide/",checked:"2026-03"}],
+    id:"freepeople-w", name:"Free People", origin:"US", tier:"boho", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official Free People UK size guide (tops, product-page modal, United Kingdom and Europe views)",url:"https://www.freepeople.com/uk/shop/rosalie-solid-tee/",checked:"2026-10"}],
     notes:"US boho brand. US sizing — UK equivalent is US+4. Many items intentionally oversized or 'one size' — always check garment description. Relaxed flowing styles tend to run very generous; fitted items run true. Size down from stated label for a standard fit.", fit:"Very relaxed — sized for US market, size DOWN for UK fit",
     inconsistencyWarning:true, confidence:75,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:83,waist:63,hips:89},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:87,waist:67,hips:93},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:92,waist:72,hips:98},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:97,waist:77,hips:103},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:103,waist:83,hips:109},
+      {label:"XXS",uk:"2",us:"00",eu:"30",bust:81.5,waist:61},
+      {label:"XS",uk:"4-6",us:"0-2",eu:"32-34",bust:85,waist:64.75,rng:{bust:[83.5,86.5],waist:[63.5,66]}},
+      {label:"S",uk:"8-10",us:"4-6",eu:"36-38",bust:90.25,waist:69.75,rng:{bust:[89,91.5],waist:[68.5,71]}},
+      {label:"M",uk:"12-14",us:"8-10",eu:"40-42",bust:95.25,waist:75,rng:{bust:[94,96.5],waist:[73.5,76.5]}},
+      {label:"L",uk:"16-18",us:"12-14",eu:"44-46",bust:100.25,waist:80,rng:{bust:[99,101.5],waist:[78.5,81.5]}},
+      {label:"XL",uk:"20",us:"16",eu:"48",bust:104,waist:84},
     ],
   },
   {
@@ -1139,19 +1145,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"karenmillen-w", name:"Karen Millen", origin:"UK", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.karenmillen.com/gb/size-guide",checked:"2026-03"}],
-    notes:"UK premium occasionwear. Structured, tailored fit that runs close to body measurements — bodycon and corset styles can feel snug. Size up in fitted/woven pieces. UK 6–26 including Curve range.", fit:"Leans slightly small — structured and form-fitting",
+    id:"karenmillen-w", name:"Karen Millen", origin:"UK", tier:"premium", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Karen Millen size guide (Main Range + Plus, cm)",url:"https://www.karenmillen.com/pages/informational/size-guide",checked:"2026-10"}],
+    notes:"UK premium occasionwear. Structured, tailored fit that runs close to body measurements — bodycon and corset styles can feel snug. Size up in fitted/woven pieces. Official chart runs UK 4–30 (letter sizes XS–XXL, each covering two UK sizes), including the Plus range.", fit:"Leans slightly small — structured and form-fitting",
     inconsistencyWarning:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6", uk:"6", us:"2",  eu:"34", bust:81,  waist:62,  hips:88},
-      {label:"UK 8", uk:"8", us:"4",  eu:"36", bust:83,  waist:65,  hips:91},
-      {label:"UK 10",uk:"10",us:"6",  eu:"38", bust:88,  waist:70,  hips:96},
-      {label:"UK 12",uk:"12",us:"8",  eu:"40", bust:93,  waist:75,  hips:101},
-      {label:"UK 14",uk:"14",us:"10", eu:"42", bust:98,  waist:80,  hips:106},
-      {label:"UK 16",uk:"16",us:"12", eu:"44", bust:103, waist:85,  hips:111},
-      {label:"UK 18",uk:"18",us:"14", eu:"46", bust:108, waist:90,  hips:116},
-      {label:"UK 20",uk:"20",us:"16", eu:"48", bust:113, waist:95,  hips:121},
+      {label:"XS",uk:"4-6",us:"0-2",eu:"32-34",bust:81.25,waist:63.25,hips:89.25,rng:{bust:[80,82.5],waist:[62,64.5],hips:[88,90.5]}},
+      {label:"S",uk:"8-10",us:"4-6",eu:"36-38",bust:87.5,waist:69.5,hips:95.5,rng:{bust:[85,90],waist:[67,72],hips:[93,98]}},
+      {label:"M",uk:"12-14",us:"8-10",eu:"40-42",bust:97.5,waist:79.5,hips:105.5,rng:{bust:[95,100],waist:[77,82],hips:[103,108]}},
+      {label:"L",uk:"16-18",us:"12-14",eu:"44-46",bust:107.5,waist:90,hips:116,rng:{bust:[105,110],waist:[87,93],hips:[113,119]}},
+      {label:"XL",uk:"20-22",us:"16-18",eu:"48-50",bust:120,waist:102,hips:128,rng:{bust:[117,123],waist:[99,105],hips:[125,131]}},
+      {label:"XXL",uk:"24-26",us:"20-22",eu:"52-54",bust:132,waist:114,hips:140,rng:{bust:[129,135],waist:[111,117],hips:[137,143]}},
+      {label:"UK 28-30",uk:"28-30",us:"24-26",eu:"56-58",bust:144,waist:126,hips:152,rng:{bust:[141,147],waist:[123,129],hips:[149,155]}},
     ],
   },
   {
@@ -1299,19 +1305,21 @@ const WOMEN_BRANDS = [
 
   // — WOMEN'S: Premium & Mid-market additions —
   {
-    id:"hobbs-w", name:"Hobbs", origin:"UK", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.hobbs.co.uk/information/size-guide.list",checked:"2026-03"}],
+    id:"hobbs-w", name:"Hobbs", origin:"UK", tier:"premium", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Hobbs size guide (women's clothing, cm)",url:"https://www.hobbs.com/size-guide.html",checked:"2026-10"}],
     notes:"UK premium womenswear. Structured, tailored silhouette — slightly snugger than standard. Bust/shoulders run close. Size up if between sizes or layering. Petite range available.", fit:"True to UK size — fitted and structured",
     inconsistencyWarning:false, confidence:84,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6", uk:"6", us:"2",  eu:"34", bust:81,  waist:64,  hips:89},
-      {label:"UK 8", uk:"8", us:"4",  eu:"36", bust:84,  waist:66,  hips:92},
-      {label:"UK 10",uk:"10",us:"6",  eu:"38", bust:89,  waist:71,  hips:97},
-      {label:"UK 12",uk:"12",us:"8",  eu:"40", bust:94,  waist:76,  hips:102},
-      {label:"UK 14",uk:"14",us:"10", eu:"42", bust:99,  waist:81,  hips:107},
-      {label:"UK 16",uk:"16",us:"12", eu:"44", bust:104, waist:86,  hips:112},
-      {label:"UK 18",uk:"18",us:"14", eu:"46", bust:109, waist:91,  hips:117},
-      {label:"UK 20",uk:"20",us:"16", eu:"48", bust:114, waist:96,  hips:123},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:81.5,waist:63.5,hips:88.5,inseam:79,altLabel:"XS"},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:91,inseam:79,altLabel:"S"},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:89,waist:71,hips:96,inseam:79,altLabel:"S"},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:95,waist:77,hips:102,inseam:79,altLabel:"M"},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:101,waist:83,hips:108.5,inseam:79,altLabel:"M"},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:107,waist:89,hips:114,inseam:79,altLabel:"L"},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:113,waist:95,hips:120,inseam:79,altLabel:"L"},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:119,waist:101,hips:126,inseam:79,altLabel:"XL"},
+      {label:"UK 22",uk:"22",us:"18",eu:"50",bust:125,waist:107,hips:132,inseam:79,altLabel:"XL"},
     ],
   },
   {
@@ -1364,6 +1372,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.jackwills.com/size-guide/",checked:"2026-02"}],
     notes:"British preppy brand, popular with university students. UK sizing. Relaxed collegiate cut — hoodies and sweatshirts especially generous. Fitted jersey items run true. Often found Vinted and Depop.",
     fit:"Knitwear generous; fitted jersey true to UK", inconsistencyWarning:false, confidence:80,
+    auditFlag:"Unverified: Jack Wills (now on the Frasers Group platform) shows no Jack Wills women's body chart (Oct 2026). Its help-centre size guide is empty and product pages show a generic multi-brand men's chart, so these figures can't be confirmed.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6–8",us:"2–4",eu:"34–36",bust:83,waist:63,hips:88},
       {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:86,waist:66,hips:91},
@@ -1909,8 +1918,9 @@ const WOMEN_BRANDS = [
   {
     id:"hugoboss-w", name:"Hugo Boss (Women)", origin:"DE", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
     sources:[{label:"Official size guide",url:"https://www.hugoboss.com/uk/size-guide/",checked:"2026-03"}],
-    notes:"EU sizing. German premium brand — structured, tailored cut. Slim-fitting; their EU 36 = UK 10 but cut narrow through chest and hip. Womenswear particularly fitted — size up for comfort in blazers. Excellent secondhand value.",
+    notes:"EU sizing. German premium brand — structured, tailored cut. Slim-fitting; Hugo Boss's own conversion puts EU 36 = UK 8; cut narrow through chest and hip. Womenswear particularly fitted — size up for comfort in blazers. Excellent secondhand value.",
     fit:"Tailored, slim EU cut — size UP for blazers", inconsistencyWarning:false, confidence:86,
+    auditFlag:"No official body chart: Hugo Boss UK (Oct 2026) publishes only a size conversion for womenswear (e.g. XS = EU 34 = UK 6), no bust/waist/hip measurements, so these figures are unverified. Note the official conversion puts XS at UK 6, not UK 8 as stored.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"8",us:"4",eu:"36",bust:82,waist:62,hips:87},
       {label:"S",uk:"10",us:"6",eu:"38",bust:86,waist:66,hips:91},
@@ -2241,17 +2251,17 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"lacoste-w", name:"Lacoste (Women)", origin:"FR", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.lacoste.com/gb/size-guide",checked:"2026-03"}],
+    id:"lacoste-w", name:"Lacoste (Women)", origin:"FR", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Lacoste GB women's size guide (body measurements, product-page modal)",url:"https://www.lacoste.com/gb/lacoste/women/clothing/dresses-skirts/EF5473-00.html",checked:"2026-10"}],
     notes:"EU sizing. French preppy-sporty brand. Polos and tees run slim for a neat, fitted look — often 1 size smaller than UK. Dresses and knitwear are truer to EU. Polos are the most popular secondhand item.", fit:"Runs 1 size SMALL — slim polo cut especially", inconsistencyWarning:false, confidence:77,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"34",uk:"6",us:"2",eu:"34",bust:80,waist:62,hips:86},
-      {label:"36",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:90},
-      {label:"38",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:94},
-      {label:"40",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:98},
-      {label:"42",uk:"14",us:"10",eu:"42",bust:96,waist:78,hips:102},
-      {label:"44",uk:"16",us:"12",eu:"44",bust:100,waist:82,hips:106},
-],
+      {label:"XS",uk:"4",eu:"32",bust:78,waist:60,hips:86},
+      {label:"S",uk:"6-8",eu:"34-36",bust:84,waist:66,hips:92,rng:{bust:[82,86],waist:[64,68],hips:[90,94]}},
+      {label:"M",uk:"10-12",eu:"38-40",bust:92,waist:74,hips:100,rng:{bust:[90,94],waist:[72,76],hips:[98,102]}},
+      {label:"L",uk:"14-16",eu:"42-44",bust:100,waist:82,hips:108,rng:{bust:[98,102],waist:[80,84],hips:[106,110]}},
+      {label:"XL",uk:"18-20",eu:"46-48",bust:109.5,waist:91.5,hips:117.5,rng:{bust:[107,112],waist:[89,94],hips:[115,120]}},
+    ],
   },
   {
     id:"fredperry-w", name:"Fred Perry (Women)", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
@@ -2315,7 +2325,7 @@ const WOMEN_BRANDS = [
       {label:"M",uk:"10",us:"6",eu:"38",bust:87,waist:68,hips:92},
       {label:"L",uk:"12",us:"8",eu:"40",bust:91,waist:72,hips:96},
       {label:"XL",uk:"14",us:"10",eu:"42",bust:96,waist:77,hips:101},
-],
+    ],
   },
   {
     id:"anntaylor-w", name:"Ann Taylor", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -12137,6 +12147,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.2","2026-10-26","Data audit, batch 3: Free People, Gymshark, Hobbs, Jigsaw, Karen Millen and Lacoste women's charts re-checked against the brands' own size guides (Gymshark already matched; the rest corrected, e.g. Free People XS is UK 4–6, not UK 8). Hugo Boss and Jack Wills now carry a 🔍 audit note because neither publishes a women's body chart we can check."],
   ["v1.5.1","2026-10-25","Size-chart audit batch 2: women's charts for & Other Stories, Abercrombie & Fitch, AllSaints, Arket, Boohoo, Coast and Fred Perry re-checked against each brand's own size guide and corrected (Boohoo and Coast now run to UK 32 and UK 24). Free People still to check."],
   ["v1.5.0","2026-10-25","Design polish: one set of colours, type and shapes across the site, so dark mode now covers every card and badge; clearer buttons and focus outlines; new logo set, app icon and share image. New: add WillThisFit to your own site with one line of code (headerless widget with a \"Size data by WillThisFit\" credit), links that open with a brand and size filled in, and a Press page with logos and the design system."],
   ["v1.4.0","2026-10-24","My Wardrobe: sign in with Google to log clothes you own, how they fit and (optionally) their flat measurements. Earn kudos for fit reports and join the opt-in monthly and all-time leaderboard. Your sign-in is now checked by our server before anything is saved, and you can delete your account at any time. Privacy policy updated."],

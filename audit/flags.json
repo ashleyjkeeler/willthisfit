@@ -8,5 +8,7 @@
  {"id":"mango-w","flag":"Not yet verified: Mango's site blocked automated checking (Oct 2026). Figures are from an older, unconfirmed source."},
  {"id":"mango-m","flag":"Not yet verified: Mango's site blocked automated checking (Oct 2026). Figures are from an older, unconfirmed source."},
  {"id":"newlook-w","flag":"Not yet verified: New Look's size guide is behind a bot check (Oct 2026). Figures are from an older, unconfirmed source."},
- {"id":"boden-men-m","flag":"Archive data: Boden UK no longer lists menswear (Oct 2026), so this chart can't be checked against a current official guide."}
+ {"id":"boden-men-m","flag":"Archive data: Boden UK no longer lists menswear (Oct 2026), so this chart can't be checked against a current official guide."},
+ {"id":"hugoboss-w","flag":"No official body chart: Hugo Boss UK (Oct 2026) publishes only a size conversion for womenswear (e.g. XS = EU 34 = UK 6), no bust/waist/hip measurements, so these figures are unverified. Note the official conversion puts XS at UK 6, not UK 8 as stored."},
+ {"id":"jackwills-w","flag":"Unverified: Jack Wills (now on the Frasers Group platform) shows no Jack Wills women's body chart (Oct 2026). Its help-centre size guide is empty and product pages show a generic multi-brand men's chart, so these figures can't be confirmed."}
 ]

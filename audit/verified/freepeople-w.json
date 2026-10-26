@@ -1,0 +1,86 @@
+{
+ "id": "freepeople-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Free People UK size guide (tops, product-page modal, United Kingdom and Europe views)",
+   "url": "https://www.freepeople.com/uk/shop/rosalie-solid-tee/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "2",
+   "us": "00",
+   "eu": "30",
+   "bust": 81.5,
+   "waist": 61
+  },
+  {
+   "label": "XS",
+   "uk": "4-6",
+   "us": "0-2",
+   "eu": "32-34",
+   "bust": [
+    83.5,
+    86.5
+   ],
+   "waist": [
+    63.5,
+    66
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8-10",
+   "us": "4-6",
+   "eu": "36-38",
+   "bust": [
+    89,
+    91.5
+   ],
+   "waist": [
+    68.5,
+    71
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12-14",
+   "us": "8-10",
+   "eu": "40-42",
+   "bust": [
+    94,
+    96.5
+   ],
+   "waist": [
+    73.5,
+    76.5
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "16-18",
+   "us": "12-14",
+   "eu": "44-46",
+   "bust": [
+    99,
+    101.5
+   ],
+   "waist": [
+    78.5,
+    81.5
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 104,
+   "waist": 84
+  }
+ ],
+ "audit": "Free People's /help/size-guide pages (US and /en-gb) now 404; the chart is in each product's Size Guide modal, with a country switcher. Uses the tops chart in the United Kingdom view (native cm): bust and natural waist only, no hips for tops, so hips removed. UK/US/EU as published (XS = US 0-2 = UK 4-6 = EU 32-34). Free People's separate dresses/one-pieces chart has hips but different bust at the top end (L 100-104, XL 108 cm), so it is not mixed in. Old entry was one to two UK sizes off (XS = UK 8 vs official UK 4-6) and had no XXS."
+}

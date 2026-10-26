@@ -83,9 +83,9 @@
   "priority": 1,
   "stored_source": "freepeople.com",
   "lastVerified": "2026-03",
-  "status": "skipped",
-  "note": "Skipped: built-in browser (desktop app) went offline mid-run before the UK size guide was found; /en-gb/help/size-guide/ is a 404. Retry next run.",
-  "checked": "2026-10-25"
+  "status": "verified",
+  "note": "Retried from 2026-10-25 skip. Verified in Free People UK product-page Size Guide (tops chart, UK view).",
+  "checked": "2026-10-26"
  },
  {
   "id": "gymshark-w",
@@ -94,7 +94,9 @@
   "priority": 1,
   "stored_source": "support.gymshark.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on support.gymshark.com women's size guide; stored values already matched.",
+  "checked": "2026-10-26"
  },
  {
   "id": "hobbs-w",
@@ -103,7 +105,9 @@
   "priority": 1,
   "stored_source": "hobbs.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on hobbs.com/size-guide.html (site moved from hobbs.co.uk).",
+  "checked": "2026-10-26"
  },
  {
   "id": "hollister-w",
@@ -112,7 +116,9 @@
   "priority": 1,
   "stored_source": "hollisterco.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: hollisterco.com/shop/uk pages never finished loading in the browser (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "hugoboss-w",
@@ -121,7 +127,9 @@
   "priority": 1,
   "stored_source": "hugoboss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Hugo Boss UK size chart gives conversions only, no women's body measurements.",
+  "checked": "2026-10-26"
  },
  {
   "id": "jackwills-w",
@@ -130,7 +138,9 @@
   "priority": 1,
   "stored_source": "jackwills.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "No Jack Wills women's body chart on jackwills.com (Frasers platform shows generic multi-brand men's chart; help article empty).",
+  "checked": "2026-10-26"
  },
  {
   "id": "jigsaw-w",
@@ -139,7 +149,9 @@
   "priority": 1,
   "stored_source": "jigsaw-online.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on jigsaw-online.com/pages/size-guide (inches, converted x2.54).",
+  "checked": "2026-10-26"
  },
  {
   "id": "karenmillen-w",
@@ -148,7 +160,9 @@
   "priority": 1,
   "stored_source": "karenmillen.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on karenmillen.com/pages/informational/size-guide (letter sizes with ranges).",
+  "checked": "2026-10-26"
  },
  {
   "id": "lacoste-w",
@@ -157,7 +171,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified in Lacoste GB product-page Size guide (Body Measurements).",
+  "checked": "2026-10-26"
  },
  {
   "id": "lipsy-w",

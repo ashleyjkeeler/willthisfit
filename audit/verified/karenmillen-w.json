@@ -1,0 +1,140 @@
+{
+ "id": "karenmillen-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Karen Millen size guide (Main Range + Plus, cm)",
+   "url": "https://www.karenmillen.com/pages/informational/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "4-6",
+   "us": "0-2",
+   "eu": "32-34",
+   "bust": [
+    80,
+    82.5
+   ],
+   "waist": [
+    62,
+    64.5
+   ],
+   "hips": [
+    88,
+    90.5
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8-10",
+   "us": "4-6",
+   "eu": "36-38",
+   "bust": [
+    85,
+    90
+   ],
+   "waist": [
+    67,
+    72
+   ],
+   "hips": [
+    93,
+    98
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12-14",
+   "us": "8-10",
+   "eu": "40-42",
+   "bust": [
+    95,
+    100
+   ],
+   "waist": [
+    77,
+    82
+   ],
+   "hips": [
+    103,
+    108
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "16-18",
+   "us": "12-14",
+   "eu": "44-46",
+   "bust": [
+    105,
+    110
+   ],
+   "waist": [
+    87,
+    93
+   ],
+   "hips": [
+    113,
+    119
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "20-22",
+   "us": "16-18",
+   "eu": "48-50",
+   "bust": [
+    117,
+    123
+   ],
+   "waist": [
+    99,
+    105
+   ],
+   "hips": [
+    125,
+    131
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "24-26",
+   "us": "20-22",
+   "eu": "52-54",
+   "bust": [
+    129,
+    135
+   ],
+   "waist": [
+    111,
+    117
+   ],
+   "hips": [
+    137,
+    143
+   ]
+  },
+  {
+   "label": "UK 28-30",
+   "uk": "28-30",
+   "us": "24-26",
+   "eu": "56-58",
+   "bust": [
+    141,
+    147
+   ],
+   "waist": [
+    123,
+    129
+   ],
+   "hips": [
+    149,
+    155
+   ]
+  }
+ ],
+ "audit": "Karen Millen's guide moved to /pages/informational/size-guide (old /gb/size-guide 404s). It now publishes letter sizes only, each covering two UK sizes, with cm ranges (Main Range XS-L, Plus XL upward); stored exactly as published rather than split into single UK sizes. US = USA/CAN row, EU = EU FR row. The Plus chart labels both UK 24-26 and UK 28-30 as 'XXL'; the second is stored under its UK label. Old entry had single UK 6-20 rows with values that matched no published chart (e.g. UK 8 bust 83, UK 10 bust 88)."
+}
