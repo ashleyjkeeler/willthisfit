@@ -10,5 +10,7 @@
  {"id":"newlook-w","flag":"Not yet verified: New Look's size guide is behind a bot check (Oct 2026). Figures are from an older, unconfirmed source."},
  {"id":"boden-men-m","flag":"Archive data: Boden UK no longer lists menswear (Oct 2026), so this chart can't be checked against a current official guide."},
  {"id":"hugoboss-w","flag":"No official body chart: Hugo Boss UK (Oct 2026) publishes only a size conversion for womenswear (e.g. XS = EU 34 = UK 6), no bust/waist/hip measurements, so these figures are unverified. Note the official conversion puts XS at UK 6, not UK 8 as stored."},
- {"id":"jackwills-w","flag":"Unverified: Jack Wills (now on the Frasers Group platform) shows no Jack Wills women's body chart (Oct 2026). Its help-centre size guide is empty and product pages show a generic multi-brand men's chart, so these figures can't be confirmed."}
+ {"id":"jackwills-w","flag":"Unverified: Jack Wills (now on the Frasers Group platform) shows no Jack Wills women's body chart (Oct 2026). Its help-centre size guide is empty and product pages show a generic multi-brand men's chart, so these figures can't be confirmed."},
+ {"id":"shein-w","flag":"No official body chart: Shein UK's size help page points to the Size Guide on each product page and gives no general body chart, and the old size guide URL now shows a different article. These figures are unverified, so check each listing's own measurements."},
+ {"id":"tedbaker-w","flag":"Not yet verified: Ted Baker's women's size guide only loads if optional cookies are accepted (Oct 2026), which our checks never do. Figures are from an older, unconfirmed source."}
 ]

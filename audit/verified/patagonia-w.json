@@ -1,0 +1,100 @@
+{
+ "id": "patagonia-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Patagonia UK Women's Size & Fit guide (Women's Tops Size Chart, cm)",
+   "url": "https://eu.patagonia.com/gb/en/guides/size-fit/womens/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "00",
+   "bust": 80,
+   "waist": 62,
+   "hips": 86,
+   "altLabel": "XXS"
+  },
+  {
+   "label": "0",
+   "bust": 83,
+   "waist": 65,
+   "hips": 89
+  },
+  {
+   "label": "2",
+   "bust": 85,
+   "waist": 67,
+   "hips": 91,
+   "altLabel": "XS"
+  },
+  {
+   "label": "4",
+   "bust": 88,
+   "waist": 70,
+   "hips": 94
+  },
+  {
+   "label": "6",
+   "bust": 90,
+   "waist": 72,
+   "hips": 97,
+   "altLabel": "S"
+  },
+  {
+   "label": "8",
+   "bust": 93,
+   "waist": 75,
+   "hips": 99
+  },
+  {
+   "label": "10",
+   "bust": 95,
+   "waist": 77,
+   "hips": 102,
+   "altLabel": "M"
+  },
+  {
+   "label": "12",
+   "bust": 99,
+   "waist": 81,
+   "hips": 105
+  },
+  {
+   "label": "14",
+   "bust": 104,
+   "waist": 86,
+   "hips": 110,
+   "altLabel": "L"
+  },
+  {
+   "label": "16",
+   "bust": 109,
+   "waist": 91,
+   "hips": 114
+  },
+  {
+   "label": "18",
+   "bust": 114,
+   "waist": 97,
+   "hips": 119,
+   "altLabel": "XL"
+  },
+  {
+   "label": "20",
+   "bust": 119,
+   "waist": 102,
+   "hips": 124
+  },
+  {
+   "label": "22",
+   "bust": 124,
+   "waist": 107,
+   "hips": 130,
+   "altLabel": "XXL"
+  }
+ ],
+ "audit": "Stored source was a third-party retailer (outdoorbrands.nl), not Patagonia. Official UK guide (eu.patagonia.com, chart loaded from size-womens-tops-data) lists 13 numeric sizes 00–22 with single cm values for chest, waist and hip; alpha sizes are printed only beside 00, 2, 6, 10, 14, 18, 22 (kept as altLabel on those rows only). The page publishes no UK, US or EU conversions, so the stored UK/US/EU ranges were removed. Was 5 alpha rows: S bust 91 → size 6 chest 90 (S row), M bust 96/waist 74/hips 99 → size 10 95/77/102, L bust 102/waist 80/hips 106 → size 14 104/86/110, XL bust 109/waist 88/hips 114 → size 18 114/97/119.",
+ "notes": "US outdoor brand; donates 1% of sales to environmental causes. Official UK chart uses numeric sizes 00–22 with alpha sizes XXS–XXL alongside (no UK size conversion published). Patagonia says chest is usually the best predictor for tops; if your hips are larger, go by hips. Four fit types: formfitting, slim, regular, relaxed."
+}

@@ -270,7 +270,9 @@
   "priority": 1,
   "stored_source": "outdoorbrands.nl",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Official UK guide eu.patagonia.com/gb/en/guides/size-fit/womens/ (tops chart, numeric 00–22, cm). Old source was a third-party retailer.",
+  "checked": "2026-10-26"
  },
  {
   "id": "phaseeight-w",
@@ -279,7 +281,9 @@
   "priority": 1,
   "stored_source": "phase-eight.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide moved to /shopping-with-us/size-guide.html; Phase Eight chart UK 6–20, cm. US from the page's country dropdown; EU removed (differs by country).",
+  "checked": "2026-10-26"
  },
  {
   "id": "prettylittlething-w",
@@ -288,7 +292,9 @@
   "priority": 1,
   "stored_source": "prettylittlething.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide at /pages/informational/size-guide; Main Range UK 4–18 from the CM view. UK 20 removed (not in Main Range).",
+  "checked": "2026-10-26"
  },
  {
   "id": "reiss-w",
@@ -297,7 +303,9 @@
   "priority": 1,
   "stored_source": "reiss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide moved to reiss.com/size-guide; women's chart UK 4–18 (cm) plus conversion table.",
+  "checked": "2026-10-26"
  },
  {
   "id": "shein-w",
@@ -306,7 +314,9 @@
   "priority": 1,
   "stored_source": "uk.shein.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "No general body chart: size guides are per product; old Size-Guide-a-478 URL now shows Reviews Policy.",
+  "checked": "2026-10-26"
  },
  {
   "id": "simplyBe-w",
@@ -315,7 +325,9 @@
   "priority": 1,
   "stored_source": "simplybe.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; chart is in Simply Be's own Help Centre (support.simplybe.co.uk), UK 8–32, cm.",
+  "checked": "2026-10-26"
  },
  {
   "id": "superdry-w",
@@ -324,7 +336,9 @@
   "priority": 1,
   "stored_source": "superdry.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; women's chart from product-page Size Guide (cdn.superdry.com). Letter-to-UK mapping corrected (M = UK 12).",
+  "checked": "2026-10-26"
  },
  {
   "id": "tedbaker-w",
@@ -333,7 +347,9 @@
   "priority": 1,
   "stored_source": "tedbaker.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Guide at /en-gb/pages/size-guide loads a KiwiSizing chart that is blocked unless optional cookies are accepted; not accepted per rules.",
+  "checked": "2026-10-26"
  },
  {
   "id": "thenorthface-w",

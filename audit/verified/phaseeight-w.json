@@ -1,0 +1,79 @@
+{
+ "id": "phaseeight-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Phase Eight size guide (Phase Eight tab, Clothing, cm; US from the International Conversion dropdown)",
+   "url": "https://www.phase-eight.com/shopping-with-us/size-guide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "bust": 78,
+   "waist": 61,
+   "hips": 88
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "bust": 83,
+   "waist": 66,
+   "hips": 93
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "bust": 88,
+   "waist": 71,
+   "hips": 98
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "bust": 93,
+   "waist": 76,
+   "hips": 103
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "bust": 98,
+   "waist": 81,
+   "hips": 108
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "bust": 103,
+   "waist": 86,
+   "hips": 113
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "bust": 108,
+   "waist": 91,
+   "hips": 118
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "bust": 113,
+   "waist": 96,
+   "hips": 123
+  }
+ ],
+ "audit": "Both stored URLs (/size-guide, /p/size-guide) now 404; guide moved to /shopping-with-us/size-guide.html. Official Phase Eight chart (UK 6–20, single cm values) differs throughout: UK 6 bust 81 → 78, hips 87 → 88; UK 10 bust 88 (same), waist 70 → 71, hips 94 → 98; UK 12 bust 92 → 93, waist 74 → 76, hips 98 → 103; UK 16 bust 102 → 103, waist 84 → 86, hips 108 → 113; UK 20 bust 114 → 113, hips 120 → 123. Hips are 4–5 cm larger than stored across most sizes. US from the page's International Conversion dropdown (USA: UK 6 = 2 … UK 20 = 16). EU removed: the dropdown gives different numbers per country (France UK 6 = 34, Germany UK 6 = 32), so there is no single EU size. Studio 8 (plus, UK 12–26) and Damsel In A Dress have separate charts and are not included. Inch table cross-checked (e.g. UK 12 = 36.5/30/40.5 in).",
+ "notes": "UK sizing. Occasion and smart-casual brand. The official Phase Eight chart covers UK 6–20 with bust, waist and hip in cm; the Studio 8 plus-size line (UK 12–26) has its own, different chart. Letter sizes span two UK sizes (XS 6/8, S 8/10, M 12/14, L 16/18)."
+}

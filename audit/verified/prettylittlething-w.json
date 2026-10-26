@@ -1,0 +1,127 @@
+{
+ "id": "prettylittlething-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official PrettyLittleThing size guide (Clothing, Main Range, CM view)",
+   "url": "https://www.prettylittlething.com/pages/informational/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "bust": 80,
+   "waist": 62.2,
+   "hips": 87.6,
+   "altLabel": "XS",
+   "_in": {
+    "bust": 31.5,
+    "waist": 24.5,
+    "hips": 34.5
+   }
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "bust": 82.6,
+   "waist": 64.8,
+   "hips": 90.2,
+   "altLabel": "S",
+   "_in": {
+    "bust": 32.5,
+    "waist": 25.5,
+    "hips": 35.5
+   }
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "bust": 85.1,
+   "waist": 67.3,
+   "hips": 92.7,
+   "altLabel": "S",
+   "_in": {
+    "bust": 33.5,
+    "waist": 26.5,
+    "hips": 36.5
+   }
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "bust": 90.2,
+   "waist": 72.4,
+   "hips": 97.8,
+   "altLabel": "M",
+   "_in": {
+    "bust": 35.5,
+    "waist": 28.5,
+    "hips": 38.5
+   }
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "bust": 95.3,
+   "waist": 77.5,
+   "hips": 102.9,
+   "altLabel": "M",
+   "_in": {
+    "bust": 37.5,
+    "waist": 30.5,
+    "hips": 40.5
+   }
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "bust": 100.3,
+   "waist": 82.6,
+   "hips": 108,
+   "altLabel": "L",
+   "_in": {
+    "bust": 39.5,
+    "waist": 32.5,
+    "hips": 42.5
+   }
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "bust": 105.4,
+   "waist": 87.6,
+   "hips": 113,
+   "altLabel": "L",
+   "_in": {
+    "bust": 41.5,
+    "waist": 34.5,
+    "hips": 44.5
+   }
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "bust": 110.5,
+   "waist": 92.7,
+   "hips": 118.1,
+   "altLabel": "XL",
+   "_in": {
+    "bust": 43.5,
+    "waist": 36.5,
+    "hips": 46.5
+   }
+  }
+ ],
+ "audit": "Old /size-guide redirects to /pages/informational/size-guide. Official Main Range chart is UK 4–18 (stored went to 20; UK 20 is only in the Shape and Plus charts, so removed). Values are the site's own CM view (they match the inch chart × 2.54; low hip used for hips). Every row changed: UK 4 bust 76 → 80, waist 58 → 62.2, hips 82 → 87.6; UK 10 bust 88 → 90.2, waist 70 → 72.4, hips 94 → 97.8; UK 14 bust 96 → 100.3, waist 78 → 82.6, hips 102 → 108; UK 18 bust 106 → 110.5, waist 88 → 92.7, hips 112 → 118.1. US/CA as published (UK 4 = 0). EU removed: the chart's EU row just repeats the UK numbers, and its FR row (UK 4 = 32) is not a general EU size. Letter sizes from the header (XS = 4, S = 6–8, M = 10–12, L = 14–16, XL = 18) kept as altLabel. Petite, Tall, Shape, Plus and Maternity have separate charts, not included.",
+ "notes": "UK ultra-fast fashion (Boohoo Group). Official Main Range chart covers UK 4–18 with bust, waist and low hip; Petite, Tall, Shape, Plus (to UK 28) and Maternity have their own charts. Sizing varies between garments, so check the item's own measurements."
+}

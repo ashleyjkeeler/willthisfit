@@ -1,0 +1,135 @@
+{
+ "id": "reiss-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Reiss size guides (Women's clothing chart, cm; Women's international size conversions)",
+   "url": "https://www.reiss.com/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 79,
+   "waist": 60,
+   "hips": 86,
+   "altLabel": "XS",
+   "_in": {
+    "bust": 31,
+    "waist": 24,
+    "hips": 34
+   }
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 81.5,
+   "waist": 62.5,
+   "hips": 88.5,
+   "altLabel": "XS",
+   "_in": {
+    "bust": 32,
+    "waist": 25,
+    "hips": 35
+   }
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 65,
+   "hips": 91,
+   "altLabel": "S",
+   "_in": {
+    "bust": 33,
+    "waist": 26,
+    "hips": 36
+   }
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 70,
+   "hips": 96,
+   "altLabel": "S",
+   "_in": {
+    "bust": 35,
+    "waist": 28,
+    "hips": 38
+   }
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94,
+   "waist": 75,
+   "hips": 101,
+   "altLabel": "M",
+   "_in": {
+    "bust": 37,
+    "waist": 30,
+    "hips": 40
+   }
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99,
+   "waist": 80,
+   "hips": 106,
+   "altLabel": "M",
+   "_in": {
+    "bust": 39,
+    "waist": 31.5,
+    "hips": 42
+   }
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 85,
+   "hips": 111,
+   "altLabel": "L",
+   "_in": {
+    "bust": 41,
+    "waist": 33.5,
+    "hips": 44
+   }
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 91,
+   "hips": 118,
+   "altLabel": "L",
+   "_in": {
+    "bust": 43,
+    "waist": 36,
+    "hips": 46.5
+   }
+  }
+ ],
+ "audit": "Stored URL /p/size-guide now 404s; guide is at /size-guide. Was 5 letter rows (XS–XL, single UK sizes, S = UK 8–10). Official women's chart is per UK size, UK 4–18, with letter sizes covering two UK sizes each (XS 4/6, S 8/10, M 12/14, L 16/18), cm values as published by Reiss (inch originals in _in). Old M (UK 12) bust 90 → 94, waist 70 → 75, hips 95 → 101; old L (UK 14) bust 95 → 99, waist 75 → 80, hips 100 → 106; old XL (UK 16) bust 101 → 104, waist 81 → 85, hips 106 → 111. The old XL label was wrong: Reiss calls UK 16 'L' (XL is UK 20–22, which has a size conversion but no body measurements, so not included). US and EU from Reiss's own conversion table (UK 4 = US 0 = EU 32).",
+ "notes": "UK sizing. Premium tailored brand. The official women's chart covers UK 4–18 (letter sizes span two UK sizes: XS 4–6, S 8–10, M 12–14, L 16–18). Suits and structured pieces are cut slim. Separate denim chart by waist size; petite pieces are shortened in length, not resized."
+}
