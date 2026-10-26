@@ -182,7 +182,9 @@
   "priority": 1,
   "stored_source": "next.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: official Lipsy London chart (UK 4–28, cm) from the Next product-page size guide; lipsy.co.uk redirects to next.co.uk.",
+  "checked": "2026-10-26"
  },
  {
   "id": "lululemon-w",
@@ -191,7 +193,9 @@
   "priority": 1,
   "stored_source": "lululemon.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: lululemon UK global size guide, women's tops (chest) + bottoms (waist/hip), US 0–20 with UK/EU conversions.",
+  "checked": "2026-10-26"
  },
  {
   "id": "mintvelvet-w",
@@ -200,7 +204,9 @@
   "priority": 1,
   "stored_source": "mintvelvet.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: mintvelvet.com/pages/size-guide (UK 6–18, cm). UK 20 and EU removed (not published).",
+  "checked": "2026-10-26"
  },
  {
   "id": "missselfridge-w",
@@ -209,7 +215,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Miss Selfridge's own size guide on ASOS product pages (ASOS owns the brand; missselfridge.com redirects to ASOS). UK 4–16.",
+  "checked": "2026-10-26"
  },
  {
   "id": "monki-w",
@@ -218,7 +226,9 @@
   "priority": 1,
   "stored_source": "monki.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline mid-check (2026-10-26). Found so far: monki.com now redirects to weekday.com; Weekday's guide says Weekday, Monki and Cheap Monday share the same body measurements, but its charts are images, and the product-page chart is in a cross-origin widget. Retry next run; may need flagging if no DOM table exists.",
+  "checked": "2026-10-26"
  },
  {
   "id": "monsoon-w",
@@ -227,7 +237,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline before this brand was checked (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "mountainwarehouse-w",
@@ -236,7 +248,9 @@
   "priority": 1,
   "stored_source": "mountainwarehouse.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline before this brand was checked (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "oasis-w",
@@ -245,7 +259,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline before this brand was checked (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "patagonia-w",

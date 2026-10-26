@@ -1,0 +1,78 @@
+{
+ "id": "mintvelvet-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Mint Velvet size guide (XS–XL sizing, cm; UK and US views)",
+   "url": "https://mintvelvet.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "bust": 78,
+   "waist": 61,
+   "hips": 87,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "bust": 82,
+   "waist": 65,
+   "hips": 91,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "bust": 86,
+   "waist": 70,
+   "hips": 96,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "bust": 92,
+   "waist": 75,
+   "hips": 101,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "bust": 98,
+   "waist": 81,
+   "hips": 107,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "bust": 105,
+   "waist": 87,
+   "hips": 113,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "bust": 110,
+   "waist": 93,
+   "hips": 119,
+   "altLabel": "XL"
+  }
+ ],
+ "audit": "Site moved to mintvelvet.com (old /help/size-guide is a 404). Official chart is UK 6–18 (stored was UK 8–20): UK 8 bust 84→82, hips 90→91; UK 10 bust 88→86, waist 69→70, hips 94→96; UK 16 bust 102→105, waist 83→87, hips 108→113; UK 18 bust 108→110, waist 89→93, hips 114→119. UK 20 is not published, so it was removed; UK 6 added. US from the guide's US view (UK 6 = US 2 … UK 18 = US 14). EU removed: the guide's EU view shows the UK numbers unchanged, so no EU conversion is reliably published. Letter sizes (S covers UK 8–10, L covers UK 14–16) kept as altLabel.",
+ "notes": "UK brand targeting 35–55 demographic. UK sizing runs true, with a slightly generous, relaxed silhouette. Smart-casual and occasion focus. Consistent sizing across seasons. Official size guide covers UK 6–18 (XS–XL, with S = UK 8–10 and L = UK 14–16). Publishes body measurements on size guide."
+}
