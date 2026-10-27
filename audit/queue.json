@@ -358,7 +358,9 @@
   "priority": 1,
   "stored_source": "thenorthface.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: thenorthface.co.uk now redirects to thenorthface.com/en-gb; the size-charts page (/help-section/product-info/size-charts) shows a 'Press & Hold' bot check, so the women's tab never loads. Men's tab was readable.",
+  "checked": "2026-10-27"
  },
  {
   "id": "tommyhilfiger-w",
@@ -367,7 +369,9 @@
   "priority": 1,
   "stored_source": "uk.tommy.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: /womens-size-guide, Tommy Hilfiger dress/skirt chart XXS–7XL (UK 4–26), cm ranges.",
+  "checked": "2026-10-27"
  },
  {
   "id": "topshop-w",
@@ -376,7 +380,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: topshop.com product-page Size Guide, UK 4–18 numeric + letter XS–XL (XL = UK 20–22).",
+  "checked": "2026-10-27"
  },
  {
   "id": "urbanoutfitters-w",
@@ -385,7 +391,9 @@
   "priority": 1,
   "stored_source": "urbanoutfitters.com",
   "lastVerified": "2024-12",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: product-page 'Size Guide: Tops' (UO and BDG) gives XS–XXL measurements with no unit (evidently inches) and a UK row that contradicts the EU row (UK 10 under M and L). Old help/size-guide URL 404s.",
+  "checked": "2026-10-27"
  },
  {
   "id": "warehouse-w",
@@ -394,7 +402,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: warehousefashion.com size guide, Main Range UK 4–24 (cm).",
+  "checked": "2026-10-27"
  },
  {
   "id": "whistles-w",
@@ -403,7 +413,9 @@
   "priority": 1,
   "stored_source": "whistles.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: /shopping/size-guides.html Body chart UK 4–20 + dual-size UK 22; letters dual sized.",
+  "checked": "2026-10-27"
  },
  {
   "id": "whbm-w",
@@ -412,7 +424,9 @@
   "priority": 1,
   "stored_source": "whbm.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: whitehouseblackmarket.com/store/page/size-chart, Dresses Regular US 00–18 (inches x2.54). whbm.com did not load.",
+  "checked": "2026-10-27"
  },
  {
   "id": "yoursclothing-w",
@@ -421,7 +435,9 @@
   "priority": 1,
   "stored_source": "yoursclothing.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: /womens-curve-size-chart, UK 10–40 (cm as published).",
+  "checked": "2026-10-27"
  },
  {
   "id": "abercrombie-m",

@@ -1,0 +1,158 @@
+{
+ "id": "whbm-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official White House Black Market size chart (Dresses tab, Regular Sizes; inches, converted at 2.54)",
+   "url": "https://www.whitehouseblackmarket.com/store/page/size-chart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "US 00",
+   "us": "00",
+   "bust": 80,
+   "waist": 61,
+   "hips": 86.4,
+   "altLabel": "XXS",
+   "_in": {
+    "bust": 31.5,
+    "waist": 24,
+    "hips": 34
+   }
+  },
+  {
+   "label": "US 0",
+   "us": "0",
+   "bust": 82.6,
+   "waist": 63.5,
+   "hips": 88.9,
+   "altLabel": "XS",
+   "_in": {
+    "bust": 32.5,
+    "waist": 25,
+    "hips": 35
+   }
+  },
+  {
+   "label": "US 2",
+   "us": "2",
+   "bust": 85.1,
+   "waist": 66,
+   "hips": 91.4,
+   "altLabel": "XS",
+   "_in": {
+    "bust": 33.5,
+    "waist": 26,
+    "hips": 36
+   }
+  },
+  {
+   "label": "US 4",
+   "us": "4",
+   "bust": 87.6,
+   "waist": 68.6,
+   "hips": 94,
+   "altLabel": "S",
+   "_in": {
+    "bust": 34.5,
+    "waist": 27,
+    "hips": 37
+   }
+  },
+  {
+   "label": "US 6",
+   "us": "6",
+   "bust": 90.2,
+   "waist": 71.1,
+   "hips": 96.5,
+   "altLabel": "S",
+   "_in": {
+    "bust": 35.5,
+    "waist": 28,
+    "hips": 38
+   }
+  },
+  {
+   "label": "US 8",
+   "us": "8",
+   "bust": 92.7,
+   "waist": 73.7,
+   "hips": 99.1,
+   "altLabel": "M",
+   "_in": {
+    "bust": 36.5,
+    "waist": 29,
+    "hips": 39
+   }
+  },
+  {
+   "label": "US 10",
+   "us": "10",
+   "bust": 95.3,
+   "waist": 76.2,
+   "hips": 101.6,
+   "altLabel": "M",
+   "_in": {
+    "bust": 37.5,
+    "waist": 30,
+    "hips": 40
+   }
+  },
+  {
+   "label": "US 12",
+   "us": "12",
+   "bust": 99.1,
+   "waist": 80,
+   "hips": 105.4,
+   "altLabel": "L",
+   "_in": {
+    "bust": 39,
+    "waist": 31.5,
+    "hips": 41.5
+   }
+  },
+  {
+   "label": "US 14",
+   "us": "14",
+   "bust": 102.9,
+   "waist": 83.8,
+   "hips": 109.2,
+   "altLabel": "L",
+   "_in": {
+    "bust": 40.5,
+    "waist": 33,
+    "hips": 43
+   }
+  },
+  {
+   "label": "US 16",
+   "us": "16",
+   "bust": 108,
+   "waist": 88.9,
+   "hips": 114.3,
+   "altLabel": "XL",
+   "_in": {
+    "bust": 42.5,
+    "waist": 35,
+    "hips": 45
+   }
+  },
+  {
+   "label": "US 18",
+   "us": "18",
+   "bust": 113,
+   "waist": 94,
+   "hips": 119.4,
+   "altLabel": "XL",
+   "_in": {
+    "bust": 44.5,
+    "waist": 37,
+    "hips": 47
+   }
+  }
+ ],
+ "audit": "Old URL whbm.com/content/pages/size-guide no longer loads; the official chart is at whitehouseblackmarket.com/store/page/size-chart (also opened from product-page 'Size Chart'). Used the Dresses 'Regular Sizes' chart because it is the one with bust, waist and hip together (Tops gives 'high hip'; bust and waist are identical to Dresses). Was 4 letter rows with UK/EU conversions WHBM does not publish; now 11 US numeric rows 00–18 with letters as altLabel (XS = US 0–2, M = US 8–10, XL = US 16–18). Inch originals in _in; the page's own cm view has rounding/typing errors (e.g. 24\" waist shown as 58.42 cm), so cm were recomputed at exactly 2.54. Stored M bust 88 -> 92.7 (US 8) / 95.3 (US 10), hips 94 -> 99.1 / 101.6; L bust 94 -> 99.1 / 102.9, hips 100 -> 105.4 / 109.2. UK/EU removed (not published). Petite and long charts not included.",
+ "notes": "US sizing (00–18; letters cover two sizes, e.g. M = US 8–10). American professional women's brand by Chico's FAS. Flattering, fitted silhouette. Petite, regular, and tall. Slim-fitting through torso — size up if between sizes. Strong US secondhand market, limited UK availability."
+}

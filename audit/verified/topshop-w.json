@@ -1,0 +1,117 @@
+{
+ "id": "topshop-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Topshop size guide, numeric (product-page Size Guide on topshop.com, Body Measurements cm + International Conversions)",
+   "url": "https://www.topshop.com/gb/product/topshop-funnel-neck-shirt-in-fig/211402783"
+  },
+  {
+   "label": "Official Topshop size guide, letter sizes XS–XL (product-page Size Guide on topshop.com)",
+   "url": "https://www.topshop.com/gb/product/topshop-everyday-tee-in-white/209206821"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 78,
+   "waist": 60,
+   "hips": 85,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80.5,
+   "waist": 62.5,
+   "hips": 87.5,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 83,
+   "waist": 65,
+   "hips": 90,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88,
+   "waist": 70,
+   "hips": 95,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 93,
+   "waist": 75,
+   "hips": 100,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98,
+   "waist": 80,
+   "hips": 105,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 103,
+   "waist": 85,
+   "hips": 110,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 92,
+   "hips": 117,
+   "altLabel": "L"
+  },
+  {
+   "label": "XL",
+   "uk": "20–22",
+   "us": "16–18",
+   "eu": "48–50",
+   "bust": [
+    117,
+    124
+   ],
+   "waist": [
+    99,
+    106
+   ],
+   "hips": [
+    124,
+    131
+   ]
+  }
+ ],
+ "audit": "Old source was ASOS's Topshop brand page; Topshop now has its own site again (topshop.com, run by ASOS) with a product-page Size Guide. Numeric chart UK 4-18 (single cm values); letter chart gives XS = UK 4-6, S = 8-10, M = 12-14, L = 16-18, XL = 20-22, and its ranges match the numeric rows exactly, so letters are kept as altLabel and XL (UK 20-22) is added from the letter chart. The stored letter-to-UK mapping was wrong (M was UK 12 only, S UK 8-10 single values). UK 12 bust 90 -> 93, waist 70 -> 75, hips 95 -> 100; UK 16 bust 102 -> 103, waist 82 -> 85, hips 107 -> 110; UK 18 bust 108 -> 110, waist 88 -> 92, hips 113 -> 117. US/EU from the same guide's conversions.",
+ "notes": "Formerly UK high-street giant, now online-only via its own site (topshop.com, run by ASOS) and ASOS. UK sizing 4–18, letter sizes XS–XL (XL = UK 20–22). Body-conscious, trend-led cuts. One of the most common brands found second-hand. Denim (Joni, Jamie) runs 1 size small in waist."
+}

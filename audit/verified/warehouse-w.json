@@ -1,0 +1,125 @@
+{
+ "id": "warehouse-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Warehouse size guide (Main Range CM, Dual Size Chart, International Sizing Conversion)",
+   "url": "https://www.warehousefashion.com/pages/informational/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 80,
+   "waist": 62,
+   "hips": 88,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82.5,
+   "waist": 64.5,
+   "hips": 90.5,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 67,
+   "hips": 93,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 72,
+   "hips": 98,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 77,
+   "hips": 103,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 82,
+   "hips": 108,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 105,
+   "waist": 87,
+   "hips": 113,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 111,
+   "waist": 93,
+   "hips": 119,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 117,
+   "waist": 99,
+   "hips": 125,
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 123,
+   "waist": 105,
+   "hips": 131,
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 129,
+   "waist": 111,
+   "hips": 137,
+   "altLabel": "XXL"
+  }
+ ],
+ "notes": "UK fashion brand (est. 1976), now part of the Debenhams Group (formerly boohoo group); sold on its own site (warehousefashion.com) and via ASOS. Popular on second-hand platforms like Vinted and Depop. UK sizing 4–24 (letter sizes XS–XXL each cover two UK sizes). Tends to run true. Knit and jersey items slightly more generous. Note: post-acquisition quality and sizing has evolved.",
+ "audit": "Old sources were ASOS's brand page and warehouse.co.uk, which now redirects to warehousefashion.com, Warehouse's own site. Official Main Range chart is UK 4–24 (stored 6–16), single cm values; hips were 3–5 cm too small. UK 6 bust 81 -> 82.5, waist 62 -> 64.5, hips 87 -> 90.5; UK 12 bust 92 -> 95, waist 73 -> 77, hips 98 -> 103; UK 16 bust 102 -> 105, waist 83 -> 87, hips 108 -> 113. UK 4 and 18–24 added. US/EU from the page's conversion table; letter sizes from its Dual Size Chart (XS = UK 4–6 … XXL = UK 24–26) kept as altLabel. Notes corrected (sizing 4–24, Debenhams Group)."
+}
