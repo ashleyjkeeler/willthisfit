@@ -446,7 +446,9 @@
   "priority": 1,
   "stored_source": "abercrombie.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "A&F UK product-page Size Guide (men's tops, UK region, cm): chest ranges XXS–3XL; waist/US/EU removed.",
+  "checked": "2026-10-28"
  },
  {
   "id": "allsaints-m",
@@ -455,7 +457,9 @@
   "priority": 1,
   "stored_source": "allsaints.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "allsaints.com/sizeguide.html men's clothing chart (cm): small chest/waist fixes, hips added.",
+  "checked": "2026-10-28"
  },
  {
   "id": "arket-m",
@@ -464,7 +468,9 @@
   "priority": 1,
   "stored_source": "arket.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "ARKET GB men's Tops chart: letters span two EU/UK sizes, cm ranges XS–XXL. Duplicate of arket-m2.",
+  "checked": "2026-10-28"
  },
  {
   "id": "arket-m2",
@@ -473,7 +479,9 @@
   "priority": 1,
   "stored_source": "arket.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Same official ARKET men's Tops chart as arket-m (duplicate entry).",
+  "checked": "2026-10-28"
  },
  {
   "id": "boohoo-m",
@@ -482,7 +490,9 @@
   "priority": 1,
   "stored_source": "boohooman.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "boohooMAN Main Range Tops & Outerwear chart: chest only XS–XL; chest was 4–5 cm low.",
+  "checked": "2026-10-28"
  },
  {
   "id": "boss-m",
@@ -491,7 +501,9 @@
   "priority": 1,
   "stored_source": "hugoboss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "BOSS UK menswear size charts (incl. product-page chart) give conversions only, no body measurements.",
+  "checked": "2026-10-28"
  },
  {
   "id": "fredperry-m",
@@ -500,7 +512,9 @@
   "priority": 1,
   "stored_source": "fredperry.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "fredperry.com/size-guides/mens letter chart: chest ranges XS–XXXL; waist and conversions removed.",
+  "checked": "2026-10-28"
  },
  {
   "id": "gymshark-m",
@@ -509,7 +523,9 @@
   "priority": 1,
   "stored_source": "uk.gymshark.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Gymshark support men's size guide: Tops chart XS–3XL chest/waist, much larger than stored; no conversions.",
+  "checked": "2026-10-28"
  },
  {
   "id": "hollister-m",

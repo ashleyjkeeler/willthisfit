@@ -1,0 +1,87 @@
+{
+ "id": "arket-m2",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ARKET GB men's size guide (Tops: size conversion + body measurement, cm)",
+   "url": "https://www.arket.com/en-gb/customer-service/size-guide/men/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "32R",
+   "eu": "42",
+   "chest": 84,
+   "waist": 72
+  },
+  {
+   "label": "S",
+   "uk": "34R–36R",
+   "eu": "44–46",
+   "chest": [
+    88,
+    92
+   ],
+   "waist": [
+    76,
+    80
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "38R–40R",
+   "eu": "48–50",
+   "chest": [
+    96,
+    100
+   ],
+   "waist": [
+    84,
+    88
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "42R–44R",
+   "eu": "52–54",
+   "chest": [
+    104,
+    108
+   ],
+   "waist": [
+    92,
+    96
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "46R–48R",
+   "eu": "56–58",
+   "chest": [
+    112,
+    116
+   ],
+   "waist": [
+    100,
+    104
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "50R–52R",
+   "eu": "60–62",
+   "chest": [
+    120,
+    124
+   ],
+   "waist": [
+    108,
+    112
+   ]
+  }
+ ],
+ "audit": "Was 6 rows XS–XXL with one UK/EU size per letter (XS = UK 34 / EU 44), single values and US sizes. Official ARKET men's Tops chart: XS = EU 42 / UK 32R, then each letter spans two sizes (S = EU 44–46 / UK 34R–36R … XXL = EU 60–62 / UK 50R–52R), with cm ranges. M chest 97 → 96–100, waist 83 → 84–88; XS chest 87 → 84, waist 73 → 72. No US sizes on the official chart. ARKET's separate Shirts chart (collar sizes) is not used. Duplicate of arket-m (same brand and chart).",
+ "notes": "H&M Group's premium Scandi lifestyle brand. EU sizing with a relaxed, clean cut. Letter sizes span two EU/UK sizes (M = EU 48–50 / UK 38R–40R). Very popular secondhand — quality is excellent and prices are high new."
+}

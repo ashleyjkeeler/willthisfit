@@ -1,0 +1,79 @@
+{
+ "id": "abercrombie-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official A&F UK size guide (men's tops, product-page Size & Fit, UK region, cm)",
+   "url": "https://www.abercrombie.com/shop/uk/p/essential-slim-rib-henley-63404820-1005"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "30",
+   "chest": [
+    72,
+    80
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "32-34",
+   "chest": [
+    80,
+    88
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "36",
+   "chest": [
+    88,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "38-40",
+   "chest": [
+    95,
+    103
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "42",
+   "chest": [
+    103,
+    110
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "44-46",
+   "chest": [
+    110,
+    118
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "48",
+   "chest": [
+    118,
+    126
+   ]
+  },
+  {
+   "label": "3XL",
+   "uk": "50",
+   "chest": [
+    126,
+    133
+   ]
+  }
+ ],
+ "audit": "Was XS–XXL with single chest/waist values, UK 34–44 and EU sizes not on the UK chart. Official A&F UK men's tops chart gives only chest (cm ranges) and UK size, XXS–3XL; waist/US/EU removed. UK mapping changed (XS was UK 34 → 32-34, M 38 → 38-40, L 40 → 42, XL 42 → 44-46). M chest 97 → 95–103. Old /help-size-guide URL no longer resolves.",
+ "notes": "US casual brand. A&F's UK chart gives chest only, with some letter sizes spanning two UK chest sizes (M = UK 38–40). Tall sizes are 5 cm longer in the body. Check the product-level fit description (slim vs classic) before buying."
+}

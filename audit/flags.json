@@ -14,5 +14,6 @@
  {"id":"shein-w","flag":"No official body chart: Shein UK's size help page points to the Size Guide on each product page and gives no general body chart, and the old size guide URL now shows a different article. These figures are unverified, so check each listing's own measurements."},
  {"id":"tedbaker-w","flag":"Not yet verified: Ted Baker's women's size guide only loads if optional cookies are accepted (Oct 2026), which our checks never do. Figures are from an older, unconfirmed source."},
  {"id":"thenorthface-w","flag":"Not yet verified: The North Face's size charts page shows a 'Press & Hold' bot check before the women's chart can load (Oct 2026). Figures are from an older, unconfirmed source."},
- {"id":"urbanoutfitters-w","flag":"Unverified: Urban Outfitters' official tops chart (Oct 2026) lists XS–XXL body measurements without stating the unit, and its UK sizes contradict its EU sizes (UK 10 appears under both M and L), so these figures haven't been updated. Check the garment measurements on each listing."}
+ {"id":"urbanoutfitters-w","flag":"Unverified: Urban Outfitters' official tops chart (Oct 2026) lists XS–XXL body measurements without stating the unit, and its UK sizes contradict its EU sizes (UK 10 appears under both M and L), so these figures haven't been updated. Check the garment measurements on each listing."},
+ {"id":"boss-m","flag":"Unverified: BOSS UK's menswear size chart gives size conversions only (XS = EU 44 = UK 34R, as stored) and no body measurements (Oct 2026), so these chest and waist figures are unverified."}
 ]

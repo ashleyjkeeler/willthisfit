@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.5";
+export const APP_VERSION = "v1.5.6";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -2960,6 +2960,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official BOSS size chart (Hugo Boss UK)",url:"https://www.hugoboss.com/uk/size-charts/menswear-clothing/size-chart_HUGO_m1.html",checked:"2026-03"}],
     notes:"EU sizing. German precision cut — tailored, structured, smart-casual. Suits run true to EU chest size. Slim and Regular fits available.", fit:"Precision EU tailoring — structured",
     inconsistencyWarning:false, genericData:false, confidence:85,
+    auditFlag:"Unverified: BOSS UK's menswear size chart gives size conversions only (XS = EU 44 = UK 34R, as stored) and no body measurements (Oct 2026), so these chest and waist figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:90,waist:76},
       {label:"S",uk:"36",us:"S",eu:"46",chest:94,waist:80},
@@ -3110,32 +3111,35 @@ const MEN_BRANDS = [
   // 🏷️ MAINSTREAM — MEN'S
   // ════════════════════════════════════════════
   {
-    id:"allsaints-m", name:"AllSaints", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.allsaints.com/pages/size-guide",checked:"2026-03"}],
-    notes:"UK urban-luxury brand. Slim modern fit. Chest sizes 34–46 (XS–3XL). Shirts and outerwear use chest+waist; trousers use waist measurement in inches (28–38).", fit:"Slim modern fit — true to size for most builds",
+    id:"allsaints-m", name:"AllSaints", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official AllSaints size guide (men's clothing, cm; men's conversion chart)",url:"https://www.allsaints.com/sizeguide.html",checked:"2026-10"}],
+    notes:"UK urban-luxury brand. Slim modern fit. Chest sizes 34–46 (XS–XXXL). Trousers use waist size in inches (28–42).", fit:"Slim modern fit — true to size for most builds",
     inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS (34)", chest:87,  waist:71},
-      {label:"S (36)",  chest:92,  waist:76},
-      {label:"M (38)",  chest:97,  waist:81},
-      {label:"L (40)",  chest:102, waist:86},
-      {label:"XL (42)", chest:107, waist:92},
-      {label:"XXL (44)",chest:112, waist:97},
-      {label:"3XL (46)",chest:117, waist:102},
+      {label:"XS",uk:"34",us:"34",eu:"44",chest:86.5,waist:72,hips:90},
+      {label:"S",uk:"36",us:"36",eu:"46",chest:91.5,waist:77,hips:95},
+      {label:"M",uk:"38",us:"38",eu:"48",chest:96.5,waist:82,hips:100},
+      {label:"L",uk:"40",us:"40",eu:"50",chest:101.5,waist:87,hips:105},
+      {label:"XL",uk:"42",us:"42",eu:"52",chest:106.5,waist:92.5,hips:110},
+      {label:"XXL",uk:"44",us:"44",eu:"54",chest:111.5,waist:97.5,hips:115},
+      {label:"XXXL",uk:"46",us:"46",chest:116.5,waist:102.5,hips:120},
     ],
   },
   {
-    id:"fredperry-m", name:"Fred Perry", origin:"UK", tier:"premium", lastVerified:"2026-01",
-    sources:[{label:"Official size guide",url:"https://www.fredperry.com/size-guide",checked:"2026-01"}],
-    notes:"Iconic British mod heritage brand. UK chest sizing. Classic twin-tipped polo is their signature — cuts tend slim and short in the body. Fits smaller than most UK brands.", fit:"Runs SMALL — slim British mod cut",
+    id:"fredperry-m", name:"Fred Perry", origin:"UK", tier:"premium", lastVerified:"2026-10",
+    sources:[{label:"Official Fred Perry UK men's size guide (Top Half, letter sizes, cm)",url:"https://www.fredperry.com/size-guides/mens",checked:"2026-10"}],
+    notes:"Iconic British mod heritage brand. Men's clothing is sized either S/M/L (chest ranges) or by chest size 36–46. Classic twin-tipped polo is their signature — cuts tend slim and short in the body.", fit:"Slim British mod cut — S/M/L by chest range",
     inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:85,waist:70},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:89,waist:74},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:94,waist:79},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:100,waist:85},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:106,waist:91},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:112,waist:97},
+      {label:"XS",chest:83.5,rng:{chest:[81,86]}},
+      {label:"S",chest:91.5,rng:{chest:[89,94]}},
+      {label:"M",chest:99.5,rng:{chest:[97,102]}},
+      {label:"L",chest:106.5,rng:{chest:[104,109]}},
+      {label:"XL",chest:114.5,rng:{chest:[112,117]}},
+      {label:"XXL",chest:121.5,rng:{chest:[119,124]}},
+      {label:"XXXL",chest:129.5,rng:{chest:[127,132]}},
     ],
   },
   {
@@ -3239,17 +3243,20 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"abercrombie-m", name:"Abercrombie & Fitch", origin:"US", tier:"mid", lastVerified:"2026-01",
-    sources:[{label:"Official size guide",url:"https://www.abercrombie.com/shop/uk/help-size-guide",checked:"2026-01"}],
-    notes:"US casual brand. American cut — slightly generous and longer in the body than UK brands. Slim-fit range cuts significantly smaller. Check product-level fit description before buying.", fit:"American cut — Slim fits run small, Classic true to US",
+    id:"abercrombie-m", name:"Abercrombie & Fitch", origin:"US", tier:"mid", lastVerified:"2026-10",
+    sources:[{label:"Official A&F UK size guide (men's tops, product-page Size & Fit, UK region, cm)",url:"https://www.abercrombie.com/shop/uk/p/essential-slim-rib-henley-63404820-1005",checked:"2026-10"}],
+    notes:"US casual brand. A&F's UK chart gives chest only, with some letter sizes spanning two UK chest sizes (M = UK 38–40). Tall sizes are 5 cm longer in the body. Check the product-level fit description (slim vs classic) before buying.", fit:"American cut — check slim vs classic fit per product",
     inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:71},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:76},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:97,waist:82},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:103,waist:88},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:109,waist:94},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:116,waist:101},
+      {label:"XXS",uk:"30",chest:76,rng:{chest:[72,80]}},
+      {label:"XS",uk:"32-34",chest:84,rng:{chest:[80,88]}},
+      {label:"S",uk:"36",chest:91.5,rng:{chest:[88,95]}},
+      {label:"M",uk:"38-40",chest:99,rng:{chest:[95,103]}},
+      {label:"L",uk:"42",chest:106.5,rng:{chest:[103,110]}},
+      {label:"XL",uk:"44-46",chest:114,rng:{chest:[110,118]}},
+      {label:"XXL",uk:"48",chest:122,rng:{chest:[118,126]}},
+      {label:"3XL",uk:"50",chest:129.5,rng:{chest:[126,133]}},
     ],
   },
 
@@ -3461,19 +3468,20 @@ const MEN_BRANDS = [
   // ══════════════════════════════════════
 
   {
-    id:"gymshark-m", name:"Gymshark", origin:"UK", tier:"sports", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://uk.gymshark.com/pages/size-guide",checked:"2026-02"}],
-    notes:"UK activewear brand. Men's compression and fitted styles run small — size up 1–2. Crest range and lifestyle pieces more relaxed. Very high presence on Vinted and eBay second-hand.",
-    fit:"Compression: size UP 1–2. Lifestyle: true to UK.", inconsistencyWarning:false, confidence:82,
+    id:"gymshark-m", name:"Gymshark", origin:"UK", tier:"sports", lastVerified:"2026-10",
+    sources:[{label:"Official Gymshark men's size guide (Menswear Tops chart, cm)",url:"https://support.gymshark.com/en/articles/11204266-men-s-size-guide",checked:"2026-10"}],
+    notes:"UK activewear brand. Gymshark's men's chart is letter sizes XS–3XL by chest and waist; it publishes no UK/US/EU conversions for menswear. Compression and fitted styles feel tighter; Crest range and lifestyle pieces are more relaxed. Very high presence on Vinted and eBay second-hand.",
+    fit:"Letter sizes by chest/waist — compression styles fit tighter", inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"34",us:"XXS",eu:"44",chest:83,waist:67},
-      {label:"XS",uk:"36",us:"XS",eu:"46",chest:87,waist:71},
-      {label:"S",uk:"36–38",us:"S",eu:"46–48",chest:92,waist:76},
-      {label:"M",uk:"38–40",us:"M",eu:"48–50",chest:97,waist:82},
-      {label:"L",uk:"40–42",us:"L",eu:"50–52",chest:103,waist:88},
-      {label:"XL",uk:"42–44",us:"XL",eu:"52–54",chest:110,waist:95},
-      {label:"XXL",uk:"44–46",us:"XXL",eu:"54–56",chest:117,waist:102},
-],
+      {label:"XS",chest:94,waist:75},
+      {label:"S",chest:99,waist:80},
+      {label:"M",chest:104,waist:85},
+      {label:"L",chest:109,waist:90},
+      {label:"XL",chest:114,waist:95},
+      {label:"XXL",chest:119,waist:100},
+      {label:"3XL",chest:124,waist:105},
+    ],
   },
   {
     id:"prettygreen-m", name:"Pretty Green", origin:"UK", tier:"premium", lastVerified:"2026-02",
@@ -3811,18 +3819,19 @@ const MEN_BRANDS = [
   },
   // ── 50 additional men's brands ────────────────────────────────────────────
   {
-    id:"arket-m", name:"Arket", origin:"SE", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.arket.com/en_gbp/size-guide.html",checked:"2026-03"}],
-    notes:"H&M Group's elevated basics brand. Clean Scandinavian proportions — regular fit across most categories. Chest and waist sizing is reliable and consistent season to season. Slightly slim through the body vs classic British cuts; average UK chest should match label exactly.",
+    id:"arket-m", name:"Arket", origin:"SE", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official ARKET GB men's size guide (Tops: size conversion + body measurement, cm)",url:"https://www.arket.com/en-gb/customer-service/size-guide/men/",checked:"2026-10"}],
+    notes:"H&M Group's elevated basics brand. Clean Scandinavian proportions — regular fit across most categories. Letter sizes span two EU/UK sizes (M = EU 48–50 / UK 38R–40R).",
     fit:"True to UK/EU — regular Scandi fit", inconsistencyWarning:false, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:88,waist:73},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:93,waist:78},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:98,waist:83},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:104,waist:89},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:110,waist:95},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:116,waist:101},
-],
+      {label:"XS",uk:"32R",eu:"42",chest:84,waist:72},
+      {label:"S",uk:"34R–36R",eu:"44–46",chest:90,waist:78,rng:{chest:[88,92],waist:[76,80]}},
+      {label:"M",uk:"38R–40R",eu:"48–50",chest:98,waist:86,rng:{chest:[96,100],waist:[84,88]}},
+      {label:"L",uk:"42R–44R",eu:"52–54",chest:106,waist:94,rng:{chest:[104,108],waist:[92,96]}},
+      {label:"XL",uk:"46R–48R",eu:"56–58",chest:114,waist:102,rng:{chest:[112,116],waist:[100,104]}},
+      {label:"XXL",uk:"50R–52R",eu:"60–62",chest:122,waist:110,rng:{chest:[120,124],waist:[108,112]}},
+    ],
   },
   {
     id:"weekday-m", name:"Weekday", origin:"SE", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -4129,17 +4138,17 @@ const MEN_BRANDS = [
 ],
   },
   {
-    id:"boohoo-m", name:"Boohoo Man", origin:"UK", tier:"fast-fashion", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.boohooman.com/size-guide",checked:"2026-03"}],
-    notes:"UK fast-fashion brand targeting younger men. UK sizing but runs small — a UK M typically fits a UK 36–37\" chest rather than the standard 38\". Size up one, especially in shirts. Oversized styles are labelled and intended to be roomy. Prices are very low so expect on secondhand platforms too.",
-    fit:"Runs small — size up one vs standard UK", inconsistencyWarning:true, confidence:78,
+    id:"boohoo-m", name:"Boohoo Man", origin:"UK", tier:"fast-fashion", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official boohooMAN UK men's size guide (Main Range - Tops & Outerwear, cm)",url:"https://www.boohooman.com/pages/informational/size-guide",checked:"2026-10"}],
+    notes:"UK fast-fashion brand targeting younger men. Main Range tops XS–XL = UK/US 34–42 chest; 2XL–5XL are a separate Plus range. Oversized styles are labelled and intended to be roomy. Prices are very low so expect them on secondhand platforms too.",
+    fit:"Main Range XS–XL = UK 34–42 chest; Plus range separate", inconsistencyWarning:true, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:82,waist:68},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:86,waist:72},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:92,waist:78},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:98,waist:84},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:104,waist:90},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:110,waist:96},
+      {label:"XS",uk:"34",us:"34",eu:"44",chest:86.5},
+      {label:"S",uk:"36",us:"36",eu:"46",chest:91.5},
+      {label:"M",uk:"38",us:"38",eu:"48",chest:96.5},
+      {label:"L",uk:"40",us:"40",eu:"50",chest:102.5},
+      {label:"XL",uk:"42",us:"42",eu:"52",chest:108.5},
     ],
   },
   {
@@ -4873,17 +4882,18 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"arket-m2", name:"Arket", origin:"SE", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.arket.com/en_gbp/size-guide",checked:"2026-03"}],
-    notes:"H&M Group's premium Scandi lifestyle brand. EU sizing with a relaxed, clean cut. High quality natural fabrics. Very popular secondhand — quality is excellent and prices are high new.",
+    id:"arket-m2", name:"Arket", origin:"SE", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official ARKET GB men's size guide (Tops: size conversion + body measurement, cm)",url:"https://www.arket.com/en-gb/customer-service/size-guide/men/",checked:"2026-10"}],
+    notes:"H&M Group's premium Scandi lifestyle brand. EU sizing with a relaxed, clean cut. Letter sizes span two EU/UK sizes (M = EU 48–50 / UK 38R–40R). Very popular secondhand — quality is excellent and prices are high new.",
     fit:"True to EU size — relaxed Scandi fit", inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:87,waist:73},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:97,waist:83},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:102,waist:88},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:108,waist:94},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:114,waist:100},
+      {label:"XS",uk:"32R",eu:"42",chest:84,waist:72},
+      {label:"S",uk:"34R–36R",eu:"44–46",chest:90,waist:78,rng:{chest:[88,92],waist:[76,80]}},
+      {label:"M",uk:"38R–40R",eu:"48–50",chest:98,waist:86,rng:{chest:[96,100],waist:[84,88]}},
+      {label:"L",uk:"42R–44R",eu:"52–54",chest:106,waist:94,rng:{chest:[104,108],waist:[92,96]}},
+      {label:"XL",uk:"46R–48R",eu:"56–58",chest:114,waist:102,rng:{chest:[112,116],waist:[100,104]}},
+      {label:"XXL",uk:"50R–52R",eu:"60–62",chest:122,waist:110,rng:{chest:[120,124],waist:[108,112]}},
     ],
   },
   {
@@ -12227,6 +12237,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.6","2026-10-28","Data audit, batch 7 (menswear): Abercrombie & Fitch, AllSaints, Arket, boohooMAN, Fred Perry and Gymshark men's charts re-checked against the brands' own size guides and corrected (e.g. Gymshark M is chest 104 cm, not 97; boohooMAN chests were 4–5 cm low; Arket and A&F letter sizes each span two UK sizes, so Arket M is UK 38R–40R; Fred Perry now uses its S/M/L chest ranges). BOSS menswear now carries a 🔍 audit note: BOSS publishes size conversions only, with no body measurements."],
   ["v1.5.5","2026-10-27","Data audit, batch 6: Tommy Hilfiger, Topshop, Warehouse, Whistles, White House Black Market and Yours Clothing women's charts re-checked against the brands' own size guides and corrected (e.g. Whistles and Topshop letter sizes each cover two UK sizes, so Whistles M is UK 12–14; Warehouse now runs UK 4–24 and Yours Clothing UK 10–40; WHBM now uses its US sizes 00–18). The North Face and Urban Outfitters now carry a 🔍 audit note: The North Face's chart is behind a bot check, and Urban Outfitters' chart gives no unit and contradictory UK sizes."],
   ["v1.5.4","2026-10-26","Data audit, batch 5: Patagonia, Phase Eight, PrettyLittleThing, Reiss, Simply Be and Superdry women's charts re-checked against the brands' own size guides and corrected (e.g. Superdry M is UK 12, not UK 10; Simply Be now runs UK 8–32; Patagonia now uses its official numeric sizes 00–22 instead of a retailer's chart). Shein and Ted Baker now carry a 🔍 audit note: Shein has no general body chart, and Ted Baker's guide only loads with optional cookies accepted."],
   ["v1.5.3","2026-10-26","Data audit, batch 4: Lipsy, Lululemon, Mint Velvet and Miss Selfridge women's charts re-checked against the brands' own size guides and corrected (e.g. Mint Velvet now runs UK 6–18 as published, Lipsy extends to UK 28, Lululemon to US 20). Monki, Monsoon, Mountain Warehouse and Oasis still to check."],

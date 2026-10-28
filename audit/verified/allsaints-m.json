@@ -1,0 +1,77 @@
+{
+ "id": "allsaints-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official AllSaints size guide (men's clothing, cm; men's conversion chart)",
+   "url": "https://www.allsaints.com/sizeguide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "34",
+   "us": "34",
+   "eu": "44",
+   "chest": 86.5,
+   "waist": 72,
+   "hips": 90
+  },
+  {
+   "label": "S",
+   "uk": "36",
+   "us": "36",
+   "eu": "46",
+   "chest": 91.5,
+   "waist": 77,
+   "hips": 95
+  },
+  {
+   "label": "M",
+   "uk": "38",
+   "us": "38",
+   "eu": "48",
+   "chest": 96.5,
+   "waist": 82,
+   "hips": 100
+  },
+  {
+   "label": "L",
+   "uk": "40",
+   "us": "40",
+   "eu": "50",
+   "chest": 101.5,
+   "waist": 87,
+   "hips": 105
+  },
+  {
+   "label": "XL",
+   "uk": "42",
+   "us": "42",
+   "eu": "52",
+   "chest": 106.5,
+   "waist": 92.5,
+   "hips": 110
+  },
+  {
+   "label": "XXL",
+   "uk": "44",
+   "us": "44",
+   "eu": "54",
+   "chest": 111.5,
+   "waist": 97.5,
+   "hips": 115
+  },
+  {
+   "label": "XXXL",
+   "uk": "46",
+   "us": "46",
+   "chest": 116.5,
+   "waist": 102.5,
+   "hips": 120
+  }
+ ],
+ "audit": "Labels were 'XS (34)' etc. with chest/waist only. Official men's chart: XS–XXXL = UK/US 34–46; chest and waist were 0.5–1 cm off (XS chest 87 → 86.5, waist 71 → 72; XL waist 92 → 92.5; XXL waist 97 → 97.5; XXXL chest 117 → 116.5, waist 102 → 102.5). Added seat/full hip (90–120) and EU from the men's conversion chart (44–54; XXXL has no EU there, so none stored). Old /pages/size-guide URL is gone.",
+ "notes": "UK urban-luxury brand. Slim modern fit. Chest sizes 34–46 (XS–XXXL). Trousers use waist size in inches (28–42)."
+}

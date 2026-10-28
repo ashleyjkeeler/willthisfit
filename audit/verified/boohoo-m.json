@@ -1,0 +1,50 @@
+{
+ "id": "boohoo-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official boohooMAN UK men's size guide (Main Range - Tops & Outerwear, cm)",
+   "url": "https://www.boohooman.com/pages/informational/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "34",
+   "us": "34",
+   "eu": "44",
+   "chest": 86.5
+  },
+  {
+   "label": "S",
+   "uk": "36",
+   "us": "36",
+   "eu": "46",
+   "chest": 91.5
+  },
+  {
+   "label": "M",
+   "uk": "38",
+   "us": "38",
+   "eu": "48",
+   "chest": 96.5
+  },
+  {
+   "label": "L",
+   "uk": "40",
+   "us": "40",
+   "eu": "50",
+   "chest": 102.5
+  },
+  {
+   "label": "XL",
+   "uk": "42",
+   "us": "42",
+   "eu": "52",
+   "chest": 108.5
+  }
+ ],
+ "audit": "Old chest figures were 4–5 cm low: XS 82 → 86.5, M 92 → 96.5, L 98 → 102.5, XL 104 → 108.5. Official Main Range tops chart is chest only (waist removed; bottoms are sized by waist number) and stops at XL; XXL removed. 2XL–5XL are a separate Plus range (UK 44–50), not stored. UK, US & AUS share one row (34–42). Old /size-guide URL moved to /pages/informational/size-guide.",
+ "notes": "UK fast-fashion brand targeting younger men. Main Range tops XS–XL = UK/US 34–42 chest; 2XL–5XL are a separate Plus range. Oversized styles are labelled and intended to be roomy. Prices are very low so expect them on secondhand platforms too."
+}
