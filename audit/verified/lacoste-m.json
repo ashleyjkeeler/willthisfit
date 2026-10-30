@@ -1,0 +1,80 @@
+{
+ "id": "lacoste-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Lacoste GB men's size guide (Body Measurements, product-page modal)",
+   "url": "https://www.lacoste.com/gb/lacoste/men/clothing/polo-shirts/short-sleeves/L1212-00.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS/2",
+   "chest": 87,
+   "waist": 73
+  },
+  {
+   "label": "S/3",
+   "chest": 93,
+   "waist": [
+    77,
+    81
+   ]
+  },
+  {
+   "label": "M/4",
+   "chest": 101,
+   "waist": [
+    85,
+    89
+   ]
+  },
+  {
+   "label": "L/5",
+   "chest": 109,
+   "waist": [
+    93,
+    97
+   ]
+  },
+  {
+   "label": "XL/6",
+   "chest": 117,
+   "waist": [
+    101,
+    106
+   ]
+  },
+  {
+   "label": "2XL/7",
+   "chest": 125,
+   "waist": [
+    111,
+    116
+   ]
+  },
+  {
+   "label": "3XL/8",
+   "chest": 129,
+   "waist": 121
+  },
+  {
+   "label": "4XL/9",
+   "chest": 134,
+   "waist": 126
+  },
+  {
+   "label": "1XG/10",
+   "chest": 139,
+   "waist": 131
+  },
+  {
+   "label": "2XG/11",
+   "chest": 144,
+   "waist": 136
+  }
+ ],
+ "audit": "Old /gb/size-guide URL 404s; the official chart is the product-page 'Body Measurements' panel (read for every size in its selector). Old labels were one Lacoste number off: Lacoste pairs XS = 2, S = 3, M = 4 (old XS/3, S/4, M/5). Values are Lacoste's own cm figures (chest single value, waist = 'pant waist circumference', a range for S-2XL); Lacoste's inch figures beside them are ranges that don't convert exactly (e.g. S chest 93 cm vs 35-37 in), so the cm values are stored as printed. Old M chest 101 / waist 86 now M/4 = 101 / 85-89; XL 111 -> 117. Sizes 3XL-2XG (8-11) added. UK/US/EU removed (not published in the men's chart).",
+ "notes": "French brand famous for the polo shirt. Uses its own numbered sizing alongside letters (XS = 2, S = 3, M = 4, L = 5, XL = 6 \u2026 up to 11). Polo shirts run slim across the shoulders."
+}

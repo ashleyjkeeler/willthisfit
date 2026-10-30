@@ -1,0 +1,62 @@
+{
+ "id": "patagonia-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Patagonia UK Men's Size & Fit guide (Men's Tops chart: chest, hip; Men's Bottoms Alpha chart: waist), cm",
+   "url": "https://eu.patagonia.com/gb/en/guides/size-fit/mens/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "chest": 84,
+   "waist": 66,
+   "hips": 81
+  },
+  {
+   "label": "XS",
+   "chest": 89,
+   "waist": 71,
+   "hips": 86
+  },
+  {
+   "label": "S",
+   "chest": 94,
+   "waist": 76,
+   "hips": 91
+  },
+  {
+   "label": "M",
+   "chest": 102,
+   "waist": 84,
+   "hips": 99
+  },
+  {
+   "label": "L",
+   "chest": 112,
+   "waist": 91,
+   "hips": 109
+  },
+  {
+   "label": "XL",
+   "chest": 119,
+   "waist": 99,
+   "hips": 117
+  },
+  {
+   "label": "XXL",
+   "chest": 127,
+   "waist": 107,
+   "hips": 124
+  },
+  {
+   "label": "XXXL",
+   "chest": 142,
+   "waist": 114,
+   "hips": 140
+  }
+ ],
+ "audit": "Stored source was a third-party retailer (skirack.com). The men's guide page did not render its charts in the browser this run, so the tables were read from the content assets the page loads from Patagonia's own site (size-mens-tops-data and size-mens-bottoms-alpha-data on eu.patagonia.com), as for patagonia-w. Chest and hip from the Tops chart; waist from the Bottoms (Alpha) chart for the same letters (the Tops chart has no waist). The two charts' hips differ slightly at L-XXXL (e.g. L 109 tops vs 107 bottoms); the Tops value is stored. Old values were 2-6 cm off: S chest 91 -> 94, M 99 -> 102, L 109 -> 112, XXL 129 -> 127; M waist 81 -> 84. XXS and XXXL added; UK/US/EU removed (not published)."
+}

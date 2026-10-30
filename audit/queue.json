@@ -534,7 +534,9 @@
   "priority": 1,
   "stored_source": "hollisterco.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from Hollister UK product-page Size Guide (men's tops, UK region, cm); chest + UK only.",
+  "checked": "2026-10-30"
  },
  {
   "id": "jackjones-m",
@@ -543,7 +545,9 @@
   "priority": 1,
   "stored_source": "mcelhinneys.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from jackjones.com/en-gb/content/size-guide (tops chest; sweat pants letter-size waist).",
+  "checked": "2026-10-30"
  },
  {
   "id": "jackwills-m",
@@ -552,7 +556,9 @@
   "priority": 1,
   "stored_source": "jackwills.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "No Jack Wills men's chart on its own site: old URL 404, help article empty, product pages show only Frasers' generic multi-brand guide without units.",
+  "checked": "2026-10-30"
  },
  {
   "id": "lacoste-m",
@@ -561,7 +567,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from Lacoste GB product-page Body Measurements (all sizes 2-11); labels were one number off.",
+  "checked": "2026-10-30"
  },
  {
   "id": "lululemon-m",
@@ -570,7 +578,9 @@
   "priority": 1,
   "stored_source": "shop.barrys.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from lululemon.co.uk global size guide (men's tops chest; men's bottoms letter waist/hip).",
+  "checked": "2026-10-30"
  },
  {
   "id": "patagonia-m",
@@ -579,7 +589,9 @@
   "priority": 1,
   "stored_source": "skirack.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from Patagonia UK men's guide content assets (tops chest/hip, bottoms alpha waist).",
+  "checked": "2026-10-30"
  },
  {
   "id": "patagonia-board-m",
@@ -588,7 +600,9 @@
   "priority": 1,
   "stored_source": "eu.patagonia.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Composite letter + boardshort-waist entry matches no official chart; wetsuit chart did not load.",
+  "checked": "2026-10-30"
  },
  {
   "id": "reiss-m",
@@ -597,7 +611,9 @@
   "priority": 1,
   "stored_source": "reiss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from reiss.com/size-guide men's clothing chart (cm as printed, inches kept).",
+  "checked": "2026-10-30"
  },
  {
   "id": "superdry-m",

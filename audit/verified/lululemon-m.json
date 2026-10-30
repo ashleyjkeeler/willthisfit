@@ -1,0 +1,50 @@
+{
+ "id": "lululemon-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official lululemon UK global size guide (Men: Tops chest; Bottoms US XXS-5XL waist/hip), cm, location United Kingdom",
+   "url": "https://www.lululemon.co.uk/en-gb/content/global-size-guide/global-all-size-guide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 89,
+   "waist": 71.1,
+   "hips": 86.4
+  },
+  {
+   "label": "S",
+   "chest": 94,
+   "waist": 76.2,
+   "hips": 91.4
+  },
+  {
+   "label": "M",
+   "chest": 99,
+   "waist": 81.3,
+   "hips": 96.5
+  },
+  {
+   "label": "L",
+   "chest": 106.5,
+   "waist": 88.9,
+   "hips": 104.1
+  },
+  {
+   "label": "XL",
+   "chest": 114,
+   "waist": 96.5,
+   "hips": 111.8
+  },
+  {
+   "label": "XXL",
+   "chest": 122,
+   "waist": 104.1,
+   "hips": 119.4
+  }
+ ],
+ "audit": "Old source was a third-party retailer (Barry's). Official men's tops chart gives chest only (XS-XXL; XXS and 3XL-5XL have no measurements); waist and hip come from the men's bottoms letter-size chart on the same page for the same letters, as done for lululemon-w. Chest was nearly right (L 107 -> 106.5); waist was rounded (L 89 -> 88.9, XL 97 -> 96.5); hips added. UK/US/EU removed: lululemon's men's tops chart lists letters in every country row, not numeric UK/EU sizes."
+}
