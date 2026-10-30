@@ -1,0 +1,112 @@
+{
+ "id": "tommyhilfiger-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Tommy Hilfiger UK men's size guide (Tommy Hilfiger sizes: Tops, Outerwear, Casual Shirts chart, cm)",
+   "url": "https://uk.tommy.com/mens-size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "34",
+   "us": "34",
+   "eu": "44",
+   "chest": [
+    88,
+    92
+   ],
+   "waist": [
+    78,
+    82
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "36\u201338",
+   "us": "36\u201338",
+   "eu": "46\u201348",
+   "chest": [
+    93,
+    97
+   ],
+   "waist": [
+    83,
+    87
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "40",
+   "us": "40",
+   "eu": "50",
+   "chest": [
+    98,
+    102
+   ],
+   "waist": [
+    88,
+    92
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "42",
+   "us": "42",
+   "eu": "52",
+   "chest": [
+    103,
+    108
+   ],
+   "waist": [
+    93,
+    98
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "44",
+   "us": "44",
+   "eu": "54",
+   "chest": [
+    109,
+    114
+   ],
+   "waist": [
+    99,
+    104
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "46",
+   "us": "46",
+   "eu": "56",
+   "chest": [
+    115,
+    120
+   ],
+   "waist": [
+    105,
+    110
+   ]
+  },
+  {
+   "label": "3XL",
+   "uk": "48",
+   "us": "48",
+   "eu": "58",
+   "chest": [
+    121,
+    126
+   ],
+   "waist": [
+    111,
+    116
+   ]
+  }
+ ],
+ "audit": "Old source was a retailer (mckennaman.com). Official tops chart XS-3XL with chest and waist ranges in cm and UK/IE, US and EU sizes. The letter-to-UK mapping was off from M up: S covers UK 36-38 (EU 46-48), M is UK 40 (stored 38), L UK 42, XL UK 44, XXL UK 46. Chest: XS 90 -> 88-92, M 100 -> 98-102, XL 112 -> 109-114. Waist was low throughout: XS 76 -> 78-82, M 86 -> 88-92, XL 98 -> 99-104. 3XL added. UK and US columns are identical on the official chart."
+}

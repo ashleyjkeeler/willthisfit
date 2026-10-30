@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.7";
+export const APP_VERSION = "v1.5.8";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -2900,17 +2900,21 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"superdry-m", name:"Superdry", origin:"UK/JP", tier:"mid", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official size guide",url:"https://www.superdry.com/info/size-guide",checked:"2026-03"}],
-    notes:"British brand with Japanese-inspired sizing. Generally runs 1 size SMALL vs UK — their L is more like a UK M. Outerwear can run particularly slim.", fit:"Runs SMALL — size UP 1",
+    id:"superdry-m", name:"Superdry", origin:"UK/JP", tier:"mid", chartYear:"2026", lastVerified:"2026-10",
+    sources:[{label:"Official Superdry men's size guide (product-page Size Guide: chest, waist, low hip/seat, cm; international sizing)",url:"https://cdn.superdry.com/size_guides/mens_en_280.html",checked:"2026-10"},{label:"Product page the guide was opened from",url:"https://www.superdry.com/mens/t-shirts/essential-serif-logo-embroidered-t-shirt-279276.html",checked:"2026-10"}],
+    notes:"British brand with Japanese-inspired styling. Superdry's official men's chart gives chest, waist and seat ranges for XXS–4XL (M = EU 48, chest 96–101 cm). Fit varies by style, so check each listing's garment measurements.", fit:"Check the chart — official M is a 96–101 cm chest",
     inconsistencyWarning:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:84,waist:69},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:89,waist:74},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:94,waist:79},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:100,waist:85},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:106,waist:91},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:113,waist:98},
+      {label:"XXS",eu:"42",chest:84,waist:67.5,hips:82.5,rng:{chest:[82,86],waist:[65,70],hips:[80,85]}},
+      {label:"XS",eu:"44",chest:88.5,waist:72.5,hips:87.5,rng:{chest:[86,91],waist:[70,75],hips:[85,90]}},
+      {label:"S",eu:"46",chest:93.5,waist:77.5,hips:92.5,rng:{chest:[91,96],waist:[75,80],hips:[90,95]}},
+      {label:"M",eu:"48",chest:98.5,waist:82.5,hips:97.5,rng:{chest:[96,101],waist:[80,85],hips:[95,100]}},
+      {label:"L",eu:"50",chest:103.5,waist:87.5,hips:102.5,rng:{chest:[101,106],waist:[85,90],hips:[100,105]}},
+      {label:"XL",eu:"52",chest:108.5,waist:92.5,hips:107.5,rng:{chest:[106,111],waist:[90,95],hips:[105,110]}},
+      {label:"2XL",eu:"54",chest:113.5,waist:97.5,hips:112.5,rng:{chest:[111,116],waist:[95,100],hips:[110,115]}},
+      {label:"3XL",eu:"56",chest:119,waist:102.5,hips:117.5,rng:{chest:[116,122],waist:[100,105],hips:[115,120]}},
+      {label:"4XL",eu:"58",chest:124.5,waist:107.5,hips:122.5,rng:{chest:[122,127],waist:[105,110],hips:[120,125]}},
     ],
   },
   {
@@ -2929,17 +2933,19 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"tommyhilfiger-m", name:"Tommy Hilfiger", origin:"US", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size chart",url:"https://mckennaman.com/pages/tommy-hilfiger",checked:"2026-03"}],
+    id:"tommyhilfiger-m", name:"Tommy Hilfiger", origin:"US", tier:"premium", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Tommy Hilfiger UK men's size guide (Tommy Hilfiger sizes: Tops, Outerwear, Casual Shirts chart, cm)",url:"https://uk.tommy.com/mens-size-guide",checked:"2026-10"}],
     notes:"US sizing. Classic American preppy. Relaxed, generous cut. Slim fit range is more European in cut. Polos and shirts particularly consistent.", fit:"Classic generous American — true to US",
     inconsistencyWarning:false, genericData:false, confidence:84,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:90,waist:76},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:95,waist:81},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:100,waist:86},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:106,waist:92},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:112,waist:98},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:118,waist:104},
+      {label:"XS",uk:"34",us:"34",eu:"44",chest:90,waist:80,rng:{chest:[88,92],waist:[78,82]}},
+      {label:"S",uk:"36–38",us:"36–38",eu:"46–48",chest:95,waist:85,rng:{chest:[93,97],waist:[83,87]}},
+      {label:"M",uk:"40",us:"40",eu:"50",chest:100,waist:90,rng:{chest:[98,102],waist:[88,92]}},
+      {label:"L",uk:"42",us:"42",eu:"52",chest:105.5,waist:95.5,rng:{chest:[103,108],waist:[93,98]}},
+      {label:"XL",uk:"44",us:"44",eu:"54",chest:111.5,waist:101.5,rng:{chest:[109,114],waist:[99,104]}},
+      {label:"XXL",uk:"46",us:"46",eu:"56",chest:117.5,waist:107.5,rng:{chest:[115,120],waist:[105,110]}},
+      {label:"3XL",uk:"48",us:"48",eu:"58",chest:123.5,waist:113.5,rng:{chest:[121,126],waist:[111,116]}},
     ],
   },
   {
@@ -3302,17 +3308,20 @@ const MEN_BRANDS = [
   // 🏷️ MORE MAINSTREAM — MEN'S
   // ════════════════════════════════════════════
   {
-    id:"thenorthface-m", name:"The North Face", origin:"US", tier:"sports", lastVerified:"2026-01",
-    sources:[{label:"Official UK size guide",url:"https://www.thenorthface.co.uk/en-gb/help/size-guide",checked:"2026-01"}],
+    id:"thenorthface-m", name:"The North Face", origin:"US", tier:"sports", lastVerified:"2026-10",
+    sources:[{label:"Official The North Face UK size charts (Men's: Jackets & Tops chest/hip; Trousers & Shorts letter-size waist), cm",url:"https://www.thenorthface.com/en-gb/help-section/product-info/size-charts",checked:"2026-10"}],
     notes:"US outdoor brand, strong recycled-materials credentials. Generous American outdoor cut — designed to layer heavily. Runs large: their M fits a UK L. Fleeces especially roomy.", fit:"Generous American outdoor — size DOWN",
     inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34–36",us:"XS",eu:"44–46",chest:87,waist:72},
-      {label:"S",uk:"36–38",us:"S",eu:"46–48",chest:93,waist:78},
-      {label:"M",uk:"38–40",us:"M",eu:"48–50",chest:99,waist:84},
-      {label:"L",uk:"40–42",us:"L",eu:"50–52",chest:106,waist:91},
-      {label:"XL",uk:"42–44",us:"XL",eu:"52–54",chest:113,waist:98},
-      {label:"XXL",uk:"44–46",us:"XXL",eu:"54–56",chest:120,waist:105},
+      {label:"2XS",chest:80,waist:66,hips:81.5,rng:{chest:[76,84],waist:[64,68],hips:[79,84]}},
+      {label:"XS",chest:89,waist:72,hips:87.5,rng:{chest:[85,93],waist:[69,75],hips:[85,90]}},
+      {label:"S",chest:97,waist:79.5,hips:94.5,rng:{chest:[94,100],waist:[76,83],hips:[91,98]}},
+      {label:"M",chest:104,waist:87,hips:102,rng:{chest:[100,108],waist:[84,90],hips:[99,105]}},
+      {label:"L",chest:113,waist:95,hips:109.5,rng:{chest:[109,117],waist:[91,99],hips:[106,113]}},
+      {label:"XL",chest:122,waist:104.5,hips:117.5,rng:{chest:[118,126],waist:[100,109],hips:[114,121]}},
+      {label:"2XL",chest:132,waist:115.5,hips:126,rng:{chest:[127,137],waist:[110,121],hips:[122,130]}},
+      {label:"3XL",chest:143,waist:127,hips:134,rng:{chest:[138,148],waist:[122,132],hips:[131,137]}},
     ],
   },
   {
@@ -3375,6 +3384,7 @@ const MEN_BRANDS = [
     sources:[{label:"Ted Baker official size guide (via McElhinneys/official PDF)",url:"https://www.mcelhinneys.com/pages/ted-baker-size-guide",checked:"2026-03"}],
     notes:"UK premium menswear. Uses proprietary 'Ted Size' 1–7 (XS–3XL). Generally slim, tailored fit. True to size in shirts; may want to size up for layering in outerwear.", fit:"Slim tailored fit — true to UK size",
     inconsistencyWarning:false, confidence:83,
+    auditFlag:"Not yet verified: Ted Baker's men's size guide (tedbaker.com/en-gb/apps/sizings?id=50695800) only loads with optional cookies accepted, which this audit doesn't do (Oct 2026). Figures are from a retailer's copy and unconfirmed.", verifiedBy:"unverified",
     sizes:[
       {label:"Ted 1 (XS)", chest:86,  waist:71},
       {label:"Ted 2 (S)",  chest:91,  waist:76},
@@ -3854,6 +3864,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.weekday.com/en_gbp/size-guide.html",checked:"2026-03"}],
     notes:"H&M Group's streetwear and denim brand with a younger aesthetic. EU sizing — slim Scandinavian cut, especially in denim. Jeans run slim through thigh; size up if you have muscular legs. Tops and sweatshirts true to EU size. Excellent secondhand pick for contemporary denim.",
     fit:"Slim Scandi cut — size up for jeans if muscular build", inconsistencyWarning:true, confidence:75,
+    auditFlag:"Not yet verified: Weekday's men's size guide publishes its charts as images only (no readable table), and the product-page 'Find your size' tool shows no chart (Oct 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:71},
       {label:"S",uk:"36",us:"S",eu:"46",chest:90,waist:75},
@@ -4887,6 +4898,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.weekday.com/en_gbp/customer-service/size-guides",checked:"2026-03"}],
     notes:"Swedish H&M Group brand with a fashion-forward urban aesthetic. EU sizing — denim runs slim with a European cut. Popular secondhand for oversized fits and minimal Scandi aesthetic.",
     fit:"Slim EU fit for tailored; relaxed for oversized styles", inconsistencyWarning:true, confidence:82,
+    auditFlag:"Not yet verified: Weekday's men's size guide publishes its charts as images only (no readable table), and the product-page 'Find your size' tool shows no chart (Oct 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"XXS",uk:"32",us:"XXS",eu:"42",chest:82,waist:68},
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:87,waist:73},
@@ -6247,6 +6259,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.hugoboss.com/gb/size-guide/",checked:"2026-03"}],
     notes:"German premium brand with smart casual kids range. EU sizing, slim modern European cut. Excellent formal and smart-casual options. Size up 1 year vs UK age for a comfortable fit. Premium quality holds very good second-hand value.",
     fit:"Slim European — size UP 1 year vs UK", inconsistencyWarning:false, confidence:80,
+    auditFlag:"Unverified: HUGO BOSS UK no longer sells or publishes kidswear online (its UK site lists kidswear as not shipped to the UK and has no kids size chart, Oct 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"3–4y",uk:"4–5",eu:"98–104",us:"3–4",height:"92–104",chest:56,waist:53},
       {label:"5–6y",uk:"6–7",eu:"110–116",us:"5–6",height:"104–116",chest:61,waist:55},
@@ -7147,6 +7160,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.jackwills.com/size-guide",checked:"2026-03"}],
     notes:"British preppy brand with a teen and older kids range. UK sizing true to age. Hoodies and sweatshirts are relaxed — younger teens especially like sizing up. Good secondhand brand for 10–16 year olds.",
     fit:"True to UK age — hoodies/sweatshirts slightly relaxed", inconsistencyWarning:false, confidence:81,
+    auditFlag:"Unverified: Jack Wills product pages (incl. juniors' items) only show Frasers Group's generic multi-brand size guide, which has no Jack Wills kids body measurements (Oct 2026).", verifiedBy:"unverified",
     sizes:[
       {label:"7–8y",uk:"7–8",eu:"122/128",us:"8",height:"122–128",chest:65,waist:57},
       {label:"9–10y",uk:"9–10",eu:"134/140",us:"10",height:"134–140",chest:70,waist:60},
@@ -12254,6 +12268,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.8","2026-10-30","Data audit, batch 9: Superdry, The North Face and Tommy Hilfiger men's charts re-checked against the brands' own size guides and corrected (e.g. Tommy Hilfiger M is UK 40 with an 88–92 cm waist, not UK 38 / 86 cm; Superdry M is a 96–101 cm chest and now runs XXS–4XL with seat sizes; The North Face M chest is 100–108 cm, not 99). Ted Baker and Weekday men's, BOSS Kids and Jack Wills Kids now carry a 🔍 audit note: Ted Baker's chart only loads with optional cookies, Weekday publishes its charts as images, BOSS no longer offers kidswear in the UK, and Jack Wills shows only a generic multi-brand guide."],
   ["v1.5.7","2026-10-30","Data audit, batch 8 (menswear): Hollister, Jack & Jones, Lacoste, lululemon, Patagonia and Reiss men's charts re-checked against the brands' own size guides and corrected (e.g. Lacoste's numbered sizes were one step off — XS is size 2, M is size 4; Hollister M is UK 38–40 with a 95–103 cm chest; Patagonia M chest is 102 cm, not 99). Jack Wills men's and Patagonia boardshorts/wetsuits are now marked unverified because no matching official chart could be found."],
   ["v1.5.6","2026-10-28","Data audit, batch 7 (menswear): Abercrombie & Fitch, AllSaints, Arket, boohooMAN, Fred Perry and Gymshark men's charts re-checked against the brands' own size guides and corrected (e.g. Gymshark M is chest 104 cm, not 97; boohooMAN chests were 4–5 cm low; Arket and A&F letter sizes each span two UK sizes, so Arket M is UK 38R–40R; Fred Perry now uses its S/M/L chest ranges). BOSS menswear now carries a 🔍 audit note: BOSS publishes size conversions only, with no body measurements."],
   ["v1.5.5","2026-10-27","Data audit, batch 6: Tommy Hilfiger, Topshop, Warehouse, Whistles, White House Black Market and Yours Clothing women's charts re-checked against the brands' own size guides and corrected (e.g. Whistles and Topshop letter sizes each cover two UK sizes, so Whistles M is UK 12–14; Warehouse now runs UK 4–24 and Yours Clothing UK 10–40; WHBM now uses its US sizes 00–18). The North Face and Urban Outfitters now carry a 🔍 audit note: The North Face's chart is behind a bot check, and Urban Outfitters' chart gives no unit and contradictory UK sizes."],

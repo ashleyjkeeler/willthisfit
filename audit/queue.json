@@ -622,7 +622,9 @@
   "priority": 1,
   "stored_source": "superdry.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: product-page Size Guide (cdn.superdry.com/size_guides/mens_en_280.html), chest/waist/low hip cm ranges XXS–4XL, EU sizes.",
+  "checked": "2026-10-30"
  },
  {
   "id": "tedbaker-m",
@@ -631,7 +633,9 @@
   "priority": 1,
   "stored_source": "mcelhinneys.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: men's guide (/en-gb/apps/sizings?id=50695800) is a chart that only renders with optional cookies accepted; nothing loads with essential-only consent.",
+  "checked": "2026-10-30"
  },
  {
   "id": "thenorthface-m",
@@ -640,7 +644,9 @@
   "priority": 1,
   "stored_source": "thenorthface.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: thenorthface.com/en-gb size-charts, Men's tab: Jackets & Tops chest/hip and letter Trousers & Shorts waist, cm, 2XS–3XL.",
+  "checked": "2026-10-30"
  },
  {
   "id": "tommyhilfiger-m",
@@ -649,7 +655,9 @@
   "priority": 1,
   "stored_source": "mckennaman.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: uk.tommy.com/mens-size-guide, Tops/Outerwear/Casual Shirts chart XS–3XL, UK/US/EU + chest/waist cm ranges.",
+  "checked": "2026-10-30"
  },
  {
   "id": "weekday-m",
@@ -658,7 +666,9 @@
   "priority": 1,
   "stored_source": "weekday.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: weekday.com/en-gb size guide (men) charts are images only; product-page 'Find your size' shows no chart. No DOM table to read.",
+  "checked": "2026-10-30"
  },
  {
   "id": "weekday-m2",
@@ -667,7 +677,9 @@
   "priority": 1,
   "stored_source": "weekday.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: same as weekday-m (duplicate Weekday men's entry); charts are images only.",
+  "checked": "2026-10-30"
  },
  {
   "id": "boss-k",
@@ -676,7 +688,9 @@
   "priority": 1,
   "stored_source": "hugoboss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: hugoboss.com/uk lists kidswear as not shippable to the UK; no kids size chart on the UK site.",
+  "checked": "2026-10-30"
  },
  {
   "id": "jlkids-k",
@@ -685,7 +699,9 @@
   "priority": 1,
   "stored_source": "jackwills.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: juniors product page Size guide is Frasers Group's generic multi-brand guide (Junior > Boys clothing: General age table + Nike/adidas/etc.), no Jack Wills kids measurements.",
+  "checked": "2026-10-30"
  },
  {
   "id": "jigsawjr-k",

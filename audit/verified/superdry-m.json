@@ -1,0 +1,162 @@
+{
+ "id": "superdry-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Superdry men's size guide (product-page Size Guide: chest, waist, low hip/seat, cm; international sizing)",
+   "url": "https://cdn.superdry.com/size_guides/mens_en_280.html"
+  },
+  {
+   "label": "Product page the guide was opened from",
+   "url": "https://www.superdry.com/mens/t-shirts/essential-serif-logo-embroidered-t-shirt-279276.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "eu": "42",
+   "chest": [
+    82,
+    86
+   ],
+   "waist": [
+    65,
+    70
+   ],
+   "hips": [
+    80,
+    85
+   ]
+  },
+  {
+   "label": "XS",
+   "eu": "44",
+   "chest": [
+    86,
+    91
+   ],
+   "waist": [
+    70,
+    75
+   ],
+   "hips": [
+    85,
+    90
+   ]
+  },
+  {
+   "label": "S",
+   "eu": "46",
+   "chest": [
+    91,
+    96
+   ],
+   "waist": [
+    75,
+    80
+   ],
+   "hips": [
+    90,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "eu": "48",
+   "chest": [
+    96,
+    101
+   ],
+   "waist": [
+    80,
+    85
+   ],
+   "hips": [
+    95,
+    100
+   ]
+  },
+  {
+   "label": "L",
+   "eu": "50",
+   "chest": [
+    101,
+    106
+   ],
+   "waist": [
+    85,
+    90
+   ],
+   "hips": [
+    100,
+    105
+   ]
+  },
+  {
+   "label": "XL",
+   "eu": "52",
+   "chest": [
+    106,
+    111
+   ],
+   "waist": [
+    90,
+    95
+   ],
+   "hips": [
+    105,
+    110
+   ]
+  },
+  {
+   "label": "2XL",
+   "eu": "54",
+   "chest": [
+    111,
+    116
+   ],
+   "waist": [
+    95,
+    100
+   ],
+   "hips": [
+    110,
+    115
+   ]
+  },
+  {
+   "label": "3XL",
+   "eu": "56",
+   "chest": [
+    116,
+    122
+   ],
+   "waist": [
+    100,
+    105
+   ],
+   "hips": [
+    115,
+    120
+   ]
+  },
+  {
+   "label": "4XL",
+   "eu": "58",
+   "chest": [
+    122,
+    127
+   ],
+   "waist": [
+    105,
+    110
+   ],
+   "hips": [
+    120,
+    125
+   ]
+  }
+ ],
+ "audit": "Stored URL /info/size-guide is no longer the guide; chart read from the product-page Size Guide (cdn.superdry.com/size_guides/mens_en_280.html, linked from superdry.com/mens/t-shirts/essential-serif-logo-embroidered-t-shirt-279276.html). Old single values were low and had no hips: M chest 94 -> 96-101, waist 79 -> 80-85; L chest 100 -> 101-106; XXL chest 113 -> 111-116. XXS, 3XL and 4XL added; hips (low hip/seat) added. EU sizes kept as published (XS = EU 44, matching stored). UK column is letter sizes only, and the US/CA column gives chest inches, so uk/us are not stored."
+}
