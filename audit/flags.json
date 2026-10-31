@@ -22,5 +22,10 @@
  {"id":"weekday-m","flag":"Not yet verified: Weekday's men's size guide publishes its charts as images only (no readable table), and the product-page 'Find your size' tool shows no chart (Oct 2026). Figures are from an older, unconfirmed source."},
  {"id":"weekday-m2","flag":"Not yet verified: Weekday's men's size guide publishes its charts as images only (no readable table), and the product-page 'Find your size' tool shows no chart (Oct 2026). Figures are from an older, unconfirmed source."},
  {"id":"boss-k","flag":"Unverified: HUGO BOSS UK no longer sells or publishes kidswear online (its UK site lists kidswear as not shipped to the UK and has no kids size chart, Oct 2026). Figures are from an older, unconfirmed source."},
- {"id":"jlkids-k","flag":"Unverified: Jack Wills product pages (incl. juniors' items) only show Frasers Group's generic multi-brand size guide, which has no Jack Wills kids body measurements (Oct 2026)."}
+ {"id":"jlkids-k","flag":"Unverified: Jack Wills product pages (incl. juniors' items) only show Frasers Group's generic multi-brand size guide, which has no Jack Wills kids body measurements (Oct 2026)."},
+ {"id":"jigsawjr-k","flag":"No official chart: Jigsaw UK no longer sells a kids' range and its size guide has women's sizes only (Oct 2026), so these Junior figures are unverified."},
+ {"id":"lacoste-k","flag":"No official body chart: Lacoste UK kids' product pages give garment measurements only (across chest, length, sleeve), not body sizes, so these figures are unverified."},
+ {"id":"monsoon3-k","flag":"Monsoon publishes no separate occasion-wear chart; its party dresses use the Girl (3–15 years) chart (see Monsoon Kids). These double-age figures are unverified."},
+ {"id":"monsoon2-k","flag":"No official chart: Monsoon's size guide has no Accessorize kids chart, and Accessorize's girls' range is accessories (gloves, hats, slippers) without body sizes. These figures are unverified."},
+ {"id":"tednudge-k","flag":"No official chart: Ted Baker UK has no kids' range and its size guide covers women's and men's only (Oct 2026), so these figures are unverified."}
 ]

@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.8";
+export const APP_VERSION = "v1.5.9";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -5775,21 +5775,18 @@ const KIDS_BRANDS = [
 ],
   },
   {
-    id:"patagonia-k", name:"Patagonia (Kids)", origin:"US", tier:"sustainable", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://www.patagonia.com/on/demandware.static/Sites-patagonia-eu-Site/Sites-patagonia-eu-Library/en_GB/size-charts.html",checked:"2026-02"}],
-    notes:"US outdoor brand with excellent kids' range — lifetime guarantee on all products. US sizing. Generous outdoor cut designed for layering. Legendary durability means Patagonia kids' items hold high value second-hand.",
-    fit:"Generous outdoor US sizing — excellent second-hand value", inconsistencyWarning:false, confidence:88,
+    id:"patagonia-k", name:"Patagonia (Kids)", origin:"US", tier:"sustainable", lastVerified:"2026-10",
+    sources:[{label:"Official Patagonia UK Kids' Size Chart (loaded from size-kids-unisex-data)",url:"https://eu.patagonia.com/gb/en/guides/size-fit/kids-baby/",checked:"2026-10"}],
+    notes:"US outdoor brand with an excellent kids' range and a lifetime guarantee. Kids' clothing is sized XS–XXL with an age guide (XS = 5–6, S = 7–8, M = 10, L = 12, XL = 14, XXL = 16–18). Legendary durability means Patagonia kids' items hold high value second-hand.",
+    fit:"Letter sizes XS–XXL with an age guide — excellent second-hand value", inconsistencyWarning:false, confidence:88,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"2T",uk:"1–2",eu:"86–92",us:"2T",height:"81–92",chest:52,waist:52},
-      {label:"3T",uk:"2–3",eu:"92–98",us:"3T",height:"86–98",chest:54,waist:53},
-      {label:"4T",uk:"3–4",eu:"98–110",us:"4T",height:"92–110",chest:57,waist:54},
-      {label:"5",uk:"4–5",eu:"110–116",us:"5",height:"104–116",chest:59,waist:55},
-      {label:"6",uk:"5–6",eu:"116–122",us:"6",height:"110–122",chest:61,waist:56},
-      {label:"7",uk:"6–7",eu:"122–128",us:"7",height:"116–128",chest:63,waist:57},
-      {label:"8",uk:"7–8",eu:"128–134",us:"8",height:"122–134",chest:66,waist:59},
-      {label:"10",uk:"9–10",eu:"134–140",us:"10",height:"128–140",chest:70,waist:61},
-      {label:"12",uk:"11–12",eu:"146–152",us:"12",height:"140–152",chest:76,waist:64},
-      {label:"14",uk:"13–14",eu:"158–164",us:"14",height:"152–164",chest:82,waist:67},
+      {label:"XS (5–6)",chest:65,waist:57,hips:69,height:118},
+      {label:"S (7–8)",chest:67,waist:60,hips:71,height:132},
+      {label:"M (10)",chest:72,waist:65,hips:76,height:141},
+      {label:"L (12)",chest:75,waist:67,hips:79,height:149},
+      {label:"XL (14)",chest:80,waist:71,hips:83,height:156},
+      {label:"XXL (16–18)",chest:86,waist:79,hips:90,height:169},
     ],
   },
   // ── UK HIGH STREET ──
@@ -5905,21 +5902,26 @@ const KIDS_BRANDS = [
     ],
   },
   {
-    id:"monsoon-k", name:"Monsoon Kids", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://uk.monsoon.co.uk/size-guide.html",checked:"2026-03"}],
-    notes:"Distinctive, colourful British brand. UK age sizing with a regular comfortable fit. Known for special occasion children's wear and party dresses. Sizes run true — good quality for second-hand.",
+    id:"monsoon-k", name:"Monsoon Kids", origin:"UK", tier:"mid", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Monsoon UK size guide (Children › Girl (3-15 years), cm)",url:"https://www.monsoon.co.uk/size-guide.html?sizeGuideId=childrenGirl",checked:"2026-10"}],
+    notes:"Distinctive, colourful British brand known for special-occasion children's wear and party dresses. Measurements are Monsoon's Girl (3–15 years) single-year chart; Monsoon's Boy (2–13 years) chart differs slightly, and some dresses come in double-year sizes (11–12, 12–13, 14–15 yrs) with their own chart.",
     fit:"True to UK age — regular fit, excellent party wear", inconsistencyWarning:false, confidence:75,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"2–3y",uk:"2–3",eu:"92–98",us:"2–3T",height:"92–98",chest:53,waist:51},
-      {label:"3–4y",uk:"3–4",eu:"98–104",us:"3–4",height:"98–104",chest:55,waist:52},
-      {label:"4–5y",uk:"4–5",eu:"104–110",us:"4–5",height:"104–110",chest:58,waist:54},
-      {label:"5–6y",uk:"5–6",eu:"110–116",us:"5–6",height:"110–116",chest:61,waist:56},
-      {label:"6–7y",uk:"6–7",eu:"116–122",us:"6–7",height:"116–122",chest:64,waist:58},
-      {label:"7–8y",uk:"7–8",eu:"122–128",us:"7–8",height:"122–128",chest:67,waist:60},
-      {label:"8–9y",uk:"8–9",eu:"128–134",us:"8–9",height:"128–134",chest:71,waist:62},
-      {label:"9–10y",uk:"9–10",eu:"134–140",us:"9–10",height:"134–140",chest:75,waist:64},
-      {label:"10–11y",uk:"10–11",eu:"140–146",us:"10–12",height:"140–146",chest:79,waist:66},
-],
+      {label:"3y",chest:54.25,waist:52.5,hips:56,height:98,inseam:41},
+      {label:"4y",chest:56,waist:54.5,hips:60,height:104,inseam:45.5},
+      {label:"5y",chest:58,waist:54.5,hips:62,height:110,inseam:43.25},
+      {label:"6y",chest:60.5,waist:56,hips:64,height:116,inseam:52},
+      {label:"7y",chest:63,waist:57,hips:66,height:122,inseam:57},
+      {label:"8y",chest:65,waist:58,hips:70,height:128,inseam:59.75},
+      {label:"9y",chest:69,waist:61,hips:74,height:134,inseam:65.75},
+      {label:"10y",chest:71.5,waist:61.75,hips:77,height:140,inseam:65.75},
+      {label:"11y",chest:75,waist:63,hips:81,height:146,inseam:67.5},
+      {label:"12y",chest:78,waist:65.5,hips:84,height:152,inseam:71.5},
+      {label:"13y",chest:83,waist:65,hips:87,height:158,inseam:74.5},
+      {label:"14y",chest:85,waist:69,hips:90,height:160,inseam:77.25},
+      {label:"15y",chest:91,waist:67,hips:93,height:162,inseam:78},
+    ],
   },
   {
     id:"tu2-k", name:"White Stuff (Kids)", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -6685,6 +6687,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://uk.monsoon.co.uk/size-guide.html",checked:"2026-03"}],
     notes:"Accessories and occasion wear from the Monsoon brand — hair accessories, bags, jewellery sets for children. UK age guidance for accessories. Very popular for special occasion gifts second-hand.",
     fit:"Accessories — one size or age-based fits", inconsistencyWarning:false, confidence:74,
+    auditFlag:"No official chart: Monsoon's size guide has no Accessorize kids chart, and Accessorize's girls' range is accessories (gloves, hats, slippers) without body sizes. These figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"2–3y",uk:"2–3",eu:"92–98",us:"2–3T",height:"92–98",chest:53,waist:51},
       {label:"3–4y",uk:"3–4",eu:"98–104",us:"3–4",height:"98–104",chest:55,waist:52},
@@ -6964,6 +6967,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.lacoste.com/gb/size-guide",checked:"2026-03"}],
     notes:"French sportswear with classic polo shirts and trainers. EU sizing — polos run true but have a narrow French/European fit. For broader-shouldered UK children, size up. Polo shirts are the best secondhand buy — iconic, durable and classic.",
     fit:"Slim European fit — size up if broad shouldered", inconsistencyWarning:true, confidence:81,
+    auditFlag:"No official body chart: Lacoste UK kids' product pages give garment measurements only (across chest, length, sleeve), not body sizes, so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"4–5y",uk:"4–5",eu:"104/110",us:"5",height:"104–110",chest:57,waist:53},
       {label:"6–7y",uk:"6–7",eu:"116/122",us:"7",height:"116–122",chest:62,waist:55},
@@ -7027,6 +7031,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.jigsaw-online.com/size-guide",checked:"2026-03"}],
     notes:"British fashion brand with an elevated kids range. True to UK age sizing with a relaxed, contemporary cut. Quality fabrics and classic styles — excellent secondhand value as the pieces don't date quickly.",
     fit:"True to UK age", inconsistencyWarning:false, confidence:74,
+    auditFlag:"No official chart: Jigsaw UK no longer sells a kids' range and its size guide has women's sizes only (Oct 2026), so these Junior figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"3–4y",uk:"3–4",eu:"98–104",us:"3–4",height:"98–104",chest:55,waist:53},
       {label:"4–5y",uk:"4–5",eu:"104–110",us:"4–5",height:"104–110",chest:57,waist:54},
@@ -7126,17 +7131,20 @@ const KIDS_BRANDS = [
     ],
   },
   {
-    id:"mwtns-k", name:"Mountain Warehouse Kids", origin:"UK", tier:"value", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.mountainwarehouse.com/size-guide",checked:"2026-03"}],
+    id:"mwtns-k", name:"Mountain Warehouse Kids", origin:"UK", tier:"value", lastVerified:"2026-10", chartYear:"2026",
+    sources:[{label:"Official Mountain Warehouse size guide (Kids 2 to 14 Years)",url:"https://www.mountainwarehouse.com/help/size-guide/",checked:"2026-10"}],
     notes:"UK budget outdoor brand with a wide kids range. UK age sizing runs true to slightly large — a great value secondhand pick for outdoor and school trip kit. Waterproofs and fleeces especially good value.",
     fit:"True to UK age, occasional slight size up", inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"3–4y",uk:"3–4",eu:"98/104",us:"4T",height:"98–104",chest:55,waist:52},
-      {label:"5–6y",uk:"5–6",eu:"110/116",us:"6",height:"110–116",chest:59,waist:54},
-      {label:"7–8y",uk:"7–8",eu:"122/128",us:"8",height:"122–128",chest:64,waist:57},
-      {label:"9–10y",uk:"9–10",eu:"134/140",us:"10",height:"134–140",chest:69,waist:60},
-      {label:"11–12y",uk:"11–12",eu:"146/152",us:"12",height:"146–152",chest:74,waist:62},
-      {label:"13–14y",uk:"13–14",eu:"158/164",us:"14",height:"158–164",chest:80,waist:65},
+      {label:"2–3y",uk:"2–3",us:"2T",chest:54,waist:49,height:94,rng:{chest:[53,55],height:[90,98]}},
+      {label:"3–4y",uk:"3–4",us:"3T–4T",chest:56,waist:51,height:102,rng:{chest:[55,57],height:[98,106]},altLabel:"S"},
+      {label:"5–6y",uk:"5–6",us:"5–6",chest:59,waist:55,height:112,rng:{chest:[57,61],height:[106,118]},altLabel:"S"},
+      {label:"7–8y",uk:"7–8",us:"6X–8",chest:63.5,waist:59,height:124,rng:{chest:[61,66],height:[118,130]},altLabel:"M"},
+      {label:"9–10y",uk:"9–10",us:"9–10",chest:69,waist:63,height:136,rng:{chest:[66,72],height:[130,142]},altLabel:"M"},
+      {label:"11–12y",uk:"11–12",us:"11–12",chest:75,waist:67,height:148,rng:{chest:[72,78],height:[142,154]},altLabel:"L"},
+      {label:"13y",uk:"13",us:"13–14",chest:80.5,waist:70,height:158,rng:{chest:[78,83],height:[154,162]},altLabel:"L"},
+      {label:"14y",uk:"14",us:"15–16",chest:85.5,waist:73,height:166,rng:{chest:[84,87],height:[162,170]}},
     ],
   },
   {
@@ -7144,6 +7152,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.tedbaker.com/uk/size-guide",checked:"2026-03"}],
     notes:"British fashion brand with a smart occasion-wear kids range. UK age sizing runs true with a slim contemporary British cut. Party dresses and suits are particularly popular secondhand for special occasions.",
     fit:"True to UK age — slim contemporary cut", inconsistencyWarning:false, confidence:73,
+    auditFlag:"No official chart: Ted Baker UK has no kids' range and its size guide covers women's and men's only (Oct 2026), so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"2–3y",uk:"2–3",eu:"92–98",us:"2–3T",height:"92–98",chest:52,waist:50},
       {label:"3–4y",uk:"3–4",eu:"98–104",us:"3–4",height:"98–104",chest:55,waist:52},
@@ -7461,6 +7470,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://uk.monsoon.co.uk/size-guide.html",checked:"2026-03"}],
     notes:"Monsoon's special occasion kids range — party dresses, flower girl and bridesmaids. UK age sizing; embellished dresses tend to run true. The special occasion range is an excellent secondhand buy — worn once and in excellent condition on resale platforms.",
     fit:"True to UK age — occasion dresses run true", inconsistencyWarning:false, confidence:84,
+    auditFlag:"Monsoon publishes no separate occasion-wear chart; its party dresses use the Girl (3–15 years) chart (see Monsoon Kids). These double-age figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"2–3y",uk:"2–3",eu:"92/98",us:"3T",height:"86–98",chest:52,waist:50},
       {label:"3–4y",uk:"3–4",eu:"98/104",us:"4T",height:"92–104",chest:55,waist:52},
@@ -10435,7 +10445,7 @@ export default function App() {
         const entered = parseFloat(fromSize);
         if (isNaN(entered)) return null;
         const match = sizeArr.find(s => {
-          const range = parseRange(s.uk) || parseRange(s.label);
+          const range = parseRange(s.uk) || parseRange(s.label) || parseRange((String(s.label).match(/\(([^)]+)\)/)||[])[1]);
           return range ? (entered >= range[0] && entered <= range[1]) : false;
         });
         return match ? { brand, match, matchAbove: null, between: false } : null;
@@ -10445,13 +10455,13 @@ export default function App() {
         if (isNaN(entered)) return null;
         // Try exact range hit first
         const exact = sizeArr.find(s => {
-          const range = parseRange(s.height);
+          const range = s.rng?.height || parseRange(s.height);
           return range ? (entered >= range[0] && entered <= range[1]) : false;
         });
         if (exact) return { brand, match: exact, matchAbove: null, between: false };
         // Not in any range — find nearest below and nearest above
         const withRanges = sizeArr
-          .map(s => ({ s, range: parseRange(s.height) }))
+          .map(s => ({ s, range: s.rng?.height || parseRange(s.height) }))
           .filter(x => x.range);
         const below = withRanges.filter(x => x.range[1] < entered).sort((a,b) => b.range[1] - a.range[1])[0];
         const above = withRanges.filter(x => x.range[0] > entered).sort((a,b) => a.range[0] - b.range[0])[0];
@@ -12268,6 +12278,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.9","2026-10-31","Data audit, batch 10 (kidswear): Monsoon Kids, Mountain Warehouse Kids and Patagonia Kids re-checked against the brands' own size guides and corrected (e.g. Monsoon now uses its single-year Girl chart, 3–15 years, with hips and inside leg; Mountain Warehouse 11–12 yrs is a 72–78 cm chest and 142–154 cm height; Patagonia kids are sized XS–XXL by age, so M (10) is a 72 cm chest, not 70). Height search now uses each size's full height range. Jigsaw Junior, Lacoste Kids, Monsoon occasion wear, Monsoon Accessorize and Ted Baker Kids now carry a 🔍 audit note: none of these brands publishes a matching kids' body chart on its UK site."],
   ["v1.5.8","2026-10-30","Data audit, batch 9: Superdry, The North Face and Tommy Hilfiger men's charts re-checked against the brands' own size guides and corrected (e.g. Tommy Hilfiger M is UK 40 with an 88–92 cm waist, not UK 38 / 86 cm; Superdry M is a 96–101 cm chest and now runs XXS–4XL with seat sizes; The North Face M chest is 100–108 cm, not 99). Ted Baker and Weekday men's, BOSS Kids and Jack Wills Kids now carry a 🔍 audit note: Ted Baker's chart only loads with optional cookies, Weekday publishes its charts as images, BOSS no longer offers kidswear in the UK, and Jack Wills shows only a generic multi-brand guide."],
   ["v1.5.7","2026-10-30","Data audit, batch 8 (menswear): Hollister, Jack & Jones, Lacoste, lululemon, Patagonia and Reiss men's charts re-checked against the brands' own size guides and corrected (e.g. Lacoste's numbered sizes were one step off — XS is size 2, M is size 4; Hollister M is UK 38–40 with a 95–103 cm chest; Patagonia M chest is 102 cm, not 99). Jack Wills men's and Patagonia boardshorts/wetsuits are now marked unverified because no matching official chart could be found."],
   ["v1.5.6","2026-10-28","Data audit, batch 7 (menswear): Abercrombie & Fitch, AllSaints, Arket, boohooMAN, Fred Perry and Gymshark men's charts re-checked against the brands' own size guides and corrected (e.g. Gymshark M is chest 104 cm, not 97; boohooMAN chests were 4–5 cm low; Arket and A&F letter sizes each span two UK sizes, so Arket M is UK 38R–40R; Fred Perry now uses its S/M/L chest ranges). BOSS menswear now carries a 🔍 audit note: BOSS publishes size conversions only, with no body measurements."],

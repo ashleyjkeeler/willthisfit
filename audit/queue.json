@@ -710,7 +710,9 @@
   "priority": 1,
   "stored_source": "jigsaw-online.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: Jigsaw UK has no kids range; /pages/size-guide is women-only (old /size-guide 404s).",
+  "checked": "2026-10-31"
  },
  {
   "id": "lacoste-k",
@@ -719,7 +721,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: kids product-page Size guide (PJ1102, EJ1278) shows garment measurements only; no body chart. Old /gb/size-guide 404s.",
+  "checked": "2026-10-31"
  },
  {
   "id": "monsoon3-k",
@@ -728,7 +732,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: no separate occasion-wear chart; party dresses (e.g. Zoe sequin dress) are sold in Girl-chart sizes.",
+  "checked": "2026-10-31"
  },
  {
   "id": "monsoon2-k",
@@ -737,7 +743,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: no Accessorize kids chart on Monsoon's guide; Accessorize girls' range is accessories only.",
+  "checked": "2026-10-31"
  },
  {
   "id": "monsoon-k",
@@ -746,7 +754,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Girl (3-15 years) single-year chart on monsoon.co.uk/size-guide.html (Children tab).",
+  "checked": "2026-10-31"
  },
  {
   "id": "mwtns-k",
@@ -755,7 +765,9 @@
   "priority": 1,
   "stored_source": "mountainwarehouse.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Kids 2 to 14 Years chart on mountainwarehouse.com/help/size-guide/.",
+  "checked": "2026-10-31"
  },
  {
   "id": "patagonia-k",
@@ -764,7 +776,9 @@
   "priority": 1,
   "stored_source": "patagonia.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Kids' Size Chart (XS-XXL) on eu.patagonia.com/gb/en/guides/size-fit/kids-baby/.",
+  "checked": "2026-10-31"
  },
  {
   "id": "tednudge-k",
@@ -773,7 +787,9 @@
   "priority": 1,
   "stored_source": "tedbaker.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: tedbaker.com UK has no kids range; size guide covers women and men only.",
+  "checked": "2026-10-31"
  },
  {
   "id": "northface-k",

@@ -1,0 +1,119 @@
+{
+ "id": "monsoon-k",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Monsoon UK size guide (Children › Girl (3-15 years), cm)",
+   "url": "https://www.monsoon.co.uk/size-guide.html?sizeGuideId=childrenGirl"
+  }
+ ],
+ "rows": [
+  {
+   "label": "3y",
+   "height": 98,
+   "chest": 54.25,
+   "waist": 52.5,
+   "hips": 56,
+   "inseam": 41
+  },
+  {
+   "label": "4y",
+   "height": 104,
+   "chest": 56,
+   "waist": 54.5,
+   "hips": 60,
+   "inseam": 45.5
+  },
+  {
+   "label": "5y",
+   "height": 110,
+   "chest": 58,
+   "waist": 54.5,
+   "hips": 62,
+   "inseam": 43.25
+  },
+  {
+   "label": "6y",
+   "height": 116,
+   "chest": 60.5,
+   "waist": 56,
+   "hips": 64,
+   "inseam": 52
+  },
+  {
+   "label": "7y",
+   "height": 122,
+   "chest": 63,
+   "waist": 57,
+   "hips": 66,
+   "inseam": 57
+  },
+  {
+   "label": "8y",
+   "height": 128,
+   "chest": 65,
+   "waist": 58,
+   "hips": 70,
+   "inseam": 59.75
+  },
+  {
+   "label": "9y",
+   "height": 134,
+   "chest": 69,
+   "waist": 61,
+   "hips": 74,
+   "inseam": 65.75
+  },
+  {
+   "label": "10y",
+   "height": 140,
+   "chest": 71.5,
+   "waist": 61.75,
+   "hips": 77,
+   "inseam": 65.75
+  },
+  {
+   "label": "11y",
+   "height": 146,
+   "chest": 75,
+   "waist": 63,
+   "hips": 81,
+   "inseam": 67.5
+  },
+  {
+   "label": "12y",
+   "height": 152,
+   "chest": 78,
+   "waist": 65.5,
+   "hips": 84,
+   "inseam": 71.5
+  },
+  {
+   "label": "13y",
+   "height": 158,
+   "chest": 83,
+   "waist": 65,
+   "hips": 87,
+   "inseam": 74.5
+  },
+  {
+   "label": "14y",
+   "height": 160,
+   "chest": 85,
+   "waist": 69,
+   "hips": 90,
+   "inseam": 77.25
+  },
+  {
+   "label": "15y",
+   "height": 162,
+   "chest": 91,
+   "waist": 67,
+   "hips": 93,
+   "inseam": 78
+  }
+ ],
+ "notes": "Distinctive, colourful British brand known for special-occasion children's wear and party dresses. Measurements are Monsoon's Girl (3–15 years) single-year chart; Monsoon's Boy (2–13 years) chart differs slightly, and some dresses come in double-year sizes (11–12, 12–13, 14–15 yrs) with their own chart.",
+ "audit": "Old chart was 2–3y…10–11y double-age rows with EU/US columns and height ranges Monsoon doesn't publish. Official Girl chart is single years 3–15 with one height per age plus chest, waist, hips and inside leg (cm, as printed, including 5yrs inside leg 43.25 < 4yrs 45.5). UK/EU/US removed (not published). e.g. 7–8y chest 67 → 7y 63 / 8y 65; 9–10y chest 75 → 9y 69 / 10y 71.5. 11y–15y added."
+}

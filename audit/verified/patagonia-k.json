@@ -1,0 +1,57 @@
+{
+ "id": "patagonia-k",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Patagonia UK Kids' Size Chart (loaded from size-kids-unisex-data)",
+   "url": "https://eu.patagonia.com/gb/en/guides/size-fit/kids-baby/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS (5–6)",
+   "height": 118,
+   "chest": 65,
+   "waist": 57,
+   "hips": 69
+  },
+  {
+   "label": "S (7–8)",
+   "height": 132,
+   "chest": 67,
+   "waist": 60,
+   "hips": 71
+  },
+  {
+   "label": "M (10)",
+   "height": 141,
+   "chest": 72,
+   "waist": 65,
+   "hips": 76
+  },
+  {
+   "label": "L (12)",
+   "height": 149,
+   "chest": 75,
+   "waist": 67,
+   "hips": 79
+  },
+  {
+   "label": "XL (14)",
+   "height": 156,
+   "chest": 80,
+   "waist": 71,
+   "hips": 83
+  },
+  {
+   "label": "XXL (16–18)",
+   "height": 169,
+   "chest": 86,
+   "waist": 79,
+   "hips": 90
+  }
+ ],
+ "notes": "US outdoor brand with an excellent kids' range and a lifetime guarantee. Kids' clothing is sized XS–XXL with an age guide (XS = 5–6, S = 7–8, M = 10, L = 12, XL = 14, XXL = 16–18). Legendary durability means Patagonia kids' items hold high value second-hand.",
+ "audit": "Old stored URL (size-charts.html) is gone; the old rows (2T–14 numeric with UK/EU/height ranges) match no official Patagonia chart. Official Kids' Size Chart is XS–XXL with age, one height, chest, waist and hip (cm). e.g. old '10' chest 70 → M (10) 72, waist 61 → 65; old '14' chest 82 → XL (14) 80. Infant/toddler sizes (NB–5T) have only weight and length, so 2T–4T rows were removed rather than kept unverified. UK/EU/US removed (not published)."
+}
