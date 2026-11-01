@@ -1,0 +1,134 @@
+{
+ "id": "champion-w",
+ "sources": [
+  {
+   "label": "Official Champion size guides (Women's Tops, inches)",
+   "url": "https://www.champion.com/pages/size-guides"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS/0-2",
+   "bust": [
+    81.3,
+    86.4
+   ],
+   "waist": [
+    63.5,
+    68.6
+   ],
+   "hips": [
+    88.9,
+    94.0
+   ],
+   "_in": [
+    "32-34",
+    "25-27",
+    "35-37"
+   ]
+  },
+  {
+   "label": "S/4-6",
+   "bust": [
+    86.4,
+    91.4
+   ],
+   "waist": [
+    68.6,
+    73.7
+   ],
+   "hips": [
+    94.0,
+    99.1
+   ],
+   "_in": [
+    "34-36",
+    "27-29",
+    "37-39"
+   ]
+  },
+  {
+   "label": "M/8-10",
+   "bust": [
+    91.4,
+    96.5
+   ],
+   "waist": [
+    73.7,
+    78.7
+   ],
+   "hips": [
+    99.1,
+    104.1
+   ],
+   "_in": [
+    "36-38",
+    "29-31",
+    "39-41"
+   ]
+  },
+  {
+   "label": "L/12-14",
+   "bust": [
+    96.5,
+    101.6
+   ],
+   "waist": [
+    78.7,
+    83.8
+   ],
+   "hips": [
+    104.1,
+    109.2
+   ],
+   "_in": [
+    "38-40",
+    "31-33",
+    "41-43"
+   ]
+  },
+  {
+   "label": "XL/16-18",
+   "bust": [
+    101.6,
+    106.7
+   ],
+   "waist": [
+    83.8,
+    88.9
+   ],
+   "hips": [
+    109.2,
+    114.3
+   ],
+   "_in": [
+    "40-42",
+    "33-35",
+    "43-45"
+   ]
+  },
+  {
+   "label": "2XL/20-22",
+   "bust": [
+    106.7,
+    114.3
+   ],
+   "waist": [
+    88.9,
+    96.5
+   ],
+   "hips": [
+    114.3,
+    121.9
+   ],
+   "_in": [
+    "42-45",
+    "35-38",
+    "45-48"
+   ]
+  }
+ ],
+ "audit": "Old /pages/size-charts 404s; guide is /pages/size-guides, Women's Tops Size Guide. Inches only: cm = in x 2.54 rounded to 0.1, originals in _in. Old XS 80/64/86 now 81.3-86.4/63.5-68.6/88.9-94; M 91/74/97 now 91.4-96.5/73.7-78.7/99.1-104.1; old XXL 110/93/116 now 2XL 106.7-114.3/88.9-96.5/114.3-121.9. UK/EU removed (not printed); labels keep the printed number range, which isn't labelled US.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

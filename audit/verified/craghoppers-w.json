@@ -1,0 +1,94 @@
+{
+ "id": "craghoppers-w",
+ "sources": [
+  {
+   "label": "Official Craghoppers sizing guide (Women, Tops and Bottoms)",
+   "url": "https://www.craghoppers.com/sizing-guides/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "us": "2",
+   "eu": "32",
+   "bust": 79,
+   "waist": 62.5,
+   "hips": 84
+  },
+  {
+   "label": "8",
+   "us": "4",
+   "eu": "34",
+   "bust": 81,
+   "waist": 66,
+   "hips": 86
+  },
+  {
+   "label": "10",
+   "us": "6",
+   "eu": "36",
+   "bust": 86,
+   "waist": 69,
+   "hips": 91
+  },
+  {
+   "label": "12",
+   "us": "8",
+   "eu": "38",
+   "bust": 91,
+   "waist": 71,
+   "hips": 97
+  },
+  {
+   "label": "14",
+   "us": "10",
+   "eu": "40",
+   "bust": 97,
+   "waist": 76,
+   "hips": 102
+  },
+  {
+   "label": "16",
+   "us": "12",
+   "eu": "42",
+   "bust": 102,
+   "waist": 81,
+   "hips": 107
+  },
+  {
+   "label": "18",
+   "us": "14",
+   "eu": "44",
+   "bust": 107,
+   "waist": 86,
+   "hips": 112
+  },
+  {
+   "label": "20",
+   "us": "16",
+   "eu": "46",
+   "bust": 112,
+   "waist": 91,
+   "hips": 117
+  },
+  {
+   "label": "22",
+   "us": "18",
+   "eu": "48",
+   "bust": 119,
+   "waist": 104,
+   "hips": 127
+  },
+  {
+   "label": "24",
+   "us": "20",
+   "eu": "50",
+   "bust": 124,
+   "waist": 109,
+   "hips": 132
+  }
+ ],
+ "audit": "Old /size-guides/ 404s; guide is /sizing-guides/. Bust from Tops, waist and hip from Bottoms (same sizes, same US/EU rows), printed cm. Old S-3XL letters with UK replaced by 6-24: old M uk 12 90/72/95 now 12 91/71/97; old L uk 14 95/77/100 now 14 97/76/102; old 3XL uk 20 113/95/118 now 20 112/91/117. uk field left out: the size row is headed 'Size Guide', not UK.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

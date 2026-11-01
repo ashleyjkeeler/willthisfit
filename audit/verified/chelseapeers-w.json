@@ -1,0 +1,110 @@
+{
+ "id": "chelseapeers-w",
+ "sources": [
+  {
+   "label": "Official Chelsea Peers size guide (Womens)",
+   "url": "https://chelseapeers.com/pages/size-guide-1"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "bust": 80,
+   "waist": 63,
+   "hips": 90
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "bust": 84,
+   "waist": 67,
+   "hips": 94
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "bust": 88,
+   "waist": 71,
+   "hips": 98
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "bust": 93,
+   "waist": 76,
+   "hips": 103
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "bust": 98,
+   "waist": 81,
+   "hips": 108
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "bust": 104,
+   "waist": 87,
+   "hips": 114
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "bust": 110,
+   "waist": 93,
+   "hips": 120
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "bust": 117,
+   "waist": 100,
+   "hips": 127
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "bust": 124,
+   "waist": 107,
+   "hips": 134
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "bust": 131,
+   "waist": 114,
+   "hips": 141
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "bust": 138,
+   "waist": 121,
+   "hips": 148
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "bust": 145,
+   "waist": 128,
+   "hips": 155
+  }
+ ],
+ "audit": "Old /pages/size-guide 404s; footer links /pages/size-guide-1. Womens chart, printed cm (inches not stored), UK & AU and US from its Size Conversion table. Old XS-XL letter rows replaced by sizes 6-28: old M uk 10-12 91/71/96 now 10 88/71/98 and 12 93/76/103; old XL uk 16 103/83/108 now 16 104/87/114. EU left out: the guide has two EU columns that differ by one size. Maternity chart not stored.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

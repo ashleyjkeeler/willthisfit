@@ -212,3 +212,21 @@ Checks: build OK, verify.mjs 0 failures (830 rows / 97 entries, 35 flags), api t
 ## 2026-11-01 — follow-up to batch 13 (v1.5.13, requested by Ashley)
 
 No chart numbers changed. Bershka (W): removed the "runs very small, size up" advice and the "EU sizing" claim from notes and fit. PLAYBOOK step 5: the branch setup now uses `git checkout -B audit origin/audit` when that branch exists, and starts from `origin/main` only when it doesn't, so unmerged batches are kept.
+
+## 2026-11-01 — batch 14 (requested by Ashley, v1.5.14)
+
+8 queue entries (Cath Kidston → Craghoppers). Pages read in the built-in browser, numbers taken from the page DOM. Optional cookies rejected (Chelsea Peers "Decline", Cider "Disable", Colorful Standard "Deny", Columbia UK "Reject all", Cotton Traders "Reject non-essential", Craghoppers "Accept Only Necessary"). No sign-ins, no bot checks bypassed. Result: 6 verified, 2 flagged, 0 skipped.
+
+| Brand | Outcome | What changed | Official URL |
+|---|---|---|---|
+| Cath Kidston | verified | cathkidston.com now redirects to next.co.uk/cath-kidston ("Official Cath Kidston"). Item-page guide headed "Cath Kidston Womens Clothing", same on a hoodie and a skirt. 6 82/62/86 → 80/61/88; 12 94/74/98 → 95/76/103; 16 103/83/107 → 105/86/113. 18 added. Caveat: the chart is hosted on Next. | https://www.next.co.uk/style/sv088866/v83224 |
+| Champion | verified | Old URL 404s. Women's Tops, inches only, converted at 2.54 (originals in `_in`). XS 80/64/86 → 81.3–86.4/63.5–68.6/88.9–94; M 91/74/97 → 91.4–96.5/73.7–78.7/99.1–104.1; XXL 110/93/116 → 2XL 106.7–114.3/88.9–96.5/114.3–121.9. UK/EU removed. | https://www.champion.com/pages/size-guides |
+| Chelsea Peers | verified | Old URL 404s. Letters → sizes 6–28: M (UK 10–12) 91/71/96 → 10 88/71/98, 12 93/76/103. EU left out (two EU columns that differ by one size). | https://chelseapeers.com/pages/size-guide-1 |
+| Cider | verified | Product-page Sizing help, Body Size, cm. M (UK 8–10) 88/69/93 → M (UK 10) 91–95/71–75/96–100; XL (UK 12–14) 96/77/101 → XL (UK 16) 101–105/81–86/106–110. Curve range 0XL–5XL from a Curve item. "Runs 1–2 sizes small" and "Chinese sizing" replaced (the chart maps to UK sizes). Third-party source removed. Each range read on one item. | https://www.shopcider.com/goods/knit-v-neck-solid-lace-hem-long-sleeve-top-113941585 |
+| Colorful Standard | flagged | Old URL 404s. Product-page guide is garment measurements only. Numbers unchanged. | https://colorfulstandard.com/products/women-organic-rib-ls-t-shirt-women-ls-t-shirt-navy-blue-female |
+| Columbia | flagged | columbia.com/t/size-fit and columbiasportswear.co.uk/sizefit both returned an access-denied page (retried once). Not bypassed. Numbers unchanged. Worth retrying. | https://www.columbiasportswear.co.uk/sizefit?pid=1864781&isPage=true |
+| Cotton Traders | verified | Old URL 404s. Sizes 6–32, printed cm, letter as altLabel. M (UK 12–14) 94/77/99 → 12 90.5/73.5/99, 14 95.5/78.5/104; XL (UK 16–18) 107/90/112 → 16 100.5/84/109, 18 107/90/115. Notes "sizes to 3XL" → "sizes 6–32". | https://www.cottontraders.com/size-chart/womens-size-chart.html |
+| Craghoppers | verified | Old URL 404s. Bust from Tops, waist/hip from Bottoms (same sizes). Letters → sizes 6–24: M (UK 12) 90/72/95 → 12 91/71/97; L (UK 14) 95/77/100 → 14 97/76/102. uk field left out (not labelled UK). | https://www.craghoppers.com/sizing-guides/ |
+
+Notes: size-advice text left as it was on Champion ("consider DOWN one"), Cotton Traders ("size DOWN") and Craghoppers ("generous"): editorial, not chart figures.
+Checks: build OK, verify.mjs 0 failures (891 rows / 103 entries, 37 flags), api tests 21 passed. Queue: 492 todo, 8 skipped.

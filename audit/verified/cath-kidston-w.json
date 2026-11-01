@@ -1,0 +1,85 @@
+{
+ "id": "cath-kidston-w",
+ "sources": [
+  {
+   "label": "Official Cath Kidston Womens Clothing size guide (product-page guide on next.co.uk, where cathkidston.com now redirects)",
+   "url": "https://www.next.co.uk/style/sv088866/v83224"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80,
+   "waist": 61,
+   "hips": 88,
+   "altLabel": "XS"
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 66,
+   "hips": 93,
+   "altLabel": "S"
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 71,
+   "hips": 98,
+   "altLabel": "S"
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 76,
+   "hips": 103,
+   "altLabel": "M"
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 81,
+   "hips": 108,
+   "altLabel": "M"
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 105,
+   "waist": 86,
+   "hips": 113,
+   "altLabel": "L"
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 91,
+   "hips": 118,
+   "altLabel": "L"
+  }
+ ],
+ "notes": "UK brand known for floral prints and vintage-inspired designs, now sold through Next: cathkidston.com redirects to next.co.uk/cath-kidston. UK sizing. Relaxed, comfortable cuts — slightly generous. Often found second-hand in excellent condition as items are treasured.",
+ "audit": "cathkidston.com/pages/size-guide redirects to next.co.uk/cath-kidston (page titled Official Cath Kidston). Size Guide on Cath Kidston items is headed 'Cath Kidston Womens Clothing' (same on a hoodie and a skirt), CM tab; UK/EU/US and letter from its International Sizes table. Old 6 82/62/86 now 80/61/88; 12 94/74/98 now 95/76/103; 16 103/83/107 now 105/86/113. 18 added. Caveat: the chart is hosted on Next, Cath Kidston's seller since the redirect.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

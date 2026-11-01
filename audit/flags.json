@@ -33,5 +33,7 @@
  {"id":"anntaylor-w","flag":"Not yet verified: Ann Taylor's size chart page shows an 'Access denied, verify you are a human' bot check (Nov 2026). Figures are from an older, unconfirmed source."},
  {"id":"anthropologie-w","flag":"Unverified: Anthropologie's size guide (Nov 2026) prints no unit on its UK chart and puts UK 8, 10 and 12 under two letter sizes each with different measurements, so these figures haven't been updated. Check the garment measurements on each listing."},
  {"id":"bravissimo-w","flag":"No official clothing chart: Bravissimo now sells bra-sized products (band and cup), and its old size-guide URL leads to bra fitting guides. There is no S to XXL body chart to check, so these measurements are unverified."},
- {"id":"calvinklein-w","flag":"No official bust figures: Calvin Klein UK's women's tops chart only converts sizes (no body measurements), and its two tops conversions disagree (XS is UK 4-6 in the main guide, UK 6 on product pages). These measurements are unverified."}
+ {"id":"calvinklein-w","flag":"No official bust figures: Calvin Klein UK's women's tops chart only converts sizes (no body measurements), and its two tops conversions disagree (XS is UK 4-6 in the main guide, UK 6 on product pages). These measurements are unverified."},
+ {"id":"colorfulstandard-w","flag":"No official body chart: Colorful Standard's product-page size guides give garment measurements only (across the chest, length, hem, sleeve), so these body measurements are unverified. Check the garment measurements on each listing."},
+ {"id":"columbia-w","flag":"Unverified: Columbia's size guides could not be read (both its US and UK size pages returned an access-denied page), so these measurements haven't been checked."}
 ]

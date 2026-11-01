@@ -1062,7 +1062,9 @@
   "priority": 2,
   "stored_source": "cathkidston.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "cathkidston.com redirects to next.co.uk/cath-kidston; 'Cath Kidston Womens Clothing' guide on item pages read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "champion-w",
@@ -1071,7 +1073,9 @@
   "priority": 2,
   "stored_source": "champion.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /pages/size-guides Women's Tops, inches, converted at 2.54.",
+  "checked": "2026-11"
  },
  {
   "id": "chelseapeers-w",
@@ -1080,7 +1084,9 @@
   "priority": 2,
   "stored_source": "chelseapeers.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /pages/size-guide-1 Womens chart read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "cider-w",
@@ -1089,7 +1095,9 @@
   "priority": 2,
   "stored_source": "shopcider.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Policy page has no chart; product-page Sizing help (Body Size, cm), standard and Curve items, read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "colorfulstandard-w",
@@ -1098,7 +1106,9 @@
   "priority": 2,
   "stored_source": "colorfulstandard.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s; product-page size guide is garment measurements only.",
+  "checked": "2026-11"
  },
  {
   "id": "columbia-w",
@@ -1107,7 +1117,9 @@
   "priority": 2,
   "stored_source": "columbia.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "columbia.com/t/size-fit and columbiasportswear.co.uk/sizefit both returned 'Access to this page has been denied' (one plain retry). Not bypassed.",
+  "checked": "2026-11"
  },
  {
   "id": "cottontraders-w",
@@ -1116,7 +1128,9 @@
   "priority": 2,
   "stored_source": "cottontraders.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /size-chart/womens-size-chart.html read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "craghoppers-w",
@@ -1125,7 +1139,9 @@
   "priority": 2,
   "stored_source": "craghoppers.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /sizing-guides/ Tops and Bottoms read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "dare2b-w",
