@@ -1,0 +1,94 @@
+{
+ "id": "allsaints-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official AllSaints size guide (women's clothing, cm)",
+   "url": "https://www.allsaints.com/sizeguide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 2",
+   "uk": "2",
+   "us": "00",
+   "eu": "30",
+   "bust": 77,
+   "waist": 59,
+   "hips": 85.5,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 79.5,
+   "waist": 61.5,
+   "hips": 88,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82,
+   "waist": 64,
+   "hips": 90.5,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84.5,
+   "waist": 66.5,
+   "hips": 93,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89.5,
+   "waist": 71.5,
+   "hips": 98,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94.5,
+   "waist": 76.5,
+   "hips": 103,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99.5,
+   "waist": 81.5,
+   "hips": 108,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104.5,
+   "waist": 86.5,
+   "hips": 113,
+   "altLabel": "L"
+  }
+ ],
+ "audit": "Sizes UK 2\u201316 and conversions were right, but body measurements were off: e.g. UK 8 bust 85\u219284.5, waist 67\u219266.5, hips 92\u219293; UK 10 bust 90\u219289.5; UK 16 hips 112\u2192113. Hips were 1\u20131.5 cm low throughout. Inch originals published alongside (bust 30\u201341in). Old /pages/size-guide URL is gone; the guide is at /sizeguide.html."
+}

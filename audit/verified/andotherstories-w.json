@@ -1,0 +1,77 @@
+{
+ "id": "andotherstories-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official & Other Stories GB size guide (Clothing: cm + size converter)",
+   "url": "https://www.stories.com/en-gb/customer-service/size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "EU 32",
+   "uk": "4-6",
+   "eu": "32",
+   "bust": 76,
+   "waist": 60,
+   "hips": 84,
+   "altLabel": "XS"
+  },
+  {
+   "label": "EU 34",
+   "uk": "4-6",
+   "eu": "34",
+   "bust": 80,
+   "waist": 64,
+   "hips": 88,
+   "altLabel": "XS"
+  },
+  {
+   "label": "EU 36",
+   "uk": "8-10",
+   "eu": "36",
+   "bust": 84,
+   "waist": 68,
+   "hips": 92,
+   "altLabel": "S"
+  },
+  {
+   "label": "EU 38",
+   "uk": "8-10",
+   "eu": "38",
+   "bust": 88,
+   "waist": 72,
+   "hips": 96,
+   "altLabel": "S"
+  },
+  {
+   "label": "EU 40",
+   "uk": "12-14",
+   "eu": "40",
+   "bust": 92,
+   "waist": 76,
+   "hips": 100,
+   "altLabel": "M"
+  },
+  {
+   "label": "EU 42",
+   "uk": "12-14",
+   "eu": "42",
+   "bust": 96,
+   "waist": 80,
+   "hips": 104,
+   "altLabel": "M"
+  },
+  {
+   "label": "EU 44",
+   "uk": "16",
+   "eu": "44",
+   "bust": 100,
+   "waist": 84,
+   "hips": 108,
+   "altLabel": "L"
+  }
+ ],
+ "audit": "Was 5 letter rows XS\u2013XL with estimated bust/waist/hips and US sizes. Official chart is per EU size 32\u201344 (Chest/Waist/Hip, single cm values; inseam 79 for all). UK given only per letter by the official size converter (XS=UK 4-6, S=8-10, M=12-14, L=16), stored verbatim on each EU row; no US sizes published, so removed. No XL on the official chart."
+}

@@ -1,0 +1,159 @@
+{
+ "id": "yoursclothing-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Yours Clothing women's clothing size guide (cm and inches as published; International Sizes)",
+   "url": "https://www.yoursclothing.co.uk/womens-curve-size-chart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 87,
+   "waist": 72,
+   "hips": 96
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 92,
+   "waist": 77,
+   "hips": 101
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 97,
+   "waist": 82,
+   "hips": 106
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 102,
+   "waist": 87,
+   "hips": 111
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 107,
+   "waist": 92,
+   "hips": 116
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 113,
+   "waist": 98,
+   "hips": 122
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 119,
+   "waist": 104,
+   "hips": 128
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 125,
+   "waist": 110,
+   "hips": 134
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 131,
+   "waist": 116,
+   "hips": 140
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "56",
+   "bust": 137,
+   "waist": 122,
+   "hips": 146
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "us": "26",
+   "eu": "58",
+   "bust": 143,
+   "waist": 128,
+   "hips": 152
+  },
+  {
+   "label": "32",
+   "uk": "32",
+   "us": "28",
+   "eu": "60",
+   "bust": 149,
+   "waist": 134,
+   "hips": 158
+  },
+  {
+   "label": "34",
+   "uk": "34",
+   "us": "30",
+   "eu": "62",
+   "bust": 155,
+   "waist": 140,
+   "hips": 164
+  },
+  {
+   "label": "36",
+   "uk": "36",
+   "us": "32",
+   "eu": "64",
+   "bust": 161,
+   "waist": 146,
+   "hips": 170
+  },
+  {
+   "label": "38",
+   "uk": "38",
+   "us": "34",
+   "eu": "66",
+   "bust": 167,
+   "waist": 152,
+   "hips": 176
+  },
+  {
+   "label": "40",
+   "uk": "40",
+   "us": "36",
+   "eu": "68",
+   "bust": 173,
+   "waist": 158,
+   "hips": 182
+  }
+ ],
+ "notes": "UK sizing. Plus-size specialist — sizes 10–40 (some styles are dual sized, e.g. 18–20). Very consistent and well-documented. Known for fashion-forward, affordable plus-size styles. High Vinted activity among plus-size community.",
+ "audit": "Old URL /content/size-guide 404s; guide is at /womens-curve-size-chart. Official chart is UK 10–40 (stored 16–28) with cm printed by the brand (no conversion needed). Waist and hips were 2–3 cm too small in the middle sizes and the top sizes were too big: UK 16 waist 84 -> 87, hips 108 -> 111; UK 20 bust 114 -> 113, waist 96 -> 98, hips 120 -> 122; UK 24 bust 126 -> 125, waist 108 -> 110, hips 132 -> 134; UK 26 bust 133 -> 131, waist 115 -> 116; UK 28 bust 140 -> 137. UK 10–14 and 30–40 added. Dual-size rows (e.g. 18-20) are summaries of the single rows and are not stored. US/EU from the same page's International Sizes table. Notes and fit text corrected ('exclusively plus-size, sizes 16–40' -> 10–40)."
+}

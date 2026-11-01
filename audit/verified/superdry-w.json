@@ -1,0 +1,243 @@
+{
+ "id": "superdry-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Superdry women's size guide (product-page Size Guide, served from Superdry's own CDN; cm ranges)",
+   "url": "https://cdn.superdry.com/size_guides/womens_en_285.html"
+  },
+  {
+   "label": "Product page the guide was opened from",
+   "url": "https://www.superdry.com/womens/tops/athletic-button-down-long-sleeve-top-278233.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": [
+    80,
+    84
+   ],
+   "waist": [
+    60,
+    64
+   ],
+   "hips": [
+    86,
+    90
+   ],
+   "_in": {
+    "bust": [
+     31.5,
+     33
+    ],
+    "waist": [
+     23.5,
+     25
+    ],
+    "hips": [
+     34,
+     35.5
+    ]
+   }
+  },
+  {
+   "label": "XS",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": [
+    84,
+    88
+   ],
+   "waist": [
+    64,
+    68
+   ],
+   "hips": [
+    90,
+    94
+   ],
+   "_in": {
+    "bust": [
+     33,
+     34.5
+    ],
+    "waist": [
+     25,
+     26.5
+    ],
+    "hips": [
+     35.5,
+     37
+    ]
+   }
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": [
+    88,
+    93
+   ],
+   "waist": [
+    68,
+    74
+   ],
+   "hips": [
+    94,
+    98
+   ],
+   "_in": {
+    "bust": [
+     34.5,
+     36.5
+    ],
+    "waist": [
+     26.5,
+     29
+    ],
+    "hips": [
+     37,
+     38.5
+    ]
+   }
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": [
+    93,
+    98
+   ],
+   "waist": [
+    74,
+    79
+   ],
+   "hips": [
+    98,
+    103
+   ],
+   "_in": {
+    "bust": [
+     36.5,
+     38.5
+    ],
+    "waist": [
+     29,
+     31
+    ],
+    "hips": [
+     38.5,
+     40.5
+    ]
+   }
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": [
+    98,
+    103
+   ],
+   "waist": [
+    79,
+    84
+   ],
+   "hips": [
+    103,
+    108
+   ],
+   "_in": {
+    "bust": [
+     38.5,
+     40.5
+    ],
+    "waist": [
+     31,
+     33
+    ],
+    "hips": [
+     40.5,
+     42.5
+    ]
+   }
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": [
+    103,
+    108
+   ],
+   "waist": [
+    84,
+    89
+   ],
+   "hips": [
+    108,
+    113
+   ],
+   "_in": {
+    "bust": [
+     40.5,
+     42.5
+    ],
+    "waist": [
+     33,
+     35
+    ],
+    "hips": [
+     42.5,
+     44.5
+    ]
+   }
+  },
+  {
+   "label": "XXL",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": [
+    108,
+    113
+   ],
+   "waist": [
+    89,
+    94
+   ],
+   "hips": [
+    113,
+    118
+   ],
+   "_in": {
+    "bust": [
+     42.5,
+     44.5
+    ],
+    "waist": [
+     35,
+     37
+    ],
+    "hips": [
+     44.5,
+     46.5
+    ]
+   }
+  }
+ ],
+ "audit": "Stored URL /info/size-guide now 404s; the women's guide is the product-page Size Guide (loaded from cdn.superdry.com). Stored letter-to-UK mapping was off by one size: Superdry's chart is XXS = UK 6, XS = 8, S = 10, M = 12, L = 14, XL = 16, XXL = 18 (stored had XS = 6 … 2XL = 16). Measurements are now the published cm ranges, e.g. M (UK 12) was bust 90 / waist 71 / hips 95 → 93–98 / 74–79 / 98–103; XL (UK 16) was bust 98 / waist 79 / hips 103 → 103–108 / 84–89 / 108–113. XXS and XXL (UK 18) added. Hips = the chart's 'Low hip / Seat'. US/CA and EU from the guide's International Sizing table. The old notes ('M fits UK 10–12, size up one') contradicted the official chart and were replaced.",
+ "notes": "British brand with Japanese-inspired graphics. The official women's chart pairs each letter size with one UK size: XXS = UK 6, XS = 8, S = 10, M = 12, L = 14, XL = 16, XXL = 18, with bust, waist and low-hip ranges in cm. Some styles come in dual sizes (6/8, 10/12, 14/16)."
+}

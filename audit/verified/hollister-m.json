@@ -1,0 +1,79 @@
+{
+ "id": "hollister-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Hollister UK size guide (men's tops, UK region, cm), shown on product pages",
+   "url": "https://www.hollisterco.com/shop/uk/p/cotton-crew-icon-t-shirt-63212321-1005"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "30",
+   "chest": [
+    72,
+    80
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "32-34",
+   "chest": [
+    80,
+    88
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "36",
+   "chest": [
+    88,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "38-40",
+   "chest": [
+    95,
+    103
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "42",
+   "chest": [
+    103,
+    110
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "44-46",
+   "chest": [
+    110,
+    118
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "48",
+   "chest": [
+    118,
+    126
+   ]
+  },
+  {
+   "label": "XXXL",
+   "uk": "50",
+   "chest": [
+    126,
+    133
+   ]
+  }
+ ],
+ "audit": "Old source URL (/hol/faq/sizecharts.html) is gone; the official chart is the product-page Size Guide (region UK, cm). Men's tops chart gives UK size and chest range only (plus arm length), so waist, US and EU are removed. Old UK mapping and chests were off: M UK 36-38 chest 93 -> UK 38-40, 95-103; L UK 38-40 chest 99 -> UK 42, 103-110; XL chest 105 -> 110-118; XXL 112 -> 118-126. XXS and XXXL added.",
+ "notes": "US brand (Abercrombie & Fitch's younger line). Slim, youthful American cut. Hollister's UK chart: XS = UK 32-34, S = UK 36, M = UK 38-40, L = UK 42, XL = UK 44-46. Tall fits are for heights above 183 cm. Strong Depop presence."
+}

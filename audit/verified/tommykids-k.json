@@ -1,0 +1,95 @@
+{
+ "id": "tommykids-k",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Tommy Hilfiger UK children's size guide (Boys – Clothing, cm)",
+   "url": "https://uk.tommy.com/children-size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "3y",
+   "eu": "98",
+   "chest": 54.25,
+   "waist": 52.5,
+   "hips": 56,
+   "inseam": 41
+  },
+  {
+   "label": "4y",
+   "eu": "104",
+   "chest": 56,
+   "waist": 54.5,
+   "hips": 60,
+   "inseam": 45.5
+  },
+  {
+   "label": "5y",
+   "eu": "110",
+   "chest": 58,
+   "waist": 55,
+   "hips": 62,
+   "inseam": 49.25
+  },
+  {
+   "label": "6y",
+   "eu": "116",
+   "chest": 60.5,
+   "waist": 56,
+   "hips": 64,
+   "inseam": 52
+  },
+  {
+   "label": "7y",
+   "eu": "122",
+   "chest": 63,
+   "waist": 57,
+   "hips": 66,
+   "inseam": 56
+  },
+  {
+   "label": "8–9y",
+   "eu": "128",
+   "chest": 64,
+   "waist": 59,
+   "hips": 68,
+   "inseam": 59.25
+  },
+  {
+   "label": "10–11y",
+   "eu": "140",
+   "chest": 71,
+   "waist": 63.5,
+   "hips": 74.25,
+   "inseam": 65
+  },
+  {
+   "label": "12–13y",
+   "eu": "152",
+   "chest": 78,
+   "waist": 68,
+   "hips": 81,
+   "inseam": 70.05
+  },
+  {
+   "label": "14–15y",
+   "eu": "164",
+   "chest": 86,
+   "waist": 73,
+   "hips": 89,
+   "inseam": 76.25
+  },
+  {
+   "label": "16y",
+   "eu": "176",
+   "chest": 91.5,
+   "waist": 76.25,
+   "hips": 94,
+   "inseam": 82
+  }
+ ],
+ "notes": "American preppy brand with a regular-fit kids range. EU sizing by age (EU size in cm). Measurements are Tommy's Boys – Clothing chart (3–16 years), the only kids clothing chart with chest at every size; the Girls – Clothing chart matches up to age 7 but gives no chest from 8–9 up and slightly different waist/hip, and babies (up to 24M) have a separate infant chart.",
+ "audit": "Old source URL (/en/size-guide) is gone; guide is now /children-size-guide. Old rows were 2–3y…11–12y double ages with UK/US labels and height ranges not in Tommy's clothing chart. Official Boys – Clothing chart: 3, 4, 5, 6, 7, 8–9, 10–11, 12–13, 14–15, 16 years with EU size (cm), chest, waist, low hip, inseam (as printed, e.g. 12–13 inseam 70.05). 9–10y chest 74 → 10–11y 71; 11–12y chest 82/waist 68 → 12–13y 78/68; 3–4y chest 55 → 3y 54.25, 4y 56. 2–3y row removed (infant chart); 14–15y and 16y added; UK/US removed (not published). Height not stored: this chart prints 'EU size (cm)', not a height row."
+}

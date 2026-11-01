@@ -1,0 +1,50 @@
+{
+ "id": "gymshark-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Gymshark men's size guide (Menswear Tops chart, cm)",
+   "url": "https://support.gymshark.com/en/articles/11204266-men-s-size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 94,
+   "waist": 75
+  },
+  {
+   "label": "S",
+   "chest": 99,
+   "waist": 80
+  },
+  {
+   "label": "M",
+   "chest": 104,
+   "waist": 85
+  },
+  {
+   "label": "L",
+   "chest": 109,
+   "waist": 90
+  },
+  {
+   "label": "XL",
+   "chest": 114,
+   "waist": 95
+  },
+  {
+   "label": "XXL",
+   "chest": 119,
+   "waist": 100
+  },
+  {
+   "label": "3XL",
+   "chest": 124,
+   "waist": 105
+  }
+ ],
+ "audit": "Was XXS–XXL with UK/US/EU conversions Gymshark doesn't publish for men. Official Menswear Tops chart is XS–3XL, chest and waist only, and much larger: XS chest 87 → 94, waist 71 → 75; M chest 97 → 104, waist 82 → 85; XL chest 110 → 114 (waist unchanged); 3XL added; XXS removed. Bottoms chart has the same waist figures.",
+ "notes": "UK activewear brand. Gymshark's men's chart is letter sizes XS–3XL by chest and waist; it publishes no UK/US/EU conversions for menswear. Compression and fitted styles feel tighter; Crest range and lifestyle pieces are more relaxed. Very high presence on Vinted and eBay second-hand."
+}

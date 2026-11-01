@@ -6,7 +6,9 @@
   "priority": 1,
   "stored_source": "stories.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: EU 32–44 chart + size converter; replaced estimated letter rows.",
+  "checked": "2026-10-25"
  },
  {
   "id": "abercrombie-w",
@@ -15,7 +17,9 @@
   "priority": 1,
   "stored_source": "abercrombie.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: UK tops chart (chest-only ranges, XXS–XXXL) from product-page size guide.",
+  "checked": "2026-10-25"
  },
  {
   "id": "allsaints-w",
@@ -24,7 +28,9 @@
   "priority": 1,
   "stored_source": "allsaints.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: small corrections, hips +1–1.5 cm.",
+  "checked": "2026-10-25"
  },
  {
   "id": "arket-w",
@@ -33,7 +39,9 @@
   "priority": 1,
   "stored_source": "arket.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: letter sizes XS–L with cm ranges; old EU/UK mapping was wrong.",
+  "checked": "2026-10-25"
  },
  {
   "id": "boohoo-w",
@@ -42,7 +50,9 @@
   "priority": 1,
   "stored_source": "boohoo.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: old figures 2–5 cm low at small sizes; extended to UK 32.",
+  "checked": "2026-10-25"
  },
  {
   "id": "coast-w",
@@ -51,7 +61,9 @@
   "priority": 1,
   "stored_source": "coast-stores.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: numeric UK 4–24 chart on coastfashion.com.",
+  "checked": "2026-10-25"
  },
  {
   "id": "fredperry-w",
@@ -60,7 +72,9 @@
   "priority": 1,
   "stored_source": "fredperry.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: UK 14/16 corrected.",
+  "checked": "2026-10-25"
  },
  {
   "id": "freepeople-w",
@@ -69,7 +83,9 @@
   "priority": 1,
   "stored_source": "freepeople.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Retried from 2026-10-25 skip. Verified in Free People UK product-page Size Guide (tops chart, UK view).",
+  "checked": "2026-10-26"
  },
  {
   "id": "gymshark-w",
@@ -78,7 +94,9 @@
   "priority": 1,
   "stored_source": "support.gymshark.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on support.gymshark.com women's size guide; stored values already matched.",
+  "checked": "2026-10-26"
  },
  {
   "id": "hobbs-w",
@@ -87,7 +105,9 @@
   "priority": 1,
   "stored_source": "hobbs.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on hobbs.com/size-guide.html (site moved from hobbs.co.uk).",
+  "checked": "2026-10-26"
  },
  {
   "id": "hollister-w",
@@ -96,7 +116,9 @@
   "priority": 1,
   "stored_source": "hollisterco.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: hollisterco.com/shop/uk pages never finished loading in the browser (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "hugoboss-w",
@@ -105,7 +127,9 @@
   "priority": 1,
   "stored_source": "hugoboss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Hugo Boss UK size chart gives conversions only, no women's body measurements.",
+  "checked": "2026-10-26"
  },
  {
   "id": "jackwills-w",
@@ -114,7 +138,9 @@
   "priority": 1,
   "stored_source": "jackwills.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "No Jack Wills women's body chart on jackwills.com (Frasers platform shows generic multi-brand men's chart; help article empty).",
+  "checked": "2026-10-26"
  },
  {
   "id": "jigsaw-w",
@@ -123,7 +149,9 @@
   "priority": 1,
   "stored_source": "jigsaw-online.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on jigsaw-online.com/pages/size-guide (inches, converted x2.54).",
+  "checked": "2026-10-26"
  },
  {
   "id": "karenmillen-w",
@@ -132,7 +160,9 @@
   "priority": 1,
   "stored_source": "karenmillen.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on karenmillen.com/pages/informational/size-guide (letter sizes with ranges).",
+  "checked": "2026-10-26"
  },
  {
   "id": "lacoste-w",
@@ -141,7 +171,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified in Lacoste GB product-page Size guide (Body Measurements).",
+  "checked": "2026-10-26"
  },
  {
   "id": "lipsy-w",
@@ -150,7 +182,9 @@
   "priority": 1,
   "stored_source": "next.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: official Lipsy London chart (UK 4–28, cm) from the Next product-page size guide; lipsy.co.uk redirects to next.co.uk.",
+  "checked": "2026-10-26"
  },
  {
   "id": "lululemon-w",
@@ -159,7 +193,9 @@
   "priority": 1,
   "stored_source": "lululemon.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: lululemon UK global size guide, women's tops (chest) + bottoms (waist/hip), US 0–20 with UK/EU conversions.",
+  "checked": "2026-10-26"
  },
  {
   "id": "mintvelvet-w",
@@ -168,7 +204,9 @@
   "priority": 1,
   "stored_source": "mintvelvet.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: mintvelvet.com/pages/size-guide (UK 6–18, cm). UK 20 and EU removed (not published).",
+  "checked": "2026-10-26"
  },
  {
   "id": "missselfridge-w",
@@ -177,7 +215,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Miss Selfridge's own size guide on ASOS product pages (ASOS owns the brand; missselfridge.com redirects to ASOS). UK 4–16.",
+  "checked": "2026-10-26"
  },
  {
   "id": "monki-w",
@@ -186,7 +226,9 @@
   "priority": 1,
   "stored_source": "monki.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline mid-check (2026-10-26). Found so far: monki.com now redirects to weekday.com; Weekday's guide says Weekday, Monki and Cheap Monday share the same body measurements, but its charts are images, and the product-page chart is in a cross-origin widget. Retry next run; may need flagging if no DOM table exists.",
+  "checked": "2026-10-26"
  },
  {
   "id": "monsoon-w",
@@ -195,7 +237,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline before this brand was checked (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "mountainwarehouse-w",
@@ -204,7 +248,9 @@
   "priority": 1,
   "stored_source": "mountainwarehouse.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline before this brand was checked (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "oasis-w",
@@ -213,7 +259,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: built-in browser went offline before this brand was checked (2026-10-26). Retry next run.",
+  "checked": "2026-10-26"
  },
  {
   "id": "patagonia-w",
@@ -222,7 +270,9 @@
   "priority": 1,
   "stored_source": "outdoorbrands.nl",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Official UK guide eu.patagonia.com/gb/en/guides/size-fit/womens/ (tops chart, numeric 00–22, cm). Old source was a third-party retailer.",
+  "checked": "2026-10-26"
  },
  {
   "id": "phaseeight-w",
@@ -231,7 +281,9 @@
   "priority": 1,
   "stored_source": "phase-eight.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide moved to /shopping-with-us/size-guide.html; Phase Eight chart UK 6–20, cm. US from the page's country dropdown; EU removed (differs by country).",
+  "checked": "2026-10-26"
  },
  {
   "id": "prettylittlething-w",
@@ -240,7 +292,9 @@
   "priority": 1,
   "stored_source": "prettylittlething.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide at /pages/informational/size-guide; Main Range UK 4–18 from the CM view. UK 20 removed (not in Main Range).",
+  "checked": "2026-10-26"
  },
  {
   "id": "reiss-w",
@@ -249,7 +303,9 @@
   "priority": 1,
   "stored_source": "reiss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide moved to reiss.com/size-guide; women's chart UK 4–18 (cm) plus conversion table.",
+  "checked": "2026-10-26"
  },
  {
   "id": "shein-w",
@@ -258,7 +314,9 @@
   "priority": 1,
   "stored_source": "uk.shein.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "No general body chart: size guides are per product; old Size-Guide-a-478 URL now shows Reviews Policy.",
+  "checked": "2026-10-26"
  },
  {
   "id": "simplyBe-w",
@@ -267,7 +325,9 @@
   "priority": 1,
   "stored_source": "simplybe.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; chart is in Simply Be's own Help Centre (support.simplybe.co.uk), UK 8–32, cm.",
+  "checked": "2026-10-26"
  },
  {
   "id": "superdry-w",
@@ -276,7 +336,9 @@
   "priority": 1,
   "stored_source": "superdry.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; women's chart from product-page Size Guide (cdn.superdry.com). Letter-to-UK mapping corrected (M = UK 12).",
+  "checked": "2026-10-26"
  },
  {
   "id": "tedbaker-w",
@@ -285,7 +347,9 @@
   "priority": 1,
   "stored_source": "tedbaker.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Guide at /en-gb/pages/size-guide loads a KiwiSizing chart that is blocked unless optional cookies are accepted; not accepted per rules.",
+  "checked": "2026-10-26"
  },
  {
   "id": "thenorthface-w",
@@ -294,7 +358,9 @@
   "priority": 1,
   "stored_source": "thenorthface.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: thenorthface.co.uk now redirects to thenorthface.com/en-gb; the size-charts page (/help-section/product-info/size-charts) shows a 'Press & Hold' bot check, so the women's tab never loads. Men's tab was readable.",
+  "checked": "2026-10-27"
  },
  {
   "id": "tommyhilfiger-w",
@@ -303,7 +369,9 @@
   "priority": 1,
   "stored_source": "uk.tommy.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: /womens-size-guide, Tommy Hilfiger dress/skirt chart XXS–7XL (UK 4–26), cm ranges.",
+  "checked": "2026-10-27"
  },
  {
   "id": "topshop-w",
@@ -312,7 +380,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: topshop.com product-page Size Guide, UK 4–18 numeric + letter XS–XL (XL = UK 20–22).",
+  "checked": "2026-10-27"
  },
  {
   "id": "urbanoutfitters-w",
@@ -321,7 +391,9 @@
   "priority": 1,
   "stored_source": "urbanoutfitters.com",
   "lastVerified": "2024-12",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: product-page 'Size Guide: Tops' (UO and BDG) gives XS–XXL measurements with no unit (evidently inches) and a UK row that contradicts the EU row (UK 10 under M and L). Old help/size-guide URL 404s.",
+  "checked": "2026-10-27"
  },
  {
   "id": "warehouse-w",
@@ -330,7 +402,9 @@
   "priority": 1,
   "stored_source": "asos.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: warehousefashion.com size guide, Main Range UK 4–24 (cm).",
+  "checked": "2026-10-27"
  },
  {
   "id": "whistles-w",
@@ -339,7 +413,9 @@
   "priority": 1,
   "stored_source": "whistles.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: /shopping/size-guides.html Body chart UK 4–20 + dual-size UK 22; letters dual sized.",
+  "checked": "2026-10-27"
  },
  {
   "id": "whbm-w",
@@ -348,7 +424,9 @@
   "priority": 1,
   "stored_source": "whbm.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: whitehouseblackmarket.com/store/page/size-chart, Dresses Regular US 00–18 (inches x2.54). whbm.com did not load.",
+  "checked": "2026-10-27"
  },
  {
   "id": "yoursclothing-w",
@@ -357,7 +435,9 @@
   "priority": 1,
   "stored_source": "yoursclothing.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: /womens-curve-size-chart, UK 10–40 (cm as published).",
+  "checked": "2026-10-27"
  },
  {
   "id": "abercrombie-m",
@@ -366,7 +446,9 @@
   "priority": 1,
   "stored_source": "abercrombie.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "A&F UK product-page Size Guide (men's tops, UK region, cm): chest ranges XXS–3XL; waist/US/EU removed.",
+  "checked": "2026-10-28"
  },
  {
   "id": "allsaints-m",
@@ -375,7 +457,9 @@
   "priority": 1,
   "stored_source": "allsaints.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "allsaints.com/sizeguide.html men's clothing chart (cm): small chest/waist fixes, hips added.",
+  "checked": "2026-10-28"
  },
  {
   "id": "arket-m",
@@ -384,7 +468,9 @@
   "priority": 1,
   "stored_source": "arket.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "ARKET GB men's Tops chart: letters span two EU/UK sizes, cm ranges XS–XXL. Duplicate of arket-m2.",
+  "checked": "2026-10-28"
  },
  {
   "id": "arket-m2",
@@ -393,7 +479,9 @@
   "priority": 1,
   "stored_source": "arket.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Same official ARKET men's Tops chart as arket-m (duplicate entry).",
+  "checked": "2026-10-28"
  },
  {
   "id": "boohoo-m",
@@ -402,7 +490,9 @@
   "priority": 1,
   "stored_source": "boohooman.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "boohooMAN Main Range Tops & Outerwear chart: chest only XS–XL; chest was 4–5 cm low.",
+  "checked": "2026-10-28"
  },
  {
   "id": "boss-m",
@@ -411,7 +501,9 @@
   "priority": 1,
   "stored_source": "hugoboss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "BOSS UK menswear size charts (incl. product-page chart) give conversions only, no body measurements.",
+  "checked": "2026-10-28"
  },
  {
   "id": "fredperry-m",
@@ -420,7 +512,9 @@
   "priority": 1,
   "stored_source": "fredperry.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "fredperry.com/size-guides/mens letter chart: chest ranges XS–XXXL; waist and conversions removed.",
+  "checked": "2026-10-28"
  },
  {
   "id": "gymshark-m",
@@ -429,7 +523,9 @@
   "priority": 1,
   "stored_source": "uk.gymshark.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Gymshark support men's size guide: Tops chart XS–3XL chest/waist, much larger than stored; no conversions.",
+  "checked": "2026-10-28"
  },
  {
   "id": "hollister-m",
@@ -438,7 +534,9 @@
   "priority": 1,
   "stored_source": "hollisterco.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from Hollister UK product-page Size Guide (men's tops, UK region, cm); chest + UK only.",
+  "checked": "2026-10-30"
  },
  {
   "id": "jackjones-m",
@@ -447,7 +545,9 @@
   "priority": 1,
   "stored_source": "mcelhinneys.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from jackjones.com/en-gb/content/size-guide (tops chest; sweat pants letter-size waist).",
+  "checked": "2026-10-30"
  },
  {
   "id": "jackwills-m",
@@ -456,7 +556,9 @@
   "priority": 1,
   "stored_source": "jackwills.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "No Jack Wills men's chart on its own site: old URL 404, help article empty, product pages show only Frasers' generic multi-brand guide without units.",
+  "checked": "2026-10-30"
  },
  {
   "id": "lacoste-m",
@@ -465,7 +567,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from Lacoste GB product-page Body Measurements (all sizes 2-11); labels were one number off.",
+  "checked": "2026-10-30"
  },
  {
   "id": "lululemon-m",
@@ -474,7 +578,9 @@
   "priority": 1,
   "stored_source": "shop.barrys.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from lululemon.co.uk global size guide (men's tops chest; men's bottoms letter waist/hip).",
+  "checked": "2026-10-30"
  },
  {
   "id": "patagonia-m",
@@ -483,7 +589,9 @@
   "priority": 1,
   "stored_source": "skirack.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from Patagonia UK men's guide content assets (tops chest/hip, bottoms alpha waist).",
+  "checked": "2026-10-30"
  },
  {
   "id": "patagonia-board-m",
@@ -492,7 +600,9 @@
   "priority": 1,
   "stored_source": "eu.patagonia.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Composite letter + boardshort-waist entry matches no official chart; wetsuit chart did not load.",
+  "checked": "2026-10-30"
  },
  {
   "id": "reiss-m",
@@ -501,7 +611,9 @@
   "priority": 1,
   "stored_source": "reiss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified from reiss.com/size-guide men's clothing chart (cm as printed, inches kept).",
+  "checked": "2026-10-30"
  },
  {
   "id": "superdry-m",
@@ -510,7 +622,9 @@
   "priority": 1,
   "stored_source": "superdry.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: product-page Size Guide (cdn.superdry.com/size_guides/mens_en_280.html), chest/waist/low hip cm ranges XXS–4XL, EU sizes.",
+  "checked": "2026-10-30"
  },
  {
   "id": "tedbaker-m",
@@ -519,7 +633,9 @@
   "priority": 1,
   "stored_source": "mcelhinneys.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: men's guide (/en-gb/apps/sizings?id=50695800) is a chart that only renders with optional cookies accepted; nothing loads with essential-only consent.",
+  "checked": "2026-10-30"
  },
  {
   "id": "thenorthface-m",
@@ -528,7 +644,9 @@
   "priority": 1,
   "stored_source": "thenorthface.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: thenorthface.com/en-gb size-charts, Men's tab: Jackets & Tops chest/hip and letter Trousers & Shorts waist, cm, 2XS–3XL.",
+  "checked": "2026-10-30"
  },
  {
   "id": "tommyhilfiger-m",
@@ -537,7 +655,9 @@
   "priority": 1,
   "stored_source": "mckennaman.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: uk.tommy.com/mens-size-guide, Tops/Outerwear/Casual Shirts chart XS–3XL, UK/US/EU + chest/waist cm ranges.",
+  "checked": "2026-10-30"
  },
  {
   "id": "weekday-m",
@@ -546,7 +666,9 @@
   "priority": 1,
   "stored_source": "weekday.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: weekday.com/en-gb size guide (men) charts are images only; product-page 'Find your size' shows no chart. No DOM table to read.",
+  "checked": "2026-10-30"
  },
  {
   "id": "weekday-m2",
@@ -555,7 +677,9 @@
   "priority": 1,
   "stored_source": "weekday.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: same as weekday-m (duplicate Weekday men's entry); charts are images only.",
+  "checked": "2026-10-30"
  },
  {
   "id": "boss-k",
@@ -564,7 +688,9 @@
   "priority": 1,
   "stored_source": "hugoboss.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: hugoboss.com/uk lists kidswear as not shippable to the UK; no kids size chart on the UK site.",
+  "checked": "2026-10-30"
  },
  {
   "id": "jlkids-k",
@@ -573,7 +699,9 @@
   "priority": 1,
   "stored_source": "jackwills.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: juniors product page Size guide is Frasers Group's generic multi-brand guide (Junior > Boys clothing: General age table + Nike/adidas/etc.), no Jack Wills kids measurements.",
+  "checked": "2026-10-30"
  },
  {
   "id": "jigsawjr-k",
@@ -582,7 +710,9 @@
   "priority": 1,
   "stored_source": "jigsaw-online.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: Jigsaw UK has no kids range; /pages/size-guide is women-only (old /size-guide 404s).",
+  "checked": "2026-10-31"
  },
  {
   "id": "lacoste-k",
@@ -591,7 +721,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: kids product-page Size guide (PJ1102, EJ1278) shows garment measurements only; no body chart. Old /gb/size-guide 404s.",
+  "checked": "2026-10-31"
  },
  {
   "id": "monsoon3-k",
@@ -600,7 +732,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: no separate occasion-wear chart; party dresses (e.g. Zoe sequin dress) are sold in Girl-chart sizes.",
+  "checked": "2026-10-31"
  },
  {
   "id": "monsoon2-k",
@@ -609,7 +743,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: no Accessorize kids chart on Monsoon's guide; Accessorize girls' range is accessories only.",
+  "checked": "2026-10-31"
  },
  {
   "id": "monsoon-k",
@@ -618,7 +754,9 @@
   "priority": 1,
   "stored_source": "uk.monsoon.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Girl (3-15 years) single-year chart on monsoon.co.uk/size-guide.html (Children tab).",
+  "checked": "2026-10-31"
  },
  {
   "id": "mwtns-k",
@@ -627,7 +765,9 @@
   "priority": 1,
   "stored_source": "mountainwarehouse.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Kids 2 to 14 Years chart on mountainwarehouse.com/help/size-guide/.",
+  "checked": "2026-10-31"
  },
  {
   "id": "patagonia-k",
@@ -636,7 +776,9 @@
   "priority": 1,
   "stored_source": "patagonia.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified: Kids' Size Chart (XS-XXL) on eu.patagonia.com/gb/en/guides/size-fit/kids-baby/.",
+  "checked": "2026-10-31"
  },
  {
   "id": "tednudge-k",
@@ -645,7 +787,9 @@
   "priority": 1,
   "stored_source": "tedbaker.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Flagged: tedbaker.com UK has no kids range; size guide covers women and men only.",
+  "checked": "2026-10-31"
  },
  {
   "id": "northface-k",
@@ -654,7 +798,9 @@
   "priority": 1,
   "stored_source": "thenorthface.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Size-charts page loads, but switching to the Kids tab triggered a 'Press & Hold' bot check (and ?category=kids returned 'Access denied'). Not bypassed; numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "tommykids-k",
@@ -663,7 +809,9 @@
   "priority": 1,
   "stored_source": "uk.tommy.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /en/size-guide gone; /children-size-guide Boys – Clothing chart (3–16y) read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "fred-perry-s",
@@ -672,7 +820,9 @@
   "priority": 1,
   "stored_source": "fredperry.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Shoe entries have no sizes table (offset/fit advice only); apply.py and verify.mjs can't verify or flag SHOE_BRANDS entries. Needs a decision on how shoe entries should be audited. Old /help/size-guide URL 404s.",
+  "checked": "2026-11"
  },
  {
   "id": "lacoste-s",
@@ -681,7 +831,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Shoe entries have no sizes table (offset/fit advice only); apply.py and verify.mjs can't verify or flag SHOE_BRANDS entries. Needs a decision on how shoe entries should be audited.",
+  "checked": "2026-11"
  },
  {
   "id": "acnestudios-w",
@@ -690,7 +842,9 @@
   "priority": 2,
   "stored_source": "acnestudios.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /en/size-guide 404s; /uk/en/help/size-guide.html Body measurements › Woman Tops read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "albaray-w",
@@ -699,7 +853,9 @@
   "priority": 2,
   "stored_source": "albaray.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "albaray.com (home and /pages/size-guide) shows only an 'under construction / Coming Soon' page.",
+  "checked": "2026-11"
  },
  {
   "id": "americanvintage-w",
@@ -708,7 +864,9 @@
   "priority": 2,
   "stored_source": "american-vintage.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "skipped",
+  "note": "american-vintage.com didn't load in the built-in browser: ERR_CERT_AUTHORITY_INVALID (certificate not trusted on this computer). Not worked around; retry next run.",
+  "checked": "2026-11"
  },
  {
   "id": "animalclothing-w",
@@ -717,7 +875,9 @@
   "priority": 2,
   "stored_source": "animal.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /size-guide/ 404s; /pages/size-guide Womens › Clothing read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "anntaylor-w",

@@ -1,0 +1,134 @@
+{
+ "id": "thenorthface-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official The North Face UK size charts (Men's: Jackets & Tops chest/hip; Trousers & Shorts letter-size waist), cm",
+   "url": "https://www.thenorthface.com/en-gb/help-section/product-info/size-charts"
+  }
+ ],
+ "rows": [
+  {
+   "label": "2XS",
+   "chest": [
+    76,
+    84
+   ],
+   "waist": [
+    64,
+    68
+   ],
+   "hips": [
+    79,
+    84
+   ]
+  },
+  {
+   "label": "XS",
+   "chest": [
+    85,
+    93
+   ],
+   "waist": [
+    69,
+    75
+   ],
+   "hips": [
+    85,
+    90
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    94,
+    100
+   ],
+   "waist": [
+    76,
+    83
+   ],
+   "hips": [
+    91,
+    98
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    100,
+    108
+   ],
+   "waist": [
+    84,
+    90
+   ],
+   "hips": [
+    99,
+    105
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    109,
+    117
+   ],
+   "waist": [
+    91,
+    99
+   ],
+   "hips": [
+    106,
+    113
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    118,
+    126
+   ],
+   "waist": [
+    100,
+    109
+   ],
+   "hips": [
+    114,
+    121
+   ]
+  },
+  {
+   "label": "2XL",
+   "chest": [
+    127,
+    137
+   ],
+   "waist": [
+    110,
+    121
+   ],
+   "hips": [
+    122,
+    130
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    138,
+    148
+   ],
+   "waist": [
+    122,
+    132
+   ],
+   "hips": [
+    131,
+    137
+   ]
+  }
+ ],
+ "audit": "thenorthface.co.uk now redirects to thenorthface.com/en-gb; old /help/size-guide URL is gone. Men's tab read (no bot check this time). Chest and hip from the Jackets & Tops chart; waist from the letter-size Trousers & Shorts chart on the same tab (its hip ranges are identical to the tops chart). Stored values were low at M and below and had no hips: M chest 99 -> 100-108, waist 84 -> 84-90; L chest 106 -> 109-117, waist 91 -> 91-99; XL chest 113 -> 118-126. 2XS and 3XL added; hips added. UK/US/EU removed: TNF publishes no letter-to-UK/EU conversion for tops (the numeric UK/EU columns belong to the waist-sized trousers chart). Note TNF's printed S (94-100) and M (100-108) chest ranges share 100 cm."
+}

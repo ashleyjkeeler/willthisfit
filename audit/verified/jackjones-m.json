@@ -1,0 +1,44 @@
+{
+ "id": "jackjones-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official JACK & JONES UK size guide (tops chest; sweat pants & shorts letter-size waist), cm",
+   "url": "https://www.jackjones.com/en-gb/content/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 92,
+   "waist": 76
+  },
+  {
+   "label": "S",
+   "chest": 96,
+   "waist": 81
+  },
+  {
+   "label": "M",
+   "chest": 100,
+   "waist": 86
+  },
+  {
+   "label": "L",
+   "chest": 104,
+   "waist": 91
+  },
+  {
+   "label": "XL",
+   "chest": 112,
+   "waist": 96
+  },
+  {
+   "label": "XXL",
+   "chest": 120,
+   "waist": 101
+  }
+ ],
+ "audit": "Old source was a stockist (McElhinneys); now read on jackjones.com/en-gb. Chest (TOPS chart) was already right (92-120). Waist comes from the same page's BOTTOMS table, whose 'Sweat pants & shorts' row keys the pant-waist column by the same letter sizes (XS = W28 = 76 cm ... XXL = W38 = 101 cm); old waists were 1-3 cm off (XS 78 -> 76, L 90 -> 91, XL 97 -> 96, XXL 104 -> 101). UK/EU/US removed: JACK & JONES only gives UK/EU equivalents for tailoring (EU 44-60), not for letter-size tops."
+}

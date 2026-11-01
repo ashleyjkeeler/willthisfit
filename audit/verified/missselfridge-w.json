@@ -1,0 +1,77 @@
+{
+ "id": "missselfridge-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Miss Selfridge size guide ('Women / Miss Selfridge', cm, product-page Size Guide on ASOS; missselfridge.com now redirects to ASOS, which owns the brand)",
+   "url": "https://www.asos.com/miss-selfridge/miss-selfridge-button-through-long-sleeve-top-in-black/prd/210768629"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 77,
+   "waist": 59,
+   "hips": 83.5
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 79.5,
+   "waist": 61.5,
+   "hips": 86
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 82,
+   "waist": 64,
+   "hips": 88.5
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 87,
+   "waist": 69,
+   "hips": 93.5
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 92,
+   "waist": 74,
+   "hips": 98.5
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 97,
+   "waist": 79,
+   "hips": 103.5
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 102,
+   "waist": 84,
+   "hips": 108.5
+  }
+ ],
+ "audit": "Old source was an ASOS brand listing, not a guide. Miss Selfridge has its own guide on ASOS (guide 235, not the ASOS DESIGN chart). Official UK 4–16: UK 8 bust 83→82, waist 66→64, hips 88→88.5; UK 12 bust 91→92, hips 96→98.5; UK 14 bust 97 (same), waist 80→79, hips 102→103.5; UK 16 bust 103→102, waist 86→84. UK 4 added. The guide lists UK 18 with no measurements, so it is left out. The table's column order is Bust | Hip | Waist; values were mapped by header."
+}

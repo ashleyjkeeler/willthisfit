@@ -1,0 +1,98 @@
+{
+ "id": "jigsaw-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Jigsaw size guide (clothing, inches)",
+   "url": "https://www.jigsaw-online.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "bust": 81.3,
+   "waist": 62.2,
+   "hips": 88.9,
+   "_in": [
+    "32",
+    "24.5",
+    "35"
+   ]
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "bust": 83.8,
+   "waist": 64.8,
+   "hips": 91.4,
+   "_in": [
+    "33",
+    "25.5",
+    "36"
+   ]
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "bust": 88.9,
+   "waist": 69.8,
+   "hips": 96.5,
+   "_in": [
+    "35",
+    "27.5",
+    "38"
+   ]
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "bust": 94.0,
+   "waist": 74.9,
+   "hips": 101.6,
+   "_in": [
+    "37",
+    "29.5",
+    "40"
+   ]
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "bust": 99.1,
+   "waist": 78.7,
+   "hips": 106.7,
+   "_in": [
+    "39",
+    "31",
+    "42"
+   ]
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "bust": 104.1,
+   "waist": 83.8,
+   "hips": 111.8,
+   "_in": [
+    "41",
+    "33",
+    "44"
+   ]
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "bust": 109.2,
+   "waist": 88.9,
+   "hips": 116.8,
+   "_in": [
+    "43",
+    "35",
+    "46"
+   ]
+  }
+ ],
+ "audit": "Jigsaw's guide moved to /pages/size-guide (old /help/size-guide 404s). Jigsaw publishes inches only, keyed by UK 6-18; cm = inches x 2.54 rounded to 0.1, inch originals in _in (bust, waist, hip at fullest). No US/EU for clothing, so removed. Letter sizes are not stored: the chart's letter header spans XS over UK 6-8 and S over UK 10 only, while Jigsaw's own size filters group S = UK 8-10 and M = 12-14, so the letter mapping is ambiguous. Old entry was letter-based with XS = UK 8 (official UK 8 is 33/25.5/36 in = 83.8/64.8/91.4 cm vs old 83/63/88) and had no UK 6 or 18."
+}

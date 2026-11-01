@@ -1,0 +1,77 @@
+{
+ "id": "gymshark-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Gymshark women's size guide (tops + bottoms)",
+   "url": "https://support.gymshark.com/en/articles/11204065-women-s-size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "4-6",
+   "us": "0-2",
+   "eu": "32-34",
+   "bust": 80,
+   "waist": 61,
+   "hips": 90
+  },
+  {
+   "label": "XS",
+   "uk": "6-8",
+   "us": "2-4",
+   "eu": "34-36",
+   "bust": 85,
+   "waist": 66,
+   "hips": 95
+  },
+  {
+   "label": "S",
+   "uk": "8-10",
+   "us": "4-6",
+   "eu": "36-38",
+   "bust": 90,
+   "waist": 71,
+   "hips": 100
+  },
+  {
+   "label": "M",
+   "uk": "10-12",
+   "us": "6-8",
+   "eu": "38-40",
+   "bust": 95,
+   "waist": 76,
+   "hips": 105
+  },
+  {
+   "label": "L",
+   "uk": "12-14",
+   "us": "8-10",
+   "eu": "40-42",
+   "bust": 100,
+   "waist": 81,
+   "hips": 110
+  },
+  {
+   "label": "XL",
+   "uk": "14-16",
+   "us": "10-12",
+   "eu": "42-44",
+   "bust": 105,
+   "waist": 86,
+   "hips": 115
+  },
+  {
+   "label": "XXL",
+   "uk": "16-18",
+   "us": "12-14",
+   "eu": "44-46",
+   "bust": 110,
+   "waist": 91,
+   "hips": 120
+  }
+ ],
+ "audit": "Gymshark's own support-site guide. Chest and waist from the Women's Tops chart; hips from the Women's Bottoms chart (same letter sizes, identical waist figures). UK/US/EU from the tops chart. Note Gymshark's bottoms chart gives US one step higher (XXS = US 2-4 vs 0-2 for tops); the tops US is used. Stored values already matched the official chart; re-confirmed, no number changes."
+}

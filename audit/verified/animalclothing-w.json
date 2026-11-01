@@ -1,0 +1,184 @@
+{
+ "id": "animalclothing-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Animal size guide (Womens › Clothing, cm)",
+   "url": "https://www.animal.co.uk/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "bust": [
+    81,
+    83
+   ],
+   "waist": [
+    64,
+    66
+   ],
+   "hips": [
+    89,
+    91
+   ],
+   "altLabel": "XS"
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "bust": [
+    83,
+    85
+   ],
+   "waist": [
+    66,
+    68
+   ],
+   "hips": [
+    91,
+    93
+   ],
+   "altLabel": "S"
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "bust": [
+    85,
+    89
+   ],
+   "waist": [
+    68,
+    73
+   ],
+   "hips": [
+    93,
+    98
+   ],
+   "altLabel": "S"
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "bust": [
+    89,
+    94
+   ],
+   "waist": [
+    73,
+    78
+   ],
+   "hips": [
+    98,
+    102
+   ],
+   "altLabel": "M"
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "bust": [
+    94,
+    99
+   ],
+   "waist": [
+    78,
+    83
+   ],
+   "hips": [
+    103,
+    108
+   ],
+   "altLabel": "M"
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "bust": [
+    100,
+    106
+   ],
+   "waist": [
+    83,
+    89
+   ],
+   "hips": [
+    108,
+    114
+   ],
+   "altLabel": "L"
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "bust": [
+    106,
+    112
+   ],
+   "waist": [
+    89,
+    95
+   ],
+   "hips": [
+    114,
+    120
+   ],
+   "altLabel": "L"
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "bust": [
+    112,
+    119
+   ],
+   "waist": [
+    95,
+    102
+   ],
+   "hips": [
+    120,
+    127
+   ],
+   "altLabel": "XL"
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "bust": [
+    119,
+    126
+   ],
+   "waist": [
+    102,
+    109
+   ],
+   "hips": [
+    127,
+    134
+   ],
+   "altLabel": "XL"
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "bust": [
+    126,
+    133
+   ],
+   "waist": [
+    109,
+    116
+   ],
+   "hips": [
+    134,
+    141
+   ],
+   "altLabel": "XXL"
+  }
+ ],
+ "audit": "Old URL /size-guide/ 404s; guide is now /pages/size-guide. Womens Clothing chart prints UK 6–24 with chest, waist and hip ranges (letter sizes span two UK sizes: XS 6, S 8–10, M 12–14, L 16–18, XL 20–22, XXL 24; stored as altLabel). Old single values replaced by ranges: 12 bust 92 → 89–94, waist 74 → 73–78, hips 98 → 98–102; 16 bust 100 → 100–106, waist 82 → 83–89, hips 106 → 108–114; 18 waist 88 → 89–95, hips 112 → 114–120. Sizes 6, 20, 22, 24 added. US/EU removed (not published)."
+}

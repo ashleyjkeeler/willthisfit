@@ -1,0 +1,90 @@
+{
+ "id": "lacoste-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Lacoste GB women's size guide (body measurements, product-page modal)",
+   "url": "https://www.lacoste.com/gb/lacoste/women/clothing/dresses-skirts/EF5473-00.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "4",
+   "eu": "32",
+   "bust": 78,
+   "waist": 60,
+   "hips": 86
+  },
+  {
+   "label": "S",
+   "uk": "6-8",
+   "eu": "34-36",
+   "bust": [
+    82,
+    86
+   ],
+   "waist": [
+    64,
+    68
+   ],
+   "hips": [
+    90,
+    94
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10-12",
+   "eu": "38-40",
+   "bust": [
+    90,
+    94
+   ],
+   "waist": [
+    72,
+    76
+   ],
+   "hips": [
+    98,
+    102
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "14-16",
+   "eu": "42-44",
+   "bust": [
+    98,
+    102
+   ],
+   "waist": [
+    80,
+    84
+   ],
+   "hips": [
+    106,
+    110
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "18-20",
+   "eu": "46-48",
+   "bust": [
+    107,
+    112
+   ],
+   "waist": [
+    89,
+    94
+   ],
+   "hips": [
+    115,
+    120
+   ]
+  }
+ ],
+ "audit": "Lacoste's old /gb/size-guide URL 404s; the body chart is now in each product's Size guide modal (Body Measurements tab, women's tops figure). Lacoste publishes letter sizes, each with FR/EU and UK sizes ('S - 34-36 - 6-8') and cm ranges for bust, waist and low hip; stored as published. No US published, so removed. Old entry had single EU-numbered rows with values matching no published chart (e.g. old EU 36/UK 8 bust 84 vs official S 82-86; old UK 16 bust 100 vs official L 98-102) and no XL (UK 18-20)."
+}

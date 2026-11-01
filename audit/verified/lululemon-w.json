@@ -1,0 +1,150 @@
+{
+ "id": "lululemon-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official lululemon UK size guide (Women's Tops + Bottoms, US 0–20, cm, location United Kingdom)",
+   "url": "https://www.lululemon.co.uk/en-gb/content/global-size-guide/global-all-size-guide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "0",
+   "uk": "4",
+   "us": "0",
+   "eu": "26",
+   "bust": 72.4,
+   "waist": 54.6,
+   "hips": 80
+  },
+  {
+   "label": "2",
+   "uk": "6",
+   "us": "2",
+   "eu": "28",
+   "bust": 76.2,
+   "waist": 58.4,
+   "hips": 83.8
+  },
+  {
+   "label": "4",
+   "uk": "8",
+   "us": "4",
+   "eu": "32",
+   "bust": [
+    78.7,
+    81.3
+   ],
+   "waist": [
+    61,
+    63.5
+   ],
+   "hips": [
+    86.4,
+    88.9
+   ]
+  },
+  {
+   "label": "6",
+   "uk": "10–12",
+   "us": "6",
+   "eu": "36",
+   "bust": [
+    83.8,
+    86.4
+   ],
+   "waist": [
+    66,
+    68.6
+   ],
+   "hips": [
+    91.4,
+    94
+   ]
+  },
+  {
+   "label": "8",
+   "uk": "12–14",
+   "us": "8",
+   "eu": "40",
+   "bust": [
+    88.9,
+    91.4
+   ],
+   "waist": [
+    71.1,
+    73.7
+   ],
+   "hips": [
+    96.5,
+    99.1
+   ]
+  },
+  {
+   "label": "10",
+   "uk": "14",
+   "us": "10",
+   "eu": "44",
+   "bust": [
+    94,
+    97.8
+   ],
+   "waist": [
+    76.2,
+    80
+   ],
+   "hips": [
+    101.6,
+    105.4
+   ]
+  },
+  {
+   "label": "12",
+   "uk": "16",
+   "us": "12",
+   "eu": "46",
+   "bust": 101.6,
+   "waist": 83.8,
+   "hips": 109.2
+  },
+  {
+   "label": "14",
+   "uk": "18",
+   "us": "14",
+   "eu": "48",
+   "bust": 106.7,
+   "waist": 88.9,
+   "hips": 114.3
+  },
+  {
+   "label": "16",
+   "uk": "20",
+   "us": "16",
+   "eu": "50",
+   "bust": 114.3,
+   "waist": 99.1,
+   "hips": 119.4
+  },
+  {
+   "label": "18",
+   "uk": "22",
+   "us": "18",
+   "eu": "52",
+   "bust": 119.4,
+   "waist": 104.1,
+   "hips": 124.5
+  },
+  {
+   "label": "20",
+   "uk": "24",
+   "us": "20",
+   "eu": "54",
+   "bust": 124.5,
+   "waist": 109.2,
+   "hips": 129.5
+  }
+ ],
+ "audit": "Old URL /en-gb/size-guide is blank; guide moved. Official tops chart (US 0–20) gives chest only, as cm values/ranges; waist and hip come from the bottoms chart on the same page for the same US sizes. Size 6 bust 86→83.8–86.4, waist 66→66–68.6, hips 91→91.4–94; size 12 bust 99→101.6, hips 104→109.2. Extended from US 16 to US 20. UK/EU are the tops-chart conversions exactly as published (US 6 = UK 10–12, US 8 = UK 12–14, US 10 = UK 14; EU 26–54); the bottoms chart's UK/EU conversions differ and are not mixed in. The page's internal tab id says 'asia-fit', but it is the only women's chart the UK site shows (titled 'Women's Tops Size Guide').",
+ "notes": "Canadian premium activewear brand. Designed in US sizes; lululemon's own UK conversion puts US 8 at UK 12–14 and US 6 at UK 10–12. Four-way stretch fabrics are very body-conscious. Align leggings are the most size-critical item."
+}

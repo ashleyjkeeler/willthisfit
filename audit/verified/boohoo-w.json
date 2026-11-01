@@ -1,0 +1,162 @@
+{
+ "id": "boohoo-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official boohoo UK women's size chart (Main Range, cm)",
+   "url": "https://www.boohoo.com/pages/informational/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 80,
+   "waist": 62,
+   "hips": 88,
+   "altLabel": "XS"
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82.5,
+   "waist": 64.5,
+   "hips": 90.5,
+   "altLabel": "S"
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 67,
+   "hips": 93,
+   "altLabel": "S"
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 72,
+   "hips": 98,
+   "altLabel": "M"
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 77,
+   "hips": 103,
+   "altLabel": "M"
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 82,
+   "hips": 108,
+   "altLabel": "L"
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 105,
+   "waist": 87,
+   "hips": 113,
+   "altLabel": "L"
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 111,
+   "waist": 93,
+   "hips": 119,
+   "altLabel": "XL"
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 117,
+   "waist": 99,
+   "hips": 125,
+   "altLabel": "XL"
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 123,
+   "waist": 105,
+   "hips": 131,
+   "altLabel": "XXL"
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 129,
+   "waist": 111,
+   "hips": 137,
+   "altLabel": "XXL"
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 135,
+   "waist": 117,
+   "hips": 143,
+   "altLabel": "XXXL"
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "56",
+   "bust": 141,
+   "waist": 123,
+   "hips": 149,
+   "altLabel": "XXXL"
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "us": "26",
+   "eu": "58",
+   "bust": 147,
+   "waist": 129,
+   "hips": 155,
+   "altLabel": "XXXXL"
+  },
+  {
+   "label": "32",
+   "uk": "32",
+   "bust": 153,
+   "waist": 135,
+   "hips": 161,
+   "altLabel": "XXXXL"
+  }
+ ],
+ "audit": "Old figures were 2\u20135 cm low at the small end and stopped at UK 20: UK 4 bust 75\u219280, waist 57\u219262, hips 81\u219288; UK 8 bust 83\u219285; UK 12 bust 91\u219295, waist 73\u219277; UK 20 bust 111\u2192117. Official Main Range chart runs UK 4\u201332 (added UK 22\u201332). For UK 32 the official table repeats the UK 30 conversions (US 26, EU 58), which looks like a site error, so US/EU are left out for that row only. Old /page/size-guide.html redirects to /pages/informational/size-guide."
+}

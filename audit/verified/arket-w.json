@@ -1,0 +1,83 @@
+{
+ "id": "arket-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ARKET GB women's size guide (Clothing: size conversion + body measurement, cm)",
+   "url": "https://www.arket.com/en-gb/customer-service/size-guide/women/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "4–6",
+   "eu": "32–34",
+   "bust": [
+    76,
+    80
+   ],
+   "waist": [
+    60,
+    64
+   ],
+   "hips": [
+    84,
+    88
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8–10",
+   "eu": "36–38",
+   "bust": [
+    84,
+    88
+   ],
+   "waist": [
+    68,
+    72
+   ],
+   "hips": [
+    92,
+    96
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12–14",
+   "eu": "40–42",
+   "bust": [
+    92,
+    96
+   ],
+   "waist": [
+    76,
+    80
+   ],
+   "hips": [
+    100,
+    104
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "16",
+   "eu": "44–46",
+   "bust": [
+    100,
+    104
+   ],
+   "waist": [
+    84,
+    88
+   ],
+   "hips": [
+    108,
+    112
+   ]
+  }
+ ],
+ "audit": "Was 6 rows 'XS (EU 34)'–'XXL (EU 44)' with single values, one EU size per letter and US sizes. Official chart is letter sizes XS–L only, each spanning two EU/UK sizes (XS = EU 32–34 / UK 4–6 … L = EU 44–46 / UK 16) with cm ranges (e.g. M chest 92–96, waist 76–80, hip 100–104; old M was bust 90/waist 72/hips 95). No US sizes and no XL/XXL on the official chart.",
+ "notes": "EU sizing. H&M Group's most premium brand. Timeless, quality-focused. Deliberately relaxed Scandinavian cut. Official chart is letter sizes only: XS = EU 32–34 / UK 4–6, S = EU 36–38 / UK 8–10, M = EU 40–42 / UK 12–14, L = EU 44–46 / UK 16. Runs generously — if between sizes, size down."
+}

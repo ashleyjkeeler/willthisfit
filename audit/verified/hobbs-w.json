@@ -1,0 +1,113 @@
+{
+ "id": "hobbs-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Hobbs size guide (women's clothing, cm)",
+   "url": "https://www.hobbs.com/size-guide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 81.5,
+   "waist": 63.5,
+   "hips": 88.5,
+   "inseam": 79,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 66,
+   "hips": 91,
+   "inseam": 79,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 71,
+   "hips": 96,
+   "inseam": 79,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 77,
+   "hips": 102,
+   "inseam": 79,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 101,
+   "waist": 83,
+   "hips": 108.5,
+   "inseam": 79,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 107,
+   "waist": 89,
+   "hips": 114,
+   "inseam": 79,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 113,
+   "waist": 95,
+   "hips": 120,
+   "inseam": 79,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 119,
+   "waist": 101,
+   "hips": 126,
+   "inseam": 79,
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 125,
+   "waist": 107,
+   "hips": 132,
+   "inseam": 79,
+   "altLabel": "XL"
+  }
+ ],
+ "audit": "Hobbs has moved to hobbs.com (old hobbs.co.uk/information/size-guide.list redirects to the home page). Main clothing chart in cm, UK 6-22; hips = Hobbs 'full hip'. US and EU from Hobbs' international size comparison (EU = France/Spain/Portugal/Belgium row). Letter sizes from Hobbs' S-M-L chart (S = UK 8-10 ... XL = UK 20-22). Hobbs' inch table gives UK 20 waist as 42.1 in, which does not match its cm table (101 cm) or its own petite inch table (39.5 in); the cm table is used. Old values 1-6 cm off from UK 12 up (e.g. UK 16 bust 104 vs 107, UK 20 bust 114 vs 119); UK 22 was missing."
+}

@@ -1,0 +1,231 @@
+{
+ "id": "tommyhilfiger-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Tommy Hilfiger women's size guide (Tommy Hilfiger sizes: Dress / Skirts / Jumpsuit chart, cm)",
+   "url": "https://uk.tommy.com/womens-size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": [
+    76.5,
+    80.5
+   ],
+   "waist": [
+    60,
+    64
+   ],
+   "hips": [
+    85,
+    89
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": [
+    80.5,
+    84.5
+   ],
+   "waist": [
+    64,
+    68
+   ],
+   "hips": [
+    89,
+    93
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": [
+    84.5,
+    88.5
+   ],
+   "waist": [
+    68,
+    72
+   ],
+   "hips": [
+    93,
+    97
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": [
+    88.5,
+    92.5
+   ],
+   "waist": [
+    72,
+    76
+   ],
+   "hips": [
+    97,
+    101
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": [
+    92.5,
+    96.5
+   ],
+   "waist": [
+    76,
+    81
+   ],
+   "hips": [
+    101,
+    105
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": [
+    96.5,
+    101.5
+   ],
+   "waist": [
+    81,
+    86
+   ],
+   "hips": [
+    105,
+    110
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": [
+    101.5,
+    106.5
+   ],
+   "waist": [
+    86,
+    91
+   ],
+   "hips": [
+    110,
+    115
+   ]
+  },
+  {
+   "label": "XXXL",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": [
+    106.5,
+    112
+   ],
+   "waist": [
+    91,
+    96
+   ],
+   "hips": [
+    115,
+    120
+   ]
+  },
+  {
+   "label": "4XL",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": [
+    113,
+    118
+   ],
+   "waist": [
+    97,
+    102
+   ],
+   "hips": [
+    121,
+    126
+   ]
+  },
+  {
+   "label": "5XL",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": [
+    118,
+    123
+   ],
+   "waist": [
+    102,
+    107
+   ],
+   "hips": [
+    126,
+    131
+   ]
+  },
+  {
+   "label": "6XL",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": [
+    123,
+    128
+   ],
+   "waist": [
+    107,
+    112
+   ],
+   "hips": [
+    131,
+    136
+   ]
+  },
+  {
+   "label": "7XL",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": [
+    128,
+    134
+   ],
+   "waist": [
+    112,
+    118
+   ],
+   "hips": [
+    136,
+    141
+   ]
+  }
+ ],
+ "audit": "Old URL uk.tommy.com/en/size-guide is an error page; guide is now at /womens-size-guide. Stored chart was single values for XS-2XL only; official chart is cm ranges XXS-7XL (UK 4-26). Letter-to-UK mapping unchanged (XS = UK 6). M (UK 10) bust 90 -> 88.5-92.5, waist 71 -> 72-76, hips 95 -> 97-101; XL (UK 14) bust 98 -> 96.5-101.5, waist 79 -> 81-86, hips 103 -> 105-110. Same chest/waist/hips as the Coats/Jackets chart. Tommy Jeans and Tommy Sport charts differ and are not included. Notes corrected: removed \"US sizing\" (the UK guide gives UK/US/EU per alpha size) and \"consistent sizing across collections\" (Tommy Jeans and Sport charts differ).",
+ "notes": "Alpha sizes XXS–7XL, which the UK guide maps to UK 4–26 (XS = UK 6, M = UK 10). Preppy American heritage cut — slightly relaxed, comfortable fit. Denim, polos and outerwear are popular secondhand picks. Tommy Jeans and Tommy Sport use their own, different charts."
+}

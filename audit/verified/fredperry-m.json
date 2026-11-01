@@ -1,0 +1,64 @@
+{
+ "id": "fredperry-m",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Fred Perry UK men's size guide (Top Half, letter sizes, cm)",
+   "url": "https://www.fredperry.com/size-guides/mens"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    81,
+    86
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    89,
+    94
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    97,
+    102
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    104,
+    109
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    112,
+    117
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    119,
+    124
+   ]
+  },
+  {
+   "label": "XXXL",
+   "chest": [
+    127,
+    132
+   ]
+  }
+ ],
+ "audit": "Was XS–XXL with single chest/waist values and UK 34–44 / US / EU conversions that Fred Perry doesn't publish for menswear. Official letter chart gives chest only, as cm ranges, XS–XXXL: XS 85 → 81–86, M 94 → 97–102, L 100 → 104–109, XXL 112 → 119–124; XXXL added. Waist and UK/US/EU removed (waist is only given for numeric trouser sizes). Fred Perry also publishes a numeric chest-size chart (36–46 = 92–117 cm) for items sized that way; not stored here. Old /size-guide URL is a 404.",
+ "notes": "Iconic British mod heritage brand. Men's clothing is sized either S/M/L (chest ranges) or by chest size 36–46. Classic twin-tipped polo is their signature — cuts tend slim and short in the body."
+}

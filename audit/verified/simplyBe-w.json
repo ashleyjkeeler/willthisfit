@@ -1,0 +1,197 @@
+{
+ "id": "simplyBe-w",
+ "checked": "2026-10",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Simply Be Help Centre: Women's size chart (Women's Clothing, cm; UK/US/EURO conversion)",
+   "url": "https://support.simplybe.co.uk/hc/en-gb/articles/360019571299-Women-s-size-chart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 65,
+   "hips": 90,
+   "_in": {
+    "bust": 33,
+    "waist": 25.5,
+    "hips": 35.5
+   }
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 71,
+   "hips": 95,
+   "_in": {
+    "bust": 35,
+    "waist": 28,
+    "hips": 37.5
+   }
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94,
+   "waist": 77,
+   "hips": 100,
+   "_in": {
+    "bust": 37,
+    "waist": 30.5,
+    "hips": 39.5
+   }
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99,
+   "waist": 83,
+   "hips": 105,
+   "_in": {
+    "bust": 39,
+    "waist": 33,
+    "hips": 41.5
+   }
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 89,
+   "hips": 110,
+   "_in": {
+    "bust": 41,
+    "waist": 35,
+    "hips": 43.5
+   }
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 95,
+   "hips": 116,
+   "_in": {
+    "bust": 43.5,
+    "waist": 37.5,
+    "hips": 46
+   }
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 116,
+   "waist": 101,
+   "hips": 122,
+   "_in": {
+    "bust": 46,
+    "waist": 40,
+    "hips": 48
+   }
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 122,
+   "waist": 107,
+   "hips": 128,
+   "_in": {
+    "bust": 48,
+    "waist": 42,
+    "hips": 50.5
+   }
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 128,
+   "waist": 113,
+   "hips": 134,
+   "_in": {
+    "bust": 50.5,
+    "waist": 44.5,
+    "hips": 53
+   }
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 134,
+   "waist": 119,
+   "hips": 140,
+   "_in": {
+    "bust": 53,
+    "waist": 47,
+    "hips": 55.5
+   }
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "56",
+   "bust": 140,
+   "waist": 125,
+   "hips": 146,
+   "_in": {
+    "bust": 55.5,
+    "waist": 49.5,
+    "hips": 57.5
+   }
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "us": "26",
+   "eu": "58",
+   "bust": 146,
+   "waist": 131,
+   "hips": 152,
+   "_in": {
+    "bust": 57.5,
+    "waist": 51.5,
+    "hips": 60
+   }
+  },
+  {
+   "label": "32",
+   "uk": "32",
+   "us": "28",
+   "eu": "60",
+   "bust": 152,
+   "waist": 137,
+   "hips": 158,
+   "_in": {
+    "bust": 60,
+    "waist": 54,
+    "hips": 62.5
+   }
+  }
+ ],
+ "audit": "Stored URL /en/p/size-guide now 404s; the chart is in Simply Be's own Help Centre (support.simplybe.co.uk). Official women's chart covers UK 8–32 (stored 10–24); cm values as printed beside the inches. Stored values were too small from UK 12 up: UK 12 bust 92 → 94, waist 75 → 77, hips 97 → 100; UK 16 bust 103 → 104, waist 86 → 89, hips 108 → 110; UK 20 bust 115 → 116, waist 98 → 101, hips 120 → 122; UK 24 bust 127 → 128, waist 110 → 113, hips 132 → 134. UK 10 waist 71 and bust 88 → 89, hips 93 → 95. UK 8 and 26–32 added. US/EURO from the same page's conversion table. The page notes the chart is for reference and sizes can vary between brands (Simply Be also sells other labels).",
+ "notes": "UK sizing. Plus-size specialist; official chart covers UK 8–32 (letter sizes XS = 8 up to 9XL = 32 on its conversion table). Simply Be says sizes can vary between the brands it sells, so this chart is for its own label."
+}
