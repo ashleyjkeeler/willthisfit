@@ -1,0 +1,225 @@
+{
+ "id": "bonprix-w",
+ "sources": [
+  {
+   "label": "Official bonprix UK size guide (Women's Sizes)",
+   "url": "https://www.bonprix.co.uk/web/main/size_guide.asp"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "bust": [
+    74,
+    77
+   ],
+   "waist": [
+    60,
+    62
+   ],
+   "hips": [
+    84,
+    87
+   ]
+  },
+  {
+   "label": "8",
+   "bust": [
+    78,
+    81
+   ],
+   "waist": [
+    63,
+    65
+   ],
+   "hips": [
+    88,
+    91
+   ]
+  },
+  {
+   "label": "10",
+   "bust": [
+    82,
+    85
+   ],
+   "waist": [
+    66,
+    69
+   ],
+   "hips": [
+    92,
+    95
+   ]
+  },
+  {
+   "label": "12",
+   "bust": [
+    86,
+    89
+   ],
+   "waist": [
+    70,
+    73
+   ],
+   "hips": [
+    96,
+    98
+   ]
+  },
+  {
+   "label": "14",
+   "bust": [
+    90,
+    93
+   ],
+   "waist": [
+    74,
+    77
+   ],
+   "hips": [
+    99,
+    102
+   ]
+  },
+  {
+   "label": "16",
+   "bust": [
+    94,
+    97
+   ],
+   "waist": [
+    78,
+    81
+   ],
+   "hips": [
+    103,
+    106
+   ]
+  },
+  {
+   "label": "18",
+   "bust": [
+    98,
+    102
+   ],
+   "waist": [
+    82,
+    86
+   ],
+   "hips": [
+    107,
+    110
+   ]
+  },
+  {
+   "label": "20",
+   "bust": [
+    103,
+    107
+   ],
+   "waist": [
+    87,
+    91
+   ],
+   "hips": [
+    111,
+    115
+   ]
+  },
+  {
+   "label": "22",
+   "bust": [
+    108,
+    113
+   ],
+   "waist": [
+    92,
+    96
+   ],
+   "hips": [
+    116,
+    120
+   ]
+  },
+  {
+   "label": "24",
+   "bust": [
+    114,
+    119
+   ],
+   "waist": [
+    97,
+    102
+   ],
+   "hips": [
+    121,
+    125
+   ]
+  },
+  {
+   "label": "26",
+   "bust": [
+    120,
+    125
+   ],
+   "waist": [
+    103,
+    108
+   ],
+   "hips": [
+    126,
+    130
+   ]
+  },
+  {
+   "label": "28",
+   "bust": [
+    126,
+    131
+   ],
+   "waist": [
+    109,
+    114
+   ],
+   "hips": [
+    131,
+    135
+   ]
+  },
+  {
+   "label": "30",
+   "bust": [
+    132,
+    137
+   ],
+   "waist": [
+    115,
+    120
+   ],
+   "hips": [
+    136,
+    141
+   ]
+  },
+  {
+   "label": "32",
+   "bust": [
+    138,
+    143
+   ],
+   "waist": [
+    121,
+    126
+   ],
+   "hips": [
+    142,
+    147
+   ]
+  }
+ ],
+ "notes": "German value catalogue brand. The bonprix UK women's guide lists order sizes 6–32 with chest, waist and hip ranges in cm; it does not label them UK, EU or US. Between two sizes, bonprix says to order the larger. Popular secondhand for affordable basics and occasion wear in extended sizes.",
+ "audit": "Old /service/size-guide/ gives a server error; footer link goes to /web/main/size_guide.asp. Women's Sizes table, order sizes 6-32, cm ranges (printed chest stored as bust). Old rows used EU-style labels 32/XS-52/2XL and were far off: 40/M uk 12 91/73/98 vs order size 12 86-89/70-73/96-98; 48/XL uk 20 109/91/116 vs order size 20 103-107/87-91/111-115. UK/US/EU removed: chart prints only 'Order Size'. Inch figures on the page not stored.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

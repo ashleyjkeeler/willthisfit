@@ -974,7 +974,9 @@
   "priority": 2,
   "stored_source": "bershka.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL redirects home; no standalone chart. Product-page 'See measurements' body figures (cm) read from DOM, same on 3 items.",
+  "checked": "2026-11"
  },
  {
   "id": "billabong-w",
@@ -983,7 +985,9 @@
   "priority": 2,
   "stored_source": "billabong.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; product-page Size guide modal, Women's Clothing, inches only, converted at 2.54.",
+  "checked": "2026-11"
  },
  {
   "id": "bonprix-w",
@@ -992,7 +996,9 @@
   "priority": 2,
   "stored_source": "bonprix.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL errors; /web/main/size_guide.asp Women's Sizes table read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "brakeburn-w",
@@ -1001,7 +1007,9 @@
   "priority": 2,
   "stored_source": "brakeburn.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /pages/size-guide-2026 Womens Clothing (CM) table read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "bravissimo-w",
@@ -1010,7 +1018,9 @@
   "priority": 2,
   "stored_source": "bravissimo.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL redirects to bra fitting guides. Bravissimo sells band-and-cup sized products; no S-XXL body chart on the site or on a top's product page.",
+  "checked": "2026-11"
  },
  {
   "id": "brooksrunning-w",
@@ -1019,7 +1029,9 @@
   "priority": 2,
   "stored_source": "brooksrunning.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL not found; /en_gb/main-size-guide/ Women > Tops read from DOM. XXS from the inches tab, converted at 2.54.",
+  "checked": "2026-11"
  },
  {
   "id": "calvinklein-w",
@@ -1028,7 +1040,9 @@
   "priority": 2,
   "stored_source": "calvinklein.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL gone; /womens-size-guide Tops And Dresses has conversions only (no body measurements), and product-page conversions disagree with it.",
+  "checked": "2026-11"
  },
  {
   "id": "castore-w",
@@ -1037,7 +1051,9 @@
   "priority": 2,
   "stored_source": "castore.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "/pages/size-guide Women's (Body Measurements) cm column read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "cath-kidston-w",
