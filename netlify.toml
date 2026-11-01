@@ -1,6 +1,8 @@
 [build]
   command = "npm run build"
   publish = "dist"
+  # Skip the deploy (and its hosting credits) when a push only changes GitHub workflows.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- . ':(exclude).github'"
 
 # The embed script may be loaded by any site.
 [[headers]]
