@@ -208,3 +208,7 @@ Checks: build OK, verify.mjs 0 failures (782 rows / 91 entries, 33 flags), api t
 
 Notes: brakeburn-w, calvinklein-w and castore-w had an unindented `],` closing their sizes blocks; re-indented (whitespace only). Playbook step 5 problem: `git checkout audit` fails because `audit` is also a folder, so its fallback would start a new branch from main and miss unmerged batches. This run used `git checkout -B audit origin/audit`; playbook left as it is for Ashley to decide.
 Checks: build OK, verify.mjs 0 failures (830 rows / 97 entries, 35 flags), api tests 21 passed. Queue: 500 todo, 8 skipped.
+
+## 2026-11-01 — follow-up to batch 13 (v1.5.13, requested by Ashley)
+
+No chart numbers changed. Bershka (W): removed the "runs very small, size up" advice and the "EU sizing" claim from notes and fit. PLAYBOOK step 5: the branch setup now uses `git checkout -B audit origin/audit` when that branch exists, and starts from `origin/main` only when it doesn't, so unmerged batches are kept.

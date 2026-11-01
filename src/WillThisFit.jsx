@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.12";
+export const APP_VERSION = "v1.5.13";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -1664,8 +1664,8 @@ const WOMEN_BRANDS = [
   {
     id:"bershka-w", name:"Bershka", origin:"ES", tier:"fast-fashion", lastVerified:"2026-11",
     sources:[{label:"Official Bershka UK product-page size guide (See measurements, Body, cm): Round neck long-sleeve T-shirt",url:"https://www.bershka.com/gb/round-neck-long-sleeve-t-shirt-c0p226931583.html?colorId=251",checked:"2026-11"}],
-    notes:"Inditex group (Zara, Pull&Bear family). One of the largest brands on Vinted. EU sizing, aimed at teens/young adults. Cuts are genuinely small — their XS is a true XS. Size UP at least one from your normal UK. Very common second-hand.",
-    fit:"Runs VERY SMALL — size UP 1–2 from UK", inconsistencyWarning:false, confidence:81,
+    notes:"Inditex group (Zara, Pull&Bear family). One of the largest brands on Vinted. Aimed at teens/young adults. Very common second-hand.",
+    fit:"Letter sizes XXS–XL — compare the cm measurements", inconsistencyWarning:false, confidence:81,
     verifiedBy:"official-page",
     sizes:[
       {label:"XXS",bust:76,waist:58,hips:84},
@@ -12335,6 +12335,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.13","2026-11-01","Removed the \"runs very small, size up\" advice from Bershka's women's entry: Bershka's own size guide doesn't support it, so the entry now points to the measurements instead."],
   ["v1.5.12","2026-11-01","Data audit, batch 13: Bershka, Billabong, Bonprix, Brakeburn, Brooks Running and Castore women's charts re-checked against the brands' own size guides and corrected (e.g. Bershka M is a 92 cm bust, not 86; Bonprix now uses its order sizes 6–32, and order size 20 is a 103–107 cm bust, not 109; Brakeburn UK 14 is a 99–104 cm bust, not 96; Castore's M-12 is a 94 cm bust where the old M was 88). Bravissimo and Calvin Klein flagged as unverified: neither publishes body measurements for its tops."],
   ["v1.5.11","2026-11-01","Data audit, batch 12: Aritzia, Asics, Athleta, Ba&sh, Banana Republic and Berghaus women's charts re-checked against the brands' own size guides and corrected (e.g. Aritzia M is a 91.5–95.5 cm bust, not 87; Athleta 2X is a 122.6–127.6 cm bust, not 106; Banana Republic now lists each numeric size from 000 to 20; Berghaus L is UK 12–14 with a 91–96 cm bust, not UK 14 / 99, and its chart has no waist). Ann Taylor and Anthropologie now carry a 🔍 audit note: Ann Taylor's chart was behind a bot check, and Anthropologie's chart has no unit and lists UK sizes under two letter sizes with different measurements."],
   ["v1.5.10","2026-11-01","Data audit, batch 11: Tommy Hilfiger Kids, Acne Studios and Animal women's charts re-checked against the brands' own size guides and corrected (e.g. Acne Studios M is an 88 cm bust, 72 cm waist and 96 cm hip, not 86/67/91, and now includes sizes 30 and 32; Animal now runs UK 6–24 with its published ranges, so a 16 is a 100–106 cm bust; Tommy Hilfiger Kids now follows its Boys clothing chart, 3–16 years, with hips and inside leg, so 10–11 yrs is a 71 cm chest). The North Face Kids and Albaray now carry a 🔍 audit note: The North Face's kids chart was behind a bot check, and albaray.com is currently under construction."],
