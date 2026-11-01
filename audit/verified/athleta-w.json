@@ -1,0 +1,126 @@
+{
+ "id": "athleta-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Athleta fit guide (Women's Tops & Support Tops, regular, CM)",
+   "url": "https://athleta.gap.com/Asset_Archive/AllBrands/sizeChart/v3/chart.html?cid=77871"
+  },
+  {
+   "label": "Athleta Size & Fit Guides index",
+   "url": "https://athleta.gap.com/customerService/info.do?cid=79315"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "altLabel": "00",
+   "bust": 80.0,
+   "waist": 61.6,
+   "hips": 86.4
+  },
+  {
+   "label": "XS",
+   "altLabel": "0-2",
+   "bust": [
+    82.6,
+    85.1
+   ],
+   "waist": [
+    64.1,
+    66.7
+   ],
+   "hips": [
+    88.9,
+    91.4
+   ]
+  },
+  {
+   "label": "S",
+   "altLabel": "4-6",
+   "bust": [
+    87.6,
+    90.2
+   ],
+   "waist": [
+    69.2,
+    71.8
+   ],
+   "hips": [
+    94.0,
+    96.5
+   ]
+  },
+  {
+   "label": "M",
+   "altLabel": "8-10",
+   "bust": [
+    92.7,
+    95.3
+   ],
+   "waist": [
+    74.3,
+    76.8
+   ],
+   "hips": [
+    99.1,
+    101.6
+   ]
+  },
+  {
+   "label": "L",
+   "altLabel": "12-14",
+   "bust": [
+    99.1,
+    102.9
+   ],
+   "waist": [
+    80.6,
+    84.5
+   ],
+   "hips": [
+    105.4,
+    109.2
+   ]
+  },
+  {
+   "label": "XL",
+   "altLabel": "16",
+   "bust": 108.0,
+   "waist": 89.5,
+   "hips": 114.3
+  },
+  {
+   "label": "1X",
+   "altLabel": "18W",
+   "bust": 117.5,
+   "waist": 100.3,
+   "hips": 123.8
+  },
+  {
+   "label": "2X",
+   "altLabel": "20W-22W",
+   "bust": [
+    122.6,
+    127.6
+   ],
+   "waist": [
+    105.4,
+    110.5
+   ],
+   "hips": [
+    128.9,
+    134.0
+   ]
+  },
+  {
+   "label": "3X",
+   "altLabel": "24W",
+   "bust": 134.0,
+   "waist": 116.8,
+   "hips": 140.3
+  }
+ ],
+ "audit": "Old info.do?cid=81093 is gone; Size & Fit Guides is cid=79315, whose Women's Tops link opens this chart (CM toggle, cm as printed; Women's Overview chart has the same numbers). Old figures low: S 87/68/92 -> 87.6-90.2/69.2-71.8/94-96.5; L 95/76/100 -> 99.1-102.9/80.6-84.5/105.4-109.2; 2X 106/87/111 -> 122.6-127.6/105.4-110.5/128.9-134. XXS, 1X, 3X added. UK/EU removed (not published); numeric column is unlabelled so stored as altLabel, not US."
+}

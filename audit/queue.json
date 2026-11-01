@@ -886,7 +886,9 @@
   "priority": 2,
   "stored_source": "anntaylor.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old helpPage URL dead; customer-service page links /ANN_Size_Chart.html, which returned a PerimeterX 'verify you are a human' denial. Not bypassed.",
+  "checked": "2026-11"
  },
  {
   "id": "anthropologie-w",
@@ -895,7 +897,9 @@
   "priority": 2,
   "stored_source": "anthropologie.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old /en-gb/help/size-guide 404s; chart is the product-page Size Guide. UK tab has no unit and UK 8/10/12 fall under two letters with different measurements; XL has one measurement for UK 16/18. Numbers in runs.md.",
+  "checked": "2026-11"
  },
  {
   "id": "aritzia-w",
@@ -904,7 +908,9 @@
   "priority": 2,
   "stored_source": "aritzia.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /intl/en/size-guide Original letter chart read from DOM with CM toggle.",
+  "checked": "2026-11"
  },
  {
   "id": "asics-w",
@@ -913,7 +919,9 @@
   "priority": 2,
   "stored_source": "asics.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /customer-service/size-fit-guide/ Women › Clothing › Tops read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "athleta-w",
@@ -922,7 +930,9 @@
   "priority": 2,
   "stored_source": "athleta.gap.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old cid gone; Women's Tops chart (cid=77871) regular tab, CM toggle, read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "bash-w",
@@ -931,7 +941,9 @@
   "priority": 2,
   "stored_source": "ba-sh.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL dead; /int/en/size-guide/ read from DOM. EU/US left out, conversion tables disagree.",
+  "checked": "2026-11"
  },
  {
   "id": "bananarepublic-w",
@@ -940,7 +952,9 @@
   "priority": 2,
   "stored_source": "bananarepublic.gap.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old cid gone; Women's Tops chart (cid=32368) regular tab, CM toggle, read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "berghaus-w",
@@ -949,7 +963,9 @@
   "priority": 2,
   "stored_source": "berghaus.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /pages/size-guide-womens-apparel Alpha chart read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "bershka-w",

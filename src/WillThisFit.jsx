@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.10";
+export const APP_VERSION = "v1.5.11";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -829,6 +829,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.anthropologie.com/help/size-guide",checked:"2026-03"},{label:"Anthropologie UK size guide",url:"https://www.anthropologie.com/en-gb/help/size-guide",checked:"2026-03"}],
     notes:"US boho-luxe brand. Uses US sizing — UK is roughly +4 from US numeric. Romantic, relaxed cuts. Sizing varies significantly between the many brands Anthropologie stocks — some run true, others very generous. EU-designed brands stocked here may use different scales. Always check per-garment notes.", fit:"Relaxed American cut — check brand within brand",
     inconsistencyWarning:true, confidence:70,
+    auditFlag:"Unverified: Anthropologie's size guide (Nov 2026) prints no unit on its UK chart and puts UK 8, 10 and 12 under two letter sizes each with different measurements, so these figures haven't been updated. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XXS",uk:"6",us:"0/2",eu:"34",bust:82,waist:63,hips:87},
       {label:"XS",uk:"8",us:"2/4",eu:"36",bust:85,waist:66,hips:91},
@@ -1240,16 +1241,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"berghaus-w", name:"Berghaus", origin:"UK", tier:"sports", lastVerified:"2026-01",
-    sources:[{label:"Official size guide",url:"https://www.berghaus.com/en-gb/customer-service/size-guide",checked:"2026-01"}],
+    id:"berghaus-w", name:"Berghaus", origin:"UK", tier:"sports", lastVerified:"2026-11",
+    sources:[{label:"Official Berghaus Women's Size Guide for Jackets, Fleeces, Base Layers, Shirts & Tees (Alpha Sizes, CM)",url:"https://berghaus.com/pages/size-guide-womens-apparel",checked:"2026-11"}],
     notes:"UK outdoor and mountain sports brand. UK sizing, slightly generous outdoor cut for layering and movement. Waterproof jackets especially designed to be worn over fleece.", fit:"Generous UK outdoor — layer underneath",
     inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:89},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:93},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:93,waist:75,hips:98},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:99,waist:81,hips:104},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:105,waist:87,hips:110},
+      {label:"XS",uk:"6–8",bust:78,hips:86.5,rng:{bust:[75,81],hips:[84,89]}},
+      {label:"S",uk:"8–10",bust:83.5,hips:91.5,rng:{bust:[81,86],hips:[89,94]}},
+      {label:"M",uk:"10–12",bust:88.5,hips:96.5,rng:{bust:[86,91],hips:[94,99]}},
+      {label:"L",uk:"12–14",bust:93.5,hips:101.5,rng:{bust:[91,96],hips:[99,104]}},
+      {label:"XL",uk:"14–16",bust:98.5,hips:106.5,rng:{bust:[96,101],hips:[104,109]}},
+      {label:"2XL",uk:"16–18",bust:103.5,hips:111.75,rng:{bust:[101,106],hips:[109,114.5]}},
+      {label:"3XL",uk:"18–20",bust:109,hips:116.75,rng:{bust:[106,112],hips:[114.5,119]}},
     ],
   },
   {
@@ -2017,17 +2021,25 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"bananarepublic-w", name:"Banana Republic", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://bananarepublic.gap.com/browse/info.do?cid=35430",checked:"2026-03"}],
+    id:"bananarepublic-w", name:"Banana Republic", origin:"US", tier:"mid", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Banana Republic size chart (Women's Tops, regular, CM)",url:"https://bananarepublic.gap.com/Asset_Archive/AllBrands/sizeChart/v3/chart.html?cid=32368",checked:"2026-11"}],
     notes:"US sizing via Gap Inc. Classic American professional cut — slightly more tailored than Gap. Petite, regular, and tall options. Workwear blazers and trousers are popular secondhand finds. Runs true to US standard.", fit:"True to US standard — tailored professional cut", inconsistencyWarning:false, confidence:75,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:83,waist:64,hips:88},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:88,waist:69,hips:93},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38–40",bust:93,waist:74,hips:98},
-      {label:"L",uk:"12–14",us:"8–10",eu:"40–42",bust:98,waist:79,hips:103},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42–44",bust:103,waist:84,hips:108},
-      {label:"2XL",uk:"16–18",us:"12–14",eu:"44–46",bust:110,waist:91,hips:115},
-],
+      {label:"000",bust:76.84,waist:59.7,hips:84.46,altLabel:"XXS"},
+      {label:"00",bust:79.38,waist:62.23,hips:87,altLabel:"XXS"},
+      {label:"0",bust:81.92,waist:64.77,hips:89.54,altLabel:"XS"},
+      {label:"2",bust:84.46,waist:67.31,hips:92.01,altLabel:"XS"},
+      {label:"4",bust:87,waist:69.85,hips:94.62,altLabel:"S"},
+      {label:"6",bust:89.54,waist:72.39,hips:97.16,altLabel:"S"},
+      {label:"8",bust:92.01,waist:74.93,hips:99.7,altLabel:"M"},
+      {label:"10",bust:94.62,waist:77.47,hips:102.24,altLabel:"M"},
+      {label:"12",bust:98.43,waist:81.28,hips:106.05,altLabel:"L"},
+      {label:"14",bust:102.24,waist:85.09,hips:109.86,altLabel:"L"},
+      {label:"16",bust:107.32,waist:90.17,hips:114.94,altLabel:"XL"},
+      {label:"18",bust:112.4,waist:95.25,hips:120.02,altLabel:"XL"},
+      {label:"20",bust:117.48,waist:100.33,hips:125.1,altLabel:"XXL"},
+    ],
   },
   {
     id:"jcrew-w", name:"J.Crew", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -2081,15 +2093,16 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"bash-w", name:"Ba&sh", origin:"FR", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://ba-sh.com/en-gb/pages/size-guide",checked:"2026-03"}],
+    id:"bash-w", name:"Ba&sh", origin:"FR", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official ba&sh size guide",url:"https://ba-sh.com/int/en/size-guide/",checked:"2026-11"}],
     notes:"French EU sizing. Parisian feminine aesthetic — cropped tops, flowing skirts. Runs true to EU but slightly narrow. Size up if between sizes. Dresses and blouses very popular secondhand. Great secondhand value for authentic Parisian style.", fit:"True to EU — narrow Parisian cut, size up if borderline", inconsistencyWarning:false, confidence:80,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6–8",us:"2–4",eu:"34",bust:82,waist:62,hips:87},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36",bust:86,waist:66,hips:91},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38",bust:90,waist:70,hips:95},
-      {label:"L",uk:"12–14",us:"8–10",eu:"40",bust:95,waist:75,hips:100},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42",bust:101,waist:81,hips:106},
+      {label:"0",uk:"6",bust:81,waist:63,hips:88,altLabel:"XS"},
+      {label:"1",uk:"8",bust:86,waist:68,hips:93,altLabel:"S"},
+      {label:"2",uk:"10",bust:91,waist:73,hips:98,altLabel:"M"},
+      {label:"3",uk:"12",bust:96,waist:78,hips:103,altLabel:"L"},
+      {label:"4",uk:"14",bust:101,waist:83,hips:108,altLabel:"XL"},
     ],
   },
   {
@@ -2381,17 +2394,21 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"athleta-w", name:"Athleta", origin:"US", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://athleta.gap.com/browse/info.do?cid=81093",checked:"2026-03"}],
+    id:"athleta-w", name:"Athleta", origin:"US", tier:"sports", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Athleta fit guide (Women's Tops & Support Tops, regular, CM)",url:"https://athleta.gap.com/Asset_Archive/AllBrands/sizeChart/v3/chart.html?cid=77871",checked:"2026-11"},{label:"Athleta Size & Fit Guides index",url:"https://athleta.gap.com/customerService/info.do?cid=79315",checked:"2026-11"}],
     notes:"US sizing via Gap Inc. Women's activewear brand with inclusive sizing (XXS–3X). Designed specifically for female athletes — more room in hips and thighs than other activewear brands. Popular secondhand for quality yoga and running gear.", fit:"True to US — more room through hips than Nike/Adidas", inconsistencyWarning:false, confidence:74,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:83,waist:64,hips:88},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:87,waist:68,hips:92},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:91,waist:72,hips:96},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:95,waist:76,hips:100},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42–44",bust:100,waist:81,hips:105},
-      {label:"2X",uk:"16–18",us:"12–14",eu:"44–46",bust:106,waist:87,hips:111},
-],
+      {label:"XXS",bust:80,waist:61.6,hips:86.4,altLabel:"00"},
+      {label:"XS",bust:83.85,waist:65.4,hips:90.15,rng:{bust:[82.6,85.1],waist:[64.1,66.7],hips:[88.9,91.4]},altLabel:"0-2"},
+      {label:"S",bust:88.9,waist:70.5,hips:95.25,rng:{bust:[87.6,90.2],waist:[69.2,71.8],hips:[94,96.5]},altLabel:"4-6"},
+      {label:"M",bust:94,waist:75.55,hips:100.35,rng:{bust:[92.7,95.3],waist:[74.3,76.8],hips:[99.1,101.6]},altLabel:"8-10"},
+      {label:"L",bust:101,waist:82.55,hips:107.3,rng:{bust:[99.1,102.9],waist:[80.6,84.5],hips:[105.4,109.2]},altLabel:"12-14"},
+      {label:"XL",bust:108,waist:89.5,hips:114.3,altLabel:"16"},
+      {label:"1X",bust:117.5,waist:100.3,hips:123.8,altLabel:"18W"},
+      {label:"2X",bust:125.1,waist:107.95,hips:131.45,rng:{bust:[122.6,127.6],waist:[105.4,110.5],hips:[128.9,134]},altLabel:"20W-22W"},
+      {label:"3X",bust:134,waist:116.8,hips:140.3,altLabel:"24W"},
+    ],
   },
   {
     id:"hollister-w", name:"Hollister (Women)", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -2409,6 +2426,7 @@ const WOMEN_BRANDS = [
     id:"anntaylor-w", name:"Ann Taylor", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
     sources:[{label:"Official size guide",url:"https://www.anntaylor.com/an/helpPage.jsp?pageName=SizeGuide",checked:"2026-03"}],
     notes:"US sizing. Classic American professional women's brand. True to US standard with a smart, tailored but comfortable fit. Petite and tall options. Very popular secondhand for professional workwear.", fit:"True to US — smart professional tailored fit", inconsistencyWarning:false, confidence:74,
+    auditFlag:"Not yet verified: Ann Taylor's size chart page shows an 'Access denied, verify you are a human' bot check (Nov 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6",us:"2",eu:"34",bust:83,waist:64,hips:88},
       {label:"S",uk:"8",us:"4",eu:"36",bust:87,waist:68,hips:92},
@@ -2416,7 +2434,7 @@ const WOMEN_BRANDS = [
       {label:"L",uk:"12",us:"8",eu:"40",bust:95,waist:76,hips:100},
       {label:"XL",uk:"14",us:"10",eu:"42",bust:99,waist:80,hips:104},
       {label:"2XL",uk:"16",us:"12",eu:"44",bust:104,waist:85,hips:109},
-],
+    ],
   },
   {
     id:"bravissimo-w", name:"Bravissimo", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -2549,15 +2567,17 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"asics-w", name:"Asics (Women)", origin:"JP", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.asics.com/gb/en-gb/size-guide/",checked:"2026-03"}],
+    id:"asics-w", name:"Asics (Women)", origin:"JP", tier:"sports", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official ASICS size guide (Women › Clothing › Women's Tops Size Guide)",url:"https://www.asics.com/gb/en-gb/customer-service/size-fit-guide/",checked:"2026-11"}],
     notes:"Japanese sizing — runs 1 size smaller than UK. Athletic, streamlined performance cut. Running apparel cuts slim to reduce drag. Gel Kayano and GT series apparel popular secondhand among runners.", fit:"Athletic slim cut — runs 1 size SMALL vs UK", inconsistencyWarning:false, confidence:82,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:82,waist:63,hips:87},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:86,waist:67,hips:91},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:90,waist:71,hips:95},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:95,waist:76,hips:100},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:101,waist:82,hips:106},
+      {label:"XS",bust:78.5,waist:61.5,hips:85.5,rng:{bust:[75,82],waist:[58,65],hips:[82,89]}},
+      {label:"S",bust:85.5,waist:68.5,hips:92.5,rng:{bust:[82,89],waist:[65,72],hips:[89,96]}},
+      {label:"M",bust:92.5,waist:75.5,hips:99.5,rng:{bust:[89,96],waist:[72,79],hips:[96,103]}},
+      {label:"L",bust:100,waist:83,hips:107,rng:{bust:[96,104],waist:[79,87],hips:[103,111]}},
+      {label:"XL",bust:109,waist:91.5,hips:115,rng:{bust:[104,114],waist:[87,96],hips:[111,119]}},
+      {label:"2XL",bust:119,waist:101.5,hips:123,rng:{bust:[114,124],waist:[96,107],hips:[119,127]}},
     ],
   },
   {
@@ -2682,17 +2702,20 @@ const WOMEN_BRANDS = [
 ],
   },
   {
-    id:"aritzia-w", name:"Aritzia", origin:"CA", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.aritzia.com/en/customer-service/size-guide",checked:"2026-03"}],
+    id:"aritzia-w", name:"Aritzia", origin:"CA", tier:"mid", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Aritzia size guide (All Brands Exclusive to Aritzia › Original, CM)",url:"https://www.aritzia.com/intl/en/size-guide",checked:"2026-11"}],
     notes:"Canadian brand, using US sizing. Flattering, slightly body-conscious cut — popular for blazers, trousers, and knitwear. Runs true to US standard. Very strong UK secondhand following on Depop and Vinted since the UK store opened.", fit:"True to US — flattering body-conscious Canadian cut", inconsistencyWarning:false, confidence:74,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"4",us:"0",eu:"32",bust:75,waist:57,hips:81},
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:79,waist:61,hips:85},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:83,waist:65,hips:89},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:87,waist:69,hips:93},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:91,waist:73,hips:97},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:96,waist:78,hips:102},
-],
+      {label:"3XS",bust:73.5,waist:53.5,hips:78.5},
+      {label:"2XS",bust:77.5,waist:57,hips:82.5},
+      {label:"XS",bust:82.75,waist:62.25,hips:87.75,rng:{bust:[81.5,84],waist:[61,63.5],hips:[86.5,89]}},
+      {label:"S",bust:87.75,waist:67.25,hips:92.75,rng:{bust:[86.5,89],waist:[66,68.5],hips:[91.5,94]}},
+      {label:"M",bust:93.5,waist:73,hips:98.5,rng:{bust:[91.5,95.5],waist:[71,75],hips:[96.5,100.5]}},
+      {label:"L",bust:101,waist:80.5,hips:106,rng:{bust:[99,103],waist:[78.5,82.5],hips:[104,108]}},
+      {label:"XL",bust:108.5,waist:88.25,hips:113.75,rng:{bust:[106.5,110.5],waist:[86.5,90],hips:[112,115.5]}},
+      {label:"2XL",bust:114.5,waist:94,hips:119.5},
+    ],
   },
   {
     id:"lulus-w", name:"Lulus", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -12289,6 +12312,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.11","2026-11-01","Data audit, batch 12: Aritzia, Asics, Athleta, Ba&sh, Banana Republic and Berghaus women's charts re-checked against the brands' own size guides and corrected (e.g. Aritzia M is a 91.5–95.5 cm bust, not 87; Athleta 2X is a 122.6–127.6 cm bust, not 106; Banana Republic now lists each numeric size from 000 to 20; Berghaus L is UK 12–14 with a 91–96 cm bust, not UK 14 / 99, and its chart has no waist). Ann Taylor and Anthropologie now carry a 🔍 audit note: Ann Taylor's chart was behind a bot check, and Anthropologie's chart has no unit and lists UK sizes under two letter sizes with different measurements."],
   ["v1.5.10","2026-11-01","Data audit, batch 11: Tommy Hilfiger Kids, Acne Studios and Animal women's charts re-checked against the brands' own size guides and corrected (e.g. Acne Studios M is an 88 cm bust, 72 cm waist and 96 cm hip, not 86/67/91, and now includes sizes 30 and 32; Animal now runs UK 6–24 with its published ranges, so a 16 is a 100–106 cm bust; Tommy Hilfiger Kids now follows its Boys clothing chart, 3–16 years, with hips and inside leg, so 10–11 yrs is a 71 cm chest). The North Face Kids and Albaray now carry a 🔍 audit note: The North Face's kids chart was behind a bot check, and albaray.com is currently under construction."],
   ["v1.5.9","2026-10-31","Data audit, batch 10 (kidswear): Monsoon Kids, Mountain Warehouse Kids and Patagonia Kids re-checked against the brands' own size guides and corrected (e.g. Monsoon now uses its single-year Girl chart, 3–15 years, with hips and inside leg; Mountain Warehouse 11–12 yrs is a 72–78 cm chest and 142–154 cm height; Patagonia kids are sized XS–XXL by age, so M (10) is a 72 cm chest, not 70). Height search now uses each size's full height range. Jigsaw Junior, Lacoste Kids, Monsoon occasion wear, Monsoon Accessorize and Ted Baker Kids now carry a 🔍 audit note: none of these brands publishes a matching kids' body chart on its UK site."],
   ["v1.5.8","2026-10-30","Data audit, batch 9: Superdry, The North Face and Tommy Hilfiger men's charts re-checked against the brands' own size guides and corrected (e.g. Tommy Hilfiger M is UK 40 with an 88–92 cm waist, not UK 38 / 86 cm; Superdry M is a 96–101 cm chest and now runs XXS–4XL with seat sizes; The North Face M chest is 100–108 cm, not 99). Ted Baker and Weekday men's, BOSS Kids and Jack Wills Kids now carry a 🔍 audit note: Ted Baker's chart only loads with optional cookies, Weekday publishes its charts as images, BOSS no longer offers kidswear in the UK, and Jack Wills shows only a generic multi-brand guide."],
