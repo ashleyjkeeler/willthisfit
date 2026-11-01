@@ -1,0 +1,127 @@
+{
+ "id": "cottontraders-w",
+ "sources": [
+  {
+   "label": "Official Cotton Traders Women's size guide (body measures)",
+   "url": "https://www.cottontraders.com/size-chart/womens-size-chart.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "bust": 76,
+   "waist": 58,
+   "hips": 84,
+   "altLabel": "XS"
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "bust": 81,
+   "waist": 63.5,
+   "hips": 89,
+   "altLabel": "XS"
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "bust": 86,
+   "waist": 68.5,
+   "hips": 94,
+   "altLabel": "S"
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "bust": 90.5,
+   "waist": 73.5,
+   "hips": 99,
+   "altLabel": "S"
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "bust": 95.5,
+   "waist": 78.5,
+   "hips": 104,
+   "altLabel": "M"
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "bust": 100.5,
+   "waist": 84,
+   "hips": 109,
+   "altLabel": "M"
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "bust": 107,
+   "waist": 90,
+   "hips": 115,
+   "altLabel": "L"
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "bust": 112,
+   "waist": 95,
+   "hips": 120.5,
+   "altLabel": "L"
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "bust": 117.5,
+   "waist": 100,
+   "hips": 125.5,
+   "altLabel": "XL"
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "bust": 123.5,
+   "waist": 106.5,
+   "hips": 132,
+   "altLabel": "2XL"
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "bust": 129,
+   "waist": 111.5,
+   "hips": 137,
+   "altLabel": "3XL"
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "bust": 135,
+   "waist": 118,
+   "hips": 143,
+   "altLabel": "4XL"
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "bust": 140,
+   "waist": 123,
+   "hips": 148.5,
+   "altLabel": "4XL"
+  },
+  {
+   "label": "32",
+   "uk": "32",
+   "bust": 145.5,
+   "waist": 128,
+   "hips": 153.5,
+   "altLabel": "5XL"
+  }
+ ],
+ "notes": "UK catalogue/direct brand, popular with 50+ demographic. UK sizing. Very generous, comfortable, relaxed cuts. Sizes 6–32. Highly consistent — very reliable for second-hand purchases.",
+ "audit": "Old /size-guide 404s; footer leads to /size-chart/womens-size-chart.html. Printed cm; size 6-32, 'WOMEN'S ONLY' letter stored as altLabel (letters span two sizes). Page title calls it the UK size guide, so uk = women's size. Old M uk 12-14 94/77/99 now 12 90.5/73.5/99 and 14 95.5/78.5/104; old XL uk 16-18 107/90/112 now 16 100.5/84/109 and 18 107/90/115; old 3XL uk 22 121/104/126 now 22 117.5/100/125.5. US/EU removed. Separate unisex letter row not stored.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

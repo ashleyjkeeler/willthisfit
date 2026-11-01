@@ -1,0 +1,62 @@
+{
+ "id": "castore-w",
+ "sources": [
+  {
+   "label": "Official Castore size guide (Women's body measurements, cm)",
+   "url": "https://castore.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS-6",
+   "bust": 79,
+   "waist": 61,
+   "hips": 86
+  },
+  {
+   "label": "XS-8",
+   "bust": 84,
+   "waist": 66,
+   "hips": 91
+  },
+  {
+   "label": "S-10",
+   "bust": 89,
+   "waist": 71,
+   "hips": 96
+  },
+  {
+   "label": "M-12",
+   "bust": 94,
+   "waist": 76,
+   "hips": 101
+  },
+  {
+   "label": "L-14",
+   "bust": 99,
+   "waist": 81,
+   "hips": 106
+  },
+  {
+   "label": "XL-16",
+   "bust": 104,
+   "waist": 86,
+   "hips": 111
+  },
+  {
+   "label": "2XL-18",
+   "bust": 109,
+   "waist": 91,
+   "hips": 116
+  },
+  {
+   "label": "3XL-20",
+   "bust": 114,
+   "waist": 96,
+   "hips": 121
+  }
+ ],
+ "audit": "Same URL still live. Women's (Body Measurements), printed cm column (inches also printed, not stored); chest stored as bust. Sizes printed as XXS-6 ... 3XL-20. The numbers shift letters: old XS uk 6 80/62/86 now XS-8 84/66/91; old M uk 10 88/70/94 now M-12 94/76/101; old 2XL uk 16 100/82/106 now 2XL-18 109/91/116. Number after the letter isn't labelled UK on the guide, so uk field left out, as are US/EU. XXS-6 and 3XL-20 added.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

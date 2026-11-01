@@ -1,0 +1,54 @@
+{
+ "id": "bash-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ba&sh size guide",
+   "url": "https://ba-sh.com/int/en/size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "0",
+   "uk": "6",
+   "altLabel": "XS",
+   "bust": 81,
+   "waist": 63,
+   "hips": 88
+  },
+  {
+   "label": "1",
+   "uk": "8",
+   "altLabel": "S",
+   "bust": 86,
+   "waist": 68,
+   "hips": 93
+  },
+  {
+   "label": "2",
+   "uk": "10",
+   "altLabel": "M",
+   "bust": 91,
+   "waist": 73,
+   "hips": 98
+  },
+  {
+   "label": "3",
+   "uk": "12",
+   "altLabel": "L",
+   "bust": 96,
+   "waist": 78,
+   "hips": 103
+  },
+  {
+   "label": "4",
+   "uk": "14",
+   "altLabel": "XL",
+   "bust": 101,
+   "waist": 83,
+   "hips": 108
+  }
+ ],
+ "audit": "Old /en-gb/pages/size-guide shows no size guide (French storefront page, no chart); guide is /int/en/size-guide/. Ba&sh sizes are 0-4, with body measurements as printed (cm column unlabelled; the (p) inch columns convert to it exactly). Old rows: UK 6-8 XS 82/62/87 -> size 0 UK 6 81/63/88; L 95/75/100 -> size 3 UK 12 96/78/103; XL 101/81/106 -> size 4 UK 14 101/83/108. UK from both tables on the page (UK col, UK/AUS col). EU and US left out: the page's two conversion tables disagree (e.g. size 0 is FR 32 in one, FR 34 in the other; US 32 vs US XS)."
+}

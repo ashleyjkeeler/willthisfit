@@ -1,0 +1,125 @@
+{
+ "id": "brooksrunning-w",
+ "sources": [
+  {
+   "label": "Official Brooks Running size guide (Women, Tops)",
+   "url": "https://www.brooksrunning.com/en_gb/main-size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "bust": [
+    71.1,
+    78.7
+   ],
+   "waist": [
+    55.9,
+    61.0
+   ],
+   "hips": [
+    78.7,
+    86.4
+   ],
+   "_in": [
+    "28-31",
+    "22-24",
+    "31-34"
+   ]
+  },
+  {
+   "label": "XS",
+   "bust": [
+    79,
+    84
+   ],
+   "waist": [
+    61,
+    66
+   ],
+   "hips": [
+    86,
+    91
+   ]
+  },
+  {
+   "label": "S",
+   "bust": [
+    84,
+    89
+   ],
+   "waist": [
+    66,
+    71
+   ],
+   "hips": [
+    91,
+    97
+   ]
+  },
+  {
+   "label": "M",
+   "bust": [
+    89,
+    94
+   ],
+   "waist": [
+    71,
+    76
+   ],
+   "hips": [
+    97,
+    102
+   ]
+  },
+  {
+   "label": "L",
+   "bust": [
+    94,
+    102
+   ],
+   "waist": [
+    76,
+    86
+   ],
+   "hips": [
+    102,
+    109
+   ]
+  },
+  {
+   "label": "XL",
+   "bust": [
+    102,
+    112
+   ],
+   "waist": [
+    86,
+    97
+   ],
+   "hips": [
+    109,
+    122
+   ]
+  },
+  {
+   "label": "XXL",
+   "bust": [
+    112,
+    124
+   ],
+   "waist": [
+    97,
+    112
+   ],
+   "hips": [
+    122,
+    132
+   ]
+  }
+ ],
+ "notes": "Premium running brand. Brooks's women's tops chart uses letter sizes with chest, waist and hip ranges; it prints no UK, US or EU sizes. Running tops and shorts cut slim for performance. Jackets and warm-up gear slightly more relaxed. Popular secondhand among runners.",
+ "audit": "Old /en_gb/size-chart is 'page not found'; guide is /en_gb/main-size-guide/ (Women, Tops, Size chart). Printed chest stored as bust. cm tab has XS-XXL; XXS only appears on the inches tab, so XXS is converted at 2.54, originals in _in. Old XS 82/63/87 now 79-84/61-66/86-91; M 90/71/95 now 89-94/71-76/97-102; XL 101/82/106 now 102-112/86-97/109-122. XXS, XXL added; UK/US/EU removed (not printed).",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

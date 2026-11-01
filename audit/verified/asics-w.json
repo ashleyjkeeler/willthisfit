@@ -1,0 +1,104 @@
+{
+ "id": "asics-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ASICS size guide (Women › Clothing › Women's Tops Size Guide)",
+   "url": "https://www.asics.com/gb/en-gb/customer-service/size-fit-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "bust": [
+    75,
+    82
+   ],
+   "waist": [
+    58,
+    65
+   ],
+   "hips": [
+    82,
+    89
+   ]
+  },
+  {
+   "label": "S",
+   "bust": [
+    82,
+    89
+   ],
+   "waist": [
+    65,
+    72
+   ],
+   "hips": [
+    89,
+    96
+   ]
+  },
+  {
+   "label": "M",
+   "bust": [
+    89,
+    96
+   ],
+   "waist": [
+    72,
+    79
+   ],
+   "hips": [
+    96,
+    103
+   ]
+  },
+  {
+   "label": "L",
+   "bust": [
+    96,
+    104
+   ],
+   "waist": [
+    79,
+    87
+   ],
+   "hips": [
+    103,
+    111
+   ]
+  },
+  {
+   "label": "XL",
+   "bust": [
+    104,
+    114
+   ],
+   "waist": [
+    87,
+    96
+   ],
+   "hips": [
+    111,
+    119
+   ]
+  },
+  {
+   "label": "2XL",
+   "bust": [
+    114,
+    124
+   ],
+   "waist": [
+    96,
+    107
+   ],
+   "hips": [
+    119,
+    127
+   ]
+  }
+ ],
+ "audit": "Old /gb/en-gb/size-guide/ 404s; guide is /customer-service/size-fit-guide/. Tops table prints no unit; the bra table on the same page is labelled cm and overlaps it. Old single values replaced by ranges: S 86/67/91 -> 82-89/65-72/89-96; L 95/76/100 -> 96-104/79-87/103-111; XL 101/82/106 -> 104-114/87-96/111-119. 2XL added. UK/US/EU removed (not published on the clothing chart)."
+}

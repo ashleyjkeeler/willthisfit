@@ -1,0 +1,105 @@
+{
+ "id": "bananarepublic-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Banana Republic size chart (Women's Tops, regular, CM)",
+   "url": "https://bananarepublic.gap.com/Asset_Archive/AllBrands/sizeChart/v3/chart.html?cid=32368"
+  }
+ ],
+ "rows": [
+  {
+   "label": "000",
+   "altLabel": "XXS",
+   "bust": 76.84,
+   "waist": 59.7,
+   "hips": 84.46
+  },
+  {
+   "label": "00",
+   "altLabel": "XXS",
+   "bust": 79.38,
+   "waist": 62.23,
+   "hips": 87.0
+  },
+  {
+   "label": "0",
+   "altLabel": "XS",
+   "bust": 81.92,
+   "waist": 64.77,
+   "hips": 89.54
+  },
+  {
+   "label": "2",
+   "altLabel": "XS",
+   "bust": 84.46,
+   "waist": 67.31,
+   "hips": 92.01
+  },
+  {
+   "label": "4",
+   "altLabel": "S",
+   "bust": 87.0,
+   "waist": 69.85,
+   "hips": 94.62
+  },
+  {
+   "label": "6",
+   "altLabel": "S",
+   "bust": 89.54,
+   "waist": 72.39,
+   "hips": 97.16
+  },
+  {
+   "label": "8",
+   "altLabel": "M",
+   "bust": 92.01,
+   "waist": 74.93,
+   "hips": 99.7
+  },
+  {
+   "label": "10",
+   "altLabel": "M",
+   "bust": 94.62,
+   "waist": 77.47,
+   "hips": 102.24
+  },
+  {
+   "label": "12",
+   "altLabel": "L",
+   "bust": 98.43,
+   "waist": 81.28,
+   "hips": 106.05
+  },
+  {
+   "label": "14",
+   "altLabel": "L",
+   "bust": 102.24,
+   "waist": 85.09,
+   "hips": 109.86
+  },
+  {
+   "label": "16",
+   "altLabel": "XL",
+   "bust": 107.32,
+   "waist": 90.17,
+   "hips": 114.94
+  },
+  {
+   "label": "18",
+   "altLabel": "XL",
+   "bust": 112.4,
+   "waist": 95.25,
+   "hips": 120.02
+  },
+  {
+   "label": "20",
+   "altLabel": "XXL",
+   "bust": 117.48,
+   "waist": 100.33,
+   "hips": 125.1
+  }
+ ],
+ "audit": "Old info.do?cid=35430 is gone; the Size & Fit Guides page (cid=80743) and the product Size Guide button rendered nothing here, so this is Banana Republic's own chart page on its domain, found via its us_charts.js index (womenTops). Regular tab, CM toggle, cm as printed; each numeric size has its own values. Old letter rows pooled sizes: M 93/74/98 -> 8 92.01/74.93/99.7 and 10 94.62/77.47/102.24; XL 103/84/108 -> 16 107.32/90.17/114.94 and 18 112.4/95.25/120.02. UK/EU removed (not published); numeric column unlabelled so not stored as US."
+}

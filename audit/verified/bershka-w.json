@@ -1,0 +1,50 @@
+{
+ "id": "bershka-w",
+ "sources": [
+  {
+   "label": "Official Bershka UK product-page size guide (See measurements, Body, cm): Round neck long-sleeve T-shirt",
+   "url": "https://www.bershka.com/gb/round-neck-long-sleeve-t-shirt-c0p226931583.html?colorId=251"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "bust": 76,
+   "waist": 58,
+   "hips": 84
+  },
+  {
+   "label": "XS",
+   "bust": 80,
+   "waist": 62,
+   "hips": 88
+  },
+  {
+   "label": "S",
+   "bust": 86,
+   "waist": 68,
+   "hips": 94
+  },
+  {
+   "label": "M",
+   "bust": 92,
+   "waist": 74,
+   "hips": 100
+  },
+  {
+   "label": "L",
+   "bust": 98,
+   "waist": 80,
+   "hips": 106
+  },
+  {
+   "label": "XL",
+   "bust": 104,
+   "waist": 86,
+   "hips": 112
+  }
+ ],
+ "audit": "Old /uk/help/size-guide redirects to the home page. No standalone chart; product-page 'See measurements' gives body bust/waist/hips per size in cm. Same figures on a second T-shirt and on a dress (XS-L). Old XS 78/60/83 now 80/62/88, M 86/68/91 now 92/74/100, L 91/73/96 now 98/80/106, XL 97/79/102 now 104/86/112. XXS added, XXL removed (not on the items checked), UK/US/EU removed (not printed in the guide). Items also list garment measurements, not stored.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

@@ -1,0 +1,98 @@
+{
+ "id": "berghaus-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Berghaus Women's Size Guide for Jackets, Fleeces, Base Layers, Shirts & Tees (Alpha Sizes, CM)",
+   "url": "https://berghaus.com/pages/size-guide-womens-apparel"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "6–8",
+   "bust": [
+    75,
+    81
+   ],
+   "hips": [
+    84,
+    89
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8–10",
+   "bust": [
+    81,
+    86
+   ],
+   "hips": [
+    89,
+    94
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10–12",
+   "bust": [
+    86,
+    91
+   ],
+   "hips": [
+    94,
+    99
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "12–14",
+   "bust": [
+    91,
+    96
+   ],
+   "hips": [
+    99,
+    104
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "14–16",
+   "bust": [
+    96,
+    101
+   ],
+   "hips": [
+    104,
+    109
+   ]
+  },
+  {
+   "label": "2XL",
+   "uk": "16–18",
+   "bust": [
+    101,
+    106
+   ],
+   "hips": [
+    109,
+    114.5
+   ]
+  },
+  {
+   "label": "3XL",
+   "uk": "18–20",
+   "bust": [
+    106,
+    112
+   ],
+   "hips": [
+    114.5,
+    119
+   ]
+  }
+ ],
+ "audit": "Old /en-gb/customer-service/size-guide 404s; guide is /pages/size-guide-womens-apparel. Alpha chart: S UK 10 88/70/93 -> UK 8-10 81-86/89-94 (no waist); L UK 14 99/81/104 -> UK 12-14 91-96/99-104; XL UK 16 105/87/110 -> UK 14-16 96-101/104-109. Old rows paired each letter with one UK size; Berghaus prints two per letter. Waist removed: Berghaus prints no waist for this chart. US/EU removed. 2XL, 3XL added. Separate UK Sizes (8-20) chart on the page gives single values per UK size."
+}

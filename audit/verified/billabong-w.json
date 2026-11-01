@@ -1,0 +1,97 @@
+{
+ "id": "billabong-w",
+ "sources": [
+  {
+   "label": "Official Billabong size guide (product-page modal, Women's Clothing, inches)",
+   "url": "https://www.billabong.com/products/surf-girl-throw-on-knt-top-bl001609w-wcp"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "bust": 77.5,
+   "waist": 61.0,
+   "hips": 86.4,
+   "_in": [
+    "30.5",
+    "24",
+    "34"
+   ]
+  },
+  {
+   "label": "S",
+   "bust": [
+    82.6,
+    85.1
+   ],
+   "waist": [
+    63.5,
+    66.0
+   ],
+   "hips": [
+    88.9,
+    91.4
+   ],
+   "_in": [
+    "32.5 - 33.5",
+    "25 - 26",
+    "35 - 36"
+   ]
+  },
+  {
+   "label": "M",
+   "bust": [
+    87.6,
+    90.2
+   ],
+   "waist": [
+    68.6,
+    71.1
+   ],
+   "hips": [
+    94.0,
+    96.5
+   ],
+   "_in": [
+    "34.5 - 35.5",
+    "27 - 28",
+    "37 - 38"
+   ]
+  },
+  {
+   "label": "L",
+   "bust": [
+    92.7,
+    95.3
+   ],
+   "waist": [
+    73.7,
+    76.2
+   ],
+   "hips": [
+    99.1,
+    101.6
+   ],
+   "_in": [
+    "36.5 - 37.5",
+    "29 - 30",
+    "39 - 40"
+   ]
+  },
+  {
+   "label": "XL",
+   "bust": 97.8,
+   "waist": 78.7,
+   "hips": 104.1,
+   "_in": [
+    "38.5",
+    "31",
+    "41"
+   ]
+  }
+ ],
+ "notes": "Surf lifestyle brand. Billabong's size guide prints women's clothing in letter sizes XS–XL, in inches only (cm here are converted at 2.54). It prints no UK, US or AU sizes for clothing. Swimwear has its own chart. Popular secondhand among surf-scene communities.",
+ "audit": "Old /en-gb/size-chart.html 404s; the guide is the product-page Size guide modal, Women's Clothing. Inches only: cm = in x 2.54 rounded to 0.1, originals in _in. Printed chest stored as bust. Old rows had AU-style labels (XS/6 etc.) and UK/US/EU not printed. Old XS 81/61/87 now 77.5/61/86.4. M 90/71/96 now 87.6-90.2/68.6-71.1/94-96.5. XL 102/83/108 now 97.8/78.7/104.1. Separate Women's Swimwear chart not stored.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

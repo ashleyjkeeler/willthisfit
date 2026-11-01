@@ -1,0 +1,107 @@
+{
+ "id": "aritzia-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Aritzia size guide (All Brands Exclusive to Aritzia › Original, CM)",
+   "url": "https://www.aritzia.com/intl/en/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "3XS",
+   "bust": 73.5,
+   "waist": 53.5,
+   "hips": 78.5
+  },
+  {
+   "label": "2XS",
+   "bust": 77.5,
+   "waist": 57,
+   "hips": 82.5
+  },
+  {
+   "label": "XS",
+   "bust": [
+    81.5,
+    84
+   ],
+   "waist": [
+    61,
+    63.5
+   ],
+   "hips": [
+    86.5,
+    89
+   ]
+  },
+  {
+   "label": "S",
+   "bust": [
+    86.5,
+    89
+   ],
+   "waist": [
+    66,
+    68.5
+   ],
+   "hips": [
+    91.5,
+    94
+   ]
+  },
+  {
+   "label": "M",
+   "bust": [
+    91.5,
+    95.5
+   ],
+   "waist": [
+    71,
+    75
+   ],
+   "hips": [
+    96.5,
+    100.5
+   ]
+  },
+  {
+   "label": "L",
+   "bust": [
+    99,
+    103
+   ],
+   "waist": [
+    78.5,
+    82.5
+   ],
+   "hips": [
+    104,
+    108
+   ]
+  },
+  {
+   "label": "XL",
+   "bust": [
+    106.5,
+    110.5
+   ],
+   "waist": [
+    86.5,
+    90
+   ],
+   "hips": [
+    112,
+    115.5
+   ]
+  },
+  {
+   "label": "2XL",
+   "bust": 114.5,
+   "waist": 94,
+   "hips": 119.5
+  }
+ ],
+ "audit": "Old /en/customer-service/size-guide 404s; guide is /intl/en/size-guide (read with its CM toggle on; IN toggle agrees). Old rows paired letters one-to-one with UK/US/EU sizes Aritzia doesn't print, and were 1-5 cm off: XS 79/61/85 -> 81.5-84/61-63.5/86.5-89; M 87/69/93 -> 91.5-95.5/71-75/96.5-100.5; XL 96/78/102 -> 106.5-110.5/86.5-90/112-115.5. Old XXS removed (chart prints 2XS and 3XS). Separate numeric (00-16), denim, sizes 1-3 and Curve Fit charts exist and aren't stored. UK/US/EU removed (not published)."
+}

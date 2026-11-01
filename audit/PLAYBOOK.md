@@ -29,7 +29,10 @@ This is how every audit run works, whether by hand or as a scheduled task. **Acc
    - If `verify.mjs` fails, fix the cause, or revert that brand and flag it. Never commit with failures.
 5. Release to the **`audit` branch, not `main`.** Every push to `main` triggers a Netlify production deploy, which costs hosting credits. Batches therefore collect on the `audit` branch, and Ashley (or a session she asks) merges them into `main` about once a week.
    ```
-   git fetch origin && (git checkout audit 2>/dev/null || git checkout -b audit origin/main)
+   git fetch origin
+   # `audit` is also a folder here, so always name the remote branch explicitly.
+   # Continue from origin/audit if it exists, so unmerged batches are kept; start from main only if it doesn't.
+   if git rev-parse --verify -q origin/audit >/dev/null; then git checkout -B audit origin/audit; else git checkout -b audit origin/main; fi
    git merge --no-edit origin/main     # keep the branch current with main
    # ...apply the batch, then run the checks...
    git push origin audit

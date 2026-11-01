@@ -1,0 +1,211 @@
+{
+ "id": "cider-w",
+ "sources": [
+  {
+   "label": "Official Cider Sizing help, Body Size, UK sizes, cm (standard range)",
+   "url": "https://www.shopcider.com/goods/knit-v-neck-solid-lace-hem-long-sleeve-top-113941585"
+  },
+  {
+   "label": "Official Cider Sizing help, Body Size (Curve range)",
+   "url": "https://www.shopcider.com/goods/high-stretch-v-neck-lace-trim-knotted-top-curve-plus-115832558"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "4",
+   "bust": [
+    78,
+    82
+   ],
+   "waist": [
+    58,
+    62
+   ],
+   "hips": [
+    83,
+    87
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "6",
+   "bust": [
+    82,
+    86
+   ],
+   "waist": [
+    62,
+    66
+   ],
+   "hips": [
+    87,
+    91
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8",
+   "bust": [
+    86,
+    90
+   ],
+   "waist": [
+    66,
+    70
+   ],
+   "hips": [
+    91,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10",
+   "bust": [
+    91,
+    95
+   ],
+   "waist": [
+    71,
+    75
+   ],
+   "hips": [
+    96,
+    100
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "12/14",
+   "bust": [
+    96,
+    100
+   ],
+   "waist": [
+    76,
+    81
+   ],
+   "hips": [
+    101,
+    105
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "bust": [
+    101,
+    105
+   ],
+   "waist": [
+    81,
+    86
+   ],
+   "hips": [
+    106,
+    110
+   ]
+  },
+  {
+   "label": "0XL",
+   "uk": "18",
+   "bust": [
+    103,
+    107
+   ],
+   "waist": [
+    87,
+    93
+   ],
+   "hips": [
+    112,
+    119
+   ]
+  },
+  {
+   "label": "1XL",
+   "uk": "20",
+   "bust": [
+    107,
+    113
+   ],
+   "waist": [
+    93,
+    99
+   ],
+   "hips": [
+    119,
+    125
+   ]
+  },
+  {
+   "label": "2XL",
+   "uk": "22",
+   "bust": [
+    113,
+    120
+   ],
+   "waist": [
+    99,
+    105
+   ],
+   "hips": [
+    125,
+    131
+   ]
+  },
+  {
+   "label": "3XL",
+   "uk": "24",
+   "bust": [
+    120,
+    126
+   ],
+   "waist": [
+    105,
+    111
+   ],
+   "hips": [
+    131,
+    137
+   ]
+  },
+  {
+   "label": "4XL",
+   "uk": "26",
+   "bust": [
+    126,
+    132
+   ],
+   "waist": [
+    111,
+    118
+   ],
+   "hips": [
+    137,
+    143
+   ]
+  },
+  {
+   "label": "5XL",
+   "uk": "28",
+   "bust": [
+    132,
+    138
+   ],
+   "waist": [
+    118,
+    124
+   ],
+   "hips": [
+    143,
+    149
+   ]
+  }
+ ],
+ "notes": "Hong Kong fast-fashion brand, on-demand model similar to SHEIN. Cider's Sizing help lists body measurements against UK sizes, for a standard range (XXS–XL) and a Curve range (0XL–5XL). It says the size comparison is for reference only, so check each item's Product Size too. Popular on TikTok, lots of secondhand on Vinted/Depop.",
+ "audit": "Stored policy page has no chart; product-page Sizing help (Body Size, UK Size, cm toggle) does. Standard rows from a standard item, Curve rows from a Curve item, printed as shown ('78.0-82.0' stored 78-82). Old M uk 8-10 88/69/93 now M uk 10 91-95/71-75/96-100; old XL uk 12-14 96/77/101 now XL uk 16 101-105/81-86/106-110; old XXL row removed, curve now 0XL-5XL with heights and weights not stored. US/EU removed (not read). Third-party fit-review source removed. 'Runs 1-2 sizes small' and 'Chinese sizing' text replaced: the chart maps to UK sizes directly.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}
