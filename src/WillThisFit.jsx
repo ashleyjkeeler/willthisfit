@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.9";
+export const APP_VERSION = "v1.5.10";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -1067,6 +1067,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.albaray.com/pages/size-guide",checked:"2026-03"},{label:"Albaray at John Lewis",url:"https://www.johnlewis.com/brand/albaray",checked:"2026-03"}],
     notes:"Contemporary UK womenswear brand sold via own site and John Lewis. UK sizing 6–18. Clean, elegant aesthetic with a relaxed modern fit. Natural fabrics (linen, tencel) dominant — linen items may relax slightly after washing, which can affect fit.", fit:"Relaxed contemporary UK fit — true to size",
     inconsistencyWarning:false, confidence:68,
+    auditFlag:"Can't be verified: albaray.com shows only an 'under construction' page (Nov 2026), so there is no official size guide to check. Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"UK 6",uk:"6",us:"2",eu:"34",bust:81,waist:62,hips:87},
       {label:"UK 8",uk:"8",us:"4",eu:"36",bust:84,waist:65,hips:90},
@@ -1542,18 +1543,23 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"animalclothing-w", name:"Animal", origin:"UK", tier:"outdoor", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://www.animal.co.uk/size-guide/",checked:"2026-02"}],
+    id:"animalclothing-w", name:"Animal", origin:"UK", tier:"outdoor", lastVerified:"2026-11",
+    sources:[{label:"Official Animal size guide (Womens › Clothing, cm)",url:"https://www.animal.co.uk/pages/size-guide",checked:"2026-11"}],
     notes:"UK surf and outdoor lifestyle brand. UK sizing. Relaxed, active-lifestyle cut — not as performance-fitted as Nike/Adidas. Good for casual second-hand finds. Consistent across collections.",
     fit:"Relaxed outdoor UK sizing — true to size", inconsistencyWarning:false, confidence:74,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"8",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:90},
-      {label:"10",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:94},
-      {label:"12",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:98},
-      {label:"14",uk:"14",us:"10",eu:"42",bust:96,waist:78,hips:102},
-      {label:"16",uk:"16",us:"12",eu:"44",bust:100,waist:82,hips:106},
-      {label:"18",uk:"18",us:"14",eu:"46",bust:106,waist:88,hips:112},
-],
+      {label:"6",uk:"6",bust:82,waist:65,hips:90,rng:{bust:[81,83],waist:[64,66],hips:[89,91]},altLabel:"XS"},
+      {label:"8",uk:"8",bust:84,waist:67,hips:92,rng:{bust:[83,85],waist:[66,68],hips:[91,93]},altLabel:"S"},
+      {label:"10",uk:"10",bust:87,waist:70.5,hips:95.5,rng:{bust:[85,89],waist:[68,73],hips:[93,98]},altLabel:"S"},
+      {label:"12",uk:"12",bust:91.5,waist:75.5,hips:100,rng:{bust:[89,94],waist:[73,78],hips:[98,102]},altLabel:"M"},
+      {label:"14",uk:"14",bust:96.5,waist:80.5,hips:105.5,rng:{bust:[94,99],waist:[78,83],hips:[103,108]},altLabel:"M"},
+      {label:"16",uk:"16",bust:103,waist:86,hips:111,rng:{bust:[100,106],waist:[83,89],hips:[108,114]},altLabel:"L"},
+      {label:"18",uk:"18",bust:109,waist:92,hips:117,rng:{bust:[106,112],waist:[89,95],hips:[114,120]},altLabel:"L"},
+      {label:"20",uk:"20",bust:115.5,waist:98.5,hips:123.5,rng:{bust:[112,119],waist:[95,102],hips:[120,127]},altLabel:"XL"},
+      {label:"22",uk:"22",bust:122.5,waist:105.5,hips:130.5,rng:{bust:[119,126],waist:[102,109],hips:[127,134]},altLabel:"XL"},
+      {label:"24",uk:"24",bust:129.5,waist:112.5,hips:137.5,rng:{bust:[126,133],waist:[109,116],hips:[134,141]},altLabel:"XXL"},
+    ],
   },
   {
     id:"craghoppers-w", name:"Craghoppers", origin:"UK", tier:"outdoor", lastVerified:"2026-02",
@@ -2648,16 +2654,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"acnestudios-w", name:"Acne Studios", origin:"SE", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.acnestudios.com/en/size-guide",checked:"2026-03"}],
+    id:"acnestudios-w", name:"Acne Studios", origin:"SE", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Acne Studios size guide (Body measurements › Woman Tops, cm; Size conversion › Woman Tops)",url:"https://www.acnestudios.com/uk/en/help/size-guide.html",checked:"2026-11"}],
     notes:"Scandinavian EU sizing. Swedish high-fashion brand. Deliberately oversized, avant-garde silhouettes — size down 1–2 sizes if you want a closer fit. Denim runs true EU waist but very slim through leg. Extremely popular on Depop for high-fashion secondhand.", fit:"Oversized — size DOWN 1–2 for fitted; denim slim leg", inconsistencyWarning:false, confidence:73,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:78,waist:59,hips:83},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:82,waist:63,hips:87},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:86,waist:67,hips:91},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:90,waist:71,hips:95},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:95,waist:76,hips:100},
-],
+      {label:"30 / XXS",uk:"2",us:"0",eu:"30",bust:72,waist:56,hips:82},
+      {label:"32 / XXS",uk:"4",us:"0",eu:"32",bust:76,waist:60,hips:84},
+      {label:"34 / XS",uk:"6",us:"2",eu:"34",bust:80,waist:64,hips:88},
+      {label:"36 / S",uk:"8",us:"4",eu:"36",bust:84,waist:68,hips:92},
+      {label:"38 / M",uk:"10",us:"6",eu:"38",bust:88,waist:72,hips:96},
+      {label:"40 / L",uk:"12",us:"8",eu:"40",bust:92,waist:76,hips:100},
+      {label:"42 / XL",uk:"14",us:"10",eu:"42",bust:96,waist:80,hips:104},
+    ],
   },
   {
     id:"selfportrait-w", name:"Self-Portrait", origin:"UK", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
@@ -6054,6 +6063,7 @@ const KIDS_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.thenorthface.co.uk/en-gb/help/size-guide",checked:"2026-03"}],
     notes:"Premium US outdoor brand. Youth sizing, generous outdoor fit designed for layering with base layers. US sizing runs large — UK 8y fits more like TNF 6–7y. Exceptional quality means kids' items are highly sought-after second-hand.",
     fit:"Generous US outdoor sizing — size DOWN 1–2 vs UK", inconsistencyWarning:false, confidence:84,
+    auditFlag:"Not yet verified: The North Face's size-chart page showed a 'Press & Hold' bot check when opening the Kids tab (Nov 2026). Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"XS (5–6y)",uk:"6–7",eu:"116–122",us:"XS",height:"110–122",chest:62,waist:56},
       {label:"S (7–8y)",uk:"8–9",eu:"128–134",us:"S",height:"122–134",chest:67,waist:58},
@@ -6928,22 +6938,23 @@ const KIDS_BRANDS = [
     ],
   },
   {
-    id:"tommykids-k", name:"Tommy Hilfiger Kids", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://uk.tommy.com/en/size-guide",checked:"2026-03"}],
-    notes:"American preppy brand with a regular-fit kids range. EU sizing by age and height. Runs true to size — matching height is the most reliable guide. Popular secondhand buy for classic logo pieces.",
+    id:"tommykids-k", name:"Tommy Hilfiger Kids", origin:"US", tier:"mid", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Tommy Hilfiger UK children's size guide (Boys – Clothing, cm)",url:"https://uk.tommy.com/children-size-guide",checked:"2026-11"}],
+    notes:"American preppy brand with a regular-fit kids range. EU sizing by age (EU size in cm). Measurements are Tommy's Boys – Clothing chart (3–16 years), the only kids clothing chart with chest at every size; the Girls – Clothing chart matches up to age 7 but gives no chest from 8–9 up and slightly different waist/hip, and babies (up to 24M) have a separate infant chart.",
     fit:"True to EU age/height", inconsistencyWarning:false, confidence:75,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"2–3y",uk:"2–3",eu:"92–98",us:"2–3T",height:"92–98",chest:52,waist:50},
-      {label:"3–4y",uk:"3–4",eu:"98–104",us:"3–4",height:"98–104",chest:55,waist:52},
-      {label:"4–5y",uk:"4–5",eu:"104–110",us:"4–5",height:"104–110",chest:57,waist:54},
-      {label:"5–6y",uk:"5–6",eu:"110–116",us:"5–6",height:"110–116",chest:60,waist:56},
-      {label:"6–7y",uk:"6–7",eu:"116–122",us:"6–7",height:"116–122",chest:63,waist:58},
-      {label:"7–8y",uk:"7–8",eu:"122–128",us:"7–8",height:"122–128",chest:66,waist:60},
-      {label:"8–9y",uk:"8–9",eu:"128–134",us:"8–9",height:"128–134",chest:70,waist:62},
-      {label:"9–10y",uk:"9–10",eu:"134–140",us:"9–10",height:"134–140",chest:74,waist:64},
-      {label:"10–11y",uk:"10–11",eu:"140–146",us:"10–12",height:"140–146",chest:78,waist:66},
-      {label:"11–12y",uk:"11–12",eu:"146–152",us:"12–14",height:"146–152",chest:82,waist:68},
-],
+      {label:"3y",eu:"98",chest:54.25,waist:52.5,hips:56,inseam:41},
+      {label:"4y",eu:"104",chest:56,waist:54.5,hips:60,inseam:45.5},
+      {label:"5y",eu:"110",chest:58,waist:55,hips:62,inseam:49.25},
+      {label:"6y",eu:"116",chest:60.5,waist:56,hips:64,inseam:52},
+      {label:"7y",eu:"122",chest:63,waist:57,hips:66,inseam:56},
+      {label:"8–9y",eu:"128",chest:64,waist:59,hips:68,inseam:59.25},
+      {label:"10–11y",eu:"140",chest:71,waist:63.5,hips:74.25,inseam:65},
+      {label:"12–13y",eu:"152",chest:78,waist:68,hips:81,inseam:70.05},
+      {label:"14–15y",eu:"164",chest:86,waist:73,hips:89,inseam:76.25},
+      {label:"16y",eu:"176",chest:91.5,waist:76.25,hips:94,inseam:82},
+    ],
   },
   {
     id:"guesskids-k", name:"Guess Kids", origin:"US", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
@@ -12278,6 +12289,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.10","2026-11-01","Data audit, batch 11: Tommy Hilfiger Kids, Acne Studios and Animal women's charts re-checked against the brands' own size guides and corrected (e.g. Acne Studios M is an 88 cm bust, 72 cm waist and 96 cm hip, not 86/67/91, and now includes sizes 30 and 32; Animal now runs UK 6–24 with its published ranges, so a 16 is a 100–106 cm bust; Tommy Hilfiger Kids now follows its Boys clothing chart, 3–16 years, with hips and inside leg, so 10–11 yrs is a 71 cm chest). The North Face Kids and Albaray now carry a 🔍 audit note: The North Face's kids chart was behind a bot check, and albaray.com is currently under construction."],
   ["v1.5.9","2026-10-31","Data audit, batch 10 (kidswear): Monsoon Kids, Mountain Warehouse Kids and Patagonia Kids re-checked against the brands' own size guides and corrected (e.g. Monsoon now uses its single-year Girl chart, 3–15 years, with hips and inside leg; Mountain Warehouse 11–12 yrs is a 72–78 cm chest and 142–154 cm height; Patagonia kids are sized XS–XXL by age, so M (10) is a 72 cm chest, not 70). Height search now uses each size's full height range. Jigsaw Junior, Lacoste Kids, Monsoon occasion wear, Monsoon Accessorize and Ted Baker Kids now carry a 🔍 audit note: none of these brands publishes a matching kids' body chart on its UK site."],
   ["v1.5.8","2026-10-30","Data audit, batch 9: Superdry, The North Face and Tommy Hilfiger men's charts re-checked against the brands' own size guides and corrected (e.g. Tommy Hilfiger M is UK 40 with an 88–92 cm waist, not UK 38 / 86 cm; Superdry M is a 96–101 cm chest and now runs XXS–4XL with seat sizes; The North Face M chest is 100–108 cm, not 99). Ted Baker and Weekday men's, BOSS Kids and Jack Wills Kids now carry a 🔍 audit note: Ted Baker's chart only loads with optional cookies, Weekday publishes its charts as images, BOSS no longer offers kidswear in the UK, and Jack Wills shows only a generic multi-brand guide."],
   ["v1.5.7","2026-10-30","Data audit, batch 8 (menswear): Hollister, Jack & Jones, Lacoste, lululemon, Patagonia and Reiss men's charts re-checked against the brands' own size guides and corrected (e.g. Lacoste's numbered sizes were one step off — XS is size 2, M is size 4; Hollister M is UK 38–40 with a 95–103 cm chest; Patagonia M chest is 102 cm, not 99). Jack Wills men's and Patagonia boardshorts/wetsuits are now marked unverified because no matching official chart could be found."],

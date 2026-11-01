@@ -1,0 +1,77 @@
+{
+ "id": "acnestudios-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Acne Studios size guide (Body measurements › Woman Tops, cm; Size conversion › Woman Tops)",
+   "url": "https://www.acnestudios.com/uk/en/help/size-guide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "30 / XXS",
+   "uk": "2",
+   "us": "0",
+   "eu": "30",
+   "bust": 72,
+   "waist": 56,
+   "hips": 82
+  },
+  {
+   "label": "32 / XXS",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 76,
+   "waist": 60,
+   "hips": 84
+  },
+  {
+   "label": "34 / XS",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80,
+   "waist": 64,
+   "hips": 88
+  },
+  {
+   "label": "36 / S",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 68,
+   "hips": 92
+  },
+  {
+   "label": "38 / M",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88,
+   "waist": 72,
+   "hips": 96
+  },
+  {
+   "label": "40 / L",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 92,
+   "waist": 76,
+   "hips": 100
+  },
+  {
+   "label": "42 / XL",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 96,
+   "waist": 80,
+   "hips": 104
+  }
+ ],
+ "audit": "Old URL /en/size-guide is gone; guide is now /uk/en/help/size-guide.html. Woman Tops body chart (regular fit) printed as single values. Old figures were 1–5 cm low across the board: XS bust 78 → 80, waist 59 → 64, hips 83 → 88; M 86/67/91 → 88/72/96; XL 95/76/100 → 96/80/104. Added 30 and 32 (both labelled XXS by Acne; UK 2 and 4). Labels now Acne's own 'EU / letter' (two XXS sizes). UK/US from Acne's Woman Tops size conversion. Acne also publishes a separate 'Woman Tops (oversized)' chart with ranged sizes (e.g. XS/S = 76–80 chest), not stored."
+}

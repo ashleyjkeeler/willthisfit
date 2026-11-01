@@ -27,5 +27,7 @@
  {"id":"lacoste-k","flag":"No official body chart: Lacoste UK kids' product pages give garment measurements only (across chest, length, sleeve), not body sizes, so these figures are unverified."},
  {"id":"monsoon3-k","flag":"Monsoon publishes no separate occasion-wear chart; its party dresses use the Girl (3–15 years) chart (see Monsoon Kids). These double-age figures are unverified."},
  {"id":"monsoon2-k","flag":"No official chart: Monsoon's size guide has no Accessorize kids chart, and Accessorize's girls' range is accessories (gloves, hats, slippers) without body sizes. These figures are unverified."},
- {"id":"tednudge-k","flag":"No official chart: Ted Baker UK has no kids' range and its size guide covers women's and men's only (Oct 2026), so these figures are unverified."}
+ {"id":"tednudge-k","flag":"No official chart: Ted Baker UK has no kids' range and its size guide covers women's and men's only (Oct 2026), so these figures are unverified."},
+ {"id":"northface-k","flag":"Not yet verified: The North Face's size-chart page showed a 'Press & Hold' bot check when opening the Kids tab (Nov 2026). Figures are from an older, unconfirmed source."},
+ {"id":"albaray-w","flag":"Can't be verified: albaray.com shows only an 'under construction' page (Nov 2026), so there is no official size guide to check. Figures are from an older, unconfirmed source."}
 ]

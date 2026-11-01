@@ -798,7 +798,9 @@
   "priority": 1,
   "stored_source": "thenorthface.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Size-charts page loads, but switching to the Kids tab triggered a 'Press & Hold' bot check (and ?category=kids returned 'Access denied'). Not bypassed; numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "tommykids-k",
@@ -807,7 +809,9 @@
   "priority": 1,
   "stored_source": "uk.tommy.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /en/size-guide gone; /children-size-guide Boys – Clothing chart (3–16y) read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "fred-perry-s",
@@ -816,7 +820,9 @@
   "priority": 1,
   "stored_source": "fredperry.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Shoe entries have no sizes table (offset/fit advice only); apply.py and verify.mjs can't verify or flag SHOE_BRANDS entries. Needs a decision on how shoe entries should be audited. Old /help/size-guide URL 404s.",
+  "checked": "2026-11"
  },
  {
   "id": "lacoste-s",
@@ -825,7 +831,9 @@
   "priority": 1,
   "stored_source": "lacoste.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Shoe entries have no sizes table (offset/fit advice only); apply.py and verify.mjs can't verify or flag SHOE_BRANDS entries. Needs a decision on how shoe entries should be audited.",
+  "checked": "2026-11"
  },
  {
   "id": "acnestudios-w",
@@ -834,7 +842,9 @@
   "priority": 2,
   "stored_source": "acnestudios.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /en/size-guide 404s; /uk/en/help/size-guide.html Body measurements › Woman Tops read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "albaray-w",
@@ -843,7 +853,9 @@
   "priority": 2,
   "stored_source": "albaray.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "albaray.com (home and /pages/size-guide) shows only an 'under construction / Coming Soon' page.",
+  "checked": "2026-11"
  },
  {
   "id": "americanvintage-w",
@@ -852,7 +864,9 @@
   "priority": 2,
   "stored_source": "american-vintage.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "skipped",
+  "note": "american-vintage.com didn't load in the built-in browser: ERR_CERT_AUTHORITY_INVALID (certificate not trusted on this computer). Not worked around; retry next run.",
+  "checked": "2026-11"
  },
  {
   "id": "animalclothing-w",
@@ -861,7 +875,9 @@
   "priority": 2,
   "stored_source": "animal.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /size-guide/ 404s; /pages/size-guide Womens › Clothing read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "anntaylor-w",
