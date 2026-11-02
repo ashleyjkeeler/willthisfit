@@ -1,0 +1,158 @@
+{
+ "id": "dare2b-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Dare 2b size guide (Womens Jackets and Womens Trousers charts)",
+   "url": "https://www.dare2b.com/size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "6",
+   "us": "2",
+   "eu": "32",
+   "bust": 76,
+   "waist": 61,
+   "_in": {
+    "bust": 30,
+    "waist": 24
+   }
+  },
+  {
+   "label": "XS",
+   "uk": "8",
+   "us": "4",
+   "eu": "34",
+   "bust": 81,
+   "waist": 63.5,
+   "_in": {
+    "bust": 32,
+    "waist": 25
+   }
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "us": "6",
+   "eu": "36",
+   "bust": 86,
+   "waist": 68.5,
+   "_in": {
+    "bust": 34,
+    "waist": 27
+   }
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "us": "8",
+   "eu": "38",
+   "bust": 91,
+   "waist": 74,
+   "_in": {
+    "bust": 36,
+    "waist": 29
+   }
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "us": "10",
+   "eu": "40",
+   "bust": 97,
+   "waist": 79,
+   "_in": {
+    "bust": 38,
+    "waist": 31
+   }
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "us": "12",
+   "eu": "42",
+   "bust": 102,
+   "waist": 84,
+   "_in": {
+    "bust": 40,
+    "waist": 33
+   }
+  },
+  {
+   "label": "XXL",
+   "uk": "18",
+   "us": "14",
+   "eu": "44",
+   "bust": 107,
+   "waist": 91,
+   "_in": {
+    "bust": 42,
+    "waist": 36
+   }
+  },
+  {
+   "label": "3XL",
+   "uk": "20",
+   "us": "16",
+   "eu": "46",
+   "bust": 112,
+   "waist": 96,
+   "_in": {
+    "bust": 44,
+    "waist": 38
+   }
+  },
+  {
+   "label": "4XL",
+   "uk": "22",
+   "us": "18",
+   "eu": "48",
+   "bust": 120,
+   "waist": 104,
+   "_in": {
+    "bust": 47,
+    "waist": 41
+   }
+  },
+  {
+   "label": "5XL",
+   "uk": "24",
+   "us": "20",
+   "eu": "50",
+   "bust": 125,
+   "waist": 109,
+   "_in": {
+    "bust": 49,
+    "waist": 43
+   }
+  },
+  {
+   "label": "6XL",
+   "uk": "26",
+   "us": "22",
+   "eu": "52",
+   "bust": 130,
+   "waist": 114,
+   "_in": {
+    "bust": 51,
+    "waist": 45
+   }
+  },
+  {
+   "label": "7XL",
+   "uk": "28",
+   "us": "24",
+   "eu": "54",
+   "bust": 135,
+   "waist": 120,
+   "_in": {
+    "bust": 53,
+    "waist": 47
+   }
+  }
+ ],
+ "audit": "Bust from Womens Jackets - Body Warmers - Fleeces; waist from Womens Trousers (same size columns, printed cm). The guide publishes no hip measurement, so hips are left out (stored hips were unsourced). Stored XS (UK 8) 84/66 -> 81/63.5; M (UK 12) 92/74 -> 91/74; XL (UK 16) 100/82 -> 102/84; 2XL (UK 18) 106/88 -> XXL 107/91. Range now runs XXS (UK 6) to 7XL (UK 28). Seamless, base-layer and bra charts not used."
+}

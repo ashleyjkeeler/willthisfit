@@ -230,3 +230,21 @@ No chart numbers changed. Bershka (W): removed the "runs very small, size up" ad
 
 Notes: size-advice text left as it was on Champion ("consider DOWN one"), Cotton Traders ("size DOWN") and Craghoppers ("generous"): editorial, not chart figures.
 Checks: build OK, verify.mjs 0 failures (891 rows / 103 entries, 37 flags), api tests 21 passed. Queue: 492 todo, 8 skipped.
+
+## 2026-11-02 — batch 15 (scheduled run, v1.5.15)
+
+8 queue entries (Dare 2b → Everlane). Pages read in the built-in browser, numbers taken from the page DOM. Optional cookies rejected where a banner appeared (Dare 2b "Accept Only Necessary", Desigual "Reject", Dorothy Perkins "Reject all", Eileen Fisher "Reject all", ellesse "Reject all", Everlane "Reject all"). No sign-ins, no bot checks bypassed. Result: 8 verified, 0 flagged, 0 skipped.
+
+| Brand | Outcome | What changed | Official URL |
+|---|---|---|---|
+| Dare 2b | verified | Bust from Womens Jackets, waist from Womens Trousers (same columns). No hips published, so hips removed. XS (UK 8) 84/66 → 81/63.5; XL (UK 16) 100/82 → 102/84; 2XL (UK 18) 106/88 → XXL 107/91. Range now XXS–7XL (UK 6–28). | https://www.dare2b.com/size-guide/ |
+| Desigual | verified | Old URL 404s. Tops letter table, cm ranges. XS 82/66/88 → 81–84/63–66/89–92; M 91/75/97 → 89–92/71–74/97–100; XL 103/87/109 → 99–104/81–86/107–112. XXL added. Numeric EU removed (letter table's Europe row is letters; numeric tops are a separate table). | https://www.desigual.com/en_GB/woman-size-guide/ |
+| Diane von Furstenberg | verified | US 00–16 with letters as altLabel, inches × 2.54. The page's cm column has errors (40" hip printed 105.4, 41½" hip printed 99), so inches used. M (US 8) 92/72/97 → 91.4/73.7/99.1; XL (US 16) 104/84/109 → 106.7/88.9/114.3. UK/EU removed (not printed). | https://www.dvf.com/pages/size-guide |
+| Disturbia | verified | Old URL redirects to the homepage. Apparel chart, cm. 6 letter rows → UK 6–24. M (UK 10–12) 91/71/91 → UK 10 87–92/71–76/94–99, UK 12 92–97/76–81/99–104. Removed the "bust and hip equal" note and "size up if full-hipped" fit advice: the chart has hips 7 cm above bust. | https://www.disturbia.co.uk/pages/size-guide |
+| Dorothy Perkins | verified | Source was ASOS; now its own site. Only UK 6 was wrong (83/65/91 → 82.5/64.5/90.5); UK 24 added (129/111/137). | https://www.dorothyperkins.com/pages/informational/size-guide |
+| Eileen Fisher | verified | Old URL 404s. Bust from Tops, waist and hip from Bottoms, inches × 2.54. Stored chart ran large: M 101/84/106 → 96.5–99.1/76.2–80/101.6–105.4; XXS 85/68/90 → 81.3–83.8/61–63.5/86.4–88.9. 2X, 3X added. UK/EU removed. Tops prints L waist 31½–34½", but its cm view and Bottoms give 32½, so 32½ used. | https://www.eileenfisher.com/a-simple-wardrobe/start-here/find-your-size.html |
+| Ellesse | verified | ellesse.co.uk timed out; guide is on ellesse.com. Letters were a size off: M (UK 10) 88/70/94 → M (UK 12) 91.5/76; UK 10 is S 86/71. XXS added, 2XL removed (chart stops at XL = UK 16). No hips published, so removed. | https://ellesse.com/pages/size-guides |
+| Everlane | verified | Old URLs 404. Product-page Size Guide, same body chart on two tops, inches × 2.54. Bust and waist only, so hips removed (jeans chart has hips on denim sizes with different waists; not merged). M (UK 10) 89/70/94 → M (UK 10–12) 90.2–92.7/71.1–73.7; 2XL (UK 16) 101/82/106 → XXL (UK 20) 113.7–118.7/96.5–101.6. XXS, XXXL added. Each chart read on product pages, not a general guide. | https://www.everlane.com/products/womens-organic-cotton-box-cut-tee-white |
+
+Notes: dare2b-w, ellesse-w and everlane-w had an unindented `],` closing their sizes block; re-indented (whitespace only). Size-advice text left for review, as the guides don't address it: Ellesse "runs SMALL vs UK" (its chart maps letters straight to UK sizes), Eileen Fisher "size DOWN 1–2" (the page says "We recommend sizing down", no number), Desigual "cm measurements vary enormously".
+Checks: build OK, verify.mjs 0 failures (963 rows / 111 entries, 37 flags), api tests 21 passed. Queue: 484 todo, 8 skipped.

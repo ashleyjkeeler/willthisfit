@@ -1,0 +1,116 @@
+{
+ "id": "desigual-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Desigual women's size guide (Tops, letter sizes, cm)",
+   "url": "https://www.desigual.com/en_GB/woman-size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "8",
+   "us": "XXS",
+   "bust": [
+    81,
+    84
+   ],
+   "waist": [
+    63,
+    66
+   ],
+   "hips": [
+    89,
+    92
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "us": "XS",
+   "bust": [
+    85,
+    88
+   ],
+   "waist": [
+    67,
+    70
+   ],
+   "hips": [
+    93,
+    96
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "us": "S",
+   "bust": [
+    89,
+    92
+   ],
+   "waist": [
+    71,
+    74
+   ],
+   "hips": [
+    97,
+    100
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "us": "M",
+   "bust": [
+    93,
+    98
+   ],
+   "waist": [
+    75,
+    80
+   ],
+   "hips": [
+    101,
+    106
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "us": "L",
+   "bust": [
+    99,
+    104
+   ],
+   "waist": [
+    81,
+    86
+   ],
+   "hips": [
+    107,
+    112
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "18",
+   "us": "XL",
+   "bust": [
+    105,
+    110
+   ],
+   "waist": [
+    87,
+    92
+   ],
+   "hips": [
+    113,
+    118
+   ]
+  }
+ ],
+ "audit": "Old /help/size-guide.html URL 404s. Used the Tops letter table (Europe XS-XXL). Ranges replace single values and XXL is added. EU numbers removed: the letter table's Europe row is letters; numeric tops (Spain 36-46 = UK 10-20) are a separate table that differs slightly from L up, not stored. US row is letters and one size off the European letter, as printed (EU S = US XS). Stored UK 8 XS 82/66/88 -> 81-84/63-66/89-92; UK 12 M 91/75/97 -> 89-92/71-74/97-100; UK 16 XL 103/87/109 -> 99-104/81-86/107-112."
+}

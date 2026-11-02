@@ -1150,7 +1150,9 @@
   "priority": 2,
   "stored_source": "dare2b.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Size guide page: Womens Jackets (bust) and Womens Trousers (waist) read from DOM. No hips published.",
+  "checked": "2026-11"
  },
  {
   "id": "desigual-w",
@@ -1159,7 +1161,9 @@
   "priority": 2,
   "stored_source": "desigual.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /woman-size-guide/ Tops letter table read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "dvf-w",
@@ -1168,7 +1172,9 @@
   "priority": 2,
   "stored_source": "dvf.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "/pages/size-guide read from DOM. Inches × 2.54 used; page cm column has errors (40\" hip = 105.4, 41½\" hip = 99).",
+  "checked": "2026-11"
  },
  {
   "id": "disturbia-w",
@@ -1177,7 +1183,9 @@
   "priority": 2,
   "stored_source": "disturbia.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL redirects to home; /pages/size-guide Apparel table read from DOM, including hidden cm cells.",
+  "checked": "2026-11"
  },
  {
   "id": "dorothyperkins-w",
@@ -1186,7 +1194,9 @@
   "priority": 2,
   "stored_source": "asos.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Stored source was ASOS; own-site guide on dorothyperkins.com read from DOM. UK 6 corrected, UK 24 added.",
+  "checked": "2026-11"
  },
  {
   "id": "eileenfisher-w",
@@ -1195,7 +1205,9 @@
   "priority": 2,
   "stored_source": "eileenfisher.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; Find Your Size Tops and Bottoms read from DOM. Tops L waist 31½\" is a misprint (its cm view and Bottoms give 32½\").",
+  "checked": "2026-11"
  },
  {
   "id": "ellesse-w",
@@ -1204,7 +1216,9 @@
   "priority": 2,
   "stored_source": "ellesse.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "ellesse.co.uk timed out; ellesse.com/pages/size-guides read from DOM. No hips published.",
+  "checked": "2026-11"
  },
  {
   "id": "everlane-w",
@@ -1213,7 +1227,9 @@
   "priority": 2,
   "stored_source": "everlane.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URLs 404; product-page Size Guide on two tops read from DOM, same body chart. Bust and waist only.",
+  "checked": "2026-11"
  },
  {
   "id": "fftesco-w",
