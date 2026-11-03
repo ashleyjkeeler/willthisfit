@@ -1,0 +1,126 @@
+{
+ "id": "georgeasda-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official George Size Guide (Women's UK Size Chart)",
+   "url": "https://direct.asda.com/george/GRG_SIZEGUIDE_PORTAL,default,pg.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "altLabel": "XS",
+   "bust": 81,
+   "waist": 62,
+   "hips": 85
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "altLabel": "XS",
+   "bust": 83.5,
+   "waist": 64.5,
+   "hips": 87.5
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "altLabel": "S",
+   "bust": 86,
+   "waist": 67,
+   "hips": 90
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "altLabel": "S",
+   "bust": 91,
+   "waist": 72,
+   "hips": 95
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "altLabel": "M",
+   "bust": 94,
+   "waist": 77,
+   "hips": 100
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "altLabel": "M",
+   "bust": 99,
+   "waist": 82,
+   "hips": 105
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "altLabel": "L",
+   "bust": 104,
+   "waist": 87,
+   "hips": 110
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "altLabel": "L",
+   "bust": 110,
+   "waist": 94,
+   "hips": 117
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "altLabel": "XL",
+   "bust": 116,
+   "waist": 101,
+   "hips": 124
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "altLabel": "XL",
+   "bust": 122,
+   "waist": 108,
+   "hips": 131
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "altLabel": "2XL",
+   "bust": 128,
+   "waist": 115,
+   "hips": 138
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "altLabel": "2XL",
+   "bust": 134,
+   "waist": 122,
+   "hips": 145
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "altLabel": "3XL",
+   "bust": 140,
+   "waist": 129,
+   "hips": 152
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "altLabel": "3XL",
+   "bust": 146,
+   "waist": 136,
+   "hips": 159
+  }
+ ],
+ "audit": "Old /george/size-guide replaced by the George size guide portal. 8 83/66/89 -> 86/67/90; 12 91/74/97 -> 94/77/100; 16 103/86/109 -> 104/87/110; 20 115/98/121 -> 116/101/124. UK 4, 6 and 22-30 added. US/EU removed (not on this chart). Caveat: UK 12 bust prints 94 cm beside 38 in (96.5 cm), and the step 91-94-99 is uneven, so the cm figure may be a typo on the page; stored as printed."
+}

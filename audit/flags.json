@@ -35,5 +35,8 @@
  {"id":"bravissimo-w","flag":"No official clothing chart: Bravissimo now sells bra-sized products (band and cup), and its old size-guide URL leads to bra fitting guides. There is no S to XXL body chart to check, so these measurements are unverified."},
  {"id":"calvinklein-w","flag":"No official bust figures: Calvin Klein UK's women's tops chart only converts sizes (no body measurements), and its two tops conversions disagree (XS is UK 4-6 in the main guide, UK 6 on product pages). These measurements are unverified."},
  {"id":"colorfulstandard-w","flag":"No official body chart: Colorful Standard's product-page size guides give garment measurements only (across the chest, length, hem, sleeve), so these body measurements are unverified. Check the garment measurements on each listing."},
- {"id":"columbia-w","flag":"Unverified: Columbia's size guides could not be read (both its US and UK size pages returned an access-denied page), so these measurements haven't been checked."}
+ {"id":"columbia-w","flag":"Unverified: Columbia's size guides could not be read (both its US and UK size pages returned an access-denied page), so these measurements haven't been checked."},
+ {"id":"fftesco-w","flag":"Not yet verified: F&F's own size guide (Nov 2026) prints two different cm figures for UK 8. The desktop chart says waist 66, hips 90; the mobile chart says waist 67, hips 91. Figures here are from an older, unconfirmed source."},
+ {"id":"fila-w","flag":"Not yet verified: FILA UK publishes its women's size guide only as a picture (Nov 2026), with no readable table, so it can't be checked by our process. Figures are from an older, unconfirmed source."},
+ {"id":"ganni-w","flag":"No official body chart: Ganni UK (Nov 2026) publishes size conversions and per-product garment measurements only, no body bust/waist/hip figures, so these numbers are unverified."}
 ]

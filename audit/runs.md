@@ -248,3 +248,21 @@ Checks: build OK, verify.mjs 0 failures (891 rows / 103 entries, 37 flags), api 
 
 Notes: dare2b-w, ellesse-w and everlane-w had an unindented `],` closing their sizes block; re-indented (whitespace only). Size-advice text left for review, as the guides don't address it: Ellesse "runs SMALL vs UK" (its chart maps letters straight to UK sizes), Eileen Fisher "size DOWN 1–2" (the page says "We recommend sizing down", no number), Desigual "cm measurements vary enormously".
 Checks: build OK, verify.mjs 0 failures (963 rows / 111 entries, 37 flags), api tests 21 passed. Queue: 484 todo, 8 skipped.
+
+## 2026-11-03 — batch 16 (scheduled run, v1.5.16)
+
+8 queue entries (F&F → Girlfriend Collective). Pages read in the built-in browser, numbers taken from the page DOM. Optional cookies rejected where a banner appeared (FILA "Decline", Ganni "DECLINE ALL", Girlfriend Collective "Reject All"). No sign-ins, no bot checks. Result: 5 verified, 3 flagged, 0 skipped.
+
+| Brand | Outcome | What changed | Official URL |
+|---|---|---|---|
+| F&F (Tesco) | flagged | clothingattesco.com is gone; guide now on tesco.com. The page holds two cm tables that disagree at UK 8 only: desktop view waist 66/hips 90, mobile view waist 67/hips 91 (inch view: 26/36, i.e. 66/91.4). Not picked between. Numbers unchanged; the other 11 rows are in the queue note, ready to apply once decided. Stored chart is also off on other rows (e.g. 12 91/74/97 vs page 93/75/99). | https://www.tesco.com/size-guide/index.html |
+| FILA | flagged | Old URL 404s. fila.co.uk's product-page guide is an image (no DOM table), same as the Weekday flag. Image's XXS hip prints 31"/76cm, which don't match. Numbers unchanged. | https://fila.co.uk/products/pale-lilac-gardenia-carly-boyfriend-t-shirt-fw26wc003-581 |
+| Finisterre | verified | Women's Tops & Jackets, cm ranges, US/EU from the guide's selectors. 10 88/70/94 → 84–89/68–71/91–94; 14 96/78/102 → 95–99/76–79/100–104. UK 18, 20, 22 added. Inch view is coarser than cm (UK 6 bust 30–31" vs 76–81 cm); cm used as printed. | https://finisterre.com/pages/size-guide |
+| French Connection | verified | Old URL moved. Numeric labels with letters as altLabel. XS (UK 6–8) 81/62/87 → 6 (XXS) 82.5/65/90, 8 (XS) 85/67/93; M (UK 12) 90/71/96 → 93/75/100; XL (UK 16) 101/82/107 → 103/85/110. UK 18, 20 added. US removed (not printed). | https://www.frenchconnection.com/pages/size-guide |
+| Frugi | verified | frugi.com didn't load (50s timeout); shop is welovefrugi.com. Women's / Unisex chart, stored as printed under chest and hips (Seat): S (UK 8–10) 86/66/91 → S (UK 8) 92/80/94; M 91/71/96 → 98/86/100; XL 105/85/110 → 110/98/112. XS added. US removed. Same chart on a Grown Ups product page. The page says to compare your measurements with the charts but doesn't label the adult chart as body measurements specifically: worth a look. | https://welovefrugi.com/pages/size-guides |
+| Ganni | flagged | Old URL 404s. General guide is conversions only; product-page guide (Essential T-shirt) is garment measurements ("Product Measurement", bust width). Numbers unchanged. | https://www.ganni.com/en-gb/help-and-information/cs-sizeguide.html |
+| George (ASDA) | verified | Women's UK Size Chart, cm, letters as altLabel. 8 83/66/89 → 86/67/90; 12 91/74/97 → 94/77/100; 20 115/98/121 → 116/101/124. UK 4, 6, 22–30 added. US/EU removed. UK 12 bust prints 94 cm beside 38" (96.5 cm), and 91→94→99 is uneven, so possibly a typo on the page; stored as printed. | https://direct.asda.com/george/GRG_SIZEGUIDE_PORTAL,default,pg.html |
+| Girlfriend Collective | verified | Old URL moved. One Pieces chart, inches × 2.54 (originals in `_in`). M (UK 12) 90/70/95 → 88.9–95.3/71.1–77.5/99.1–105.4; 3XL 114/94/119 → XXXL 118.1–127/99.1–108/127–135.9. 4XL–6XL added. UK/US/EU removed (not printed). | https://girlfriend.com/pages/sizing |
+
+Notes: finisterre-w had an unindented `],` closing its sizes block; re-indented (whitespace only). Size-advice text left for review, as the guides don't address it: French Connection "size up", Frugi "runs generously", Finisterre "generous". Tesco's F&F decision needed: pick the UK 8 figures (or leave flagged).
+Checks: build OK, verify.mjs 0 failures (1010 rows / 116 entries, 40 flags), api tests 21 passed. Queue: 476 todo, 8 skipped.
