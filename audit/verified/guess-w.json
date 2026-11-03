@@ -1,0 +1,176 @@
+{
+ "id": "guess-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official GUESS product-page Size & Fit chart (Tops, Outerwear And Knitwear, cm)",
+   "url": "https://www.guess.com/en-gb/guess/women/clothing/tops/jewel-detail-top-black/W6BP27K6288-JBLK.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": [
+    75,
+    80
+   ],
+   "waist": [
+    58,
+    63
+   ],
+   "hips": [
+    84,
+    89
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": [
+    80,
+    85
+   ],
+   "waist": [
+    63,
+    68
+   ],
+   "hips": [
+    89,
+    94
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": [
+    85,
+    90
+   ],
+   "waist": [
+    68,
+    73
+   ],
+   "hips": [
+    94,
+    99
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": [
+    90,
+    96
+   ],
+   "waist": [
+    73,
+    79
+   ],
+   "hips": [
+    99,
+    105
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": [
+    96,
+    102
+   ],
+   "waist": [
+    79,
+    85
+   ],
+   "hips": [
+    105,
+    111
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": [
+    102,
+    108
+   ],
+   "waist": [
+    85,
+    91
+   ],
+   "hips": [
+    111,
+    117
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": [
+    108,
+    114
+   ],
+   "waist": [
+    91,
+    97
+   ],
+   "hips": [
+    117,
+    123
+   ]
+  },
+  {
+   "label": "3XL",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": [
+    114,
+    119
+   ],
+   "waist": [
+    97,
+    102
+   ],
+   "hips": [
+    123,
+    128
+   ]
+  },
+  {
+   "label": "4XL",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": [
+    119,
+    125
+   ],
+   "waist": [
+    102,
+    107
+   ],
+   "hips": [
+    128,
+    133
+   ]
+  }
+ ],
+ "audit": "guess.eu redirects to guess.com and the old help-centre URL returns 410. Chart read from the product page's Size & Fit panel, per-size selector. Old M (UK 10) 84/66/90 now 90-96/73-79/99-105; old XS (UK 6) 76/58/82 now 80-85/63-68/89-94; old XXL (UK 16) 101/83/107 now 108-114/91-97/117-123. XXS, 3XL, 4XL added."
+}

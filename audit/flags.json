@@ -38,5 +38,7 @@
  {"id":"columbia-w","flag":"Unverified: Columbia's size guides could not be read (both its US and UK size pages returned an access-denied page), so these measurements haven't been checked."},
  {"id":"fftesco-w","flag":"Not yet verified: F&F's own size guide (Nov 2026) prints two different cm figures for UK 8. The desktop chart says waist 66, hips 90; the mobile chart says waist 67, hips 91. Figures here are from an older, unconfirmed source."},
  {"id":"fila-w","flag":"Not yet verified: FILA UK publishes its women's size guide only as a picture (Nov 2026), with no readable table, so it can't be checked by our process. Figures are from an older, unconfirmed source."},
- {"id":"ganni-w","flag":"No official body chart: Ganni UK (Nov 2026) publishes size conversions and per-product garment measurements only, no body bust/waist/hip figures, so these numbers are unverified."}
+ {"id":"ganni-w","flag":"No official body chart: Ganni UK (Nov 2026) publishes size conversions and per-product garment measurements only, no body bust/waist/hip figures, so these numbers are unverified."},
+ {"id":"goosestudios-w","flag":"No official body chart: Goose Studios (Nov 2026) publishes only letter-to-UK-size conversions for women, with no bust, waist or hip figures, so these numbers are unverified. Its size guide and its product pages also convert differently (Medium is UK 12-14 on one, UK 14 on the other). Check the garment measurements on each listing."},
+ {"id":"idioma-w","flag":"Couldn't verify: the Idioma website (idioma-clothing.com) wouldn't load in Nov 2026 and no other official site could be found, so these numbers are unverified. Check the garment measurements on each listing."}
 ]
