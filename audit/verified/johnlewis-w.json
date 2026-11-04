@@ -1,0 +1,82 @@
+{
+ "id": "johnlewis-w",
+ "sources": [
+  {
+   "label": "Official John Lewis size chart (own-brand womenswear, product page)",
+   "url": "https://www.johnlewis.com/john-lewis-organic-cotton-long-sleeve-crew-neck-t-shirt/black/p6420683"
+  },
+  {
+   "label": "Same chart on a second John Lewis top",
+   "url": "https://www.johnlewis.com/john-lewis-interlock-cotton-waisted-top/red/p115420240"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "bust": 80,
+   "waist": 63,
+   "hips": 88,
+   "altLabel": "XS"
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "bust": 84,
+   "waist": 67,
+   "hips": 92,
+   "altLabel": "S"
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "bust": 88,
+   "waist": 71,
+   "hips": 96,
+   "altLabel": "S"
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "bust": 92,
+   "waist": 75,
+   "hips": 100,
+   "altLabel": "M"
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "bust": 98,
+   "waist": 81,
+   "hips": 106,
+   "altLabel": "M"
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "bust": 104,
+   "waist": 87,
+   "hips": 112,
+   "altLabel": "L"
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "bust": 110,
+   "waist": 93,
+   "hips": 118,
+   "altLabel": "L"
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "bust": 116,
+   "waist": 99,
+   "hips": 124,
+   "altLabel": "XL"
+  }
+ ],
+ "audit": "Old guide URL shows an empty page. Chart read from the Size chart panel on two John Lewis own-brand tops (identical). Letters were wrong: old M (UK 12) 91/71/96 now 12 92/75/100; old XL (UK 16) 102/82/107 now 16 104/87/112 (XL is 20: 116/99/124). Letter row in altLabel as printed in the second table. US/EU removed (not printed). Applies to John Lewis own brand only; other brands sold there have their own charts.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

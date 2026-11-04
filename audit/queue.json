@@ -1414,7 +1414,9 @@
   "priority": 2,
   "stored_source": "jdwilliams.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL gone; hub has no body chart. Product-page Size guides panel: Women's Clothing Measurements, US/EU from Women's International Sizes. Sizes 8-32.",
+  "checked": "2026-11"
  },
  {
   "id": "johnlewis-w",
@@ -1423,7 +1425,9 @@
   "priority": 2,
   "stored_source": "johnlewis.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL empty. Product-page Size chart, identical on two own-brand tops. Own brand only.",
+  "checked": "2026-11"
  },
  {
   "id": "lauraashley-w",
@@ -1432,7 +1436,9 @@
   "priority": 2,
   "stored_source": "lauraashley.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "lauraashley.com redirects to next.co.uk/laura-ashley. Item-page guide, cm tab, identical on two tops; hosted on Next. Sizes 4-26.",
+  "checked": "2026-11"
  },
  {
   "id": "lee-w",
@@ -1441,7 +1447,9 @@
   "priority": 2,
   "stored_source": "lee.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s. UK site eu.lee.com/uk-en Women's Bottoms cm; waist = Natural Waist.",
+  "checked": "2026-11"
  },
  {
   "id": "lkbennett-w",
@@ -1450,7 +1458,9 @@
   "priority": 2,
   "stored_source": "lkbennett.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "lkbennett.com is a holding page (new site coming soon); /collections/all has no products; no size guide. Numbers unchanged. Retry after relaunch.",
+  "checked": "2026-11"
  },
  {
   "id": "lucyandyak-w",
@@ -1459,7 +1469,9 @@
   "priority": 2,
   "stored_source": "lucyandyak.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s. /pages/sizing Size Chart CM, sizes 4-30. UK 30 waist omitted: CM tab 135 vs INCHES tab 50.8 in (129 cm).",
+  "checked": "2026-11"
  },
  {
   "id": "lulus-w",
@@ -1468,7 +1480,9 @@
   "priority": 2,
   "stored_source": "lulus.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s; size-chart, category and home pages all returned a 403 bot check ('Are You Real?'). Not bypassed. Numbers unchanged. Worth retrying.",
+  "checked": "2026-11"
  },
  {
   "id": "maje-w",
@@ -1477,7 +1491,9 @@
   "priority": 2,
   "stored_source": "maje.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s. Product-page Size guides are garment measurements plus conversions; no body chart, FAQ has none. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "massimoDutti-w",

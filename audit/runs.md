@@ -284,3 +284,21 @@ Checks: build OK, verify.mjs 0 failures (1010 rows / 116 entries, 40 flags), api
 
 Notes: goosestudios-w, hellyhansen-w and jcrew-w had an unindented `],` closing their sizes blocks; re-indented (whitespace only). Size-advice text left for review, as the guides don't address it: GUESS "runs SMALL, size UP" (the sampled item says "True to size"), Helly Hansen "EU sizing, runs true to EU" (chart prints no EU sizes), Hush "generous". Decision for Ashley: J.Crew could be flagged instead if she'd rather not choose the inch tables over the disagreeing CM views.
 Checks: build OK, verify.mjs 0 failures (1079 rows / 122 entries, 42 flags), api tests 21 passed. Queue: 468 todo, 8 skipped.
+
+## 2026-11-04 — batch 18 (scheduled, v1.5.18)
+
+8 queue entries (JD Williams → Maje). Pages read in the built-in browser, numbers taken from the page DOM. Optional cookies rejected (JD Williams and John Lewis "Reject all", Next "Reject non-essential", Lee "Reject All", Lucy & Yak "Customise" then saved with only Necessary, LK Bennett "Decline", Maje "Continue without agreeing", Lulus "Reject All"). No sign-ins, no bot checks bypassed. Result: 5 verified, 3 flagged, 0 skipped.
+
+| Brand | Outcome | What changed | Official URL |
+|---|---|---|---|
+| JD Williams | verified | Old URL gone; the size-guides hub has no body chart, so read from the product-page Size guides panel (one item). 10 88/71/94 → 89/71/95; 16 103/86/109 → 104/89/110; 22 121/104/127 → 122/107/128. Sizes 8 and 24–32 added. Notes "sizes 10–32" → "sizes 8–32". | https://www.jdwilliams.co.uk/shop/p/ic340 |
+| John Lewis | verified | Old URL shows an empty page. Size chart panel, identical on two own-brand tops. M (UK 12) 91/71/96 → 12 92/75/100; XL (UK 16) 102/82/107 → 16 104/87/112 (XL is UK 20, 116/99/124). US/EU removed. Own brand only. | https://www.johnlewis.com/john-lewis-organic-cotton-long-sleeve-crew-neck-t-shirt/black/p6420683 |
+| Laura Ashley | verified | lauraashley.com redirects to next.co.uk/laura-ashley. Item-page guide, cm tab, identical on two tops. UK 8 84/65/90 → 84/67.5/91.5; UK 12 92/73/98 → 90/74/99; UK 18 108/89/114 → 104/91.5/117. UK 4, 6, 22, 24, 26 added; UK 4 has no US/EU (conversion table starts at 6). Notes "8–22" → "4–26". Caveat: the chart is hosted on Next. | https://www.next.co.uk/laura-ashley/style/su995372/g80986 |
+| Lee Jeans (Women) | verified | Old URL 404s. UK site, Women's Bottoms, cm; waist = Natural Waist (Low Waist also printed). 24 62/87 → 63.5/86.5; 28 71/96 → 73.5/96.5; 32 81/106 → 84/106.5. Sizes now 22–46. UK/US/EU removed (not mapped on this chart). | https://eu.lee.com/uk-en/size-charts.html |
+| LK Bennett | flagged | lkbennett.com is a holding page ("full website & new collection coming soon"), no products or size guide. Numbers unchanged. Retry after relaunch. | https://lkbennett.com/ |
+| Lucy & Yak | verified | Old URL 404s. Letters → sizes 4–30: M (UK 10–12) 90/70/95 → 10 89/71/97, 12 94/76/102; XL (UK 14–16) 101/81/106 → 14 99/81/107, 16 104/86/112. UK 30 waist left out: the CM tab prints 135, the INCHES tab 50.8 in (129 cm). | https://lucyandyak.com/pages/sizing |
+| Lulus | flagged | Old URL 404s. Size-chart, category and home pages returned a 403 bot check ("Are You Real?"). Not bypassed. Numbers unchanged. Worth retrying. | https://www.lulus.com/customerservice/size-chart |
+| Maje | flagged | Old URL 404s. Product-page Size guides give garment measurements and conversions only; no body chart. Numbers unchanged. | https://uk.maje.com/en/p/white-silk-shirt/MFPCM00114_10.html |
+
+Notes: editorial size-advice text left as it was (e.g. Lee "true to US denim", John Lewis "slightly relaxed"): not chart figures. Lee's US site (lee.com/size-charts.html) prints similar inch values; the UK chart was used.
+Checks: build OK, verify.mjs 0 failures (1147 rows / 127 entries, 45 flags), api tests 21 passed. Queue: 460 todo, 8 skipped.
