@@ -1,0 +1,95 @@
+{
+ "id": "missguided-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Missguided product-page Size Guide (Body Measurements, cm)",
+   "url": "https://www.missguided.com/market-uk/product/MISSGUIDED-Cap-Sleeve-Cotton-Top-With-Side-Ruched-Detail-11707321444518848"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "6",
+   "bust": [
+    82,
+    86
+   ],
+   "waist": [
+    62,
+    66
+   ],
+   "hips": [
+    87,
+    91
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8",
+   "bust": [
+    86,
+    90
+   ],
+   "waist": [
+    66,
+    70
+   ],
+   "hips": [
+    91,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10",
+   "bust": [
+    90,
+    94
+   ],
+   "waist": [
+    70,
+    74
+   ],
+   "hips": [
+    95,
+    99
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "12/14",
+   "bust": [
+    94,
+    100
+   ],
+   "waist": [
+    74,
+    80
+   ],
+   "hips": [
+    99,
+    105
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "bust": [
+    100,
+    106
+   ],
+   "waist": [
+    80,
+    86
+   ],
+   "hips": [
+    105,
+    111
+   ]
+  }
+ ],
+ "audit": "missguided.co.uk redirects to missguided.com/market-uk. Same Body Measurements chart on two tops; page says sizes are for reference only. Replaces an unsourced numeric chart labelled as archived pre-2022 sizing (UK 10 87/69/93). This is the current site's chart; nothing official found for pre-2022 garments. US/EU removed (not printed). Height column not stored.",
+ "notes": "UK fast fashion brand (now Shein-owned, but enormous second-hand presence — 1.6M Vinted listings). UK numeric sizing. Highly inconsistent — sizing varied dramatically between ranges and seasons. ALWAYS use measurements for pre-loved purchases. This chart is from today's missguided.com; no official chart was found for garments made before the 2022 sale, and they may differ."
+}

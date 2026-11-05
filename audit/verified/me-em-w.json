@@ -1,0 +1,86 @@
+{
+ "id": "me-em-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ME+EM UK Size Guide (Centimeters)",
+   "url": "https://www.meandem.com/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 76,
+   "waist": 58,
+   "hips": 84
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80,
+   "waist": 62,
+   "hips": 88
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 66,
+   "hips": 92
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88,
+   "waist": 70,
+   "hips": 96
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 93,
+   "waist": 75,
+   "hips": 101
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98,
+   "waist": 80,
+   "hips": 106
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 86,
+   "hips": 112
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 92,
+   "hips": 118
+  }
+ ],
+ "audit": "Stored domain me-em.co.uk wrong; official site is meandem.com. Letters replaced by the printed UK sizes 4-18. Old M (UK 10-12) 90/70/95. Hips = Hip at Widest. Knitwear letter row not used as altLabel: it applies to knitwear only."
+}

@@ -1502,7 +1502,9 @@
   "priority": 2,
   "stored_source": "massimodutti.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL dead. Product-page Body measurements, shirts chart (2 shirts): chest and hip, no waist; UK 18 no hip. Knit and dress charts print a different chest at UK 8-16.",
+  "checked": "2026-11"
  },
  {
   "id": "matalan-w",
@@ -1511,7 +1513,9 @@
   "priority": 2,
   "stored_source": "matalan.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s. Product-page Size Guide, Women's Clothing, cm. UK 6-28.",
+  "checked": "2026-11"
  },
  {
   "id": "me-em-w",
@@ -1520,7 +1524,9 @@
   "priority": 2,
   "stored_source": "me-em.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Official domain is meandem.com, not me-em.co.uk. /size-guide Centimeters, UK 4-18.",
+  "checked": "2026-11"
  },
  {
   "id": "missguided-w",
@@ -1529,7 +1535,9 @@
   "priority": 2,
   "stored_source": "missguided.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "missguided.co.uk redirects to missguided.com/market-uk. Body Measurements (2 tops), cm ranges. Current site's chart; nothing official for pre-2022 garments.",
+  "checked": "2026-11"
  },
  {
   "id": "nakd-w",
@@ -1538,7 +1546,9 @@
   "priority": 2,
   "stored_source": "na-kd.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "/en/size-guide 404s. Product-page charts vary by item (top XS/S/M 80/88/96, blouse EU 32-44 80-104; waist differs by 1 cm at same bust); no hip. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "nastygal-w",
@@ -1547,7 +1557,9 @@
   "priority": 2,
   "stored_source": "nastygal.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "nastygal.com and nastygal.co.uk are holding pages, no size guide. Numbers unchanged. Retry after relaunch.",
+  "checked": "2026-11"
  },
  {
   "id": "newbalance-w",
@@ -1556,7 +1568,9 @@
   "priority": 2,
   "stored_source": "newbalance.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "UK guide is footwear only. Apparel chart from newbalance.com/customercare-sizeguide-apparel.html, women's cm table, XXS-2XL.",
+  "checked": "2026-11"
  },
  {
   "id": "nobodyschild-w",
@@ -1565,7 +1579,9 @@
   "priority": 2,
   "stored_source": "nobodyschild.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "/pages/size-guide Single Size CM, UK 4-24.",
+  "checked": "2026-11"
  },
  {
   "id": "oneill-w",

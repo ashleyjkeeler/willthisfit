@@ -1,0 +1,113 @@
+{
+ "id": "nobodyschild-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Nobody's Child Size Guide (Single Size, cm)",
+   "url": "https://www.nobodyschild.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 78,
+   "waist": 60,
+   "hips": 85
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82,
+   "waist": 64,
+   "hips": 89
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 86,
+   "waist": 68,
+   "hips": 93
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 72,
+   "hips": 97
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 78,
+   "hips": 102
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 83,
+   "hips": 107
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 107,
+   "waist": 90,
+   "hips": 114
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 114,
+   "waist": 97,
+   "hips": 121
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 119,
+   "waist": 102,
+   "hips": 126
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 124,
+   "waist": 107,
+   "hips": 131
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 129,
+   "waist": 112,
+   "hips": 136
+  }
+ ],
+ "audit": "Single Size chart, CM tab. UK 4 and 20-24 added. Dual Size letter chart not merged: its US row differs between the inch and cm tabs (M 6-8 vs 8-10) and its EU XS prints 32-24."
+}

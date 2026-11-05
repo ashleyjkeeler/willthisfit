@@ -1,0 +1,55 @@
+{
+ "id": "massimoDutti-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Massimo Dutti product-page Body measurements (women's shirts, cm)",
+   "url": "https://www.massimodutti.com/gb/flowing-shirt-with-pocket-details-l05199799"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "chest": 82,
+   "hips": 90
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "chest": 84,
+   "hips": 94
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "chest": 88,
+   "hips": 98
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "chest": 92,
+   "hips": 102
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "chest": 96,
+   "hips": 106
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "chest": 100,
+   "hips": 110
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "chest": 104
+  }
+ ],
+ "audit": "Old URL dead. Body measurements tab on product pages: chest and hip only, no waist; UK 18 has no hip value. Shirts chart read on two shirts and used as the tops chart. Knit cardigan and dress body charts print a different chest (UK 8 86, 10 90, 12 96, 14 100, 16 104; no UK 18). Trousers chart prints hip only, same hip values. Old row M (UK 10-12) 89/69/94."
+}
