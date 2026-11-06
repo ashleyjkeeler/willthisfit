@@ -1,0 +1,140 @@
+{
+ "id": "pangaia-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official PANGAIA Size Guide page (Women's Size Guide Slim / Regular / Oversized / Wide Fit, cm)",
+   "url": "https://pangaia.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "4-6",
+   "us": "0-2",
+   "eu": "32-34",
+   "chest": [
+    76.0,
+    80.0
+   ],
+   "waist": [
+    59.0,
+    63.0
+   ],
+   "hips": [
+    84.0,
+    88.0
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "6-8",
+   "us": "2-4",
+   "eu": "34-36",
+   "chest": [
+    81.0,
+    85.0
+   ],
+   "waist": [
+    64.0,
+    68.0
+   ],
+   "hips": [
+    89.0,
+    93.0
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8-10",
+   "us": "4-6",
+   "eu": "36-38",
+   "chest": [
+    86.0,
+    90.0
+   ],
+   "waist": [
+    69.0,
+    73.0
+   ],
+   "hips": [
+    94.0,
+    98.0
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10-12",
+   "us": "6-8",
+   "eu": "38-40",
+   "chest": [
+    91.0,
+    95.0
+   ],
+   "waist": [
+    74.0,
+    78.0
+   ],
+   "hips": [
+    99.0,
+    103.0
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "12-14",
+   "us": "8-10",
+   "eu": "40-42",
+   "chest": [
+    96.0,
+    100.0
+   ],
+   "waist": [
+    79.0,
+    83.0
+   ],
+   "hips": [
+    104.0,
+    108.0
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "14-16",
+   "us": "10-12",
+   "eu": "42-44",
+   "chest": [
+    101.0,
+    105.0
+   ],
+   "waist": [
+    84.0,
+    88.0
+   ],
+   "hips": [
+    109.0,
+    113.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "16-18",
+   "us": "12-14",
+   "eu": "44-46",
+   "chest": [
+    106.0,
+    110.0
+   ],
+   "waist": [
+    89.0,
+    93.0
+   ],
+   "hips": [
+    114.0,
+    118.0
+   ]
+  }
+ ],
+ "audit": "Old numbers were far too big for body measurements (M 100/84/104, likely garment-based). Women's Slim and Wide Fit tables and the Genderless tables shown under Women's Regular/Oversized print identical body measurements (Chest/Waist/Hip, cm). M (UK 10-12) 100/84/104 \u2192 91\u201395/74\u201378/99\u2013103; XL (UK 14-16) 112/96/116 \u2192 101\u2013105/84\u201388/109\u2013113. XXS and XXL added. IT and CN columns not stored. 'Chest' stored as chest, as printed."
+}

@@ -1,0 +1,158 @@
+{
+ "id": "passengercloths-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Passenger product-page Size & Fit Guide (women's, cm, with International Conversion)",
+   "url": "https://www.passenger-clothing.com/products/riser-2-0-recycled-cotton-ls-t-shirt-blue-coral"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": [
+    75.0,
+    79.0
+   ],
+   "waist": [
+    59.0,
+    63.0
+   ],
+   "hips": [
+    82.0,
+    86.0
+   ]
+  },
+  {
+   "label": "XS",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": [
+    80.0,
+    84.0
+   ],
+   "waist": [
+    64.0,
+    68.0
+   ],
+   "hips": [
+    87.0,
+    91.0
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": [
+    85.0,
+    90.0
+   ],
+   "waist": [
+    69.0,
+    73.0
+   ],
+   "hips": [
+    92.0,
+    97.0
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": [
+    91.0,
+    96.0
+   ],
+   "waist": [
+    74.0,
+    79.0
+   ],
+   "hips": [
+    98.0,
+    103.0
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": [
+    97.0,
+    102.0
+   ],
+   "waist": [
+    80.0,
+    85.0
+   ],
+   "hips": [
+    104.0,
+    109.0
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": [
+    103.0,
+    108.0
+   ],
+   "waist": [
+    86.0,
+    91.0
+   ],
+   "hips": [
+    110.0,
+    115.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": [
+    109.0,
+    115.0
+   ],
+   "waist": [
+    92.0,
+    98.0
+   ],
+   "hips": [
+    116.0,
+    123.0
+   ]
+  },
+  {
+   "label": "XXXL",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": [
+    116.0,
+    122.0
+   ],
+   "waist": [
+    99.0,
+    105.0
+   ],
+   "hips": [
+    124.0,
+    130.0
+   ]
+  }
+ ],
+ "audit": "Old URLs /size-guide 404s and /pages/size-guide redirects to the homepage. Same Size & Fit Guide on two women's tees (Riser LS T-Shirt, Out There Ribbed LS T-Shirt). UK from the 'UK / AU' column. XS (UK 8) 84/65/90 \u2192 80\u201384/64\u201368/87\u201391; M (UK 12) 92/73/98 \u2192 91\u201396/74\u201379/98\u2013103; XXL (UK 18) 109/90/115 \u2192 109\u2013115/92\u201398/116\u2013123. XXS and XXXL added."
+}

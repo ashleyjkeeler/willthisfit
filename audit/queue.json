@@ -1590,7 +1590,9 @@
   "priority": 2,
   "stored_source": "oneill.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s (eu.oneill.com). Support-centre Women's Size Chart: chest/waist from Women's tops, hip from Women's bottoms (same letters, same waist), cm ranges.",
+  "checked": "2026-11"
  },
  {
   "id": "only-w",
@@ -1599,7 +1601,9 @@
   "priority": 2,
   "stored_source": "only.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old size-guide URL 404s (footer links still point to it). Product-page guide is one image; help centre links to a PDF. No DOM table. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "organicbasics-w",
@@ -1608,7 +1612,9 @@
   "priority": 2,
   "stored_source": "organicbasics.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL redirects to All Products. Product-page Size and Fit Guide (2 women's tees), cm ranges XXS–XXXL.",
+  "checked": "2026-11"
  },
  {
   "id": "pangaia-w",
@@ -1617,7 +1623,9 @@
   "priority": 2,
   "stored_source": "pangaia.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "pangaia.com/pages/size-guide: Women's Slim/Wide Fit tables (Chest/Waist/Hip cm), identical to Genderless tables. Old values were far too large.",
+  "checked": "2026-11"
  },
  {
   "id": "passengercloths-w",
@@ -1626,7 +1634,9 @@
   "priority": 2,
   "stored_source": "passenger-clothing.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URLs 404/redirect. Product-page Size & Fit Guide (2 women's tees), cm ranges XXS–XXXL plus UK/AU, EU, US conversion.",
+  "checked": "2026-11"
  },
  {
   "id": "paynter-w",
@@ -1635,7 +1645,9 @@
   "priority": 2,
   "stored_source": "paynter.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Size guide is an image of unisex jacket garment measurements; no women's body chart. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "peopletree-w",
@@ -1644,7 +1656,9 @@
   "priority": 2,
   "stored_source": "peopletree.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: peopletree.co.uk failed to load in the built-in browser on 4 attempts (2026-11-06). Retry next run.",
+  "checked": "2026-11-06"
  },
  {
   "id": "pepejeans-w",
@@ -1653,7 +1667,9 @@
   "priority": 2,
   "stored_source": "pepejeans.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s. Product-page chart (two blouses) has two conflicting tables ('Size' vs 'Denim size'), no body/garment label; conversion maps letters to two EU sizes. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "protest-w",

@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.19";
+export const APP_VERSION = "v1.5.20";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -696,6 +696,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://paynter.co.uk/pages/size-guide",checked:"2026-01"}],
     notes:"UK independent brand making limited-edition jackets in small batches. Transparent supply chain, sold via pre-order only. Generous outerwear sizing — designed to be worn over knitwear.", fit:"Generous outerwear cut — layer underneath",
     inconsistencyWarning:false, confidence:82,
+    auditFlag:"No official body chart: Paynter's size guide is an image of garment measurements for its unisex jackets (pit to pit, waist width, length), with only a men's chest range in inches and a women's UK size per letter, so these body measurements are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"8",us:"4",eu:"36",bust:86,waist:66,hips:91},
       {label:"S",uk:"10",us:"6",eu:"38",bust:90,waist:70,hips:95},
@@ -1112,17 +1113,20 @@ const WOMEN_BRANDS = [
   // 🌿 MORE SUSTAINABLE — WOMEN'S
   // ════════════════════════════════════════════
   {
-    id:"passengercloths-w", name:"Passenger Clothing", origin:"UK", tier:"sustainable", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.passenger-clothing.com/size-guide",checked:"2026-03"},{label:"Passenger Clothing sustainability page",url:"https://www.passenger-clothing.com/pages/sustainability",checked:"2026-03"}],
+    id:"passengercloths-w", name:"Passenger Clothing", origin:"UK", tier:"sustainable", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Passenger product-page Size & Fit Guide (women's, cm, with International Conversion)",url:"https://www.passenger-clothing.com/products/riser-2-0-recycled-cotton-ls-t-shirt-blue-coral",checked:"2026-11"}],
     notes:"UK outdoor lifestyle brand using 100% sustainable materials — organic cotton, recycled polyester, Tencel. UK sizing with relaxed, adventure-inspired cuts. Slightly generous across the body for layering and ease of movement. Detailed body measurement chart on size guide page.", fit:"Relaxed adventure cut — true to generous end of UK sizing",
     inconsistencyWarning:false, confidence:70,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:84,waist:65,hips:90},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:88,waist:69,hips:94},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:92,waist:73,hips:98},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:97,waist:78,hips:103},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:103,waist:84,hips:109},
-      {label:"XXL",uk:"18",us:"14",eu:"46",bust:109,waist:90,hips:115},
+      {label:"XXS",uk:"6",us:"2",eu:"34",bust:77,waist:61,hips:84,rng:{bust:[75,79],waist:[59,63],hips:[82,86]}},
+      {label:"XS",uk:"8",us:"4",eu:"36",bust:82,waist:66,hips:89,rng:{bust:[80,84],waist:[64,68],hips:[87,91]}},
+      {label:"S",uk:"10",us:"6",eu:"38",bust:87.5,waist:71,hips:94.5,rng:{bust:[85,90],waist:[69,73],hips:[92,97]}},
+      {label:"M",uk:"12",us:"8",eu:"40",bust:93.5,waist:76.5,hips:100.5,rng:{bust:[91,96],waist:[74,79],hips:[98,103]}},
+      {label:"L",uk:"14",us:"10",eu:"42",bust:99.5,waist:82.5,hips:106.5,rng:{bust:[97,102],waist:[80,85],hips:[104,109]}},
+      {label:"XL",uk:"16",us:"12",eu:"44",bust:105.5,waist:88.5,hips:112.5,rng:{bust:[103,108],waist:[86,91],hips:[110,115]}},
+      {label:"XXL",uk:"18",us:"14",eu:"46",bust:112,waist:95,hips:119.5,rng:{bust:[109,115],waist:[92,98],hips:[116,123]}},
+      {label:"XXXL",uk:"20",us:"16",eu:"48",bust:119,waist:102,hips:127,rng:{bust:[116,122],waist:[99,105],hips:[124,130]}},
     ],
   },
   {
@@ -1703,18 +1707,21 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"organicbasics-w", name:"Organic Basics", origin:"DK", tier:"sustainable", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://organicbasics.com/pages/size-guide",checked:"2026-02"}],
+    id:"organicbasics-w", name:"Organic Basics", origin:"DK", tier:"sustainable", lastVerified:"2026-11",
+    sources:[{label:"Official Organic Basics product-page Size and Fit Guide (women's, Centimeters table)",url:"https://organicbasics.com/products/womens-everyday-regular-long-sleeve-tee-white",checked:"2026-11"}],
     notes:"Danish sustainable basics brand — GOTS certified organic cotton and Tencel. EU/Scandinavian sizing. Close-fitting base layers and soft minimalist cuts. Runs true to EU sizing. Excellent ethical credentials.",
     fit:"EU sizing — base layers close-fitting, tops relaxed", inconsistencyWarning:false, confidence:74,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:80,waist:62,hips:86},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:90},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:94},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:98},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:96,waist:78,hips:102},
-      {label:"2XL",uk:"16",us:"12",eu:"44",bust:100,waist:82,hips:106},
-],
+      {label:"XXS",bust:77.45,waist:57.75,hips:76.2,rng:{bust:[76.2,78.7],waist:[55.8,59.7],hips:[73.7,78.7]}},
+      {label:"XS",bust:81.9,waist:62.85,hips:84.3,rng:{bust:[80,83.8],waist:[61,64.7],hips:[81,87.6]}},
+      {label:"S",bust:86.95,waist:67.9,hips:92.05,rng:{bust:[85,88.9],waist:[66,69.8],hips:[88.9,95.2]}},
+      {label:"M",bust:92,waist:73.5,hips:99.65,rng:{bust:[90.1,93.9],waist:[71,76],hips:[96.5,102.8]}},
+      {label:"L",bust:97.8,waist:80,hips:107.2,rng:{bust:[95.3,100.3],waist:[77.5,82.5],hips:[104,110.4]}},
+      {label:"XL",bust:104.8,waist:86.95,hips:114.85,rng:{bust:[101.6,108],waist:[83.8,90.1],hips:[111.7,118]}},
+      {label:"XXL",bust:113,waist:95.2,hips:122.25,rng:{bust:[109.2,116.8],waist:[91.4,99],hips:[119,125.5]}},
+      {label:"XXXL",bust:120.6,waist:103.45,hips:130.2,rng:{bust:[118,123.2],waist:[100.3,106.6],hips:[127,133.4]}},
+    ],
   },
   {
     id:"eileenfisher-w", name:"Eileen Fisher", origin:"US", tier:"sustainable", lastVerified:"2026-11",
@@ -1786,6 +1793,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.only.com/en-gb/size-guide",checked:"2026-02"}],
     notes:"Bestseller Group (Jack & Jones family). Very popular on Vinted — 6.3M listings. Scandinavian slim cut. EU sizing. XS is genuinely small. Jeans are especially slim — check waist measurements carefully. Excellent second-hand value.",
     fit:"Slim Scandi EU cut — check measurements carefully", inconsistencyWarning:false, confidence:83,
+    auditFlag:"Couldn't verify: ONLY's size guide is not readable as text (Nov 2026). The product-page size guide is a single image, the old size-guide page is gone, and the help centre links to a PDF, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6–8",us:"2",eu:"34",bust:80,waist:62,hips:86},
       {label:"S",uk:"8–10",us:"4",eu:"36",bust:84,waist:66,hips:90},
@@ -1906,6 +1914,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.pepejeans.com/en-gb/size-guide",checked:"2026-02"}],
     notes:"Spanish/London denim brand. EU sizing. Jeans run narrow through the hip and thigh — their W26 is a genuine small hip. Non-denim clothing (tops, jackets) is more generous. Popular on Vinted (1.4M listings). Check hip measurements for jeans.",
     fit:"Denim runs NARROW — size UP for jeans. Tops: true to EU", inconsistencyWarning:false, confidence:80,
+    auditFlag:"Couldn't verify: Pepe Jeans' product-page size chart for women's tops prints two different tables (\"Size\" M 92/74/100 and \"Denim size\" M 90/72/98) without saying which applies or whether they are body or garment measurements, and its conversion table maps each letter to two EU sizes, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6",us:"2",eu:"34",bust:78,waist:60,hips:84},
       {label:"S",uk:"8",us:"4",eu:"36",bust:82,waist:64,hips:88},
@@ -2399,16 +2408,17 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"oneill-w", name:"O'Neill (Women)", origin:"NL", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.oneill.com/en-gb/size-guide",checked:"2026-03"}],
+    id:"oneill-w", name:"O'Neill (Women)", origin:"NL", tier:"sports", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official O'Neill Women's Size Chart (support centre; Women's tops for chest/waist, Women's bottoms for hip, cm)",url:"https://support.eu.oneill.com/en-GB/womens-size-chart-6591389",checked:"2026-11"}],
     notes:"EU sizing. Dutch surf/snow brand. Relaxed, active-lifestyle cut. Wetsuit sizing uses its own system — refer to height/weight chart. Jackets run true to EU. Popular secondhand for ski and snow gear.", fit:"True to EU — active outdoor lifestyle cut", inconsistencyWarning:false, confidence:73,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:79,waist:61,hips:85},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:83,waist:65,hips:89},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:87,waist:69,hips:93},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:91,waist:73,hips:97},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:96,waist:78,hips:102},
-],
+      {label:"XS",uk:"6",eu:"32/34",chest:82,waist:62,hips:88,rng:{chest:[80,84],waist:[60,64],hips:[86,90]}},
+      {label:"S",uk:"8",eu:"34/36",chest:87,waist:67,hips:93,rng:{chest:[85,89],waist:[65,69],hips:[91,95]}},
+      {label:"M",uk:"10",eu:"38",chest:92,waist:72,hips:98,rng:{chest:[90,94],waist:[70,74],hips:[96,100]}},
+      {label:"L",uk:"12",eu:"40/42",chest:97,waist:77,hips:103,rng:{chest:[95,99],waist:[75,79],hips:[101,105]}},
+      {label:"XL",uk:"14",eu:"42/44",chest:102,waist:82,hips:108,rng:{chest:[100,104],waist:[80,84],hips:[106,110]}},
+    ],
   },
   {
     id:"billabong-w", name:"Billabong (Women)", origin:"AU", tier:"sports", lastVerified:"2026-11", chartYear:"2026",
@@ -2847,15 +2857,18 @@ const WOMEN_BRANDS = [
 ],
   },
   {
-    id:"pangaia-w", name:"Pangaia", origin:"UK", tier:"sustainable", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://pangaia.com/pages/size-guide",checked:"2026-03"}],
+    id:"pangaia-w", name:"Pangaia", origin:"UK", tier:"sustainable", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official PANGAIA Size Guide page (Women's Size Guide Slim / Regular / Oversized / Wide Fit, cm)",url:"https://pangaia.com/pages/size-guide",checked:"2026-11"}],
     notes:"UK sizing. Science-led sustainable brand — seaweed fibre, organic cotton, recycled nylon. Oversized silhouettes throughout — size down 1–2 sizes for fitted look. Tracksuits are most popular secondhand pieces.", fit:"Oversized — size DOWN 1–2 sizes for fitted look", inconsistencyWarning:false, confidence:81,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6–8",us:"2–4",eu:"34–36",bust:92,waist:76,hips:96},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:96,waist:80,hips:100},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38–40",bust:100,waist:84,hips:104},
-      {label:"L",uk:"12–14",us:"8–10",eu:"40–42",bust:106,waist:90,hips:110},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42–44",bust:112,waist:96,hips:116},
+      {label:"XXS",uk:"4-6",us:"0-2",eu:"32-34",chest:78,waist:61,hips:86,rng:{chest:[76,80],waist:[59,63],hips:[84,88]}},
+      {label:"XS",uk:"6-8",us:"2-4",eu:"34-36",chest:83,waist:66,hips:91,rng:{chest:[81,85],waist:[64,68],hips:[89,93]}},
+      {label:"S",uk:"8-10",us:"4-6",eu:"36-38",chest:88,waist:71,hips:96,rng:{chest:[86,90],waist:[69,73],hips:[94,98]}},
+      {label:"M",uk:"10-12",us:"6-8",eu:"38-40",chest:93,waist:76,hips:101,rng:{chest:[91,95],waist:[74,78],hips:[99,103]}},
+      {label:"L",uk:"12-14",us:"8-10",eu:"40-42",chest:98,waist:81,hips:106,rng:{chest:[96,100],waist:[79,83],hips:[104,108]}},
+      {label:"XL",uk:"14-16",us:"10-12",eu:"42-44",chest:103,waist:86,hips:111,rng:{chest:[101,105],waist:[84,88],hips:[109,113]}},
+      {label:"XXL",uk:"16-18",us:"12-14",eu:"44-46",chest:108,waist:91,hips:116,rng:{chest:[106,110],waist:[89,93],hips:[114,118]}},
     ],
   },
   {
@@ -12521,6 +12534,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.20","2026-11-06","Data audit, batch 20: O'Neill, Organic Basics, Pangaia and Passenger women's charts re-checked against the brands' own size guides and corrected (e.g. Pangaia M is a 91–95 cm chest, not 100; O'Neill M is a 90–94 cm chest, not 87; Organic Basics and Passenger now list XXS–XXXL). ONLY (size guide is an image only), Paynter (jacket garment measurements only) and Pepe Jeans (two conflicting tables) are flagged as unverified. People Tree couldn't be checked (website wouldn't load) and will be retried."],
   ["v1.5.19","2026-11-05","Data audit, batch 19: Massimo Dutti, Matalan, ME+EM, Missguided, New Balance and Nobody's Child women's charts re-checked against the brands' own size guides and corrected (e.g. Matalan UK 10 is an 87 cm bust, not 89; ME+EM now lists UK 4–18 from its own guide; Nobody's Child UK 16 is a 107 cm bust, not 103; New Balance M is an 89–94 cm chest at US 8–10). Massimo Dutti publishes no waist, so waist is removed. NA-KD and Nasty Gal could not be verified and are now flagged."],
   ["v1.5.18","2026-11-04","Data audit, batch 18: JD Williams, John Lewis, Laura Ashley, Lee Jeans and Lucy & Yak women's charts re-checked against the brands' own size guides and corrected (e.g. John Lewis UK 16 is a 104 cm bust, not 102; Laura Ashley UK 12 is a 74 cm waist, not 73; Lucy & Yak now lists sizes 4–30). LK Bennett, Lulus and Maje are flagged as unverified: no official body chart could be read."],
   ["v1.5.17","2026-11-03","Data audit, batch 17: GUESS, Helly Hansen, Hush, I Saw It First, In The Style and J.Crew women's charts re-checked against the brands' own size guides and corrected (e.g. GUESS M is a 90–96 cm bust, not 84; J.Crew M is US 8 / UK 12 at a 94 cm bust, not UK 10 at 90). Goose Studios flagged (conversions only, no body measurements) and Idioma flagged (website wouldn't load, no other official site found); their numbers are unchanged and marked unverified."],

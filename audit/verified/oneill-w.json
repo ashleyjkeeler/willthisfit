@@ -1,0 +1,99 @@
+{
+ "id": "oneill-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official O'Neill Women's Size Chart (support centre; Women's tops for chest/waist, Women's bottoms for hip, cm)",
+   "url": "https://support.eu.oneill.com/en-GB/womens-size-chart-6591389"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "6",
+   "eu": "32/34",
+   "chest": [
+    80,
+    84
+   ],
+   "waist": [
+    60,
+    64
+   ],
+   "hips": [
+    86,
+    90
+   ]
+  },
+  {
+   "label": "S",
+   "uk": "8",
+   "eu": "34/36",
+   "chest": [
+    85,
+    89
+   ],
+   "waist": [
+    65,
+    69
+   ],
+   "hips": [
+    91,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "10",
+   "eu": "38",
+   "chest": [
+    90,
+    94
+   ],
+   "waist": [
+    70,
+    74
+   ],
+   "hips": [
+    96,
+    100
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "12",
+   "eu": "40/42",
+   "chest": [
+    95,
+    99
+   ],
+   "waist": [
+    75,
+    79
+   ],
+   "hips": [
+    101,
+    105
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "14",
+   "eu": "42/44",
+   "chest": [
+    100,
+    104
+   ],
+   "waist": [
+    80,
+    84
+   ],
+   "hips": [
+    106,
+    110
+   ]
+  }
+ ],
+ "audit": "Old URL oneill.com/en-gb/size-guide 404s (redirects to eu.oneill.com); the homepage 'Size Guide' link goes to the brand's support centre. Women's tops prints chest and waist only; hip taken from the Women's bottoms letter chart (same XS\u2013XL letters, identical waist ranges). UK from the tops chart (the bottoms chart's UK column repeats the letters). US removed (not printed). Old M (UK 10) 87/69/93 \u2192 chest 90\u201394, waist 70\u201374, hip 96\u2013100."
+}

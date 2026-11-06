@@ -1,0 +1,134 @@
+{
+ "id": "organicbasics-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Organic Basics product-page Size and Fit Guide (women's, Centimeters table)",
+   "url": "https://organicbasics.com/products/womens-everyday-regular-long-sleeve-tee-white"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "bust": [
+    76.2,
+    78.7
+   ],
+   "waist": [
+    55.8,
+    59.7
+   ],
+   "hips": [
+    73.7,
+    78.7
+   ]
+  },
+  {
+   "label": "XS",
+   "bust": [
+    80.0,
+    83.8
+   ],
+   "waist": [
+    61.0,
+    64.7
+   ],
+   "hips": [
+    81.0,
+    87.6
+   ]
+  },
+  {
+   "label": "S",
+   "bust": [
+    85.0,
+    88.9
+   ],
+   "waist": [
+    66.0,
+    69.8
+   ],
+   "hips": [
+    88.9,
+    95.2
+   ]
+  },
+  {
+   "label": "M",
+   "bust": [
+    90.1,
+    93.9
+   ],
+   "waist": [
+    71.0,
+    76.0
+   ],
+   "hips": [
+    96.5,
+    102.8
+   ]
+  },
+  {
+   "label": "L",
+   "bust": [
+    95.3,
+    100.3
+   ],
+   "waist": [
+    77.5,
+    82.5
+   ],
+   "hips": [
+    104.0,
+    110.4
+   ]
+  },
+  {
+   "label": "XL",
+   "bust": [
+    101.6,
+    108.0
+   ],
+   "waist": [
+    83.8,
+    90.1
+   ],
+   "hips": [
+    111.7,
+    118.0
+   ]
+  },
+  {
+   "label": "XXL",
+   "bust": [
+    109.2,
+    116.8
+   ],
+   "waist": [
+    91.4,
+    99.0
+   ],
+   "hips": [
+    119.0,
+    125.5
+   ]
+  },
+  {
+   "label": "XXXL",
+   "bust": [
+    118.0,
+    123.2
+   ],
+   "waist": [
+    100.3,
+    106.6
+   ],
+   "hips": [
+    127.0,
+    133.4
+   ]
+  }
+ ],
+ "audit": "Old URL /pages/size-guide redirects to All Products. Same Size and Fit Guide (cm and inch tables) on two women's tees (Everyday Regular Long Sleeve Tee, Flex Tee). Values from the Centimeters table as printed. Old M (UK 10) 88/70/94 \u2192 90.1\u201393.9/71\u201376/96.5\u2013102.8; old 2XL (UK 16) 100/82/106 \u2192 XXL 109.2\u2013116.8/91.4\u201399/119\u2013125.5. XXS and XXXL added. UK/US/EU removed (not printed). Caveat: the cm XXS hip prints 73.7\u201378.7 while the inch table prints 29\u201331.5 in (73.7\u201380.0 cm); the printed cm value is kept. XXXXL is sold on some items but has no chart row."
+}
