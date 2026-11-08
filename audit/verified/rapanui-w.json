@@ -1,0 +1,90 @@
+{
+ "id": "rapanui-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Rapanui product-page Sizing chart, Centimeters tab (women's plain t-shirt)",
+   "url": "https://rapanuiclothing.com/product/womens-organic-cotton-t-shirt/"
+  },
+  {
+   "label": "Same chart on the women's scoop neck t-shirt",
+   "url": "https://rapanuiclothing.com/product/womens-scoop-neck-t-shirt/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "8",
+   "uk": "8",
+   "bust": 84,
+   "waist": 66,
+   "hips": 91,
+   "_in": {
+    "bust": 33,
+    "waist": 26,
+    "hips": 36
+   }
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "bust": 88,
+   "waist": 70,
+   "hips": 95,
+   "_in": {
+    "bust": 35,
+    "waist": 28,
+    "hips": 37
+   }
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "bust": 92,
+   "waist": 75,
+   "hips": 99,
+   "_in": {
+    "bust": 36,
+    "waist": 30,
+    "hips": 39
+   }
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "bust": 97,
+   "waist": 80,
+   "hips": 104,
+   "_in": {
+    "bust": 38,
+    "waist": 32,
+    "hips": 41
+   }
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "bust": 103,
+   "waist": 85,
+   "hips": 109,
+   "_in": {
+    "bust": 41,
+    "waist": 34,
+    "hips": 43
+   }
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "bust": 108,
+   "waist": 91,
+   "hips": 116,
+   "_in": {
+    "bust": 43,
+    "waist": 36,
+    "hips": 46
+   }
+  }
+ ],
+ "audit": "Old URL rapanuiclothing.com/size-guide/ 404s; the Help 'What size should I order?' answer points to the chart on each product page. Product-page 'Sizing' panel: body measurements (bust, waist, hips) for sizes 8-18; printed cm used (Inches tab kept in _in; it is rounded to whole inches). Sizes are numeric only, as sold on the UK store; labels changed from XS-2XL to 8-18. Size 6 removed (not offered or printed); size 18 added. US/EU removed (not printed). Old M (UK 10) 88/70/94 -> 10: 88/70/95; old 2XL (UK 16) 101/83/107 -> 16: 103/85/109."
+}

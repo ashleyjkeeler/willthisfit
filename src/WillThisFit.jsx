@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.20";
+export const APP_VERSION = "v1.5.21";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -633,18 +633,19 @@ const WOMEN_BRANDS = [
   // 🌿 SUSTAINABLE BRANDS
   // ════════════════════════════════════════════
   {
-    id:"rapanui-w", name:"Rapanui", origin:"UK", tier:"sustainable", lastVerified:"2026-01",
-    sources:[{label:"Official size guide",url:"https://rapanuiclothing.com/size-guide/",checked:"2026-01"},{label:"B Corp certified brand page",url:"https://rapanuiclothing.com/about/",checked:"2026-01"}],
+    id:"rapanui-w", name:"Rapanui", origin:"UK", tier:"sustainable", lastVerified:"2026-11",
+    sources:[{label:"Official Rapanui product-page Sizing chart, Centimeters tab (women's plain t-shirt)",url:"https://rapanuiclothing.com/product/womens-organic-cotton-t-shirt/",checked:"2026-11"},{label:"Same chart on the women's scoop neck t-shirt",url:"https://rapanuiclothing.com/product/womens-scoop-neck-t-shirt/",checked:"2026-11"}],
     notes:"Isle of Wight-based B Corp. 100% organic cotton, wind-powered factory. Genuine transparency — each garment has a traceable supply chain code. Runs true to standard UK sizing.", fit:"True to UK standard",
     inconsistencyWarning:false, confidence:73,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:80,waist:62,hips:86},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:90},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:94},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:98},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:96,waist:78,hips:102},
-      {label:"2XL",uk:"16",us:"12",eu:"44",bust:101,waist:83,hips:107},
-],
+      {label:"8",uk:"8",bust:84,waist:66,hips:91},
+      {label:"10",uk:"10",bust:88,waist:70,hips:95},
+      {label:"12",uk:"12",bust:92,waist:75,hips:99},
+      {label:"14",uk:"14",bust:97,waist:80,hips:104},
+      {label:"16",uk:"16",bust:103,waist:85,hips:109},
+      {label:"18",uk:"18",bust:108,waist:91,hips:116},
+    ],
   },
   {
     id:"finisterre-w", name:"Finisterre", origin:"UK", tier:"sustainable", lastVerified:"2026-11",
@@ -1068,6 +1069,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide (Puma EU/UK)",url:"https://eu.puma.com/en/size-guide",checked:"2026-03"},{label:"Official size guide",url:"https://uk.puma.com/uk/en/size-guide",checked:"2026-03"}],
     notes:"German sportswear brand using EU sizing. Performance (running/training) items have a close athletic cut — use chest/bust measurement. Lifestyle Classics range is more relaxed. Collaboration items (e.g. Fenty PUMA, Palermo line) often have unique sizing — always check per-garment. Body measurements published in cm on EU size guide.", fit:"Athletic cut — performance fits close, lifestyle more relaxed",
     inconsistencyWarning:true, confidence:77,
+    auditFlag:"No official body chart: in Nov 2026 Puma's own UK and US product-page size guides for women's tops print only a size conversion table (and how-to-measure notes), with no bust, waist or hip numbers, and the old size-guide pages are gone, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"8",us:"4",eu:"34/36",bust:82,waist:62,hips:87},
       {label:"S",uk:"10",us:"6",eu:"36/38",bust:86,waist:66,hips:91},
@@ -1330,17 +1332,28 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"regatta-w", name:"Regatta", origin:"UK", tier:"sports", lastVerified:"2026-01",
-    sources:[{label:"Official size guide",url:"https://www.regatta.com/size-guide/",checked:"2026-01"}],
+    id:"regatta-w", name:"Regatta", origin:"UK", tier:"sports", lastVerified:"2026-11",
+    sources:[{label:"Official Regatta Size Guide: Women's - Jackets, Fleeces, Gilets, Shirts & T-Shirts (bust) and Women's Trousers & Shorts (waist, hips), cm rows",url:"https://www.regatta.com/size-guide/",checked:"2026-11"}],
     notes:"UK affordable outdoor brand, widely available in supermarkets and outdoor retailers. UK sizing. Generous, practical outdoor cut. Good value option for walking and hiking gear. Very consistent sizing.", fit:"Generous practical outdoor — reliable UK sizing",
     inconsistencyWarning:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:89},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:93},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:97},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:97,waist:79,hips:102},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:103,waist:85,hips:108},
-      {label:"XXL",uk:"18",us:"14",eu:"46",bust:109,waist:91,hips:114},
+      {label:"6",uk:"6",us:"2",eu:"32",bust:76,waist:58,hips:84},
+      {label:"8",uk:"8",us:"4",eu:"34",bust:81,waist:63,hips:89},
+      {label:"10",uk:"10",us:"6",eu:"36",bust:86,waist:68,hips:94},
+      {label:"12",uk:"12",us:"8",eu:"38",bust:92,waist:74,hips:99},
+      {label:"14",uk:"14",us:"10",eu:"40",bust:97,waist:79,hips:104},
+      {label:"16",uk:"16",us:"12",eu:"42",bust:102,waist:84,hips:109},
+      {label:"18",uk:"18",us:"14",eu:"44",bust:109,waist:91,hips:114},
+      {label:"20",uk:"20",us:"16",eu:"46",bust:114,waist:96,hips:119},
+      {label:"22",uk:"22",us:"18",eu:"48",bust:122,waist:104,hips:127},
+      {label:"24",uk:"24",us:"20",eu:"50",bust:127,waist:109,hips:132},
+      {label:"26",uk:"26",us:"22",eu:"52",bust:132,waist:114,hips:137},
+      {label:"28",uk:"28",us:"24",eu:"54",bust:137,waist:119,hips:145},
+      {label:"30",uk:"30",us:"26",eu:"56",bust:142,waist:124,hips:150},
+      {label:"32",uk:"32",us:"28",eu:"58",bust:147,waist:129,hips:155},
+      {label:"34",uk:"34",us:"30",eu:"60",bust:152,waist:135,hips:160},
+      {label:"36",uk:"36",us:"32",eu:"62",bust:158,waist:140,hips:166},
     ],
   },
   {
@@ -1775,17 +1788,17 @@ const WOMEN_BRANDS = [
 ],
   },
   {
-    id:"pullbear-w", name:"Pull & Bear", origin:"ES", tier:"fast-fashion", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://www.pullandbear.com/uk/help/size-guide",checked:"2026-02"}],
+    id:"pullbear-w", name:"Pull & Bear", origin:"ES", tier:"fast-fashion", lastVerified:"2026-11",
+    sources:[{label:"Official Pull&Bear product-page Measurements, Body tab (cm), women's fitted t-shirt",url:"https://www.pullandbear.com/gb/fitted-gathered-tshirt-l07233326",checked:"2026-11"},{label:"Official Pull&Bear product-page Measurements, Body tab (cm), women's slim-fit long sleeve t-shirt",url:"https://www.pullandbear.com/gb/slimfit-long-sleeve-tshirt-l07230386",checked:"2026-11"}],
     notes:"Inditex group. Relaxed streetwear aesthetic — more generous than Bershka/Stradivarius. EU sizing. Oversized tops run true-to-label. Jeans and fitted items run small. 11.6M items on Vinted.",
     fit:"Relaxed styles: true to EU. Fitted: size UP 1", inconsistencyWarning:false, confidence:79,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6–8",us:"2–4",eu:"34–36",bust:80,waist:62,hips:85},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:84,waist:66,hips:89},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38–40",bust:89,waist:71,hips:94},
-      {label:"L",uk:"12–14",us:"8–10",eu:"40–42",bust:95,waist:77,hips:100},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42–44",bust:101,waist:83,hips:106},
-      {label:"XXL",uk:"16–18",us:"12–14",eu:"44–46",bust:107,waist:89,hips:112},
+      {label:"XS",chest:80,waist:62,hips:88},
+      {label:"S",chest:86,waist:68,hips:94},
+      {label:"M",chest:92,waist:74,hips:100},
+      {label:"L",chest:98,waist:80,hips:106},
+      {label:"XL",chest:105,waist:87,hips:113},
     ],
   },
   {
@@ -1956,6 +1969,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.quizclothing.co.uk/size-guide",checked:"2026-02"}],
     notes:"UK mid-range occasion wear brand. UK numeric sizing. True to UK standard with a slightly fitted cut. Very popular for partywear, wedding guest, and going-out clothing on Vinted and Depop. Consistent sizing across collections.",
     fit:"True to UK — slightly fitted occasion wear cut", inconsistencyWarning:false, confidence:82,
+    auditFlag:"Couldn't verify: in Nov 2026 quizclothing.co.uk is a holding page (logo and one image) with no products or size guide, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"6",uk:"6",us:"2",eu:"34",bust:79,waist:62,hips:85},
       {label:"8",uk:"8",us:"4",eu:"36",bust:83,waist:66,hips:89},
@@ -2184,16 +2198,24 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"reformation-w", name:"Reformation", origin:"US", tier:"sustainable", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.thereformation.com/pages/size-guide",checked:"2026-03"}],
+    id:"reformation-w", name:"Reformation", origin:"US", tier:"sustainable", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Reformation Size Guide: Numeric measurements (regular, cm) and Numeric size conversion",url:"https://www.thereformation.com/fitting-and-sizes.html",checked:"2026-11"}],
     notes:"US sizing. Sustainability-focused brand with a body-conscious, form-fitting cut. Runs small — very slim through hips and chest. Extended up to size 28 (UK 24). Popular secondhand for occasion dresses. Size up at least one from UK standard.", fit:"Runs SMALL — body-conscious cut, size UP", inconsistencyWarning:false, confidence:84,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"4–6",us:"00",eu:"32",bust:79,waist:59,hips:84},
-      {label:"XS",uk:"6",us:"0–2",eu:"34",bust:82,waist:62,hips:87},
-      {label:"S",uk:"8–10",us:"4",eu:"36–38",bust:86,waist:66,hips:91},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38–40",bust:90,waist:70,hips:95},
-      {label:"L",uk:"12–14",us:"10",eu:"40–42",bust:96,waist:76,hips:101},
-      {label:"XL",uk:"14–16",us:"12",eu:"42–44",bust:102,waist:82,hips:107},
+      {label:"US 0",uk:"4",us:"0",eu:"30",bust:84,waist:63.5,hips:91.5},
+      {label:"US 2",uk:"6",us:"2",eu:"32",bust:86.5,waist:66,hips:94},
+      {label:"US 4",uk:"8",us:"4",eu:"34",bust:89,waist:68.5,hips:96.5},
+      {label:"US 6",uk:"10",us:"6",eu:"36",bust:91.5,waist:71,hips:99},
+      {label:"US 8",uk:"12",us:"8",eu:"38",bust:95,waist:75,hips:103},
+      {label:"US 10",uk:"14",us:"10",eu:"40",bust:100,waist:80,hips:108},
+      {label:"US 12",uk:"16",us:"12",eu:"42",bust:105.5,waist:85,hips:113},
+      {label:"US 14",uk:"18",us:"14",eu:"44",bust:114.5,waist:95,hips:120.5},
+      {label:"US 16",uk:"20",us:"16",eu:"46",bust:119.5,waist:100,hips:126},
+      {label:"US 18",uk:"22",us:"18",eu:"48",bust:124.5,waist:105.5,hips:131},
+      {label:"US 20",uk:"24",us:"20",eu:"52",bust:129.5,waist:110.5,hips:136},
+      {label:"US 22",uk:"26",us:"22",eu:"54",bust:134.5,waist:115.5,hips:141},
+      {label:"US 24",uk:"28",us:"24",eu:"56",bust:140,waist:120.5,hips:146},
     ],
   },
   {
@@ -2281,6 +2303,7 @@ const WOMEN_BRANDS = [
     id:"reebok-w", name:"Reebok", origin:"UK", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
     sources:[{label:"Official size guide",url:"https://www.reebok.co.uk/size-guide",checked:"2026-03"}],
     notes:"UK/US sizing. Athletic fit — slightly more room through hips than Nike. Classic and Instapump pieces run large; performance gear runs true. Very popular secondhand for 90s/2000s athleisure revival pieces.", fit:"Athletic — Classic pieces run large, performance true", inconsistencyWarning:false, confidence:79,
+    auditFlag:"No official body chart: in Nov 2026 reebok.co.uk did not load, and Reebok's European store (reebok.eu, UK English) gives women's clothing a size conversion table only (2XS-5XL to UK/US/EU), with no bust, waist or hip numbers, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"8",us:"4",eu:"36",bust:82,waist:63,hips:87},
       {label:"S",uk:"10",us:"6",eu:"38",bust:86,waist:67,hips:91},
@@ -2636,16 +2659,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"protest-w", name:"Protest (Women)", origin:"NL", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.protest.eu/en-gb/size-guide",checked:"2026-03"}],
+    id:"protest-w", name:"Protest (Women)", origin:"NL", tier:"sports", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Protest product-page size chart, women's dress (chest/waist/hips, cm)",url:"https://www.protest.eu/en/gb/prtnieve-dress-true-black-carryover",checked:"2026-11"},{label:"Official Protest product-page size guide, Women tops (chest/waist, cm; adds XXXL)",url:"https://www.protest.eu/en/gb/prtlouas-t-shirt-kitoffwhite-2025-01",checked:"2026-11"}],
     notes:"EU sizing. Dutch snow and beach brand. Relaxed, active cut. Snowboard jackets and ski pants have layering allowance built in. Swimwear runs true. Popular among snow sports secondhand communities.", fit:"True to EU with layering allowance for ski/snowboard", inconsistencyWarning:false, confidence:72,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:80,waist:62,hips:86},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:90},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:94},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:98},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:96,waist:78,hips:102},
-],
+      {label:"XS",eu:"34",chest:82.5,waist:67,hips:89.5,rng:{chest:[81,84],waist:[66,68],hips:[88,91]}},
+      {label:"S",eu:"36",chest:86.5,waist:70.5,hips:93.5,rng:{chest:[85,88],waist:[69,72],hips:[92,95]}},
+      {label:"M",eu:"38",chest:90.5,waist:74.5,hips:97.5,rng:{chest:[89,92],waist:[73,76],hips:[96,99]}},
+      {label:"L",eu:"40",chest:94.5,waist:78.5,hips:101.5,rng:{chest:[93,96],waist:[77,80],hips:[100,103]}},
+      {label:"XL",eu:"42",chest:99.5,waist:83.5,hips:106.5,rng:{chest:[97,102],waist:[81,86],hips:[104,109]}},
+      {label:"XXL",eu:"44",chest:105.5,waist:89.5,hips:112.5,rng:{chest:[103,108],waist:[87,92],hips:[110,115]}},
+      {label:"XXXL",eu:"46",chest:111.5,waist:95.5,rng:{chest:[109,114],waist:[93,98]}},
+    ],
   },
   {
     id:"timberland-w", name:"Timberland (Women)", origin:"US", tier:"outdoor", lastVerified:"2026-03", chartYear:"2026",
@@ -12534,6 +12560,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.21","2026-11-08","Data audit, batch 21: Protest, Pull & Bear, Rapanui, Reformation and Regatta women's charts re-checked against the brands' own size guides and corrected (e.g. Pull & Bear M is a 92 cm chest, not 89; Protest M is an 89–92 cm chest, not 88; Reformation now lists US 0–24 with UK sizes from its own conversion table; Regatta now lists UK 6–36). Puma and Reebok (size conversions only, no body measurements) and Quiz (website is a holding page) are flagged as unverified."],
   ["v1.5.20","2026-11-06","Data audit, batch 20: O'Neill, Organic Basics, Pangaia and Passenger women's charts re-checked against the brands' own size guides and corrected (e.g. Pangaia M is a 91–95 cm chest, not 100; O'Neill M is a 90–94 cm chest, not 87; Organic Basics and Passenger now list XXS–XXXL). ONLY (size guide is an image only), Paynter (jacket garment measurements only) and Pepe Jeans (two conflicting tables) are flagged as unverified. People Tree couldn't be checked (website wouldn't load) and will be retried."],
   ["v1.5.19","2026-11-05","Data audit, batch 19: Massimo Dutti, Matalan, ME+EM, Missguided, New Balance and Nobody's Child women's charts re-checked against the brands' own size guides and corrected (e.g. Matalan UK 10 is an 87 cm bust, not 89; ME+EM now lists UK 4–18 from its own guide; Nobody's Child UK 16 is a 107 cm bust, not 103; New Balance M is an 89–94 cm chest at US 8–10). Massimo Dutti publishes no waist, so waist is removed. NA-KD and Nasty Gal could not be verified and are now flagged."],
   ["v1.5.18","2026-11-04","Data audit, batch 18: JD Williams, John Lewis, Laura Ashley, Lee Jeans and Lucy & Yak women's charts re-checked against the brands' own size guides and corrected (e.g. John Lewis UK 16 is a 104 cm bust, not 102; Laura Ashley UK 12 is a 74 cm waist, not 73; Lucy & Yak now lists sizes 4–30). LK Bennett, Lulus and Maje are flagged as unverified: no official body chart could be read."],

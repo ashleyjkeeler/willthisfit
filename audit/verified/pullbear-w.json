@@ -1,0 +1,48 @@
+{
+ "id": "pullbear-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Pull&Bear product-page Measurements, Body tab (cm), women's fitted t-shirt",
+   "url": "https://www.pullandbear.com/gb/fitted-gathered-tshirt-l07233326"
+  },
+  {
+   "label": "Official Pull&Bear product-page Measurements, Body tab (cm), women's slim-fit long sleeve t-shirt",
+   "url": "https://www.pullandbear.com/gb/slimfit-long-sleeve-tshirt-l07230386"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 80,
+   "waist": 62,
+   "hips": 88
+  },
+  {
+   "label": "S",
+   "chest": 86,
+   "waist": 68,
+   "hips": 94
+  },
+  {
+   "label": "M",
+   "chest": 92,
+   "waist": 74,
+   "hips": 100
+  },
+  {
+   "label": "L",
+   "chest": 98,
+   "waist": 80,
+   "hips": 106
+  },
+  {
+   "label": "XL",
+   "chest": 105,
+   "waist": 87,
+   "hips": 113
+  }
+ ],
+ "audit": "Old URL pullandbear.com/uk/help/size-guide not used (UK store is /gb/; no general size guide page found). Product-page 'See measurements' > Body tab prints one chest/waist/hip value per size (cm, 'The measurements shown refer to body measurements'); identical on two women's tops. Letters only: UK/US/EU removed (not printed). XXL removed (not offered/printed). Old M 89/71/94 -> chest 92, waist 74, hip 100; old XL 101/83/106 -> 105/87/113."
+}

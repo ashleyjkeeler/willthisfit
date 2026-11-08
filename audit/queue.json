@@ -1678,7 +1678,9 @@
   "priority": 2,
   "stored_source": "protest.eu",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "UK product-page charts (Women tops + women's dress), cm; XXXL no hip",
+  "checked": "2026-11-08"
  },
  {
   "id": "pullbear-w",
@@ -1687,7 +1689,9 @@
   "priority": 2,
   "stored_source": "pullandbear.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Product-page Measurements, Body tab, single cm values XS-XL",
+  "checked": "2026-11-08"
  },
  {
   "id": "puma-w",
@@ -1696,7 +1700,9 @@
   "priority": 2,
   "stored_source": "eu.puma.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "UK/US product-page size guides: conversion table only, no body numbers",
+  "checked": "2026-11-08"
  },
  {
   "id": "quiz-w",
@@ -1705,7 +1711,9 @@
   "priority": 2,
   "stored_source": "quizclothing.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "quizclothing.co.uk is a holding page, no size guide",
+  "checked": "2026-11-08"
  },
  {
   "id": "rapanui-w",
@@ -1714,7 +1722,9 @@
   "priority": 2,
   "stored_source": "rapanuiclothing.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Product-page Sizing chart, cm, sizes 8-18",
+  "checked": "2026-11-08"
  },
  {
   "id": "reebok-w",
@@ -1723,7 +1733,9 @@
   "priority": 2,
   "stored_source": "reebok.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "reebok.co.uk timed out; reebok.eu en-gb: conversion table only",
+  "checked": "2026-11-08"
  },
  {
   "id": "reformation-w",
@@ -1732,7 +1744,9 @@
   "priority": 2,
   "stored_source": "thereformation.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Numeric measurements (regular, cm) + conversion, US 0-24",
+  "checked": "2026-11-08"
  },
  {
   "id": "regatta-w",
@@ -1741,7 +1755,9 @@
   "priority": 2,
   "stored_source": "regatta.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Women's tops (bust) + trousers (waist/hips) charts, cm, sizes 6-36",
+  "checked": "2026-11-08"
  },
  {
   "id": "rixo-w",
