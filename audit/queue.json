@@ -1766,7 +1766,9 @@
   "priority": 2,
   "stored_source": "rixo.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on rixolondon.com size guide (UK 6-26).",
+  "checked": "2026-11-08"
  },
  {
   "id": "rohan-w",
@@ -1775,7 +1777,9 @@
   "priority": 2,
   "stored_source": "rohan.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on /help/sizing-information/ (UK 8-20).",
+  "checked": "2026-11-08"
  },
  {
   "id": "roman-w",
@@ -1784,7 +1788,9 @@
   "priority": 2,
   "stored_source": "romanoriginals.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on roman.co.uk/help/size-guide main chart (UK 10-22).",
+  "checked": "2026-11-08"
  },
  {
   "id": "roxy-w",
@@ -1793,7 +1799,9 @@
   "priority": 2,
   "stored_source": "roxy.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on roxy.com/pages/size-guides Women's Apparel (inches, US 2-14).",
+  "checked": "2026-11-08"
  },
  {
   "id": "sandro-w",
@@ -1802,7 +1810,9 @@
   "priority": 2,
   "stored_source": "uk.sandro-paris.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on uk.sandro-paris.com size guide (34-42).",
+  "checked": "2026-11-08"
  },
  {
   "id": "selfportrait-w",
@@ -1811,7 +1821,9 @@
   "priority": 2,
   "stored_source": "self-portrait-studio.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on self-portrait.com product-page Body measurement tab (4-16).",
+  "checked": "2026-11-08"
  },
  {
   "id": "sezane-w",
@@ -1820,7 +1832,9 @@
   "priority": 2,
   "stored_source": "sezane.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on product-page size guide, cm (32-48).",
+  "checked": "2026-11-08"
  },
  {
   "id": "sosandar-w",
@@ -1829,7 +1843,9 @@
   "priority": 2,
   "stored_source": "sosandar.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on sosandar.com/size-guide/ (UK 6-26).",
+  "checked": "2026-11-08"
  },
  {
   "id": "stradivarius-w",

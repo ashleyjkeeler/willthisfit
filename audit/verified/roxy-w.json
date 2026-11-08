@@ -1,0 +1,162 @@
+{
+ "id": "roxy-w",
+ "sources": [
+  {
+   "label": "Official ROXY Size Guides (Women's Apparel, inches)",
+   "url": "https://www.roxy.com/pages/size-guides"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "us": "2",
+   "bust": [
+    76.2,
+    81.3
+   ],
+   "waist": [
+    58.4,
+    61.0
+   ],
+   "hips": [
+    83.8,
+    88.9
+   ],
+   "_in": [
+    "30 - 32",
+    "23 - 24",
+    "33 - 35"
+   ]
+  },
+  {
+   "label": "XS",
+   "us": "4",
+   "bust": [
+    81.3,
+    83.8
+   ],
+   "waist": [
+    61.0,
+    66.0
+   ],
+   "hips": [
+    88.9,
+    91.4
+   ],
+   "_in": [
+    "32 - 33",
+    "24 - 26",
+    "35 - 36"
+   ]
+  },
+  {
+   "label": "S",
+   "us": "6",
+   "bust": [
+    83.8,
+    88.9
+   ],
+   "waist": [
+    66.0,
+    71.1
+   ],
+   "hips": [
+    91.4,
+    96.5
+   ],
+   "_in": [
+    "33 - 35",
+    "26 - 28",
+    "36 - 38"
+   ]
+  },
+  {
+   "label": "M",
+   "us": "8",
+   "bust": [
+    88.9,
+    94.0
+   ],
+   "waist": [
+    71.1,
+    73.7
+   ],
+   "hips": [
+    96.5,
+    99.1
+   ],
+   "_in": [
+    "35 - 37",
+    "28 - 29",
+    "38 - 39"
+   ]
+  },
+  {
+   "label": "L",
+   "us": "10",
+   "bust": [
+    94.0,
+    99.1
+   ],
+   "waist": [
+    76.2,
+    78.7
+   ],
+   "hips": [
+    101.6,
+    104.1
+   ],
+   "_in": [
+    "37 - 39",
+    "30 - 31",
+    "40 - 41"
+   ]
+  },
+  {
+   "label": "XL",
+   "us": "12",
+   "bust": [
+    99.1,
+    104.1
+   ],
+   "waist": [
+    78.7,
+    86.4
+   ],
+   "hips": [
+    106.7,
+    111.8
+   ],
+   "_in": [
+    "39 - 41",
+    "31 - 34",
+    "42 - 44"
+   ]
+  },
+  {
+   "label": "XXL",
+   "us": "14",
+   "bust": [
+    106.7,
+    111.8
+   ],
+   "waist": [
+    86.4,
+    94.0
+   ],
+   "hips": [
+    111.8,
+    119.4
+   ],
+   "_in": [
+    "42 - 44",
+    "34 - 37",
+    "44 - 47"
+   ]
+  }
+ ],
+ "notes": "US surf and snowboard brand, women's counterpart to Quiksilver. Its Women's Apparel chart prints letter sizes XXS–XXL with US sizes 2–14, in inches only (cm here are converted at 2.54); it prints no UK or EU sizes. Swimwear tops sized by bra cup and bottoms separately, with their own chart. Outerwear and snowwear run generous for layering.",
+ "audit": "Old /size-chart.html and /en-gb/size-guide 404 (no en-gb store; roxy.co.uk would not load). Guide is /pages/size-guides, Women's Apparel tab, inches only: cm = in x 2.54 rounded to 0.1, originals in _in. Ranges stored as ranges. UK/EU removed (not printed; old XS = UK 8 was a convention). XS 83/63/89 -> 81.3-83.8/61-66/88.9-91.4; M 92/72/98 -> 88.9-94/71.1-73.7/96.5-99.1; XL 103/83/109 -> 99.1-104.1/78.7-86.4/106.7-111.8. XXS and XXL added. Denim, Swim and Snow charts not stored. Notes corrected (no cm/UK site exists).",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}

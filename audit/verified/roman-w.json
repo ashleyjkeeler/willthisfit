@@ -1,0 +1,78 @@
+{
+ "id": "roman-w",
+ "sources": [
+  {
+   "label": "Official Roman Size Guide (Roman Size Guide, cm; International Size Guide)",
+   "url": "https://www.roman.co.uk/help/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88.5,
+   "waist": 71.5,
+   "hips": 95
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 93.5,
+   "waist": 76.5,
+   "hips": 100
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98.5,
+   "waist": 81.5,
+   "hips": 105
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 103.5,
+   "waist": 86.5,
+   "hips": 110
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 108.5,
+   "waist": 92.5,
+   "hips": 116
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 113.5,
+   "waist": 98.5,
+   "hips": 122
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 118.5,
+   "waist": 106,
+   "hips": 129.5
+  }
+ ],
+ "notes": "UK brand popular for occasion wear and smart-casual staples. Its main size guide covers UK 10–22 (S = 10–12, M = 14–16, L = 18–20, XL = 22); Petite, Curve and Dusk ranges have their own charts. Runs true — one of the more reliable brands for second-hand buying due to stable sizing. Body measurements clearly listed on site.",
+ "audit": "Site moved: romanoriginals.co.uk redirects to roman.co.uk; guide is /help/size-guide. Main 'Roman Size Guide' prints UK 10-22 (cm and inches; cm used), with US/EU from its International Size Guide. Old UK 10 87/69/93 -> 88.5/71.5/95; UK 14 96/78/102 -> 98.5/81.5/105; UK 22 119/101/125 -> 118.5/106/129.5. UK 8 and 24 removed (not in the main chart). Separate Petite (6-18), Curve (16-32, different numbers, e.g. 16 = 107.5/97/114) and Dusk charts not stored. Letter sizes span two UK sizes, so no altLabel. Notes corrected ('UK sizing 8–24' -> main chart 10–22).",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}

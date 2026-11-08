@@ -1,0 +1,70 @@
+{
+ "id": "rohan-w",
+ "sources": [
+  {
+   "label": "Official Rohan Sizing Guide (Women's Measuring Guide, cm and inches as printed)",
+   "url": "https://www.rohan.co.uk/help/sizing-information/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "bust": 85,
+   "waist": 69,
+   "hips": 89
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "bust": 90,
+   "waist": 74,
+   "hips": 94
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "bust": 95,
+   "waist": 79,
+   "hips": 99
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "bust": 100,
+   "waist": 84,
+   "hips": 104
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "bust": 105,
+   "waist": 89,
+   "hips": 109
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "bust": 110,
+   "waist": 94,
+   "hips": 114
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "bust": 115,
+   "waist": 99,
+   "hips": 119
+  }
+ ],
+ "audit": "Old /pages/size-guides 404s; guide is /help/sizing-information/. Women's chart prints UK 8-20 with US, and bust/waist/hip in both inches and cm (printed cm used). EU removed (not printed). UK 8 84/67/90 -> 85/69/89; UK 12 92/75/98 -> 95/79/99; UK 18 110/93/116 -> 110/94/114. UK 20 added. The XS-XL letter table (XS = UK 8-10 ... XL = 18-20) overlaps sizes, so no altLabel.",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}
