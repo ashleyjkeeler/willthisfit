@@ -1854,7 +1854,9 @@
   "priority": 2,
   "stored_source": "stradivarius.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Product-page Measurements > Body tab (cm), same on a T-shirt and a shirt; letters only.",
+  "checked": "2026-11-09"
  },
  {
   "id": "studio-w",
@@ -1863,7 +1865,9 @@
   "priority": 2,
   "stored_source": "studio.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "studio.co.uk sells other brands only; Help 'Size Guide' article empty.",
+  "checked": "2026-11-09"
  },
  {
   "id": "sunraysportswear-w",
@@ -1872,7 +1876,9 @@
   "priority": 2,
   "stored_source": "sunraysportswear.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "sunraysportswear.com parked; sunraysportswear.co.uk has no shop or size guide.",
+  "checked": "2026-11-09"
  },
  {
   "id": "sweatybetty-w",
@@ -1881,7 +1887,9 @@
   "priority": 2,
   "stored_source": "sweatybetty.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "General Size Guide (cm), UK 6-20 / XXS-XXL; US/EU from International Conversions.",
+  "checked": "2026-11-09"
  },
  {
   "id": "talbots-w",
@@ -1890,7 +1898,9 @@
   "priority": 2,
   "stored_source": "talbots.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Old /size-guide gone (410); size-chart page then blocked by a PerimeterX bot check ('verify you are a human'), not bypassed. Retry next run.",
+  "checked": "2026-11-09"
  },
  {
   "id": "levelcollective-w",
@@ -1899,7 +1909,9 @@
   "priority": 2,
   "stored_source": "thelevelcollective.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Size guide is garment measurements for unisex tees only; no women's body chart.",
+  "checked": "2026-11-09"
  },
  {
   "id": "thewhitecompany-w",
@@ -1908,7 +1920,9 @@
   "priority": 2,
   "stored_source": "thewhitecompany.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Women's clothing size chart at /uk/help/size-charts/clothing, UK 4-18 (cm).",
+  "checked": "2026-11-09"
  },
  {
   "id": "theory-w",
@@ -1917,7 +1931,9 @@
   "priority": 2,
   "stored_source": "theory.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Size & Alterations page, Womens Tops, CM toggle, US 00-18; no UK sizes printed.",
+  "checked": "2026-11-09"
  },
  {
   "id": "thoughtclothing-w",

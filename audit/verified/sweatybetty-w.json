@@ -1,0 +1,112 @@
+{
+ "id": "sweatybetty-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Sweaty Betty Size Guide (General Size Guide, cm; International Conversions)",
+   "url": "https://www.sweatybetty.com/en-gb/size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 77,
+   "waist": 59,
+   "hips": 86,
+   "_in": {
+    "bust": 30,
+    "waist": 23,
+    "hips": 34
+   }
+  },
+  {
+   "label": "XS",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 82,
+   "waist": 64,
+   "hips": 91,
+   "_in": {
+    "bust": 32,
+    "waist": 25,
+    "hips": 36
+   }
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 87,
+   "waist": 69,
+   "hips": 96,
+   "_in": {
+    "bust": 34,
+    "waist": 27,
+    "hips": 38
+   }
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 92,
+   "waist": 74,
+   "hips": 101,
+   "_in": {
+    "bust": 36,
+    "waist": 29,
+    "hips": 40
+   }
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 97,
+   "waist": 79,
+   "hips": 106,
+   "_in": {
+    "bust": 38,
+    "waist": 31,
+    "hips": 42
+   }
+  },
+  {
+   "label": "XL",
+   "uk": "16-18",
+   "us": "12",
+   "eu": "44",
+   "bust": 102,
+   "waist": 84,
+   "hips": 111,
+   "_in": {
+    "bust": 40,
+    "waist": 33,
+    "hips": 44
+   }
+  },
+  {
+   "label": "XXL",
+   "uk": "18-20",
+   "us": "14",
+   "eu": "46",
+   "bust": 109,
+   "waist": 91,
+   "hips": 118,
+   "_in": {
+    "bust": 43,
+    "waist": 36,
+    "hips": 46.5
+   }
+  }
+ ],
+ "audit": "Same URL. General Size Guide prints bust/waist/hips per size in cm and inches (printed cm used, inches kept in _in); header 'UK Sizes' 6/XXS, 8/XS, 10/S, 12/M, 14/L, 16-18/XL, 18-20/XXL (XL and XXL both include 18, as printed). US and EU from the International Conversions table on the same page. Old UK mapping was one size off: old XS 'UK 6-8' 82/62/87 -> XXS UK 6 77/59/86 and XS UK 8 82/64/91; old M 'UK 10-12' 90/70/95 -> UK 12 92/74/101; old XXL 107/87/112 -> UK 18-20 109/91/118. XXS added. Leggings and Trousers charts print the same waist/hips."
+}

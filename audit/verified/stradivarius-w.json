@@ -1,0 +1,48 @@
+{
+ "id": "stradivarius-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Stradivarius UK product-page Measurements, Body tab (cm): B11 Japanese-style long sleeve T-shirt",
+   "url": "https://www.stradivarius.com/gb/b11-japanesestyle-long-sleeve-tshirt-fitted-waist-l06526258"
+  },
+  {
+   "label": "Official Stradivarius UK product-page Measurements, Body tab (cm): Linen-effect flowing shirt",
+   "url": "https://www.stradivarius.com/gb/lineneffect-flowing-shirt-l02027022"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 82,
+   "waist": 62,
+   "hips": 90
+  },
+  {
+   "label": "S",
+   "chest": 86,
+   "waist": 66,
+   "hips": 94
+  },
+  {
+   "label": "M",
+   "chest": 90,
+   "waist": 70,
+   "hips": 98
+  },
+  {
+   "label": "L",
+   "chest": 96,
+   "waist": 76,
+   "hips": 104
+  },
+  {
+   "label": "XL",
+   "chest": 100,
+   "waist": 80,
+   "hips": 108
+  }
+ ],
+ "audit": "Old /uk/help/size-guide and /gb/help/size-guide 404; no standalone guide. Product-page 'Measurements' > Body tab prints one chest/waist/hip value per size (cm); identical on a long-sleeve T-shirt and a linen-effect shirt (the shirt's XXS button prints '--', so XXS not stored). Letters only: UK/US/EU removed (not printed). Old M 86/67/91 -> chest 90, waist 70, hip 98; old XL 95/76/100 -> 100/80/108; old XS 78/59/83 -> 82/62/90. 'Chest' stored as chest (as for Pull & Bear)."
+}

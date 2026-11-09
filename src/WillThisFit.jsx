@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.22";
+export const APP_VERSION = "v1.5.23";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -357,17 +357,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"sweatybetty-w", name:"Sweaty Betty", origin:"UK", tier:"sports", chartYear:"2025", lastVerified:"2026-03",
-    sources:[{label:"Official size guide",url:"https://www.sweatybetty.com/en-gb/size-guide/",checked:"2026-03"}],
+    id:"sweatybetty-w", name:"Sweaty Betty", origin:"UK", tier:"sports", chartYear:"2026", lastVerified:"2026-11",
+    sources:[{label:"Official Sweaty Betty Size Guide (General Size Guide, cm; International Conversions)",url:"https://www.sweatybetty.com/en-gb/size-guide/",checked:"2026-11"}],
     notes:"UK sizing for premium activewear. Generally true to UK size. Power leggings have 4-way stretch so more forgiving. Tops can run small in shoulders.", fit:"True to UK size — leggings forgiving",
     inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6–8",us:"2–4",eu:"34–36",bust:82,waist:62,hips:87},
-      {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:86,waist:66,hips:91},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38–40",bust:90,waist:70,hips:95},
-      {label:"L",uk:"12–14",us:"8–10",eu:"40–42",bust:95,waist:75,hips:100},
-      {label:"XL",uk:"14–16",us:"10–12",eu:"42–44",bust:101,waist:81,hips:106},
-      {label:"XXL",uk:"16–18",us:"12–14",eu:"44–46",bust:107,waist:87,hips:112},
+      {label:"XXS",uk:"6",us:"2",eu:"34",bust:77,waist:59,hips:86},
+      {label:"XS",uk:"8",us:"4",eu:"36",bust:82,waist:64,hips:91},
+      {label:"S",uk:"10",us:"6",eu:"38",bust:87,waist:69,hips:96},
+      {label:"M",uk:"12",us:"8",eu:"40",bust:92,waist:74,hips:101},
+      {label:"L",uk:"14",us:"10",eu:"42",bust:97,waist:79,hips:106},
+      {label:"XL",uk:"16-18",us:"12",eu:"44",bust:102,waist:84,hips:111},
+      {label:"XXL",uk:"18-20",us:"14",eu:"46",bust:109,waist:91,hips:118},
     ],
   },
   {
@@ -684,6 +686,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://sunraysportswear.com/pages/sizing",checked:"2026-01"}],
     notes:"UK sustainable brand inspired by Hawaiian surf culture and vintage sportswear. Made from organic and recycled fabrics. Easy, relaxed vintage silhouettes. Runs slightly large.", fit:"Relaxed vintage cut — may size down",
     inconsistencyWarning:false, confidence:76,
+    auditFlag:"Couldn't verify: in Nov 2026 sunraysportswear.com is a parked domain and the brand's own site (sunraysportswear.co.uk) has no shop or size guide, only a list of stockists, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"8–10",us:"4–6",eu:"36–38",bust:86,waist:66,hips:91},
       {label:"S",uk:"10–12",us:"6–8",eu:"38–40",bust:90,waist:70,hips:95},
@@ -711,6 +714,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.thelevelcollective.co.uk/pages/size-guide",checked:"2026-01"}],
     notes:"UK outdoor and adventure brand, sustainability-focused. Technical fabrics with environmental credentials. Functional, active cut — slightly closer fitting than lifestyle brands.", fit:"Active outdoor cut — true to UK size",
     inconsistencyWarning:false, confidence:70,
+    auditFlag:"No official body chart: in Nov 2026 The Level Collective's size guide gives only garment measurements (half chest, body length, sleeve) for its unisex T-shirts, with no women's body sizes, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6",us:"2",eu:"34",bust:80,waist:62,hips:86},
       {label:"S",uk:"8",us:"4",eu:"36",bust:84,waist:66,hips:90},
@@ -1787,17 +1791,18 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"stradivarius-w", name:"Stradivarius", origin:"ES", tier:"fast-fashion", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://www.stradivarius.com/uk/help/size-guide",checked:"2026-02"}],
+    id:"stradivarius-w", name:"Stradivarius", origin:"ES", tier:"fast-fashion", lastVerified:"2026-11",
+    sources:[{label:"Official Stradivarius UK product-page Measurements, Body tab (cm): B11 Japanese-style long sleeve T-shirt",url:"https://www.stradivarius.com/gb/b11-japanesestyle-long-sleeve-tshirt-fitted-waist-l06526258",checked:"2026-11"},{label:"Official Stradivarius UK product-page Measurements, Body tab (cm): Linen-effect flowing shirt",url:"https://www.stradivarius.com/gb/lineneffect-flowing-shirt-l02027022",checked:"2026-11"}],
     notes:"Inditex group. Feminine, trend-led brand. EU sizing. Very small cuts, especially through the bust and hips. Similar to Bershka but more occasion-wear focused. 14.6M items on Vinted — huge second-hand market.",
     fit:"Runs SMALL — EU sizing, size UP 1 from UK", inconsistencyWarning:false, confidence:73,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"32–34",bust:78,waist:59,hips:83},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:82,waist:63,hips:87},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:86,waist:67,hips:91},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:90,waist:71,hips:95},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:95,waist:76,hips:100},
-],
+      {label:"XS",chest:82,waist:62,hips:90},
+      {label:"S",chest:86,waist:66,hips:94},
+      {label:"M",chest:90,waist:70,hips:98},
+      {label:"L",chest:96,waist:76,hips:104},
+      {label:"XL",chest:100,waist:80,hips:108},
+    ],
   },
   {
     id:"pullbear-w", name:"Pull & Bear", origin:"ES", tier:"fast-fashion", lastVerified:"2026-11",
@@ -2090,19 +2095,21 @@ const WOMEN_BRANDS = [
   },
   // ── 50 NEW BRANDS (added 2026-03) ─────────────────────────────────────────
   {
-    id:"thewhitecompany-w", name:"The White Company", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.thewhitecompany.com/uk/help-and-information/size-guides",checked:"2026-03"}],
+    id:"thewhitecompany-w", name:"The White Company", origin:"UK", tier:"mid", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official The White Company Women's Size Chart (Women's clothing size chart, cm; size conversion)",url:"https://www.thewhitecompany.com/uk/help/size-charts/clothing",checked:"2026-11"}],
     notes:"UK sizing. Premium lifestyle brand known for quality basics, loungewear and occasionwear. Generous, relaxed cuts — comfortable fit. Consistent year to year. Very popular secondhand for quality nightwear and knitwear.", fit:"Slightly generous — relaxed British lifestyle fit",
     inconsistencyWarning:false, confidence:77,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"6",uk:"6",us:"2",eu:"34",bust:82,waist:62,hips:86},
-      {label:"8",uk:"8",us:"4",eu:"36",bust:86,waist:66,hips:90},
-      {label:"10",uk:"10",us:"6",eu:"38",bust:90,waist:70,hips:94},
-      {label:"12",uk:"12",us:"8",eu:"40",bust:94,waist:74,hips:98},
-      {label:"14",uk:"14",us:"10",eu:"42",bust:98,waist:78,hips:102},
-      {label:"16",uk:"16",us:"12",eu:"44",bust:102,waist:82,hips:106},
-      {label:"18",uk:"18",us:"14",eu:"46",bust:108,waist:88,hips:112},
-],
+      {label:"4",uk:"4",us:"0",eu:"32",bust:79,waist:60,hips:85},
+      {label:"6",uk:"6",us:"2",eu:"34",bust:82,waist:63,hips:88},
+      {label:"8",uk:"8",us:"4",eu:"36",bust:85,waist:66,hips:91},
+      {label:"10",uk:"10",us:"6",eu:"38",bust:89,waist:70,hips:95},
+      {label:"12",uk:"12",us:"8",eu:"40",bust:94,waist:75,hips:100},
+      {label:"14",uk:"14",us:"10",eu:"42",bust:99,waist:80,hips:105},
+      {label:"16",uk:"16",us:"12",eu:"44",bust:104,waist:85,hips:110},
+      {label:"18",uk:"18",us:"14",eu:"46",bust:110,waist:91,hips:116},
+    ],
   },
   {
     id:"shein-w", name:"Shein", origin:"CN", tier:"value", lastVerified:"2026-03", chartYear:"2026",
@@ -2786,6 +2793,7 @@ const WOMEN_BRANDS = [
     id:"studio-w", name:"Studio", origin:"UK", tier:"value", lastVerified:"2026-03", chartYear:"2026",
     sources:[{label:"Official size guide",url:"https://www.studio.co.uk/help/size-guide",checked:"2026-03"}],
     notes:"UK sizing. UK catalogue / value brand. Sizes 8–32. Generous, practical cut — aimed at everyday value. Extended sizing is a strong point. Moderate secondhand activity on Vinted.", fit:"Generous UK value cut — inclusive sizing 8–32", inconsistencyWarning:false, confidence:72,
+    auditFlag:"No official body chart: in Nov 2026 studio.co.uk sells other brands' clothing, with no Studio own-label womenswear found, and its Help-centre 'Size Guide' article is empty, so these numbers are unverified. Check the garment measurements on each listing.", verifiedBy:"unverified",
     sizes:[
       {label:"8",uk:"8",us:"4",eu:"36",bust:84,waist:67,hips:90},
       {label:"10",uk:"10",us:"6",eu:"38",bust:88,waist:71,hips:94},
@@ -2879,16 +2887,22 @@ const WOMEN_BRANDS = [
 ],
   },
   {
-    id:"theory-w", name:"Theory", origin:"US", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.theory.com/en_gb/size-guide",checked:"2026-03"}],
+    id:"theory-w", name:"Theory", origin:"US", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Theory Size & Alterations size guide (Womens, Tops, CM toggle)",url:"https://www.theory.com/size-guide-page.html",checked:"2026-11"}],
     notes:"US sizing. Premium New York-based minimal brand. Impeccable tailoring — slim, structured cut. Suits and blazers are most popular secondhand. Runs true to US but cut narrower than sportswear brands.", fit:"True to US — slim structured premium cut", inconsistencyWarning:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XXS",uk:"4–6",us:"00",eu:"32",bust:79,waist:59,hips:84},
-      {label:"XS",uk:"6–8",us:"0–2",eu:"34",bust:83,waist:63,hips:88},
-      {label:"S",uk:"8–10",us:"4",eu:"36",bust:86,waist:66,hips:91},
-      {label:"M",uk:"10–12",us:"6–8",eu:"38",bust:90,waist:70,hips:95},
-      {label:"L",uk:"12–14",us:"10",eu:"40–42",bust:96,waist:76,hips:101},
-      {label:"XL",uk:"14–16",us:"12",eu:"42–44",bust:102,waist:82,hips:107},
+      {label:"US 00",us:"00",bust:78.7,waist:62.2,hips:87},
+      {label:"US 0",us:"0",bust:81.3,waist:64.8,hips:89.5},
+      {label:"US 2",us:"2",bust:83.8,waist:67.3,hips:92.1},
+      {label:"US 4",us:"4",bust:86.4,waist:69.8,hips:94.6},
+      {label:"US 6",us:"6",bust:88.9,waist:72.4,hips:97.2},
+      {label:"US 8",us:"8",bust:91.4,waist:74.9,hips:99.7},
+      {label:"US 10",us:"10",bust:95.3,waist:78.7,hips:103.5},
+      {label:"US 12",us:"12",bust:99.1,waist:82.5,hips:107.3},
+      {label:"US 14",us:"14",bust:102.9,waist:86.4,hips:111.1},
+      {label:"US 16",us:"16",bust:106.7,waist:90.2,hips:114.9},
+      {label:"US 18",us:"18",bust:111.8,waist:95.3,hips:120},
     ],
   },
   {
@@ -12583,6 +12597,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.23","2026-11-09","Data audit, batch 23: Stradivarius, Sweaty Betty, The White Company and Theory women's charts re-checked against the brands' own size guides and corrected (e.g. Stradivarius M is a 90 cm chest, not 86; Sweaty Betty M is UK 12 at a 92 cm bust, not UK 10–12 at 90; The White Company now lists UK 4–18 with UK 18 at a 110 cm bust; Theory now follows its own US 00–18 chart with no invented UK sizes). Studio (now sells other brands only), Sunray Sportswear (no size guide online) and The Level Collective (garment measurements only) are flagged as unverified. Talbots couldn't be checked (its site blocked the browser) and will be retried."],
   ["v1.5.22","2026-11-08","Data audit, batch 22: RIXO, Rohan, Roman, Roxy, Sandro, Self-Portrait, Sézane and Sosandar women's charts re-checked against the brands' own size guides and corrected (e.g. RIXO UK 12 is a 108 cm hip, not 96; Sézane 38 is an 87–91 cm chest, not 86; Self-Portrait UK 14 is a 109 cm hip, not 98; Roman now follows its main UK 10–22 chart; Roxy now uses its own inch chart with US 2–14 and no invented UK sizes; Sosandar now lists UK 6–26)."],
   ["v1.5.21","2026-11-08","Data audit, batch 21: Protest, Pull & Bear, Rapanui, Reformation and Regatta women's charts re-checked against the brands' own size guides and corrected (e.g. Pull & Bear M is a 92 cm chest, not 89; Protest M is an 89–92 cm chest, not 88; Reformation now lists US 0–24 with UK sizes from its own conversion table; Regatta now lists UK 6–36). Puma and Reebok (size conversions only, no body measurements) and Quiz (website is a holding page) are flagged as unverified."],
   ["v1.5.20","2026-11-06","Data audit, batch 20: O'Neill, Organic Basics, Pangaia and Passenger women's charts re-checked against the brands' own size guides and corrected (e.g. Pangaia M is a 91–95 cm chest, not 100; O'Neill M is a 90–94 cm chest, not 87; Organic Basics and Passenger now list XXS–XXXL). ONLY (size guide is an image only), Paynter (jacket garment measurements only) and Pepe Jeans (two conflicting tables) are flagged as unverified. People Tree couldn't be checked (website wouldn't load) and will be retried."],

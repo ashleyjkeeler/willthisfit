@@ -1,0 +1,146 @@
+{
+ "id": "theory-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Theory Size & Alterations size guide (Womens, Tops, CM toggle)",
+   "url": "https://www.theory.com/size-guide-page.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "US 00",
+   "us": "00",
+   "bust": 78.7,
+   "waist": 62.2,
+   "hips": 87,
+   "_in": {
+    "bust": "31",
+    "waist": "24.5",
+    "hips": "34.25"
+   }
+  },
+  {
+   "label": "US 0",
+   "us": "0",
+   "bust": 81.3,
+   "waist": 64.8,
+   "hips": 89.5,
+   "_in": {
+    "bust": "32",
+    "waist": "25.5",
+    "hips": "35.25"
+   }
+  },
+  {
+   "label": "US 2",
+   "us": "2",
+   "bust": 83.8,
+   "waist": 67.3,
+   "hips": 92.1,
+   "_in": {
+    "bust": "33",
+    "waist": "26.5",
+    "hips": "36.25"
+   }
+  },
+  {
+   "label": "US 4",
+   "us": "4",
+   "bust": 86.4,
+   "waist": 69.8,
+   "hips": 94.6,
+   "_in": {
+    "bust": "34",
+    "waist": "27.5",
+    "hips": "37.25"
+   }
+  },
+  {
+   "label": "US 6",
+   "us": "6",
+   "bust": 88.9,
+   "waist": 72.4,
+   "hips": 97.2,
+   "_in": {
+    "bust": "35",
+    "waist": "28.5",
+    "hips": "38.25"
+   }
+  },
+  {
+   "label": "US 8",
+   "us": "8",
+   "bust": 91.4,
+   "waist": 74.9,
+   "hips": 99.7,
+   "_in": {
+    "bust": "36",
+    "waist": "29.5",
+    "hips": "39.25"
+   }
+  },
+  {
+   "label": "US 10",
+   "us": "10",
+   "bust": 95.3,
+   "waist": 78.7,
+   "hips": 103.5,
+   "_in": {
+    "bust": "37.5",
+    "waist": "31",
+    "hips": "40.75"
+   }
+  },
+  {
+   "label": "US 12",
+   "us": "12",
+   "bust": 99.1,
+   "waist": 82.5,
+   "hips": 107.3,
+   "_in": {
+    "bust": "39",
+    "waist": "32.5",
+    "hips": "42.25"
+   }
+  },
+  {
+   "label": "US 14",
+   "us": "14",
+   "bust": 102.9,
+   "waist": 86.4,
+   "hips": 111.1,
+   "_in": {
+    "bust": "40.5",
+    "waist": "34",
+    "hips": "43.75"
+   }
+  },
+  {
+   "label": "US 16",
+   "us": "16",
+   "bust": 106.7,
+   "waist": 90.2,
+   "hips": 114.9,
+   "_in": {
+    "bust": "42",
+    "waist": "35.5",
+    "hips": "45.25"
+   }
+  },
+  {
+   "label": "US 18",
+   "us": "18",
+   "bust": 111.8,
+   "waist": 95.3,
+   "hips": 120,
+   "_in": {
+    "bust": "44",
+    "waist": "37.5",
+    "hips": "47.25"
+   }
+  }
+ ],
+ "audit": "Old /en_gb/size-guide returns 410 (Theory's site redirects to its US store, no separate UK guide found). Footer 'Size & Alterations' page: Womens Tops chart prints US numeric 00-18 with alpha P/S/M/L/XL/XXL (two numeric sizes per letter) and bust/waist/hip/arm; IN by default, CM toggle read (printed cm used, inches in _in). Jackets and Dresses print the same numbers. Labels letters -> US numeric. UK/EU removed (not printed; old UK/EU were conventions). Old M (UK 10-12) 90/70/95 -> US 6 88.9/72.4/97.2 and US 8 91.4/74.9/99.7; old XL 102/82/107 -> US 14 102.9/86.4/111.1, US 16 106.7/90.2/114.9. US 18 (XXL) added. Alpha letters not stored as altLabel (each covers two numeric sizes)."
+}

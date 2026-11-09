@@ -1,0 +1,126 @@
+{
+ "id": "thewhitecompany-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official The White Company Women's Size Chart (Women's clothing size chart, cm; size conversion)",
+   "url": "https://www.thewhitecompany.com/uk/help/size-charts/clothing"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 79,
+   "waist": 60,
+   "hips": 85,
+   "_in": {
+    "bust": "31.1",
+    "waist": "23.4",
+    "hips": "33.4"
+   }
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82,
+   "waist": 63,
+   "hips": 88,
+   "_in": {
+    "bust": "32.25",
+    "waist": "25",
+    "hips": "34.5"
+   }
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 66,
+   "hips": 91,
+   "_in": {
+    "bust": "33.5",
+    "waist": "26",
+    "hips": "35.75"
+   }
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 70,
+   "hips": 95,
+   "_in": {
+    "bust": "35",
+    "waist": "27.5",
+    "hips": "37.5"
+   }
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94,
+   "waist": 75,
+   "hips": 100,
+   "_in": {
+    "bust": "37",
+    "waist": "29.5",
+    "hips": "39.5"
+   }
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99,
+   "waist": 80,
+   "hips": 105,
+   "_in": {
+    "bust": "39",
+    "waist": "31.5",
+    "hips": "41.25"
+   }
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 85,
+   "hips": 110,
+   "_in": {
+    "bust": "41",
+    "waist": "33.5",
+    "hips": "43"
+   }
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 91,
+   "hips": 116,
+   "_in": {
+    "bust": "43.25",
+    "waist": "36",
+    "hips": "45.25"
+   }
+  }
+ ],
+ "audit": "Old /uk/help-and-information/size-guides 404s; chart is /uk/help/size-charts/clothing (linked from Help). Women's clothing size chart prints UK 4-18 bust/waist/hips in cm and inches (printed cm used, inches in _in); US and EU from the conversion table on the same page (Italy row not stored). Old UK 10 90/70/94 -> 89/70/95; UK 12 94/74/98 -> 94/75/100; UK 16 102/82/106 -> 104/85/110; UK 18 108/88/112 -> 110/91/116. UK 4 added. Dual-size letters (XS = UK 6-8 ... XL = UK 16-18) not stored as altLabel; that conversion table also prints a typo 'EU 338' for S, not used."
+}
