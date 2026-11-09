@@ -1,0 +1,150 @@
+{
+ "id": "inthestyle-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official In The Style Clothing Size Guide (UK Single Sizes, CM; product-page popup)",
+   "url": "https://www.inthestyle.com/products/cami-top"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 82.03,
+   "waist": 64.01,
+   "hips": 87.91
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 84.58,
+   "waist": 66.55,
+   "hips": 90.21
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 87,
+   "waist": 69.09,
+   "hips": 92.68
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 91,
+   "waist": 72.9,
+   "hips": 97.03
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95.24,
+   "waist": 77,
+   "hips": 101.09
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100.06,
+   "waist": 82.55,
+   "hips": 106.05
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104.88,
+   "waist": 88.9,
+   "hips": 111
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 111,
+   "waist": 95.24,
+   "hips": 116.84
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 116.84,
+   "waist": 101.09,
+   "hips": 123
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 123,
+   "waist": 107,
+   "hips": 129
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 129,
+   "waist": 113.03,
+   "hips": 135
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 135,
+   "waist": 119.07,
+   "hips": 141
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "56",
+   "bust": 141,
+   "waist": 125,
+   "hips": 147
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "us": "26",
+   "eu": "58",
+   "bust": 147,
+   "waist": 131,
+   "hips": 153
+  },
+  {
+   "label": "32",
+   "uk": "32",
+   "us": "28",
+   "eu": "60",
+   "bust": 153,
+   "waist": 136,
+   "hips": 159
+  }
+ ],
+ "audit": "Old /size-guide 404s and /pages/size-guide has no chart. Clothing Size Guide popup on an In The Style item, UK Single Sizes table, CM view, printed to 2 decimals; US/EU from its International Sizes table. Old 10 88/70/94 now 91/72.9/97.03; old 16 103/85/109 now 104.88/88.9/111. 18-32 added. Dual-size table (6-8 etc.) repeats the same figures.",
+ "notes": "UK sizing. Social media-driven fast fashion. Sizes 4–32. Generally true to UK but celebrity collaborations sometimes run small. Very high Vinted turnover — popular for partywear that's worn once. Inconsistent between collections."
+}

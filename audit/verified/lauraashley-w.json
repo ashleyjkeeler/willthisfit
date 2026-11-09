@@ -1,0 +1,137 @@
+{
+ "id": "lauraashley-w",
+ "sources": [
+  {
+   "label": "Official Laura Ashley size guide (product page, cm tab; lauraashley.com redirects to next.co.uk/laura-ashley)",
+   "url": "https://www.next.co.uk/laura-ashley/style/su995372/g80986"
+  },
+  {
+   "label": "Same chart on a second Laura Ashley top",
+   "url": "https://www.next.co.uk/laura-ashley/style/su770862/g29132"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "bust": 76,
+   "waist": 62.5,
+   "hips": 83.5,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80,
+   "waist": 65,
+   "hips": 87.5,
+   "altLabel": "XS"
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 67.5,
+   "hips": 91.5,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 86.5,
+   "waist": 71,
+   "hips": 95,
+   "altLabel": "S"
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 90,
+   "waist": 74,
+   "hips": 99,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 94,
+   "waist": 79,
+   "hips": 105.5,
+   "altLabel": "M"
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 99,
+   "waist": 84,
+   "hips": 110.5,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 104,
+   "waist": 91.5,
+   "hips": 117,
+   "altLabel": "L"
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 109,
+   "waist": 99,
+   "hips": 123,
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 114,
+   "waist": 103,
+   "hips": 127,
+   "altLabel": "XL"
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 123,
+   "waist": 109,
+   "hips": 131,
+   "altLabel": "XXL"
+  },
+  {
+   "label": "UK 26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 128,
+   "waist": 116,
+   "hips": 137,
+   "altLabel": "XXL"
+  }
+ ],
+ "notes": "Revived UK heritage brand (est. 1953) known for floral prints and romantic styling. Now sold primarily through Next. UK sizes 4–26. Runs slightly generous — classic relaxed British cut suits curvy or fuller bust shapes.",
+ "audit": "lauraashley.com redirects to next.co.uk/laura-ashley ('delivered to you by Next'). Item-page Size Guide, cm tab, identical on two tops. Old UK 8 84/65/90 now 84/67.5/91.5; UK 12 92/73/98 now 90/74/99; UK 18 108/89/114 now 104/91.5/117. UK 4, 6, 22, 24, 26 added. International Sizes table starts at UK 6, so UK 4 has no US/EU. Caveat: the chart is hosted on Next.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

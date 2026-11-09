@@ -1,0 +1,122 @@
+{
+ "id": "matalan-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Matalan product-page Size Guide (Women's Clothing, cm)",
+   "url": "https://www.matalan.co.uk/p/clothing/neutral-brown-argyle-knitted-tank-top/17861540/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "eu": "34",
+   "bust": 79,
+   "waist": 63,
+   "hips": 87,
+   "altLabel": "XS"
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "eu": "36",
+   "bust": 83,
+   "waist": 67,
+   "hips": 91,
+   "altLabel": "S"
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "eu": "38",
+   "bust": 87,
+   "waist": 71,
+   "hips": 95,
+   "altLabel": "S"
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "eu": "40",
+   "bust": 92,
+   "waist": 76,
+   "hips": 100,
+   "altLabel": "M"
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "eu": "42",
+   "bust": 97,
+   "waist": 81,
+   "hips": 105,
+   "altLabel": "M"
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "eu": "44",
+   "bust": 102,
+   "waist": 86,
+   "hips": 110,
+   "altLabel": "L"
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "eu": "46",
+   "bust": 108,
+   "waist": 93,
+   "hips": 117,
+   "altLabel": "L"
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "eu": "48",
+   "bust": 114,
+   "waist": 100,
+   "hips": 124,
+   "altLabel": "XL"
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "eu": "50",
+   "bust": 120,
+   "waist": 104,
+   "hips": 129,
+   "altLabel": "XL"
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "eu": "52",
+   "bust": 126,
+   "waist": 111,
+   "hips": 136,
+   "altLabel": "XXL"
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "eu": "54",
+   "bust": 132,
+   "waist": 118,
+   "hips": 143,
+   "altLabel": "XXL"
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "eu": "56",
+   "bust": 138,
+   "waist": 125,
+   "hips": 150,
+   "altLabel": "XXXL"
+  }
+ ],
+ "audit": "Old URL 404s. Product-page Size Guide, Women's Clothing. Chart header reads Garment size / Body measurement; instructions say to measure the body. Hip is Lower Hip, about 20 cm below natural waist. US removed (not printed). UK 6 and 22-28 added."
+}

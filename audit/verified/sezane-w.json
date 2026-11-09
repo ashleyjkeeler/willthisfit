@@ -1,0 +1,185 @@
+{
+ "id": "sezane-w",
+ "sources": [
+  {
+   "label": "Official Sézane product-page size guide (Measurements, cm; International size conversion)",
+   "url": "https://www.sezane.com/en-en/product/edena-blouse/ecru"
+  }
+ ],
+ "rows": [
+  {
+   "label": "32",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": [
+    72,
+    76
+   ],
+   "waist": [
+    56,
+    60
+   ],
+   "hips": [
+    82,
+    86
+   ],
+   "altLabel": "XXS"
+  },
+  {
+   "label": "34",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": [
+    77,
+    81
+   ],
+   "waist": [
+    61,
+    65
+   ],
+   "hips": [
+    87,
+    91
+   ],
+   "altLabel": "XS"
+  },
+  {
+   "label": "36",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": [
+    82,
+    86
+   ],
+   "waist": [
+    66,
+    70
+   ],
+   "hips": [
+    92,
+    96
+   ],
+   "altLabel": "S"
+  },
+  {
+   "label": "38",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": [
+    87,
+    91
+   ],
+   "waist": [
+    71,
+    75
+   ],
+   "hips": [
+    97,
+    101
+   ],
+   "altLabel": "M"
+  },
+  {
+   "label": "40",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": [
+    92,
+    96
+   ],
+   "waist": [
+    76,
+    80
+   ],
+   "hips": [
+    102,
+    106
+   ],
+   "altLabel": "L"
+  },
+  {
+   "label": "42",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": [
+    97,
+    101
+   ],
+   "waist": [
+    81,
+    85
+   ],
+   "hips": [
+    107,
+    111
+   ],
+   "altLabel": "XL"
+  },
+  {
+   "label": "44",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": [
+    102,
+    106
+   ],
+   "waist": [
+    86,
+    90
+   ],
+   "hips": [
+    112,
+    116
+   ],
+   "altLabel": "XXL"
+  },
+  {
+   "label": "46",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": [
+    107,
+    111
+   ],
+   "waist": [
+    91,
+    95
+   ],
+   "hips": [
+    117,
+    121
+   ],
+   "altLabel": "XXXL"
+  },
+  {
+   "label": "48",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": [
+    112,
+    116
+   ],
+   "waist": [
+    96,
+    100
+   ],
+   "hips": [
+    122,
+    126
+   ],
+   "altLabel": "XXXXL"
+  }
+ ],
+ "audit": "Old /en/guide-des-tailles shows 'This page no longer exists'; guide is the product-page size guide (same on the Edena blouse and Tomboy shirt). Measurements tab, cm toggle: French size, English size, chest/waist/hip ranges. US from the International size conversion; France column stored as EU. Old 38 86/66/91 -> 87-91/71-75/97-101; 42 95/75/100 -> 97-101/81-85/107-111; 44 101/81/106 -> 102-106/86-90/112-116. Sizes 32, 34, 46 and 48 added. Printed chest stored as bust.",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}

@@ -1,0 +1,226 @@
+{
+ "id": "jcrew-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official J.Crew UK Size Chart (Women's Tops, IN: bust and natural waist)",
+   "url": "https://www.jcrew.com/uk/p/womens/categories/clothing/tees-and-tanks/DD414"
+  },
+  {
+   "label": "Official J.Crew UK Size Chart (Women's Bottoms Classic, IN: natural waist and hip)",
+   "url": "https://www.jcrew.com/uk/p/womens/categories/clothing/pants/barrel/luna-pant-in-taffeta/DA672"
+  }
+ ],
+ "rows": [
+  {
+   "label": "US 000",
+   "us": "000",
+   "uk": "0",
+   "bust": 78.7,
+   "waist": 58.4,
+   "hips": 83.8,
+   "altLabel": "XXXS",
+   "_in": [
+    31,
+    23,
+    33
+   ]
+  },
+  {
+   "label": "US 00",
+   "us": "00",
+   "uk": "2",
+   "bust": 81.3,
+   "waist": 61.0,
+   "hips": 86.4,
+   "altLabel": "XXS",
+   "_in": [
+    32,
+    24,
+    34
+   ]
+  },
+  {
+   "label": "US 0",
+   "us": "0",
+   "uk": "4",
+   "bust": 83.8,
+   "waist": 63.5,
+   "hips": 88.9,
+   "altLabel": "XS",
+   "_in": [
+    33,
+    25,
+    35
+   ]
+  },
+  {
+   "label": "US 2",
+   "us": "2",
+   "uk": "6",
+   "bust": 86.4,
+   "waist": 66.0,
+   "hips": 91.4,
+   "altLabel": "XS",
+   "_in": [
+    34,
+    26,
+    36
+   ]
+  },
+  {
+   "label": "US 4",
+   "us": "4",
+   "uk": "8",
+   "bust": 88.9,
+   "waist": 68.6,
+   "hips": 94.0,
+   "altLabel": "S",
+   "_in": [
+    35,
+    27,
+    37
+   ]
+  },
+  {
+   "label": "US 6",
+   "us": "6",
+   "uk": "10",
+   "bust": 91.4,
+   "waist": 71.1,
+   "hips": 96.5,
+   "altLabel": "S",
+   "_in": [
+    36,
+    28,
+    38
+   ]
+  },
+  {
+   "label": "US 8",
+   "us": "8",
+   "uk": "12",
+   "bust": 94.0,
+   "waist": 73.7,
+   "hips": 99.1,
+   "altLabel": "M",
+   "_in": [
+    37,
+    29,
+    39
+   ]
+  },
+  {
+   "label": "US 10",
+   "us": "10",
+   "uk": "14",
+   "bust": 96.5,
+   "waist": 76.2,
+   "hips": 101.6,
+   "altLabel": "M",
+   "_in": [
+    38,
+    30,
+    40
+   ]
+  },
+  {
+   "label": "US 12",
+   "us": "12",
+   "uk": "16",
+   "bust": 100.3,
+   "waist": 80.0,
+   "hips": 105.4,
+   "altLabel": "L",
+   "_in": [
+    39.5,
+    31.5,
+    41.5
+   ]
+  },
+  {
+   "label": "US 14",
+   "us": "14",
+   "uk": "18",
+   "bust": 104.1,
+   "waist": 83.8,
+   "hips": 109.2,
+   "altLabel": "L",
+   "_in": [
+    41,
+    33,
+    43
+   ]
+  },
+  {
+   "label": "US 16",
+   "us": "16",
+   "uk": "20",
+   "bust": 110.5,
+   "waist": 90.2,
+   "hips": 115.6,
+   "altLabel": "XL",
+   "_in": [
+    43.5,
+    35.5,
+    45.5
+   ]
+  },
+  {
+   "label": "US 18",
+   "us": "18",
+   "uk": "22",
+   "bust": 116.8,
+   "waist": 96.5,
+   "hips": 121.9,
+   "altLabel": "XXL / 1X",
+   "_in": [
+    46,
+    38,
+    48
+   ]
+  },
+  {
+   "label": "US 20",
+   "us": "20",
+   "uk": "24",
+   "bust": 123.2,
+   "waist": 102.9,
+   "hips": 128.3,
+   "altLabel": "2X",
+   "_in": [
+    48.5,
+    40.5,
+    50.5
+   ]
+  },
+  {
+   "label": "US 22",
+   "us": "22",
+   "bust": 129.5,
+   "waist": 109.2,
+   "hips": 134.6,
+   "altLabel": "3X",
+   "_in": [
+    51,
+    43,
+    53
+   ]
+  },
+  {
+   "label": "US 24",
+   "us": "24",
+   "bust": 135.9,
+   "waist": 115.6,
+   "hips": 141.0,
+   "altLabel": "3X",
+   "_in": [
+    53.5,
+    45.5,
+    55.5
+   ]
+  }
+ ],
+ "audit": "Old .jsp URL redirects to the homepage and /help/size-charts 404s; charts are in each product's VIEW SIZE CHART. Bust from Women's Tops, hip from Women's Bottoms (Classic); natural waist is identical on both in inches. Inch tables used, x2.54, originals in _in, because the CM views disagree on waist: size 16 87.5 (Tops) vs 94 (Bottoms) where 35.5 in = 90.2; also size 00 61 vs 62, size 0 63.5 vs 64. UK from the guide's Size Conversion tab, which stops at US 20 (so none for US 22, 24), and labels XL 16-18 and XXL 20 where the measurement tables have XL 16, XXL / 1X 18, 2X 20; altLabel follows the measurement tables. Old M (UK 10, US 6) 90/70/94 now US 8 (M, UK 12) 94/73.7/99.1. Some styles' charts are garment measurements instead (e.g. jersey mockneck CZ988, chest 39 at XS)."
+}

@@ -1,0 +1,85 @@
+{
+ "id": "frenchconnection-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official French Connection Womenswear Size Guide",
+   "url": "https://www.frenchconnection.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "eu": "34",
+   "bust": 82.5,
+   "waist": 65,
+   "hips": 90,
+   "altLabel": "XXS"
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "eu": "36",
+   "bust": 85,
+   "waist": 67,
+   "hips": 93,
+   "altLabel": "XS"
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "eu": "38",
+   "bust": 88,
+   "waist": 70,
+   "hips": 95,
+   "altLabel": "S"
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "eu": "40",
+   "bust": 93,
+   "waist": 75,
+   "hips": 100,
+   "altLabel": "M"
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "eu": "42",
+   "bust": 98,
+   "waist": 80,
+   "hips": 105,
+   "altLabel": "L"
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "eu": "44",
+   "bust": 103,
+   "waist": 85,
+   "hips": 110,
+   "altLabel": "XL"
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "eu": "46",
+   "bust": 108,
+   "waist": 90,
+   "hips": 115,
+   "altLabel": "XXL"
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "eu": "48",
+   "bust": 113,
+   "waist": 95,
+   "hips": 120.5
+  }
+ ],
+ "audit": "Old /size-guide moved to /pages/size-guide. Letters map one size differently: stored XS (UK 6-8) 81/62/87 -> UK 6 = XXS 82.5/65/90, UK 8 = XS 85/67/93; M (UK 12) 90/71/96 -> 93/75/100; XL (UK 16) 101/82/107 -> 103/85/110. UK 18, 20 added. US removed (not printed). UK 20 has no letter on the chart."
+}

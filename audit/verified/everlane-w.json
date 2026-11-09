@@ -1,0 +1,189 @@
+{
+ "id": "everlane-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Everlane product-page Size Guide (Size Chart, Body; Size Conversion; inches, converted at 2.54)",
+   "url": "https://www.everlane.com/products/womens-organic-cotton-box-cut-tee-white"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "us": "000",
+   "bust": 77.5,
+   "waist": 58.4,
+   "_in": {
+    "bust": 30.5,
+    "waist": 23
+   }
+  },
+  {
+   "label": "XS",
+   "uk": "4–6",
+   "us": "00–0",
+   "eu": "30–32",
+   "bust": [
+    80.0,
+    82.6
+   ],
+   "waist": [
+    61.0,
+    63.5
+   ],
+   "_in": {
+    "bust": [
+     31.5,
+     32.5
+    ],
+    "waist": [
+     24,
+     25
+    ]
+   }
+  },
+  {
+   "label": "S",
+   "uk": "8–10",
+   "us": "2–4",
+   "eu": "34–36",
+   "bust": [
+    85.1,
+    87.6
+   ],
+   "waist": [
+    66.0,
+    68.6
+   ],
+   "_in": {
+    "bust": [
+     33.5,
+     34.5
+    ],
+    "waist": [
+     26,
+     27
+    ]
+   }
+  },
+  {
+   "label": "M",
+   "uk": "10–12",
+   "us": "6–8",
+   "eu": "38–40",
+   "bust": [
+    90.2,
+    92.7
+   ],
+   "waist": [
+    71.1,
+    73.7
+   ],
+   "_in": {
+    "bust": [
+     35.5,
+     36.5
+    ],
+    "waist": [
+     28,
+     29
+    ]
+   }
+  },
+  {
+   "label": "L",
+   "uk": "14–16",
+   "us": "10–12",
+   "eu": "42–44",
+   "bust": [
+    95.9,
+    99.7
+   ],
+   "waist": [
+    76.8,
+    80.6
+   ],
+   "_in": {
+    "bust": [
+     37.75,
+     39.25
+    ],
+    "waist": [
+     30.25,
+     31.75
+    ]
+   }
+  },
+  {
+   "label": "XL",
+   "uk": "16–18",
+   "us": "14–16",
+   "eu": "46–48",
+   "bust": [
+    103.5,
+    108.6
+   ],
+   "waist": [
+    84.5,
+    90.2
+   ],
+   "_in": {
+    "bust": [
+     40.75,
+     42.75
+    ],
+    "waist": [
+     33.25,
+     35.5
+    ]
+   }
+  },
+  {
+   "label": "XXL",
+   "uk": "20",
+   "us": "18–20",
+   "bust": [
+    113.7,
+    118.7
+   ],
+   "waist": [
+    96.5,
+    101.6
+   ],
+   "_in": {
+    "bust": [
+     44.75,
+     46.75
+    ],
+    "waist": [
+     38,
+     40
+    ]
+   }
+  },
+  {
+   "label": "XXXL",
+   "us": "20–22",
+   "bust": [
+    118.7,
+    123.8
+   ],
+   "waist": [
+    101.6,
+    106.7
+   ],
+   "_in": {
+    "bust": [
+     46.75,
+     48.75
+    ],
+    "waist": [
+     40,
+     42
+    ]
+   }
+  }
+ ],
+ "audit": "Old /size-guide and /pages/size-guide 404. Read the Size Guide on two tops (Box-Cut Tee, Boxy Long-Sleeve Crew): same body chart. It gives bust and waist only, so hips removed. The jeans guide has hips but on denim sizes with different waists, so it was not merged. Uses the page's inches (its cm view has conversion bugs, e.g. numeric sizes multiplied by 2.54). UK/EU from the Size Conversion tab; blank where it has none (XXS, and XXL EU; XXXL isn't on that tab). Stored M (UK 10) 89/70/94 -> M (UK 10-12) 90.2-92.7/71.1-73.7; XS (UK 6) 81/62/86 -> XS (UK 4-6) 80-82.6/61-63.5; 2XL (UK 16) 101/82/106 -> XXL (UK 20) 113.7-118.7/96.5-101.6. XXS and XXXL added."
+}

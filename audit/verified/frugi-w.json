@@ -1,0 +1,54 @@
+{
+ "id": "frugi-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Frugi Size Guides (Women's / Unisex)",
+   "url": "https://welovefrugi.com/pages/size-guides"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "6",
+   "eu": "34",
+   "chest": 86,
+   "waist": 74,
+   "hips": 88
+  },
+  {
+   "label": "S",
+   "uk": "8",
+   "eu": "36",
+   "chest": 92,
+   "waist": 80,
+   "hips": 94
+  },
+  {
+   "label": "M",
+   "uk": "10–12",
+   "eu": "38–40",
+   "chest": 98,
+   "waist": 86,
+   "hips": 100
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "eu": "42",
+   "chest": 104,
+   "waist": 92,
+   "hips": 106
+  },
+  {
+   "label": "XL",
+   "uk": "16–18",
+   "eu": "44–46",
+   "chest": 110,
+   "waist": 98,
+   "hips": 112
+  }
+ ],
+ "audit": "frugi.com/size-guides didn't load; Frugi's shop is welovefrugi.com. Chart is headed Women's / Unisex and prints Chest, Waist, Seat, so stored under chest and hips (Seat) as printed; same chart on a Grown Ups product page. The guide's intro says to compare your measurements with the charts; it does not separately label the adult chart as body measurements. Stored S (UK 8-10) 86/66/91 -> S (UK 8) 92/80/94; M 91/71/96 -> 98/86/100; XL 105/85/110 -> 110/98/112. XS added. US removed (not printed)."
+}

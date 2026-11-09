@@ -1,0 +1,333 @@
+{
+ "id": "girlfriendcollect-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Girlfriend Collective Sizing Guide (One Pieces chart; inches, converted at 2.54)",
+   "url": "https://girlfriend.com/pages/sizing"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "bust": [
+    73.7,
+    78.7
+   ],
+   "waist": [
+    55.9,
+    61.0
+   ],
+   "hips": [
+    81.3,
+    86.4
+   ],
+   "_in": {
+    "bust": [
+     29,
+     31
+    ],
+    "waist": [
+     22,
+     24
+    ],
+    "hips": [
+     32,
+     34
+    ]
+   }
+  },
+  {
+   "label": "XS",
+   "bust": [
+    78.7,
+    83.8
+   ],
+   "waist": [
+    61.0,
+    66.0
+   ],
+   "hips": [
+    86.4,
+    91.4
+   ],
+   "_in": {
+    "bust": [
+     31,
+     33
+    ],
+    "waist": [
+     24,
+     26
+    ],
+    "hips": [
+     34,
+     36
+    ]
+   }
+  },
+  {
+   "label": "S",
+   "bust": [
+    83.8,
+    88.9
+   ],
+   "waist": [
+    66.0,
+    71.1
+   ],
+   "hips": [
+    91.4,
+    99.1
+   ],
+   "_in": {
+    "bust": [
+     33,
+     35
+    ],
+    "waist": [
+     26,
+     28
+    ],
+    "hips": [
+     36,
+     39
+    ]
+   }
+  },
+  {
+   "label": "M",
+   "bust": [
+    88.9,
+    95.3
+   ],
+   "waist": [
+    71.1,
+    77.5
+   ],
+   "hips": [
+    99.1,
+    105.4
+   ],
+   "_in": {
+    "bust": [
+     35,
+     37.5
+    ],
+    "waist": [
+     28,
+     30.5
+    ],
+    "hips": [
+     39,
+     41.5
+    ]
+   }
+  },
+  {
+   "label": "L",
+   "bust": [
+    95.3,
+    102.9
+   ],
+   "waist": [
+    77.5,
+    83.8
+   ],
+   "hips": [
+    105.4,
+    111.8
+   ],
+   "_in": {
+    "bust": [
+     37.5,
+     40.5
+    ],
+    "waist": [
+     30.5,
+     33
+    ],
+    "hips": [
+     41.5,
+     44
+    ]
+   }
+  },
+  {
+   "label": "XL",
+   "bust": [
+    102.9,
+    109.2
+   ],
+   "waist": [
+    83.8,
+    90.2
+   ],
+   "hips": [
+    111.8,
+    118.1
+   ],
+   "_in": {
+    "bust": [
+     40.5,
+     43
+    ],
+    "waist": [
+     33,
+     35.5
+    ],
+    "hips": [
+     44,
+     46.5
+    ]
+   }
+  },
+  {
+   "label": "XXL",
+   "bust": [
+    109.2,
+    118.1
+   ],
+   "waist": [
+    90.2,
+    99.1
+   ],
+   "hips": [
+    118.1,
+    127.0
+   ],
+   "_in": {
+    "bust": [
+     43,
+     46.5
+    ],
+    "waist": [
+     35.5,
+     39
+    ],
+    "hips": [
+     46.5,
+     50
+    ]
+   }
+  },
+  {
+   "label": "XXXL",
+   "bust": [
+    118.1,
+    127.0
+   ],
+   "waist": [
+    99.1,
+    108.0
+   ],
+   "hips": [
+    127.0,
+    135.9
+   ],
+   "_in": {
+    "bust": [
+     46.5,
+     50
+    ],
+    "waist": [
+     39,
+     42.5
+    ],
+    "hips": [
+     50,
+     53.5
+    ]
+   }
+  },
+  {
+   "label": "4XL",
+   "bust": [
+    127.0,
+    135.9
+   ],
+   "waist": [
+    108.0,
+    116.8
+   ],
+   "hips": [
+    135.9,
+    144.8
+   ],
+   "_in": {
+    "bust": [
+     50,
+     53.5
+    ],
+    "waist": [
+     42.5,
+     46
+    ],
+    "hips": [
+     53.5,
+     57
+    ]
+   }
+  },
+  {
+   "label": "5XL",
+   "bust": [
+    135.9,
+    144.8
+   ],
+   "waist": [
+    116.8,
+    125.7
+   ],
+   "hips": [
+    144.8,
+    153.7
+   ],
+   "_in": {
+    "bust": [
+     53.5,
+     57
+    ],
+    "waist": [
+     46,
+     49.5
+    ],
+    "hips": [
+     57,
+     60.5
+    ]
+   }
+  },
+  {
+   "label": "6XL",
+   "bust": [
+    144.8,
+    153.7
+   ],
+   "waist": [
+    125.7,
+    134.6
+   ],
+   "hips": [
+    153.7,
+    162.6
+   ],
+   "_in": {
+    "bust": [
+     57,
+     60.5
+    ],
+    "waist": [
+     49.5,
+     53
+    ],
+    "hips": [
+     60.5,
+     64
+    ]
+   }
+  }
+ ],
+ "audit": "Old /pages/size-guide moved to /pages/sizing. One Pieces chart has bust, waist and hip for each size in inches (Bras & Tops and Bottoms repeat the same figures). Stored M (UK 12) 90/70/95 -> 88.9-95.3/71.1-77.5/99.1-105.4; XS 82/62/87 -> 78.7-83.8/61-66/86.4-91.4; 3XL 114/94/119 -> XXXL 118.1-127/99.1-108/127-135.9. 4XL-6XL added. UK/US/EU removed (not printed)."
+}

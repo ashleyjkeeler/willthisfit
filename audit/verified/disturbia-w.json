@@ -1,0 +1,195 @@
+{
+ "id": "disturbia-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Disturbia size guide (Apparel chart, cm)",
+   "url": "https://www.disturbia.co.uk/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": [
+    77,
+    82
+   ],
+   "waist": [
+    61,
+    66
+   ],
+   "hips": [
+    84,
+    89
+   ]
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": [
+    82,
+    87
+   ],
+   "waist": [
+    66,
+    71
+   ],
+   "hips": [
+    89,
+    94
+   ]
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": [
+    87,
+    92
+   ],
+   "waist": [
+    71,
+    76
+   ],
+   "hips": [
+    94,
+    99
+   ]
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": [
+    92,
+    97
+   ],
+   "waist": [
+    76,
+    81
+   ],
+   "hips": [
+    99,
+    104
+   ]
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": [
+    97,
+    102
+   ],
+   "waist": [
+    81,
+    86
+   ],
+   "hips": [
+    104,
+    109
+   ]
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": [
+    102,
+    108
+   ],
+   "waist": [
+    86,
+    92
+   ],
+   "hips": [
+    109,
+    115
+   ]
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": [
+    108,
+    115
+   ],
+   "waist": [
+    92,
+    99
+   ],
+   "hips": [
+    115,
+    122
+   ]
+  },
+  {
+   "label": "UK 20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": [
+    115,
+    122
+   ],
+   "waist": [
+    99,
+    106
+   ],
+   "hips": [
+    122,
+    129
+   ]
+  },
+  {
+   "label": "UK 22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": [
+    122,
+    129
+   ],
+   "waist": [
+    106,
+    113
+   ],
+   "hips": [
+    129,
+    136
+   ]
+  },
+  {
+   "label": "UK 24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": [
+    129,
+    136
+   ],
+   "waist": [
+    113,
+    120
+   ],
+   "hips": [
+    136,
+    143
+   ]
+  }
+ ],
+ "audit": "Old /pages/size-guides URL redirected to the homepage; guide is at /pages/size-guide. Apparel table read from DOM including the cm cells. Was 6 letter rows XS-2XL with UK ranges; now UK 6-24, each with its own US/EU as printed. Stored notes claimed bust and hip are equal: the chart has hips 7 cm above bust (UK 10 87-92 bust, 94-99 hip), so that sentence and the 'size up if full-hipped' fit advice were removed. XS (UK 6-8) 81/61/84 -> UK 6 77-82/61-66/84-89; M (UK 10-12) 91/71/91 -> UK 10 87-92/71-76/94-99, UK 12 92-97/76-81/99-104. Knitwear chart (double sizes) not used.",
+ "notes": "Sheffield-based UK alt/goth brand founded 2003. Sizing is unisex-influenced — the women's range uses a boxy, relaxed cut. Apparel runs UK 6–24. Popular secondhand for graphic tees, band tees, and alt-cut dresses. Quality varies by garment — hoodies and tees consistent, dresses more variable."
+}

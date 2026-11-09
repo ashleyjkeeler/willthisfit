@@ -1,0 +1,114 @@
+{
+ "id": "sosandar-w",
+ "sources": [
+  {
+   "label": "Official Sosandar Size Guide (Clothing & Swimwear, cm; International Conversion)",
+   "url": "https://www.sosandar.com/size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 81,
+   "waist": 66.5,
+   "hips": 90.5
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 69,
+   "hips": 93
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 74,
+   "hips": 98
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94,
+   "waist": 79,
+   "hips": 103
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99,
+   "waist": 84,
+   "hips": 108
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 89,
+   "hips": 113
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 109.6,
+   "waist": 94.6,
+   "hips": 118.6
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 115.2,
+   "waist": 100.2,
+   "hips": 124.2
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 121.2,
+   "waist": 106.2,
+   "hips": 130.2
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 128.2,
+   "waist": 113.2,
+   "hips": 137.2
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 135.8,
+   "waist": 120.8,
+   "hips": 144.8
+  }
+ ],
+ "notes": "UK womenswear brand targeting 35–60 demographic, sold via own site and John Lewis. Its size guide covers UK 6–26. Runs true — smart-casual and polished aesthetic with consistent sizing across collections. Body measurements published on size guide. Reliable for second-hand buying.",
+ "audit": "Old /pages/size-guide 404s; guide is /size-guide/. Clothing & Swimwear chart prints UK 6-26 in inches and cm (printed cm used); US and BEL/FRA/NLD/POR (stored as EU) from the International Conversion. Old UK 10 88/69/94 -> 89/74/98; UK 14 97/78/103 -> 99/84/108; UK 20 114/95/120 -> 115.2/100.2/124.2. UK 6 and 22-26 added. Dual-size letters (S = 8 and 10) not stored as altLabel. John Lewis source dropped (retailer, not evidence). Notes corrected ('UK sizing 8–22' -> 6–26).",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}

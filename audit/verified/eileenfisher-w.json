@@ -1,0 +1,284 @@
+{
+ "id": "eileenfisher-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Eileen Fisher 'Find Your Size' (Tops and Bottoms charts, regular sizes; inches, converted at 2.54)",
+   "url": "https://www.eileenfisher.com/a-simple-wardrobe/start-here/find-your-size.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "us": "0",
+   "bust": [
+    81.3,
+    83.8
+   ],
+   "waist": [
+    61.0,
+    63.5
+   ],
+   "hips": [
+    86.4,
+    88.9
+   ],
+   "_in": {
+    "bust": [
+     32,
+     33
+    ],
+    "waist": [
+     24,
+     25
+    ],
+    "hips": [
+     34,
+     35
+    ]
+   }
+  },
+  {
+   "label": "XS",
+   "us": "2–4",
+   "bust": [
+    86.4,
+    88.9
+   ],
+   "waist": [
+    66.0,
+    68.6
+   ],
+   "hips": [
+    91.4,
+    94.0
+   ],
+   "_in": {
+    "bust": [
+     34,
+     35
+    ],
+    "waist": [
+     26,
+     27
+    ],
+    "hips": [
+     36,
+     37
+    ]
+   }
+  },
+  {
+   "label": "S",
+   "us": "6–8",
+   "bust": [
+    91.4,
+    94.0
+   ],
+   "waist": [
+    71.1,
+    73.7
+   ],
+   "hips": [
+    96.5,
+    99.1
+   ],
+   "_in": {
+    "bust": [
+     36,
+     37
+    ],
+    "waist": [
+     28,
+     29
+    ],
+    "hips": [
+     38,
+     39
+    ]
+   }
+  },
+  {
+   "label": "M",
+   "us": "10–12",
+   "bust": [
+    96.5,
+    99.1
+   ],
+   "waist": [
+    76.2,
+    80.0
+   ],
+   "hips": [
+    101.6,
+    105.4
+   ],
+   "_in": {
+    "bust": [
+     38,
+     39
+    ],
+    "waist": [
+     30,
+     31.5
+    ],
+    "hips": [
+     40,
+     41.5
+    ]
+   }
+  },
+  {
+   "label": "L",
+   "us": "14–16",
+   "bust": [
+    102.9,
+    106.7
+   ],
+   "waist": [
+    82.6,
+    87.6
+   ],
+   "hips": [
+    109.2,
+    114.3
+   ],
+   "_in": {
+    "bust": [
+     40.5,
+     42
+    ],
+    "waist": [
+     32.5,
+     34.5
+    ],
+    "hips": [
+     43,
+     45
+    ]
+   }
+  },
+  {
+   "label": "XL",
+   "us": "18",
+   "bust": [
+    109.2,
+    111.8
+   ],
+   "waist": [
+    88.9,
+    94.0
+   ],
+   "hips": [
+    115.6,
+    118.1
+   ],
+   "_in": {
+    "bust": [
+     43,
+     44
+    ],
+    "waist": [
+     35,
+     37
+    ],
+    "hips": [
+     45.5,
+     46.5
+    ]
+   }
+  },
+  {
+   "label": "1X",
+   "us": "20",
+   "bust": [
+    115.6,
+    118.1
+   ],
+   "waist": [
+    95.3,
+    100.3
+   ],
+   "hips": [
+    121.9,
+    124.5
+   ],
+   "_in": {
+    "bust": [
+     45.5,
+     46.5
+    ],
+    "waist": [
+     37.5,
+     39.5
+    ],
+    "hips": [
+     48,
+     49
+    ]
+   }
+  },
+  {
+   "label": "2X",
+   "us": "22–24",
+   "bust": [
+    120.7,
+    125.7
+   ],
+   "waist": [
+    102.9,
+    108.0
+   ],
+   "hips": [
+    127.0,
+    132.1
+   ],
+   "_in": {
+    "bust": [
+     47.5,
+     49.5
+    ],
+    "waist": [
+     40.5,
+     42.5
+    ],
+    "hips": [
+     50,
+     52
+    ]
+   }
+  },
+  {
+   "label": "3X",
+   "us": "26–28",
+   "bust": [
+    128.3,
+    135.9
+   ],
+   "waist": [
+    110.5,
+    118.1
+   ],
+   "hips": [
+    137.2,
+    142.2
+   ],
+   "_in": {
+    "bust": [
+     50.5,
+     53.5
+    ],
+    "waist": [
+     43.5,
+     46.5
+    ],
+    "hips": [
+     54,
+     56
+    ]
+   }
+  }
+ ],
+ "audit": "Old /size-guide URL 404s. Bust from Tops, waist and hip from Bottoms. Tops prints L waist 31 1/2-34 1/2\" but its cm view (82.55-87.63) and the Bottoms chart both give 32 1/2-34 1/2\", so 32.5 is used. Stored chart was far too large and shifted: M 101/84/106 -> 96.5-99.1/76.2-80/101.6-105.4; L 108/91/113 -> 102.9-106.7/82.6-87.6/109.2-114.3; XXS 85/68/90 -> 81.3-83.8/61-63.5/86.4-88.9. 2X and 3X added. Stored us was letters; now the printed numbers. UK/EU clothing conversions removed (not published). Petite rows not included."
+}

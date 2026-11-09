@@ -1,0 +1,126 @@
+{
+ "id": "newbalance-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official New Balance Apparel Size Guide (Women's, cm; newbalance.com, as the UK site's guide covers footwear only)",
+   "url": "https://www.newbalance.com/customercare-sizeguide-apparel.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "us": "00",
+   "chest": [
+    71,
+    76
+   ],
+   "waist": [
+    56,
+    61
+   ],
+   "hips": [
+    79,
+    84
+   ]
+  },
+  {
+   "label": "XS",
+   "us": "0-2",
+   "chest": [
+    76,
+    81
+   ],
+   "waist": [
+    61,
+    66
+   ],
+   "hips": [
+    84,
+    89
+   ]
+  },
+  {
+   "label": "S",
+   "us": "4-6",
+   "chest": [
+    81,
+    89
+   ],
+   "waist": [
+    66,
+    71
+   ],
+   "hips": [
+    89,
+    97
+   ]
+  },
+  {
+   "label": "M",
+   "us": "8-10",
+   "chest": [
+    89,
+    94
+   ],
+   "waist": [
+    71,
+    79
+   ],
+   "hips": [
+    97,
+    102
+   ]
+  },
+  {
+   "label": "L",
+   "us": "12-14",
+   "chest": [
+    94,
+    102
+   ],
+   "waist": [
+    79,
+    86
+   ],
+   "hips": [
+    102,
+    109
+   ]
+  },
+  {
+   "label": "XL",
+   "us": "16-18",
+   "chest": [
+    102,
+    112
+   ],
+   "waist": [
+    86,
+    97
+   ],
+   "hips": [
+    109,
+    119
+   ]
+  },
+  {
+   "label": "2XL",
+   "us": "20-22",
+   "chest": [
+    112,
+    119
+   ],
+   "waist": [
+    97,
+    107
+   ],
+   "hips": [
+    119,
+    127
+   ]
+  }
+ ],
+ "audit": "Old UK URL 404s; newbalance.co.uk Size Guide is footwear only and product pages link to it. Apparel chart taken from the brand's US site, cm table (agrees with its inch table). Old M (UK 12) 90/70/96. UK/EU removed (not printed). XXS and 2XL added."
+}

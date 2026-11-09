@@ -1,0 +1,238 @@
+{
+ "id": "regatta-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Regatta Size Guide: Women's - Jackets, Fleeces, Gilets, Shirts & T-Shirts (bust) and Women's Trousers & Shorts (waist, hips), cm rows",
+   "url": "https://www.regatta.com/size-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "32",
+   "bust": 76,
+   "waist": 58,
+   "hips": 84,
+   "_in": {
+    "bust": 30,
+    "waist": 23,
+    "hips": 33
+   }
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "34",
+   "bust": 81,
+   "waist": 63,
+   "hips": 89,
+   "_in": {
+    "bust": 32,
+    "waist": 25,
+    "hips": 35
+   }
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "36",
+   "bust": 86,
+   "waist": 68,
+   "hips": 94,
+   "_in": {
+    "bust": 34,
+    "waist": 27,
+    "hips": 37
+   }
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "38",
+   "bust": 92,
+   "waist": 74,
+   "hips": 99,
+   "_in": {
+    "bust": 36,
+    "waist": 29,
+    "hips": 39
+   }
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "40",
+   "bust": 97,
+   "waist": 79,
+   "hips": 104,
+   "_in": {
+    "bust": 38,
+    "waist": 31,
+    "hips": 41
+   }
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "42",
+   "bust": 102,
+   "waist": 84,
+   "hips": 109,
+   "_in": {
+    "bust": 40,
+    "waist": 33,
+    "hips": 43
+   }
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "44",
+   "bust": 109,
+   "waist": 91,
+   "hips": 114,
+   "_in": {
+    "bust": 43,
+    "waist": 36,
+    "hips": 45
+   }
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "46",
+   "bust": 114,
+   "waist": 96,
+   "hips": 119,
+   "_in": {
+    "bust": 45,
+    "waist": 38,
+    "hips": 47
+   }
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "48",
+   "bust": 122,
+   "waist": 104,
+   "hips": 127,
+   "_in": {
+    "bust": 48,
+    "waist": 41,
+    "hips": 50
+   }
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "50",
+   "bust": 127,
+   "waist": 109,
+   "hips": 132,
+   "_in": {
+    "bust": 50,
+    "waist": 43,
+    "hips": 52
+   }
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "52",
+   "bust": 132,
+   "waist": 114,
+   "hips": 137,
+   "_in": {
+    "bust": 52,
+    "waist": 45,
+    "hips": 54
+   }
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "54",
+   "bust": 137,
+   "waist": 119,
+   "hips": 145,
+   "_in": {
+    "bust": 54,
+    "waist": 47,
+    "hips": 57
+   }
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "us": "26",
+   "eu": "56",
+   "bust": 142,
+   "waist": 124,
+   "hips": 150,
+   "_in": {
+    "bust": 56,
+    "waist": 49,
+    "hips": 59
+   }
+  },
+  {
+   "label": "32",
+   "uk": "32",
+   "us": "28",
+   "eu": "58",
+   "bust": 147,
+   "waist": 129,
+   "hips": 155,
+   "_in": {
+    "bust": 58,
+    "waist": 51,
+    "hips": 61
+   }
+  },
+  {
+   "label": "34",
+   "uk": "34",
+   "us": "30",
+   "eu": "60",
+   "bust": 152,
+   "waist": 135,
+   "hips": 160,
+   "_in": {
+    "bust": 60,
+    "waist": 53,
+    "hips": 63
+   }
+  },
+  {
+   "label": "36",
+   "uk": "36",
+   "us": "32",
+   "eu": "62",
+   "bust": 158,
+   "waist": 140,
+   "hips": 166,
+   "_in": {
+    "bust": 62,
+    "waist": 55,
+    "hips": 65
+   }
+  }
+ ],
+ "audit": "Same URL still live. Women's tops chart prints bust only (inches and cm) for sizes 6-36 with a USA row; Women's Trousers & Shorts prints waist and hips (inches and cm) for the same sizes 6-36 with identical USA row plus Germany. Bust from the tops chart, waist/hips from the trousers chart; printed cm used, inches kept in _in. Labels changed from letters (XS-XXL) to the numeric sizes printed; the letter trousers table (S-XL, waist inches only) not stored. EU = the 'Germany' row. Old M (UK 12) 92/74/97 -> 12: 92/74/99; old XL (UK 16) 103/85/108 -> 16: 102/84/109; old XXL (UK 18) 109/91/114 -> 18: 109/91/114. Sizes 6 and 20-36 added."
+}

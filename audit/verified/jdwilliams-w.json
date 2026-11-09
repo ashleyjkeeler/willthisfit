@@ -1,0 +1,132 @@
+{
+ "id": "jdwilliams-w",
+ "sources": [
+  {
+   "label": "Official JD Williams size guide (Women's Clothing Measurements, product page)",
+   "url": "https://www.jdwilliams.co.uk/shop/p/ic340"
+  }
+ ],
+ "rows": [
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 65,
+   "hips": 90
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 71,
+   "hips": 95
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94,
+   "waist": 77,
+   "hips": 100
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99,
+   "waist": 83,
+   "hips": 105
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 89,
+   "hips": 110
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 95,
+   "hips": 116
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 116,
+   "waist": 101,
+   "hips": 122
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 122,
+   "waist": 107,
+   "hips": 128
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 128,
+   "waist": 113,
+   "hips": 134
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 134,
+   "waist": 119,
+   "hips": 140
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "56",
+   "bust": 140,
+   "waist": 125,
+   "hips": 146
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "us": "26",
+   "eu": "58",
+   "bust": 146,
+   "waist": 131,
+   "hips": 152
+  },
+  {
+   "label": "32",
+   "uk": "32",
+   "us": "28",
+   "eu": "60",
+   "bust": 152,
+   "waist": 137,
+   "hips": 158
+  }
+ ],
+ "notes": "UK sizing. Value catalogue brand — sizes 8–32. Generous, practical fit. Part of N Brown Group (also Simply Be, Jacamo). Consistent sizing across ranges. Popular in Vinted's extended-size community.",
+ "audit": "Old /content/size-guide gone and the /pages/size-guides hub has no body chart; the chart is in the product-page Size guides panel (Women's Clothing Measurements; US/Euro from Women's International Sizes). Old 10 88/71/94 now 89/71/95; 16 103/86/109 now 104/89/110; 22 121/104/127 now 122/107/128. Sizes 8 and 24-32 added. Read on one JD Williams item (Longline Zip Hoodie).",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

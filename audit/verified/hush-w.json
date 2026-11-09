@@ -1,0 +1,91 @@
+{
+ "id": "hush-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Hush product-page Size guide (Body Measurements, cm, numeric sizes)",
+   "url": "https://www.hush-uk.com/nora-twill-wide-leg-trousers-black/016157-0456.html"
+  },
+  {
+   "label": "Official Hush size guide page (no chart; size range and how to measure)",
+   "url": "https://www.hush-uk.com/sizing"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 79,
+   "waist": 62,
+   "hips": 87
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82,
+   "waist": 65,
+   "hips": 90
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 68,
+   "hips": 93
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88,
+   "waist": 71,
+   "hips": 96
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 93,
+   "waist": 76,
+   "hips": 101
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98,
+   "waist": 81,
+   "hips": 106
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 87,
+   "hips": 112
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 93,
+   "hips": 118
+  }
+ ],
+ "audit": "Old /pages/size-guide 404s; /sizing has no table. Body Measurements read from product-page guides: numeric chart on Nora trousers; the XXS-XL chart on Mila blouse and the dual-size chart on Aisling tee use the same figures. Old UK 10 88/69/94 now 88/71/96; old UK 14 97/78/103 now 98/81/106; old UK 18 108/89/114 now 110/93/118. UK 4 added.",
+ "notes": "UK lifestyle brand known for loungewear and relaxed staples. UK sizing 4–18 with body measurements on guide. Comfortable, generous cut — jersey and knit items especially roomy. Sizes run true on the generous side. Reliable sizing across seasons."
+}

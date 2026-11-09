@@ -1,0 +1,87 @@
+{
+ "id": "ellesse-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ellesse size guides (Women's Clothing Size Chart)",
+   "url": "https://ellesse.com/pages/size-guides"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "6",
+   "us": "XS",
+   "eu": "34",
+   "bust": 76,
+   "waist": 61,
+   "_in": {
+    "bust": 30,
+    "waist": 24
+   }
+  },
+  {
+   "label": "XS",
+   "uk": "8",
+   "us": "S",
+   "eu": "36",
+   "bust": 81,
+   "waist": 66,
+   "_in": {
+    "bust": 32,
+    "waist": 26
+   }
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "us": "M",
+   "eu": "38",
+   "bust": 86,
+   "waist": 71,
+   "_in": {
+    "bust": 34,
+    "waist": 28
+   }
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "us": "L",
+   "eu": "40",
+   "bust": 91.5,
+   "waist": 76,
+   "_in": {
+    "bust": 36,
+    "waist": 30
+   }
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "us": "XL",
+   "eu": "42",
+   "bust": 96.5,
+   "waist": 81.5,
+   "_in": {
+    "bust": 38,
+    "waist": 32
+   }
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "us": "XXL",
+   "eu": "44",
+   "bust": 101.5,
+   "waist": 86.5,
+   "_in": {
+    "bust": 40,
+    "waist": 34
+   }
+  }
+ ],
+ "audit": "Old ellesse.co.uk host timed out; the guide is on ellesse.com. Letters were one size off: stored XS = UK 6, the chart has XXS = UK 6 and XS = UK 8. No hip measurement published, so hips removed. Chest stored as bust. Stored M (UK 10) 88/70/94 -> M (UK 12) 91.5/76; UK 10 is now S at 86/71. 2XL row removed (not on the chart, which stops at XL = UK 16). US row is letters, as printed. 'EU sizing' removed from notes; the 'runs small' wording is left for review.",
+ "notes": "Italian sportswear brand with strong 80s heritage. Its chart maps letters to UK sizes (XXS = UK 6, XL = UK 16). Slim Italian cut — runs smaller than UK equivalent. Heritage tracksuits and polo shirts especially slim."
+}

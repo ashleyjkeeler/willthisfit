@@ -1,0 +1,104 @@
+{
+ "id": "sandro-w",
+ "sources": [
+  {
+   "label": "Official Sandro size guide (Woman - Ready-to-wear; Woman - Tops, Sweaters, Jackets, cm)",
+   "url": "https://uk.sandro-paris.com/en/size-guide/size-guide.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "34",
+   "uk": "6",
+   "us": "2",
+   "bust": [
+    80,
+    84
+   ],
+   "waist": [
+    62,
+    66
+   ],
+   "hips": [
+    88,
+    92
+   ],
+   "altLabel": "XS"
+  },
+  {
+   "label": "36",
+   "uk": "8",
+   "us": "4",
+   "bust": [
+    84,
+    88
+   ],
+   "waist": [
+    66,
+    70
+   ],
+   "hips": [
+    92,
+    96
+   ],
+   "altLabel": "S"
+  },
+  {
+   "label": "38",
+   "uk": "10",
+   "us": "6",
+   "bust": [
+    88,
+    92
+   ],
+   "waist": [
+    70,
+    74
+   ],
+   "hips": [
+    96,
+    100
+   ],
+   "altLabel": "M"
+  },
+  {
+   "label": "40",
+   "uk": "12",
+   "us": "8",
+   "bust": [
+    92,
+    96
+   ],
+   "waist": [
+    74,
+    78
+   ],
+   "hips": [
+    100,
+    104
+   ],
+   "altLabel": "L"
+  },
+  {
+   "label": "42",
+   "uk": "14",
+   "us": "10",
+   "bust": [
+    96,
+    100
+   ],
+   "waist": [
+    78,
+    82
+   ],
+   "hips": [
+    104,
+    108
+   ],
+   "altLabel": "XL"
+  }
+ ],
+ "audit": "Old /en/size-guide not the guide; it is /en/size-guide/size-guide.html (div grid, no <table>; read by position). Ready-to-wear header 34-42 with Standard 0-4, XS-XL, Germany, Italy, UK/Ireland and US rows; body chart prints bust/waist/hip ranges in cm. 34 79/60/84 -> 80-84/62-66/88-92; 38 87/68/92 -> 88-92/70-74/96-100; 42 96/77/101 -> 96-100/78-82/104-108. EU field removed: the 34-42 header row is unlabelled (it stays as the size label; Germany 32-40 and Italy 38-46 are printed separately). Standard 0-4 not stored.",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}

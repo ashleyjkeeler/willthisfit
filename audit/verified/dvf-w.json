@@ -1,0 +1,140 @@
+{
+ "id": "dvf-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Diane von Furstenberg size guide (inches, converted at 2.54)",
+   "url": "https://www.dvf.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "US 00",
+   "us": "00",
+   "bust": 78.7,
+   "waist": 61.0,
+   "hips": 86.4,
+   "altLabel": "XXS",
+   "_in": {
+    "bust": 31,
+    "waist": 24,
+    "hips": 34
+   }
+  },
+  {
+   "label": "US 0",
+   "us": "0",
+   "bust": 81.3,
+   "waist": 63.5,
+   "hips": 88.9,
+   "altLabel": "XS",
+   "_in": {
+    "bust": 32,
+    "waist": 25,
+    "hips": 35
+   }
+  },
+  {
+   "label": "US 2",
+   "us": "2",
+   "bust": 83.8,
+   "waist": 66.0,
+   "hips": 91.4,
+   "_in": {
+    "bust": 33,
+    "waist": 26,
+    "hips": 36
+   }
+  },
+  {
+   "label": "US 4",
+   "us": "4",
+   "bust": 86.4,
+   "waist": 68.6,
+   "hips": 94.0,
+   "altLabel": "S",
+   "_in": {
+    "bust": 34,
+    "waist": 27,
+    "hips": 37
+   }
+  },
+  {
+   "label": "US 6",
+   "us": "6",
+   "bust": 88.9,
+   "waist": 71.1,
+   "hips": 96.5,
+   "_in": {
+    "bust": 35,
+    "waist": 28,
+    "hips": 38
+   }
+  },
+  {
+   "label": "US 8",
+   "us": "8",
+   "bust": 91.4,
+   "waist": 73.7,
+   "hips": 99.1,
+   "altLabel": "M",
+   "_in": {
+    "bust": 36,
+    "waist": 29,
+    "hips": 39
+   }
+  },
+  {
+   "label": "US 10",
+   "us": "10",
+   "bust": 94.0,
+   "waist": 76.2,
+   "hips": 101.6,
+   "_in": {
+    "bust": 37,
+    "waist": 30,
+    "hips": 40
+   }
+  },
+  {
+   "label": "US 12",
+   "us": "12",
+   "bust": 97.8,
+   "waist": 80.0,
+   "hips": 105.4,
+   "altLabel": "L",
+   "_in": {
+    "bust": 38.5,
+    "waist": 31.5,
+    "hips": 41.5
+   }
+  },
+  {
+   "label": "US 14",
+   "us": "14",
+   "bust": 101.6,
+   "waist": 83.8,
+   "hips": 109.2,
+   "_in": {
+    "bust": 40,
+    "waist": 33,
+    "hips": 43
+   }
+  },
+  {
+   "label": "US 16",
+   "us": "16",
+   "bust": 106.7,
+   "waist": 88.9,
+   "hips": 114.3,
+   "altLabel": "XL",
+   "_in": {
+    "bust": 42,
+    "waist": 35,
+    "hips": 45
+   }
+  }
+ ],
+ "audit": "Was 6 letter rows with UK/EU conversions the page doesn't print; now US 00-16 with letters as altLabel (the chart gives letters at 00, 0, 4, 8, 12, 16). Inches used because the page's cm column has errors: 40\" hip printed as 105.4 cm and 41 1/2\" hip as 99 cm so the hip cm run is not ascending; the inch column is regular. Cm therefore computed at exactly 2.54, not copied. Chest stored as bust. Page says UK/EU conversions are suggestions and shows none. M (US 8) 92/72/97 -> 91.4/73.7/99.1; L (US 12) 98/78/103 -> 97.8/80/105.4; XL (US 16) 104/84/109 -> 106.7/88.9/114.3."
+}

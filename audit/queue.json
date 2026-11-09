@@ -1150,7 +1150,9 @@
   "priority": 2,
   "stored_source": "dare2b.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Size guide page: Womens Jackets (bust) and Womens Trousers (waist) read from DOM. No hips published.",
+  "checked": "2026-11"
  },
  {
   "id": "desigual-w",
@@ -1159,7 +1161,9 @@
   "priority": 2,
   "stored_source": "desigual.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /woman-size-guide/ Tops letter table read from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "dvf-w",
@@ -1168,7 +1172,9 @@
   "priority": 2,
   "stored_source": "dvf.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "/pages/size-guide read from DOM. Inches × 2.54 used; page cm column has errors (40\" hip = 105.4, 41½\" hip = 99).",
+  "checked": "2026-11"
  },
  {
   "id": "disturbia-w",
@@ -1177,7 +1183,9 @@
   "priority": 2,
   "stored_source": "disturbia.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL redirects to home; /pages/size-guide Apparel table read from DOM, including hidden cm cells.",
+  "checked": "2026-11"
  },
  {
   "id": "dorothyperkins-w",
@@ -1186,7 +1194,9 @@
   "priority": 2,
   "stored_source": "asos.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Stored source was ASOS; own-site guide on dorothyperkins.com read from DOM. UK 6 corrected, UK 24 added.",
+  "checked": "2026-11"
  },
  {
   "id": "eileenfisher-w",
@@ -1195,7 +1205,9 @@
   "priority": 2,
   "stored_source": "eileenfisher.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; Find Your Size Tops and Bottoms read from DOM. Tops L waist 31½\" is a misprint (its cm view and Bottoms give 32½\").",
+  "checked": "2026-11"
  },
  {
   "id": "ellesse-w",
@@ -1204,7 +1216,9 @@
   "priority": 2,
   "stored_source": "ellesse.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "ellesse.co.uk timed out; ellesse.com/pages/size-guides read from DOM. No hips published.",
+  "checked": "2026-11"
  },
  {
   "id": "everlane-w",
@@ -1213,7 +1227,9 @@
   "priority": 2,
   "stored_source": "everlane.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URLs 404; product-page Size Guide on two tops read from DOM, same body chart. Bust and waist only.",
+  "checked": "2026-11"
  },
  {
   "id": "fftesco-w",
@@ -1222,7 +1238,9 @@
   "priority": 2,
   "stored_source": "clothingattesco.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "clothingattesco.com gone; guide is tesco.com/size-guide/index.html. Cm tables disagree at UK 8 only: desktop view waist 66/hips 90, mobile view waist 67/hips 91 (inch view: 26/36). All other rows match: 4 78/59/84, 6 81/63/87, 10 89/71/95, 12 93/75/99, 14 98/80/104, 16 103/85/109, 18 108/90/114, 20 114/96/120, 22 120/102/126, 24 126/108/132, 26 132/114/138. Not picked between; ready to apply once Ashley decides.",
+  "checked": "2026-11"
  },
  {
   "id": "fila-w",
@@ -1231,7 +1249,9 @@
   "priority": 2,
   "stored_source": "fila.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old /size-guide 404s. Product-page Size guide on fila.co.uk is an image only (FILA_SIZE_GUIDE_WOMEN.png), no DOM text; same precedent as Weekday. Numbers not taken from it. The image also prints XXS hip 31\"/76cm, which don't match.",
+  "checked": "2026-11"
  },
  {
   "id": "finisterre-w",
@@ -1240,7 +1260,9 @@
   "priority": 2,
   "stored_source": "finisterre.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Size guide page read from DOM: Women's Tops & Jackets, cm ranges, UK/USA/EU selectors.",
+  "checked": "2026-11"
  },
  {
   "id": "frenchconnection-w",
@@ -1249,7 +1271,9 @@
   "priority": 2,
   "stored_source": "frenchconnection.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL moved to /pages/size-guide. Womenswear table read from DOM, cm row used.",
+  "checked": "2026-11"
  },
  {
   "id": "frugi-w",
@@ -1258,7 +1282,9 @@
   "priority": 2,
   "stored_source": "frugi.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "frugi.com timed out; shop is welovefrugi.com. Women's / Unisex table (Chest, Waist, Seat) read from DOM on the size guides page and a Grown Ups product page: same.",
+  "checked": "2026-11"
  },
  {
   "id": "ganni-w",
@@ -1267,7 +1293,9 @@
   "priority": 2,
   "stored_source": "ganni.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s. help-and-information/cs-sizeguide.html has conversions only; product-page guide (Essential T-shirt) has garment measurements only (Product Measurement, bust width). Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "georgeasda-w",
@@ -1276,7 +1304,9 @@
   "priority": 2,
   "stored_source": "direct.asda.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "George size guide portal read from DOM: Women's UK Size Chart, UK 4-30, cm.",
+  "checked": "2026-11"
  },
  {
   "id": "girlfriendcollect-w",
@@ -1285,7 +1315,9 @@
   "priority": 2,
   "stored_source": "girlfriend.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL moved to /pages/sizing. One Pieces table read from DOM, inches x 2.54.",
+  "checked": "2026-11"
  },
  {
   "id": "goosestudios-w",
@@ -1294,7 +1326,9 @@
   "priority": 2,
   "stored_source": "goosestudios.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "/pages/sizing and the women's sweatshirt product page have letter-to-UK conversions only, no body measurements; the two disagree (Medium UK 12-14 vs UK 14; Small UK 8-10 vs 10-12). Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "guess-w",
@@ -1303,7 +1337,9 @@
   "priority": 2,
   "stored_source": "guess.eu",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "guess.eu now guess.com; old help-centre URL 410. Product-page Size & Fit panel, Tops, Outerwear And Knitwear, read from DOM per size.",
+  "checked": "2026-11"
  },
  {
   "id": "hellyhansen-w",
@@ -1312,7 +1348,9 @@
   "priority": 2,
   "stored_source": "hellyhansen.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /size-guide 404s; /en_gb/size-chart Women's Jackets, CM view, from DOM.",
+  "checked": "2026-11"
  },
  {
   "id": "hush-w",
@@ -1321,7 +1359,9 @@
   "priority": 2,
   "stored_source": "hush-uk.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /sizing has no table. Product-page Body Measurements, numeric chart, cm, cross-checked on 3 items.",
+  "checked": "2026-11"
  },
  {
   "id": "isawit-w",
@@ -1330,7 +1370,9 @@
   "priority": 2,
   "stored_source": "isawitfirst.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL empty. Product-page Size guide popup, Women Clothes, CM view; US/EU from region tabs. Letters left out (chart and product buttons disagree).",
+  "checked": "2026-11"
  },
  {
   "id": "idioma-w",
@@ -1339,7 +1381,9 @@
   "priority": 2,
   "stored_source": "idioma-clothing.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "idioma-clothing.com failed to load in the built-in browser (3 tries, root and size-guide); guessed alternatives failed too and a web search found no official site. May be defunct; worth a retry. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "inthestyle-w",
@@ -1348,7 +1392,9 @@
   "priority": 2,
   "stored_source": "inthestyle.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s; /pages/size-guide has no chart. Product-page Clothing Size Guide, UK Single Sizes, CM view; US/EU from International Sizes.",
+  "checked": "2026-11"
  },
  {
   "id": "jcrew-w",
@@ -1357,7 +1403,9 @@
   "priority": 2,
   "stored_source": "jcrew.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL gone. Product-page size charts: bust from Women's Tops, hip from Women's Bottoms, IN x 2.54 because CM views disagree on waist (size 16: 87.5 vs 94). UK from Size Conversion tab.",
+  "checked": "2026-11"
  },
  {
   "id": "jdwilliams-w",
@@ -1366,7 +1414,9 @@
   "priority": 2,
   "stored_source": "jdwilliams.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL gone; hub has no body chart. Product-page Size guides panel: Women's Clothing Measurements, US/EU from Women's International Sizes. Sizes 8-32.",
+  "checked": "2026-11"
  },
  {
   "id": "johnlewis-w",
@@ -1375,7 +1425,9 @@
   "priority": 2,
   "stored_source": "johnlewis.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL empty. Product-page Size chart, identical on two own-brand tops. Own brand only.",
+  "checked": "2026-11"
  },
  {
   "id": "lauraashley-w",
@@ -1384,7 +1436,9 @@
   "priority": 2,
   "stored_source": "lauraashley.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "lauraashley.com redirects to next.co.uk/laura-ashley. Item-page guide, cm tab, identical on two tops; hosted on Next. Sizes 4-26.",
+  "checked": "2026-11"
  },
  {
   "id": "lee-w",
@@ -1393,7 +1447,9 @@
   "priority": 2,
   "stored_source": "lee.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s. UK site eu.lee.com/uk-en Women's Bottoms cm; waist = Natural Waist.",
+  "checked": "2026-11"
  },
  {
   "id": "lkbennett-w",
@@ -1402,7 +1458,9 @@
   "priority": 2,
   "stored_source": "lkbennett.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "lkbennett.com is a holding page (new site coming soon); /collections/all has no products; no size guide. Numbers unchanged. Retry after relaunch.",
+  "checked": "2026-11"
  },
  {
   "id": "lucyandyak-w",
@@ -1411,7 +1469,9 @@
   "priority": 2,
   "stored_source": "lucyandyak.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s. /pages/sizing Size Chart CM, sizes 4-30. UK 30 waist omitted: CM tab 135 vs INCHES tab 50.8 in (129 cm).",
+  "checked": "2026-11"
  },
  {
   "id": "lulus-w",
@@ -1420,7 +1480,9 @@
   "priority": 2,
   "stored_source": "lulus.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s; size-chart, category and home pages all returned a 403 bot check ('Are You Real?'). Not bypassed. Numbers unchanged. Worth retrying.",
+  "checked": "2026-11"
  },
  {
   "id": "maje-w",
@@ -1429,7 +1491,9 @@
   "priority": 2,
   "stored_source": "maje.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s. Product-page Size guides are garment measurements plus conversions; no body chart, FAQ has none. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "massimoDutti-w",
@@ -1438,7 +1502,9 @@
   "priority": 2,
   "stored_source": "massimodutti.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL dead. Product-page Body measurements, shirts chart (2 shirts): chest and hip, no waist; UK 18 no hip. Knit and dress charts print a different chest at UK 8-16.",
+  "checked": "2026-11"
  },
  {
   "id": "matalan-w",
@@ -1447,7 +1513,9 @@
   "priority": 2,
   "stored_source": "matalan.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s. Product-page Size Guide, Women's Clothing, cm. UK 6-28.",
+  "checked": "2026-11"
  },
  {
   "id": "me-em-w",
@@ -1456,7 +1524,9 @@
   "priority": 2,
   "stored_source": "me-em.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Official domain is meandem.com, not me-em.co.uk. /size-guide Centimeters, UK 4-18.",
+  "checked": "2026-11"
  },
  {
   "id": "missguided-w",
@@ -1465,7 +1535,9 @@
   "priority": 2,
   "stored_source": "missguided.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "missguided.co.uk redirects to missguided.com/market-uk. Body Measurements (2 tops), cm ranges. Current site's chart; nothing official for pre-2022 garments.",
+  "checked": "2026-11"
  },
  {
   "id": "nakd-w",
@@ -1474,7 +1546,9 @@
   "priority": 2,
   "stored_source": "na-kd.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "/en/size-guide 404s. Product-page charts vary by item (top XS/S/M 80/88/96, blouse EU 32-44 80-104; waist differs by 1 cm at same bust); no hip. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "nastygal-w",
@@ -1483,7 +1557,9 @@
   "priority": 2,
   "stored_source": "nastygal.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "nastygal.com and nastygal.co.uk are holding pages, no size guide. Numbers unchanged. Retry after relaunch.",
+  "checked": "2026-11"
  },
  {
   "id": "newbalance-w",
@@ -1492,7 +1568,9 @@
   "priority": 2,
   "stored_source": "newbalance.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "UK guide is footwear only. Apparel chart from newbalance.com/customercare-sizeguide-apparel.html, women's cm table, XXS-2XL.",
+  "checked": "2026-11"
  },
  {
   "id": "nobodyschild-w",
@@ -1501,7 +1579,9 @@
   "priority": 2,
   "stored_source": "nobodyschild.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "/pages/size-guide Single Size CM, UK 4-24.",
+  "checked": "2026-11"
  },
  {
   "id": "oneill-w",
@@ -1510,7 +1590,9 @@
   "priority": 2,
   "stored_source": "oneill.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL 404s (eu.oneill.com). Support-centre Women's Size Chart: chest/waist from Women's tops, hip from Women's bottoms (same letters, same waist), cm ranges.",
+  "checked": "2026-11"
  },
  {
   "id": "only-w",
@@ -1519,7 +1601,9 @@
   "priority": 2,
   "stored_source": "only.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old size-guide URL 404s (footer links still point to it). Product-page guide is one image; help centre links to a PDF. No DOM table. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "organicbasics-w",
@@ -1528,7 +1612,9 @@
   "priority": 2,
   "stored_source": "organicbasics.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URL redirects to All Products. Product-page Size and Fit Guide (2 women's tees), cm ranges XXS–XXXL.",
+  "checked": "2026-11"
  },
  {
   "id": "pangaia-w",
@@ -1537,7 +1623,9 @@
   "priority": 2,
   "stored_source": "pangaia.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "pangaia.com/pages/size-guide: Women's Slim/Wide Fit tables (Chest/Waist/Hip cm), identical to Genderless tables. Old values were far too large.",
+  "checked": "2026-11"
  },
  {
   "id": "passengercloths-w",
@@ -1546,7 +1634,9 @@
   "priority": 2,
   "stored_source": "passenger-clothing.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old URLs 404/redirect. Product-page Size & Fit Guide (2 women's tees), cm ranges XXS–XXXL plus UK/AU, EU, US conversion.",
+  "checked": "2026-11"
  },
  {
   "id": "paynter-w",
@@ -1555,7 +1645,9 @@
   "priority": 2,
   "stored_source": "paynter.co.uk",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Size guide is an image of unisex jacket garment measurements; no women's body chart. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "peopletree-w",
@@ -1564,7 +1656,9 @@
   "priority": 2,
   "stored_source": "peopletree.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Temporary failure: peopletree.co.uk failed to load in the built-in browser on 4 attempts (2026-11-06). Retry next run.",
+  "checked": "2026-11-06"
  },
  {
   "id": "pepejeans-w",
@@ -1573,7 +1667,9 @@
   "priority": 2,
   "stored_source": "pepejeans.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old URL 404s. Product-page chart (two blouses) has two conflicting tables ('Size' vs 'Denim size'), no body/garment label; conversion maps letters to two EU sizes. Numbers unchanged.",
+  "checked": "2026-11"
  },
  {
   "id": "protest-w",
@@ -1582,7 +1678,9 @@
   "priority": 2,
   "stored_source": "protest.eu",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "UK product-page charts (Women tops + women's dress), cm; XXXL no hip",
+  "checked": "2026-11-08"
  },
  {
   "id": "pullbear-w",
@@ -1591,7 +1689,9 @@
   "priority": 2,
   "stored_source": "pullandbear.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Product-page Measurements, Body tab, single cm values XS-XL",
+  "checked": "2026-11-08"
  },
  {
   "id": "puma-w",
@@ -1600,7 +1700,9 @@
   "priority": 2,
   "stored_source": "eu.puma.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "UK/US product-page size guides: conversion table only, no body numbers",
+  "checked": "2026-11-08"
  },
  {
   "id": "quiz-w",
@@ -1609,7 +1711,9 @@
   "priority": 2,
   "stored_source": "quizclothing.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "quizclothing.co.uk is a holding page, no size guide",
+  "checked": "2026-11-08"
  },
  {
   "id": "rapanui-w",
@@ -1618,7 +1722,9 @@
   "priority": 2,
   "stored_source": "rapanuiclothing.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Product-page Sizing chart, cm, sizes 8-18",
+  "checked": "2026-11-08"
  },
  {
   "id": "reebok-w",
@@ -1627,7 +1733,9 @@
   "priority": 2,
   "stored_source": "reebok.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "reebok.co.uk timed out; reebok.eu en-gb: conversion table only",
+  "checked": "2026-11-08"
  },
  {
   "id": "reformation-w",
@@ -1636,7 +1744,9 @@
   "priority": 2,
   "stored_source": "thereformation.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Numeric measurements (regular, cm) + conversion, US 0-24",
+  "checked": "2026-11-08"
  },
  {
   "id": "regatta-w",
@@ -1645,7 +1755,9 @@
   "priority": 2,
   "stored_source": "regatta.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Women's tops (bust) + trousers (waist/hips) charts, cm, sizes 6-36",
+  "checked": "2026-11-08"
  },
  {
   "id": "rixo-w",
@@ -1654,7 +1766,9 @@
   "priority": 2,
   "stored_source": "rixo.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on rixolondon.com size guide (UK 6-26).",
+  "checked": "2026-11-08"
  },
  {
   "id": "rohan-w",
@@ -1663,7 +1777,9 @@
   "priority": 2,
   "stored_source": "rohan.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on /help/sizing-information/ (UK 8-20).",
+  "checked": "2026-11-08"
  },
  {
   "id": "roman-w",
@@ -1672,7 +1788,9 @@
   "priority": 2,
   "stored_source": "romanoriginals.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on roman.co.uk/help/size-guide main chart (UK 10-22).",
+  "checked": "2026-11-08"
  },
  {
   "id": "roxy-w",
@@ -1681,7 +1799,9 @@
   "priority": 2,
   "stored_source": "roxy.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on roxy.com/pages/size-guides Women's Apparel (inches, US 2-14).",
+  "checked": "2026-11-08"
  },
  {
   "id": "sandro-w",
@@ -1690,7 +1810,9 @@
   "priority": 2,
   "stored_source": "uk.sandro-paris.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on uk.sandro-paris.com size guide (34-42).",
+  "checked": "2026-11-08"
  },
  {
   "id": "selfportrait-w",
@@ -1699,7 +1821,9 @@
   "priority": 2,
   "stored_source": "self-portrait-studio.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on self-portrait.com product-page Body measurement tab (4-16).",
+  "checked": "2026-11-08"
  },
  {
   "id": "sezane-w",
@@ -1708,7 +1832,9 @@
   "priority": 2,
   "stored_source": "sezane.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on product-page size guide, cm (32-48).",
+  "checked": "2026-11-08"
  },
  {
   "id": "sosandar-w",
@@ -1717,7 +1843,9 @@
   "priority": 2,
   "stored_source": "sosandar.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Verified on sosandar.com/size-guide/ (UK 6-26).",
+  "checked": "2026-11-08"
  },
  {
   "id": "stradivarius-w",

@@ -1,0 +1,113 @@
+{
+ "id": "rixo-w",
+ "sources": [
+  {
+   "label": "Official RIXO Size and Fit Guide (Body Measurement, cm; International Size Conversion)",
+   "url": "https://rixolondon.com/pages/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82.5,
+   "waist": 65.5,
+   "hips": 95.5
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 68,
+   "hips": 98
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 73,
+   "hips": 103
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 78,
+   "hips": 108
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 83,
+   "hips": 113
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 105,
+   "waist": 88,
+   "hips": 118
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 93,
+   "hips": 123
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 117,
+   "waist": 100,
+   "hips": 130
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 124,
+   "waist": 107,
+   "hips": 137
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 131,
+   "waist": 114,
+   "hips": 144
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 138,
+   "waist": 122,
+   "hips": 148
+  }
+ ],
+ "audit": "rixo.co.uk/pages/size-guide now redirects to rixolondon.com/pages/size-guide. One Body Measurement chart (cm; the inches tab differs slightly in places, e.g. UK 26 hip 58 in = 147.3 cm vs 148 cm printed; printed cm kept). US/EU from the page's International Size Conversion. Old numbers were much too small, especially hips: UK 10 87/68/92 -> 90/73/103; UK 12 91/72/96 -> 95/78/108; UK 16 99/80/104 -> 105/88/118. UK 18-26 added (the page says many designs come in UK 6-26).",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}

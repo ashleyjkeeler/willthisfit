@@ -1,0 +1,132 @@
+{
+ "id": "isawit-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official I Saw It First Size guide (Women, Clothes, CM; product-page popup)",
+   "url": "https://www.isawitfirst.com/i-saw-it-first-striped-polo-top-560065"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 79.5,
+   "waist": 61.5,
+   "hips": 87.5
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82,
+   "waist": 64,
+   "hips": 90
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 86,
+   "waist": 68,
+   "hips": 94
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 72,
+   "hips": 98
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 77,
+   "hips": 103
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 82,
+   "hips": 108
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 105,
+   "waist": 87,
+   "hips": 113
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 110,
+   "waist": 92,
+   "hips": 118
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 116,
+   "waist": 98,
+   "hips": 124
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 122,
+   "waist": 104,
+   "hips": 130
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 128,
+   "waist": 110,
+   "hips": 136
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 134,
+   "waist": 117,
+   "hips": 142
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "56",
+   "bust": 140,
+   "waist": 124,
+   "hips": 148
+  }
+ ],
+ "audit": "Old /pages/size-guide redirects to an empty page. Chart read from the product-page Size guide popup, CM view; US/EU numbers from its region tabs (the guide calls conversions approximate). Old 10 88/70/94 now 90/72/98; old 14 97/79/103 now 100/82/108. 16-28 added. Letters left out: the chart has 10-12 as M but the same item's size buttons read 10 (S), 12 (M), 14 (L).",
+ "notes": "UK sizing. Ultra fast-fashion — sizes 4–28. Generally true to UK but quality is low. Very popular secondhand as items are often worn once. Always cross-reference measurements as garment-level variation is high."
+}

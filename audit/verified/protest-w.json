@@ -1,0 +1,126 @@
+{
+ "id": "protest-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Protest product-page size chart, women's dress (chest/waist/hips, cm)",
+   "url": "https://www.protest.eu/en/gb/prtnieve-dress-true-black-carryover"
+  },
+  {
+   "label": "Official Protest product-page size guide, Women tops (chest/waist, cm; adds XXXL)",
+   "url": "https://www.protest.eu/en/gb/prtlouas-t-shirt-kitoffwhite-2025-01"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "eu": "34",
+   "chest": [
+    81,
+    84
+   ],
+   "waist": [
+    66,
+    68
+   ],
+   "hips": [
+    88,
+    91
+   ]
+  },
+  {
+   "label": "S",
+   "eu": "36",
+   "chest": [
+    85,
+    88
+   ],
+   "waist": [
+    69,
+    72
+   ],
+   "hips": [
+    92,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "eu": "38",
+   "chest": [
+    89,
+    92
+   ],
+   "waist": [
+    73,
+    76
+   ],
+   "hips": [
+    96,
+    99
+   ]
+  },
+  {
+   "label": "L",
+   "eu": "40",
+   "chest": [
+    93,
+    96
+   ],
+   "waist": [
+    77,
+    80
+   ],
+   "hips": [
+    100,
+    103
+   ]
+  },
+  {
+   "label": "XL",
+   "eu": "42",
+   "chest": [
+    97,
+    102
+   ],
+   "waist": [
+    81,
+    86
+   ],
+   "hips": [
+    104,
+    109
+   ]
+  },
+  {
+   "label": "XXL",
+   "eu": "44",
+   "chest": [
+    103,
+    108
+   ],
+   "waist": [
+    87,
+    92
+   ],
+   "hips": [
+    110,
+    115
+   ]
+  },
+  {
+   "label": "XXXL",
+   "eu": "46",
+   "chest": [
+    109,
+    114
+   ],
+   "waist": [
+    93,
+    98
+   ]
+  }
+ ],
+ "audit": "Old URL protest.eu/en-gb/size-guide 404s; the UK site (protest.eu/en/gb) has no standalone size guide. Product-page charts, cm: 'Women tops' (same on a t-shirt and a fleece) prints chest and waist XS/34-XXXL/46; a women's dress prints chest, waist and hips XS/34-XXL/44 with identical chest/waist; ski trousers print the same waist and hips. XXXL has no hip value (the trousers chart lists XXXL/46 but prints only six waist/hip values). UK/US removed (not printed). Old M (UK 10) 88/70/94 -> M/38 chest 89-92, waist 73-76, hips 96-99. XXL and XXXL added."
+}

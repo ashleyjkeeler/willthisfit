@@ -1,0 +1,139 @@
+{
+ "id": "lucyandyak-w",
+ "sources": [
+  {
+   "label": "Official Lucy & Yak Size & Fit (Size Chart, CM)",
+   "url": "https://lucyandyak.com/pages/sizing"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 77,
+   "waist": 59,
+   "hips": 85
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80,
+   "waist": 62,
+   "hips": 88
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 66,
+   "hips": 92
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 71,
+   "hips": 97
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94,
+   "waist": 76,
+   "hips": 102
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99,
+   "waist": 81,
+   "hips": 107
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 86,
+   "hips": 112
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 109,
+   "waist": 91,
+   "hips": 117
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 117,
+   "waist": 99,
+   "hips": 125
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 123,
+   "waist": 105,
+   "hips": 131
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 129,
+   "waist": 111,
+   "hips": 137
+  },
+  {
+   "label": "26",
+   "uk": "26",
+   "us": "22",
+   "eu": "54",
+   "bust": 135,
+   "waist": 117,
+   "hips": 143
+  },
+  {
+   "label": "28",
+   "uk": "28",
+   "us": "24",
+   "eu": "56",
+   "bust": 141,
+   "waist": 123,
+   "hips": 149
+  },
+  {
+   "label": "30",
+   "uk": "30",
+   "us": "26",
+   "eu": "58",
+   "bust": 147,
+   "hips": 155
+  }
+ ],
+ "audit": "Old /pages/size-guide 404s; guide is /pages/sizing. Letters replaced by sizes 4-30: old M (UK 10-12) 90/70/95 now 10 89/71/97, 12 94/76/102; old XL (UK 14-16) 101/81/106 now 14 99/81/107, 16 104/86/112. Chest is printed as 'Chest', stored as bust. UK 30 waist left out: the CM tab says 135, the INCHES tab says 50.8 in (129 cm), and the step from size 28 points to 129, but the site contradicts itself so neither is recorded.",
+ "chartYear": "2026",
+ "checked": "2026-11"
+}

@@ -1,0 +1,68 @@
+{
+ "id": "hellyhansen-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Helly Hansen Size Chart (Women's Jackets, CM)",
+   "url": "https://www.hellyhansen.com/en_gb/size-chart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 86,
+   "waist": 68,
+   "hips": 94
+  },
+  {
+   "label": "S",
+   "chest": 90,
+   "waist": 72,
+   "hips": 98
+  },
+  {
+   "label": "M",
+   "chest": 94,
+   "waist": 76,
+   "hips": 102
+  },
+  {
+   "label": "L",
+   "chest": 100,
+   "waist": 82,
+   "hips": 108
+  },
+  {
+   "label": "XL",
+   "chest": 108,
+   "waist": 90,
+   "hips": 116
+  },
+  {
+   "label": "XXL",
+   "chest": 116,
+   "waist": 98,
+   "hips": 124
+  },
+  {
+   "label": "XXXL",
+   "chest": 126,
+   "waist": 108,
+   "hips": 134
+  },
+  {
+   "label": "4XL",
+   "chest": 136,
+   "waist": 118,
+   "hips": 144
+  },
+  {
+   "label": "5XL",
+   "chest": 148,
+   "waist": 130,
+   "hips": 156
+  }
+ ],
+ "audit": "Old /size-guide 404s. Women's Jackets table, CM view. Old M 92/76/100 now 94/76/102; old XL 100/84/108 now 108/90/116; old 2XL 106/90/114 now XXL 116/98/124. XXXL-5XL added. UK/US/EU removed (not printed on the chart). Printed 'Chest' stored as chest, as on Frugi; the matcher reads it as bust. Separate Women's Plus Size table (1X-3X) not merged: its inch column is ranges but its cm column single values."
+}

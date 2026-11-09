@@ -1,0 +1,81 @@
+{
+ "id": "selfportrait-w",
+ "sources": [
+  {
+   "label": "Official self-portrait product-page Size guide (Body measurement tab, cm)",
+   "url": "https://www.self-portrait.com/products/rs27-cream-lace-frill-top"
+  },
+  {
+   "label": "Official self-portrait Size Conversion Chart",
+   "url": "https://www.self-portrait.com/pages/size-conversion-chart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 77,
+   "waist": 62,
+   "hips": 88
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 80,
+   "waist": 64,
+   "hips": 90
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 83,
+   "waist": 68,
+   "hips": 94
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 88,
+   "waist": 73,
+   "hips": 99
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 93,
+   "waist": 78,
+   "hips": 104
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 98,
+   "waist": 83,
+   "hips": 109
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 103,
+   "waist": 88,
+   "hips": 114
+  }
+ ],
+ "audit": "self-portrait-studio.com/pages/size-guide 404s; brand site is self-portrait.com. Its Size Conversion Chart has no body numbers; the product-page Size guide 'Body measurement' tab prints bust/waist/hip in cm for sizes 4-16 (same on a lace top and a lace maxi dress; the 'Garment measurement' tab is not used). UK/US/FR from the conversion chart (FR stored as EU). Old UK 10 85/66/90 -> 88/73/99; UK 14 93/74/98 -> 98/83/109; UK 16 97/78/102 -> 103/88/114. UK 4 added.",
+ "checked": "2026-11",
+ "chartYear": "2026"
+}
