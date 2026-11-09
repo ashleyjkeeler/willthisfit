@@ -1,12 +1,13 @@
 # Keeps the free Supabase project from being paused for inactivity
 # (Supabase pauses free projects after about 7 days without activity).
-# Once a day it calls the public leaderboard endpoint, which reads the database.
+# Supabase asks for "a few user requests to the database each day", so this runs
+# every 4 hours and reads both leaderboard views (12 database reads a day).
 # If the call fails, the run fails and GitHub emails the repo owner: that also
 # warns early if the site or the database has gone down.
 name: Keep database awake
 on:
   schedule:
-    - cron: "17 6 * * *"   # daily at 06:17 UTC
+    - cron: "17 */4 * * *"   # every 4 hours
   workflow_dispatch: {}
 permissions: {}
 jobs:
@@ -14,9 +15,12 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Call /api/leaderboard
+      - name: Read both leaderboards (each one is a database query)
         run: |
           set -eu
-          body=$(curl -fsS --retry 3 --retry-delay 20 "https://willthisfit.me/api/leaderboard?period=all&ping=$(date +%s)")
-          echo "$body" | head -c 300; echo
-          echo "$body" | grep -q '"ok":true'
+          for period in all month; do
+            body=$(curl -fsS --retry 3 --retry-delay 20 "https://willthisfit.me/api/leaderboard?period=$period&ping=$(date +%s)")
+            echo "$period: $(echo "$body" | head -c 200)"
+            echo "$body" | grep -q '"ok":true'
+            sleep 5
+          done
