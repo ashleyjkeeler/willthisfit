@@ -1942,7 +1942,9 @@
   "priority": 2,
   "stored_source": "thoughtclothing.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "thoughtclothing.com parked; brand site wearethought.com -> thoughtsocks.com /pages/size-guide-womens, UK 6-20 (cm).",
+  "checked": "2026-11-10"
  },
  {
   "id": "timberland-w",
@@ -1951,7 +1953,9 @@
   "priority": 2,
   "stored_source": "timberland.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "skipped",
+  "note": "Old /size-guide 404s; size charts at timberland.com/en-gb/customer-care/size-chart, but opening the Women tab triggered a 'Press & Hold' bot check, not bypassed. Retry next run.",
+  "checked": "2026-11-10"
  },
  {
   "id": "toast-w",
@@ -1960,7 +1964,9 @@
   "priority": 2,
   "stored_source": "toa.st",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old size-guide URLs 404; Help 'Size & Fit' page, Women's Body Measurements UK 4-18 (cm).",
+  "checked": "2026-11-10"
  },
  {
   "id": "toryburch-w",
@@ -1969,7 +1975,9 @@
   "priority": 2,
   "stored_source": "toryburch.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old help/size-guide 404s; product-page Size Guide (Clothing, Cm), XXS-XL with US and UK/AU, same on two tops.",
+  "checked": "2026-11-10"
  },
  {
   "id": "trespass-w",
@@ -1978,7 +1986,9 @@
   "priority": 2,
   "stored_source": "trespass.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Old /pages/size-guide 404s; footer 'Size Guides' -> /size-chart, Women's chart XXS-3XL / UK 6-20 (cm).",
+  "checked": "2026-11-10"
  },
  {
   "id": "underarmour-w",
@@ -1987,7 +1997,9 @@
   "priority": 2,
   "stored_source": "underarmour.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Women's Tops chart (cm), XS-XXL and 1X-3X, bust/waist/US only; bottoms hip column inconsistent cm vs in, not used.",
+  "checked": "2026-11-10"
  },
  {
   "id": "veromoda-w",
@@ -1996,7 +2008,9 @@
   "priority": 2,
   "stored_source": "veromoda.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old /en-gb/size-guide 404s; product-page size guide is a single Danish image with no readable table.",
+  "checked": "2026-11-10"
  },
  {
   "id": "victoriassecret-w",
@@ -2005,7 +2019,9 @@
   "priority": 2,
   "stored_source": "victoriassecret.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old /size-guide 404s; product-page size guide (VS PINK) inch and cm views disagree; cm dresses table out of order.",
+  "checked": "2026-11-10"
  },
  {
   "id": "vila-w",

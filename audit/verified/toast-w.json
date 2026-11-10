@@ -1,0 +1,126 @@
+{
+ "id": "toast-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official TOAST Size & Fit page (Women's Body Measurements, cm)",
+   "url": "https://www.toa.st/pages/size-fit"
+  }
+ ],
+ "rows": [
+  {
+   "label": "UK 4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 77,
+   "waist": 59,
+   "hips": 86,
+   "_in": {
+    "bust": "30.5",
+    "waist": "23.5",
+    "hips": "34"
+   }
+  },
+  {
+   "label": "UK 6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 79,
+   "waist": 62,
+   "hips": 88,
+   "_in": {
+    "bust": "31.5",
+    "waist": "24.5",
+    "hips": "35"
+   }
+  },
+  {
+   "label": "UK 8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 84,
+   "waist": 67,
+   "hips": 93,
+   "_in": {
+    "bust": "33.5",
+    "waist": "26.5",
+    "hips": "37"
+   }
+  },
+  {
+   "label": "UK 10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 89,
+   "waist": 72,
+   "hips": 98,
+   "_in": {
+    "bust": "35.5",
+    "waist": "28.5",
+    "hips": "39"
+   }
+  },
+  {
+   "label": "UK 12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 94,
+   "waist": 77,
+   "hips": 103,
+   "_in": {
+    "bust": "37.5",
+    "waist": "30.5",
+    "hips": "41"
+   }
+  },
+  {
+   "label": "UK 14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 99,
+   "waist": 82,
+   "hips": 108,
+   "_in": {
+    "bust": "39.5",
+    "waist": "32.5",
+    "hips": "43"
+   }
+  },
+  {
+   "label": "UK 16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 104,
+   "waist": 87,
+   "hips": 113,
+   "_in": {
+    "bust": "41.5",
+    "waist": "34.5",
+    "hips": "45"
+   }
+  },
+  {
+   "label": "UK 18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 109,
+   "waist": 92,
+   "hips": 118,
+   "_in": {
+    "bust": "43.5",
+    "waist": "36.5",
+    "hips": "47"
+   }
+  }
+ ],
+ "audit": "Old /pages/size-guide and /help/size-guide 404; guide is the Help 'Size & Fit' page. Women's Body Measurements prints UK 4-18 with EU, US, bust/waist/hips in cm and inches (printed cm used, inches in _in). Old UK 6 81/63/87 -> 79/62/88; UK 10 89/71/95 -> 89/72/98; UK 12 93/75/99 -> 94/77/103; UK 16 104/86/110 -> 104/87/113; UK 18 110/92/116 -> 109/92/118. UK 4 added. Letter-size conversion tables (Six Sizes, Three Sizes) not stored."
+}

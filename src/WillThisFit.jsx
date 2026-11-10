@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.23";
+export const APP_VERSION = "v1.5.24";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -817,17 +817,20 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"thoughtclothing-w", name:"Thought Clothing", origin:"UK", tier:"sustainable", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.thoughtclothing.com/pages/size-guide",checked:"2026-03"},{label:"Thought Clothing sustainability page",url:"https://www.thoughtclothing.com/pages/sustainability",checked:"2026-03"}],
+    id:"thoughtclothing-w", name:"Thought Clothing", origin:"UK", tier:"sustainable", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Thought Clothing Women's Size Guide (numeric UK 6-20 chart, cm)",url:"https://thoughtsocks.com/pages/size-guide-womens",checked:"2026-11"}],
     notes:"UK sustainable brand using natural/organic fibres — bamboo, hemp, GOTS organic cotton. UK sizing runs true. Relaxed, comfortable fit. Bamboo-blend items have natural stretch and feel generous. Body measurements published on size guide page.", fit:"True to UK — relaxed natural-fibre fit",
     inconsistencyWarning:false, confidence:73,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:83,waist:64,hips:89},
-      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:87,waist:68,hips:93},
-      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:91,waist:72,hips:97},
-      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:96,waist:77,hips:102},
-      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:102,waist:83,hips:108},
-      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108,waist:89,hips:114},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:78,waist:60,hips:87},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:83,waist:65,hips:92},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:88,waist:70,hips:97},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:93,waist:75,hips:102},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:98,waist:80,hips:107},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:103,waist:85,hips:112},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:108,waist:90,hips:117},
+      {label:"UK 20",uk:"20",us:"16",eu:"48",bust:114,waist:96,hips:123},
     ],
   },
 
@@ -974,18 +977,20 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"toast-w", name:"Toast", origin:"UK", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.toa.st/pages/size-guide",checked:"2026-03"},{label:"Official size guide",url:"https://www.toa.st/help/size-guide",checked:"2026-03"}],
+    id:"toast-w", name:"Toast", origin:"UK", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official TOAST Size & Fit page (Women's Body Measurements, cm)",url:"https://www.toa.st/pages/size-fit",checked:"2026-11"}],
     notes:"UK slow-fashion brand with Japanese-influenced aesthetic. UK sizing but garments are deliberately relaxed and boxy — measurements on their guide are body measurements, garments have significant positive ease. Linen and natural fabrics may shrink — wash before comparing to size chart. Second-hand buying: note garment era as cut has evolved.", fit:"Intentionally relaxed/boxy — size down 1 if you prefer a fitted look",
     inconsistencyWarning:false, confidence:72,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:81,waist:63,hips:87},
-      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:85,waist:67,hips:91},
-      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:89,waist:71,hips:95},
-      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:93,waist:75,hips:99},
-      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:98,waist:80,hips:104},
-      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:104,waist:86,hips:110},
-      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:110,waist:92,hips:116},
+      {label:"UK 4",uk:"4",us:"0",eu:"32",bust:77,waist:59,hips:86},
+      {label:"UK 6",uk:"6",us:"2",eu:"34",bust:79,waist:62,hips:88},
+      {label:"UK 8",uk:"8",us:"4",eu:"36",bust:84,waist:67,hips:93},
+      {label:"UK 10",uk:"10",us:"6",eu:"38",bust:89,waist:72,hips:98},
+      {label:"UK 12",uk:"12",us:"8",eu:"40",bust:94,waist:77,hips:103},
+      {label:"UK 14",uk:"14",us:"10",eu:"42",bust:99,waist:82,hips:108},
+      {label:"UK 16",uk:"16",us:"12",eu:"44",bust:104,waist:87,hips:113},
+      {label:"UK 18",uk:"18",us:"14",eu:"46",bust:109,waist:92,hips:118},
     ],
   },
   {
@@ -1009,17 +1014,21 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"underarmour-w", name:"Under Armour", origin:"US", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide (UA UK)",url:"https://www.underarmour.co.uk/en-gb/t/size-guide/",checked:"2026-03"},{label:"Under Armour UK women's size guide",url:"https://www.moresports.com/pages/under-armour-womens-clothing-size-guide",checked:"2026-03"}],
+    id:"underarmour-w", name:"Under Armour", origin:"US", tier:"sports", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Under Armour UK Size and Fit Guide (Women's Tops, centimetres)",url:"https://www.underarmour.co.uk/en-gb/t/size-guide/womens-tops/",checked:"2026-11"}],
     notes:"US performance sportswear. UK sizing with US equivalent roughly the same number. Compression-fit items (HeatGear) run small — size up 1. Loose/relaxed items run true. Measured in body measurements; garment adds compression or positive ease depending on line. Note: UA bra sizing is separate from clothing.", fit:"Compression: size UP 1. Loose fit: true to UK.",
     inconsistencyWarning:true, confidence:77,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4/6",eu:"36",bust:82,waist:63,hips:87},
-      {label:"S",uk:"10",us:"6/8",eu:"38",bust:85,waist:67,hips:91},
-      {label:"M",uk:"12",us:"8/10",eu:"40",bust:89,waist:71,hips:95},
-      {label:"L",uk:"14",us:"10/12",eu:"42",bust:95,waist:77,hips:101},
-      {label:"XL",uk:"16",us:"12/14",eu:"44",bust:101,waist:83,hips:107},
-      {label:"XXL",uk:"18",us:"14/16",eu:"46",bust:107,waist:89,hips:113},
+      {label:"XS",us:"0-2",bust:81.25,waist:60.95,rng:{bust:[78.7,83.8],waist:[58.4,63.5]}},
+      {label:"S",us:"4-6",bust:87.65,waist:67.35,rng:{bust:[85.1,90.2],waist:[64.8,69.9]}},
+      {label:"M",us:"8-10",bust:93.95,waist:73.65,rng:{bust:[91.4,96.5],waist:[71.1,76.2]}},
+      {label:"L",us:"12-14",bust:100.35,waist:80.05,rng:{bust:[97.8,102.9],waist:[77.5,82.6]}},
+      {label:"XL",us:"16",bust:106.65,waist:86.35,rng:{bust:[104.1,109.2],waist:[83.8,88.9]}},
+      {label:"XXL",us:"18",bust:114.3,waist:93.95,rng:{bust:[111.8,116.8],waist:[91.4,96.5]}},
+      {label:"1X",us:"16W-18W",bust:115.75,waist:104,rng:{bust:[112,119.5],waist:[99,109]}},
+      {label:"2X",us:"20W-22W",bust:125.75,waist:117,rng:{bust:[122,129.5],waist:[112,122]}},
+      {label:"3X",us:"24W-26W",bust:136,waist:129.75,rng:{bust:[132,140],waist:[124.5,135]}},
     ],
   },
   {
@@ -1589,6 +1598,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.victoriassecret.co.uk/size-guide",checked:"2026-02"}],
     notes:"US lingerie/lifestyle brand. Uses US sizing — PINK loungewear is generous, lingerie runs to fit. Bra sizing is separate and very precise. Leggings and sweats run true to US size.",
     fit:"US sizing — PINK loungewear generous, lingerie precise", inconsistencyWarning:true, confidence:72,
+    auditFlag:"Unverified: Victoria's Secret UK's product-page size guide (Nov 2026, labelled VS PINK and shown on VS clothing too) gives different numbers in its inch and cm views (e.g. XXS bust 31.5 in = 80 cm, but the cm view says 82.5), and its cm dresses table runs out of order (X-Small UK 6 bust 85 vs Small UK 8 82.5). These figures haven't been updated; check each listing's measurements.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6–8",us:"XS",eu:"34–36",bust:82,waist:62,hips:87},
       {label:"S",uk:"8–10",us:"S",eu:"36–38",bust:86,waist:66,hips:91},
@@ -1838,6 +1848,7 @@ const WOMEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.veromoda.com/en-gb/size-guide",checked:"2026-02"}],
     notes:"Bestseller Group (same stable as ONLY and Jack & Jones). Slightly more mature/feminine than ONLY. Scandinavian slim EU sizing. Very consistent within the brand. 3.7M items on Vinted. Excellent for pre-loved shopping.",
     fit:"Slim Scandi EU cut — consistent sizing", inconsistencyWarning:false, confidence:84,
+    auditFlag:"Not yet verified: Vero Moda UK's old size-guide page is gone, and the product-page size guide (Nov 2026) is a single image in Danish ('Størrelses guide') with no readable table, so the numbers can't be read reliably. Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6–8",us:"2",eu:"34",bust:81,waist:63,hips:87},
       {label:"S",uk:"8–10",us:"4",eu:"36",bust:85,waist:67,hips:91},
@@ -2333,16 +2344,18 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"toryburch-w", name:"Tory Burch", origin:"US", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.toryburch.co.uk/en-gb/help/size-guide",checked:"2026-03"}],
+    id:"toryburch-w", name:"Tory Burch", origin:"US", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Tory Burch UK product-page Size Guide (Clothing, Cm): Poplin Shirt",url:"https://www.toryburch.com/en-gb/clothing/tops/poplin-shirt/190795.html?color=337",checked:"2026-11"},{label:"Official Tory Burch UK product-page Size Guide (Clothing, Cm): Fine Rib Turtleneck",url:"https://www.toryburch.com/en-gb/clothing/tops/fine-rib-turtleneck/184529.html?color=818",checked:"2026-11"}],
     notes:"US sizing. Preppy American-luxury brand. True to US standard with a slightly tailored, feminine silhouette. Shoes run narrow — size up half a size. Clothing runs true. Signature bags drive most Vinted activity but clothing is popular too.", fit:"True to US — feminine, slightly fitted silhouette", inconsistencyWarning:false, confidence:74,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"6",us:"2",eu:"34",bust:82,waist:63,hips:87},
-      {label:"S",uk:"8",us:"4",eu:"36",bust:86,waist:67,hips:91},
-      {label:"M",uk:"10",us:"6",eu:"38",bust:90,waist:71,hips:95},
-      {label:"L",uk:"12",us:"8",eu:"40",bust:94,waist:75,hips:99},
-      {label:"XL",uk:"14",us:"10",eu:"42",bust:100,waist:81,hips:105},
-],
+      {label:"XXS",uk:"2",us:"0",chest:80,waist:62.25,hips:87.5},
+      {label:"XS",uk:"4-6",us:"0-2",chest:83.75,waist:66.25,hips:91.375,rng:{chest:[82.5,85],waist:[65,67.5],hips:[90,92.75]}},
+      {label:"S",uk:"8-10",us:"4-6",chest:88.75,waist:71.25,hips:96.625,rng:{chest:[87.5,90],waist:[70,72.5],hips:[95.25,98]}},
+      {label:"M",uk:"12-14",us:"8-10",chest:94.625,waist:76.75,hips:102.25,rng:{chest:[92.75,96.5],waist:[75,78.5],hips:[100.5,104]}},
+      {label:"L",uk:"16",us:"12",chest:100.5,waist:82.5,hips:108},
+      {label:"XL",uk:"18",us:"14",chest:104.5,waist:86.5,hips:112},
+    ],
   },
   {
     id:"dvf-w", name:"Diane von Furstenberg", origin:"US", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
@@ -2674,16 +2687,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"trespass-w", name:"Trespass", origin:"UK", tier:"outdoor", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.trespass.com/pages/size-guide",checked:"2026-03"}],
+    id:"trespass-w", name:"Trespass", origin:"UK", tier:"outdoor", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Trespass Size Chart (Women's Size Chart, centimetres)",url:"https://www.trespass.com/size-chart",checked:"2026-11"}],
     notes:"UK sizing. Budget-friendly outdoor brand. Generous fit with layering allowance — size down for close fit. Ski jackets and waterproofs are most popular secondhand. Broadly consistent.", fit:"Generous outdoor fit — size down for close fit", inconsistencyWarning:false, confidence:75,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"8",us:"4",eu:"36",bust:85,waist:68,hips:91},
-      {label:"S",uk:"10",us:"6",eu:"38",bust:89,waist:72,hips:95},
-      {label:"M",uk:"12",us:"8",eu:"40",bust:94,waist:77,hips:100},
-      {label:"L",uk:"14",us:"10",eu:"42",bust:100,waist:83,hips:106},
-      {label:"XL",uk:"16",us:"12",eu:"44",bust:106,waist:89,hips:112},
-      {label:"XXL",uk:"18",us:"14",eu:"46",bust:112,waist:95,hips:118},
+      {label:"XXS",uk:"6",bust:78,waist:66,hips:86.5},
+      {label:"XS",uk:"8",bust:81,waist:68,hips:91.5},
+      {label:"S",uk:"10",bust:86,waist:71,hips:96.5},
+      {label:"M",uk:"12",bust:91.4,waist:76,hips:101.5},
+      {label:"L",uk:"14",bust:96.5,waist:81,hips:106.5},
+      {label:"XL",uk:"16",bust:101.5,waist:86,hips:111.5},
+      {label:"XXL",uk:"18",bust:106.5,waist:91.5,hips:117},
+      {label:"3XL",uk:"20",bust:112,waist:96,hips:122},
     ],
   },
   {
@@ -12597,6 +12613,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.24","2026-11-10","Data audit, batch 24: Thought Clothing, Toast, Tory Burch, Trespass and Under Armour women's charts re-checked against the brands' own size guides and corrected (e.g. Toast UK 12 is a 103 cm hip, not 99; Thought Clothing UK 12 is a 93 cm bust, not 91; Trespass S is UK 10 at an 86 cm bust, not 89; Tory Burch M is UK 12–14, not UK 10; Under Armour now uses its own bust and waist ranges with US sizes and adds 1X–3X). Vero Moda (size guide is a Danish image only) and Victoria's Secret (its cm and inch charts disagree) are flagged as unverified. Timberland couldn't be checked this time and will be retried."],
   ["v1.5.23","2026-11-09","Data audit, batch 23: Stradivarius, Sweaty Betty, The White Company and Theory women's charts re-checked against the brands' own size guides and corrected (e.g. Stradivarius M is a 90 cm chest, not 86; Sweaty Betty M is UK 12 at a 92 cm bust, not UK 10–12 at 90; The White Company now lists UK 4–18 with UK 18 at a 110 cm bust; Theory now follows its own US 00–18 chart with no invented UK sizes). Studio (now sells other brands only), Sunray Sportswear (no size guide online) and The Level Collective (garment measurements only) are flagged as unverified. Talbots couldn't be checked (its site blocked the browser) and will be retried."],
   ["v1.5.22","2026-11-08","Data audit, batch 22: RIXO, Rohan, Roman, Roxy, Sandro, Self-Portrait, Sézane and Sosandar women's charts re-checked against the brands' own size guides and corrected (e.g. RIXO UK 12 is a 108 cm hip, not 96; Sézane 38 is an 87–91 cm chest, not 86; Self-Portrait UK 14 is a 109 cm hip, not 98; Roman now follows its main UK 10–22 chart; Roxy now uses its own inch chart with US 2–14 and no invented UK sizes; Sosandar now lists UK 6–26)."],
   ["v1.5.21","2026-11-08","Data audit, batch 21: Protest, Pull & Bear, Rapanui, Reformation and Regatta women's charts re-checked against the brands' own size guides and corrected (e.g. Pull & Bear M is a 92 cm chest, not 89; Protest M is an 89–92 cm chest, not 88; Reformation now lists US 0–24 with UK sizes from its own conversion table; Regatta now lists UK 6–36). Puma and Reebok (size conversions only, no body measurements) and Quiz (website is a holding page) are flagged as unverified."],

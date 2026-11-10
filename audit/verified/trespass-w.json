@@ -1,0 +1,110 @@
+{
+ "id": "trespass-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Trespass Size Chart (Women's Size Chart, centimetres)",
+   "url": "https://www.trespass.com/size-chart"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "6",
+   "bust": 78,
+   "waist": 66,
+   "hips": 86.5,
+   "_in": {
+    "bust": "31",
+    "waist": "26",
+    "hips": "34"
+   }
+  },
+  {
+   "label": "XS",
+   "uk": "8",
+   "bust": 81,
+   "waist": 68,
+   "hips": 91.5,
+   "_in": {
+    "bust": "32",
+    "waist": "27",
+    "hips": "36"
+   }
+  },
+  {
+   "label": "S",
+   "uk": "10",
+   "bust": 86,
+   "waist": 71,
+   "hips": 96.5,
+   "_in": {
+    "bust": "34",
+    "waist": "28",
+    "hips": "38"
+   }
+  },
+  {
+   "label": "M",
+   "uk": "12",
+   "bust": 91.4,
+   "waist": 76,
+   "hips": 101.5,
+   "_in": {
+    "bust": "36",
+    "waist": "30",
+    "hips": "40"
+   }
+  },
+  {
+   "label": "L",
+   "uk": "14",
+   "bust": 96.5,
+   "waist": 81,
+   "hips": 106.5,
+   "_in": {
+    "bust": "38",
+    "waist": "32",
+    "hips": "42"
+   }
+  },
+  {
+   "label": "XL",
+   "uk": "16",
+   "bust": 101.5,
+   "waist": 86,
+   "hips": 111.5,
+   "_in": {
+    "bust": "40",
+    "waist": "34",
+    "hips": "44"
+   }
+  },
+  {
+   "label": "XXL",
+   "uk": "18",
+   "bust": 106.5,
+   "waist": 91.5,
+   "hips": 117,
+   "_in": {
+    "bust": "42",
+    "waist": "36",
+    "hips": "46"
+   }
+  },
+  {
+   "label": "3XL",
+   "uk": "20",
+   "bust": 112,
+   "waist": 96,
+   "hips": 122,
+   "_in": {
+    "bust": "44",
+    "waist": "38",
+    "hips": "48"
+   }
+  }
+ ],
+ "audit": "Old /pages/size-guide 404s; footer 'Size Guides' -> /size-chart. Women's chart prints XXS-3XL with UK 6-20 and bust/waist/hips in cm and inches (printed cm used, inches in _in). Old mapping was one size off: XS 'UK 8' 85/68/91 -> XS UK 8 81/68/91.5 and S UK 10 89/72/95 -> 86/71/96.5; M UK 12 94/77/100 -> 91.4/76/101.5; XXL UK 18 112/95/118 -> 106.5/91.5/117. XXS (UK 6) and 3XL (UK 20) added; US/EU removed (not printed). Page advice: 'women size-up. If M, size-up to L' (contradicts stored 'size down')."
+}

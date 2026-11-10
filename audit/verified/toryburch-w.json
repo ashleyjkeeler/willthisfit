@@ -1,0 +1,123 @@
+{
+ "id": "toryburch-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Tory Burch UK product-page Size Guide (Clothing, Cm): Poplin Shirt",
+   "url": "https://www.toryburch.com/en-gb/clothing/tops/poplin-shirt/190795.html?color=337"
+  },
+  {
+   "label": "Official Tory Burch UK product-page Size Guide (Clothing, Cm): Fine Rib Turtleneck",
+   "url": "https://www.toryburch.com/en-gb/clothing/tops/fine-rib-turtleneck/184529.html?color=818"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "2",
+   "us": "0",
+   "chest": 80,
+   "waist": 62.25,
+   "hips": 87.5,
+   "_in": {
+    "chest": "31.5",
+    "waist": "24.5",
+    "hips": "34.5"
+   }
+  },
+  {
+   "label": "XS",
+   "uk": "4-6",
+   "us": "0-2",
+   "chest": [
+    82.5,
+    85
+   ],
+   "waist": [
+    65,
+    67.5
+   ],
+   "hips": [
+    90,
+    92.75
+   ],
+   "_in": {
+    "chest": "32.5-33.5",
+    "waist": "25.5-26.5",
+    "hips": "35.5-36.5"
+   }
+  },
+  {
+   "label": "S",
+   "uk": "8-10",
+   "us": "4-6",
+   "chest": [
+    87.5,
+    90
+   ],
+   "waist": [
+    70,
+    72.5
+   ],
+   "hips": [
+    95.25,
+    98
+   ],
+   "_in": {
+    "chest": "34.5-35.5",
+    "waist": "27.5-28.5",
+    "hips": "37.5-38.5"
+   }
+  },
+  {
+   "label": "M",
+   "uk": "12-14",
+   "us": "8-10",
+   "chest": [
+    92.75,
+    96.5
+   ],
+   "waist": [
+    75,
+    78.5
+   ],
+   "hips": [
+    100.5,
+    104
+   ],
+   "_in": {
+    "chest": "36.5-38",
+    "waist": "29.5-31",
+    "hips": "39.5-41"
+   }
+  },
+  {
+   "label": "L",
+   "uk": "16",
+   "us": "12",
+   "chest": 100.5,
+   "waist": 82.5,
+   "hips": 108,
+   "_in": {
+    "chest": "39.5",
+    "waist": "32.5",
+    "hips": "42.5"
+   }
+  },
+  {
+   "label": "XL",
+   "uk": "18",
+   "us": "14",
+   "chest": 104.5,
+   "waist": 86.5,
+   "hips": 112,
+   "_in": {
+    "chest": "41",
+    "waist": "34",
+    "hips": "44"
+   }
+  }
+ ],
+ "audit": "Old /en-gb/help/size-guide 404s (toryburch.co.uk redirects to toryburch.com/en-gb) and Client Services has no size guide; product-page 'Size Guide' Clothing chart, identical on two tops, Cm toggle (inches in _in). Prints XXS-XL with 'Tory Burch US' 0, 0-2, 4-6, 8-10, 12, 14 (XXS and XS both include US 0, as printed), UK/AU 2, 4-6, 8-10, 12-14, 16, 18 and Chest/Waist/Hips; the second 'Tory Burch US' row (23-24...) is a denim waist size, not stored. 'Chest' stored as chest. Old mapping was off: XS 'UK 6' 82/63/87 -> UK 4-6 82.5-85/65-67.5/90-92.75; M 'UK 10' 90/71/95 -> UK 12-14 92.75-96.5/75-78.5/100.5-104; XL 'UK 14' 100/81/105 -> UK 18 104.5/86.5/112. XXS added; EU removed (not printed). A separate XS/S, M/L table is not stored."
+}
