@@ -1,0 +1,104 @@
+{
+ "id": "asics-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official ASICS Size Charts and Fit Guides, Men > Clothing, Men's Tops Size Guide (chest/waist/hips ranges)",
+   "url": "https://www.asics.com/gb/en-gb/customer-service/size-fit-guide/"
+  }
+ ],
+ "rows": [
+  {
+   "label": "S",
+   "chest": [
+    88,
+    96
+   ],
+   "waist": [
+    75,
+    83
+   ],
+   "hips": [
+    87,
+    95
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    96,
+    104
+   ],
+   "waist": [
+    83,
+    91
+   ],
+   "hips": [
+    95,
+    103
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    104,
+    113
+   ],
+   "waist": [
+    91,
+    100
+   ],
+   "hips": [
+    103,
+    111
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    113,
+    124
+   ],
+   "waist": [
+    100,
+    111
+   ],
+   "hips": [
+    111,
+    119
+   ]
+  },
+  {
+   "label": "2XL",
+   "chest": [
+    124,
+    136
+   ],
+   "waist": [
+    111,
+    123
+   ],
+   "hips": [
+    119,
+    128
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    136,
+    148
+   ],
+   "waist": [
+    123,
+    135
+   ],
+   "hips": [
+    128,
+    138
+   ]
+  }
+ ],
+ "audit": "Old /gb/en-gb/size-guide/ 404s; guide is /customer-service/size-fit-guide/ (Men > Clothing). Men's Tops chart prints chest/waist/hips ranges for S-3XL with 'How to measure' body instructions; no unit is printed (values are cm by magnitude). S 88/73 -> 88-96/75-83; M 93/78 -> 96-104/83-91; XL 105/90 -> 113-124/100-111; XXL 112/97 -> 2XL 124-136/111-123. XS removed (not printed); hips and 3XL added; UK/US/EU removed (not printed)."
+}

@@ -2118,7 +2118,9 @@
   "priority": 2,
   "stored_source": "albamclothing.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "/pages/size-guide 404s; no general guide. Product-page 'Size Chart' (Classic T-Shirt) and size-chart pages are images of garment measurements; no body numbers.",
+  "checked": "2026-11-11"
  },
  {
   "id": "ami-paris-m",
@@ -2127,7 +2129,9 @@
   "priority": 2,
   "stored_source": "amiparis.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "/en-gb/size-guide 404s. Product-page Size Guide (Ami de Coeur tee) is a conversion plus flat garment measurements; Fit Guide has no numbers.",
+  "checked": "2026-11-11"
  },
  {
   "id": "animalclothing-m",
@@ -2136,7 +2140,9 @@
   "priority": 2,
   "stored_source": "animal.co.uk",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "/size-guide/ 404s; guide is /pages/mens-size-guide. Tops chart, chest/waist ranges in cm, XS-4XL stored (XXS open-ended, not stored).",
+  "checked": "2026-11-11"
  },
  {
   "id": "arc2-m",
@@ -2145,7 +2151,9 @@
   "priority": 2,
   "stored_source": "arcteryx.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide moved to /gb/en/help/sizing/mens. Jacket/shirt body chart in cm, XXS-XXXL, UK/EU from International tab.",
+  "checked": "2026-11-11"
  },
  {
   "id": "armourlux-m",
@@ -2154,7 +2162,9 @@
   "priority": 2,
   "stored_source": "armor-lux.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "armor-lux.com doesn't load; brand site is armorlux.com. Men's chart on /en/pages/size-guide and in the product-page Size Guide is an image only (inches).",
+  "checked": "2026-11-11"
  },
  {
   "id": "asics-m",
@@ -2163,7 +2173,9 @@
   "priority": 2,
   "stored_source": "asics.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide is /gb/en-gb/customer-service/size-fit-guide/ (Men > Clothing). Men's Tops chest/waist/hips ranges S-3XL; no unit printed (cm by magnitude).",
+  "checked": "2026-11-11"
  },
  {
   "id": "asicsm2-m",
@@ -2172,7 +2184,9 @@
   "priority": 2,
   "stored_source": "asics.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Duplicate of asics-m; same official Men's Tops chart applied.",
+  "checked": "2026-11-11"
  },
  {
   "id": "asket-m",
@@ -2181,7 +2195,9 @@
   "priority": 2,
   "stored_source": "asket.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "/gb/size-guide 404s. Men's Size System page has no numbers; product Size & Fit data are garment measurements ('take them on the garment lying out flat').",
+  "checked": "2026-11-11"
  },
  {
   "id": "asket-wardrobe-m",

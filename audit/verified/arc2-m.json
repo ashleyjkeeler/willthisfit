@@ -1,0 +1,78 @@
+{
+ "id": "arc2-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Arc'teryx Men's Sizing Chart, Jacket/shirt ('Your body measurements in centimetres') and International tab",
+   "url": "https://arcteryx.com/gb/en/help/sizing/mens"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XXS",
+   "uk": "32",
+   "eu": "42",
+   "chest": 84,
+   "waist": 69,
+   "hips": 83
+  },
+  {
+   "label": "XS",
+   "uk": "34",
+   "eu": "44",
+   "chest": 89,
+   "waist": 74,
+   "hips": 88
+  },
+  {
+   "label": "S",
+   "uk": "36",
+   "eu": "46",
+   "chest": 94,
+   "waist": 79,
+   "hips": 93
+  },
+  {
+   "label": "M",
+   "uk": "38",
+   "eu": "48",
+   "chest": 102,
+   "waist": 86,
+   "hips": 100
+  },
+  {
+   "label": "L",
+   "uk": "42",
+   "eu": "52",
+   "chest": 109,
+   "waist": 94,
+   "hips": 108
+  },
+  {
+   "label": "XL",
+   "uk": "46",
+   "eu": "56",
+   "chest": 119,
+   "waist": 104,
+   "hips": 118
+  },
+  {
+   "label": "XXL",
+   "uk": "50",
+   "eu": "60",
+   "chest": 129,
+   "waist": 114,
+   "hips": 128
+  },
+  {
+   "label": "XXXL",
+   "uk": "54",
+   "eu": "64",
+   "chest": 139,
+   "waist": 124,
+   "hips": 138
+  }
+ ],
+ "audit": "Old /gb/en/size-guide 404s; guide is /gb/en/help/sizing (Men's chart at /help/sizing/mens). Jacket/shirt chart, cm, 'Your body measurements', XXS-XXXL; UK and Europe from its International tab. M 94/80 -> 102/86 (UK 38, EU 48); XL 106/92 -> 119/104 (UK 46, EU 56); XXL 112/98 -> 129/114. XXS, XXXL and hips added; US removed (not printed). Page notes men's fit was revised: smaller sizes tighter, larger looser."
+}

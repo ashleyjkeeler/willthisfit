@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.25";
+export const APP_VERSION = "v1.5.26";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -3586,17 +3586,18 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"asics-m", name:"ASICS", origin:"JP", tier:"sports", lastVerified:"2026-01",
-    sources:[{label:"Official size guide",url:"https://www.asics.com/gb/en-gb/size-guide/",checked:"2026-01"}],
+    id:"asics-m", name:"ASICS", origin:"JP", tier:"sports", lastVerified:"2026-11",
+    sources:[{label:"Official ASICS Size Charts and Fit Guides, Men > Clothing, Men's Tops Size Guide (chest/waist/hips ranges)",url:"https://www.asics.com/gb/en-gb/customer-service/size-fit-guide/",checked:"2026-11"}],
     notes:"Japanese sportswear brand, primarily running and training. Japanese sizing — cut narrower than European brands. Men's apparel runs 1 size small vs UK. Shoes follow standard UK/EU conversions.", fit:"Runs SMALL — Japanese cut, size UP 1",
     inconsistencyWarning:false, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:84,waist:69},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:88,waist:73},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:93,waist:78},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:99,waist:84},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:105,waist:90},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:112,waist:97},
+      {label:"S",chest:92,waist:79,hips:91,rng:{chest:[88,96],waist:[75,83],hips:[87,95]}},
+      {label:"M",chest:100,waist:87,hips:99,rng:{chest:[96,104],waist:[83,91],hips:[95,103]}},
+      {label:"L",chest:108.5,waist:95.5,hips:107,rng:{chest:[104,113],waist:[91,100],hips:[103,111]}},
+      {label:"XL",chest:118.5,waist:105.5,hips:115,rng:{chest:[113,124],waist:[100,111],hips:[111,119]}},
+      {label:"2XL",chest:130,waist:117,hips:123.5,rng:{chest:[124,136],waist:[111,123],hips:[119,128]}},
+      {label:"3XL",chest:142,waist:129,hips:133,rng:{chest:[136,148],waist:[123,135],hips:[128,138]}},
     ],
   },
   {
@@ -3978,17 +3979,21 @@ const MEN_BRANDS = [
 ],
   },
   {
-    id:"animalclothing-m", name:"Animal", origin:"UK", tier:"outdoor", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://www.animal.co.uk/size-guide/",checked:"2026-02"}],
+    id:"animalclothing-m", name:"Animal", origin:"UK", tier:"outdoor", lastVerified:"2026-11",
+    sources:[{label:"Official Animal Men's Size Guide, Tops (chest/waist ranges, cm)",url:"https://www.animal.co.uk/pages/mens-size-guide",checked:"2026-11"}],
     notes:"UK surf and outdoor lifestyle brand. UK chest sizing. Relaxed casual active lifestyle cut. Hoodies and boardshorts especially popular second-hand. Very consistent sizing.",
     fit:"Relaxed UK lifestyle sizing — consistent", inconsistencyWarning:false, confidence:73,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:77},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:97,waist:83},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:103,waist:89},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:109,waist:95},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:115,waist:101},
-],
+      {label:"XS",chest:87,waist:73,rng:{chest:[84,90],waist:[70,76]}},
+      {label:"S",chest:93,waist:79,rng:{chest:[90,96],waist:[76,82]}},
+      {label:"M",chest:99,waist:85,rng:{chest:[96,102],waist:[82,88]}},
+      {label:"L",chest:106,waist:92,rng:{chest:[102,110],waist:[88,96]}},
+      {label:"XL",chest:114,waist:100,rng:{chest:[110,118],waist:[96,104]}},
+      {label:"XXL",chest:122,waist:108,rng:{chest:[118,126],waist:[104,112]}},
+      {label:"3XL",chest:130,waist:116,rng:{chest:[126,134],waist:[112,120]}},
+      {label:"4XL",chest:138,waist:124,rng:{chest:[134,142],waist:[120,128]}},
+    ],
   },
   {
     id:"dare2b-m", name:"Dare 2b", origin:"UK", tier:"outdoor", lastVerified:"2026-02",
@@ -4297,6 +4302,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.asket.com/gb/size-guide",checked:"2026-03"}],
     notes:"Stockholm slow-fashion brand built around permanent collections and exact sizing. Uses a unique 0–6 size scale with a separate length dimension (XS/S/M/L). Size 3 = approximate UK M, Size 4 = UK L. Famously detailed fit data — measure carefully using their guide. An investment secondhand buy; quality is exceptional.",
     fit:"Unique 0–6 scale — Size 2=UK S, 3=UK M, 4=UK L", inconsistencyWarning:true, confidence:80,
+    auditFlag:"No official body chart: Asket (Nov 2026) publishes garment measurements per product (taken flat) and a size recommender, not body sizes, so these figures are unverified. Asket uses XS–XXL in Short, Regular and Long lengths.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:72},
       {label:"S",uk:"36",us:"S",eu:"46",chest:91,waist:77},
@@ -4304,7 +4310,7 @@ const MEN_BRANDS = [
       {label:"L",uk:"40",us:"L",eu:"50",chest:102,waist:88},
       {label:"XL",uk:"42",us:"XL",eu:"52",chest:108,waist:94},
       {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:114,waist:100},
-],
+    ],
   },
   {
     id:"sunspel-m", name:"Sunspel", origin:"UK", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
@@ -4636,6 +4642,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.albamclothing.com/pages/size-guide",checked:"2026-03"}],
     notes:"London sustainable menswear brand focused on quality British and European manufacturing. UK sizing — classic regular fit, a touch generous for comfort. Primarily known for well-cut chinos, excellent knitwear and clean denim. A premium secondhand pick: quality is exceptional and styles are timeless.",
     fit:"True to UK — classic generous regular fit", inconsistencyWarning:false, confidence:85,
+    auditFlag:"No official body chart: Albam (Nov 2026) has no general size guide; each product shows its own chart as a picture of garment measurements, so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:88,waist:74},
       {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
@@ -4831,6 +4838,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.armor-lux.com/en/size-guide",checked:"2026-03"}],
     notes:"Breton French brand making classic marinière stripe tops and nautical clothing since 1938. EU sizing — traditional boxy Breton proportions, runs generous. The marinière top is their icon; size down if you prefer a contemporary slim look. A beautiful secondhand buy — these barely date.",
     fit:"Generous Breton cut — size down for contemporary fit", inconsistencyWarning:true, confidence:83,
+    auditFlag:"Not readable: Armor Lux's men's size chart (Nov 2026) is published only as a picture, in inches, so these figures haven't been updated.", verifiedBy:"unverified",
     sizes:[
       {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
       {label:"M",uk:"38",us:"M",eu:"48",chest:98,waist:84},
@@ -4982,17 +4990,18 @@ const MEN_BRANDS = [
 ],
   },
   {
-    id:"asicsm2-m", name:"Asics (Men)", origin:"JP", tier:"sports", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.asics.com/gb/en-gb/mk/size-guide",checked:"2026-03"}],
+    id:"asicsm2-m", name:"Asics (Men)", origin:"JP", tier:"sports", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official ASICS Size Charts and Fit Guides, Men > Clothing, Men's Tops Size Guide (chest/waist/hips ranges)",url:"https://www.asics.com/gb/en-gb/customer-service/size-fit-guide/",checked:"2026-11"}],
     notes:"Japanese performance sports brand. EU sizing — running and training apparel runs slim (performance fit). Casual lifestyle range (Sportstyle) true to EU size. Gel-Kayano and other technical running tops are cut for aerodynamic performance — size up one for comfort wear.",
     fit:"Performance wear slim — Sportstyle/casual true to EU", inconsistencyWarning:true, confidence:83,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:82,waist:68},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:88,waist:74},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:94,waist:80},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:100,waist:86},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:106,waist:92},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:112,waist:98},
+      {label:"S",chest:92,waist:79,hips:91,rng:{chest:[88,96],waist:[75,83],hips:[87,95]}},
+      {label:"M",chest:100,waist:87,hips:99,rng:{chest:[96,104],waist:[83,91],hips:[95,103]}},
+      {label:"L",chest:108.5,waist:95.5,hips:107,rng:{chest:[104,113],waist:[91,100],hips:[103,111]}},
+      {label:"XL",chest:118.5,waist:105.5,hips:115,rng:{chest:[113,124],waist:[100,111],hips:[111,119]}},
+      {label:"2XL",chest:130,waist:117,hips:123.5,rng:{chest:[124,136],waist:[111,123],hips:[119,128]}},
+      {label:"3XL",chest:142,waist:129,hips:133,rng:{chest:[136,148],waist:[123,135],hips:[128,138]}},
     ],
   },
   {
@@ -5024,17 +5033,20 @@ const MEN_BRANDS = [
 ],
   },
   {
-    id:"arc2-m", name:"Arc'teryx", origin:"CA", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://arcteryx.com/gb/en/size-guide",checked:"2026-03"}],
+    id:"arc2-m", name:"Arc'teryx", origin:"CA", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Arc'teryx Men's Sizing Chart, Jacket/shirt ('Your body measurements in centimetres') and International tab",url:"https://arcteryx.com/gb/en/help/sizing/mens",checked:"2026-11"}],
     notes:"Canadian technical outerwear at the apex of the category. US/CA sizing — hardshells run slim (designed for climbing and alpine use, not for fashion layering). Down jackets also slim. The Alpha SV and Beta AR are their most coveted pieces — size up one if wearing a heavyweight mid-layer. One of the most valuable secondhand outdoor brands: pieces retain 50–70% of retail value.",
     fit:"Slim technical fit — size up one if layering heavily", inconsistencyWarning:true, confidence:87,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:82,waist:68},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:88,waist:74},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:94,waist:80},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:100,waist:86},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:106,waist:92},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:112,waist:98},
+      {label:"XXS",uk:"32",eu:"42",chest:84,waist:69,hips:83},
+      {label:"XS",uk:"34",eu:"44",chest:89,waist:74,hips:88},
+      {label:"S",uk:"36",eu:"46",chest:94,waist:79,hips:93},
+      {label:"M",uk:"38",eu:"48",chest:102,waist:86,hips:100},
+      {label:"L",uk:"42",eu:"52",chest:109,waist:94,hips:108},
+      {label:"XL",uk:"46",eu:"56",chest:119,waist:104,hips:118},
+      {label:"XXL",uk:"50",eu:"60",chest:129,waist:114,hips:128},
+      {label:"XXXL",uk:"54",eu:"64",chest:139,waist:124,hips:138},
     ],
   },
   {
@@ -5335,6 +5347,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.amiparis.com/en-gb/size-guide",checked:"2026-03"}],
     notes:"Parisian luxury brand known for the AMI de Coeur heart logo. EU sizing with a slim French cut. Strong secondhand market for logo pieces — sweatshirts retain value exceptionally well.",
     fit:"Slim French cut — sweatshirts slightly generous, tailoring slim", inconsistencyWarning:true, confidence:81,
+    auditFlag:"No official body chart: AMI Paris's UK site (Nov 2026) gives a size conversion and flat garment measurements on each product, not chest or waist sizes, so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:88,waist:74},
       {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
@@ -12642,6 +12655,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.26","2026-11-11","Data audit, batch 26: Animal, Arc'teryx and ASICS (both entries) men's charts re-checked against the brands' own size guides and corrected (e.g. Arc'teryx M is a 102 cm chest, not 94, and XL is 119 cm, not 106, with UK and EU sizes from its own chart; ASICS M is a 96–104 cm chest, not 93–94, and now runs S–3XL with hips; Animal M is 96–102 cm, not 97, and now runs XS–4XL). Albam, AMI Paris, Armor Lux and Asket flagged as unverified: their own sites give garment measurements, a size conversion or a picture-only chart, not readable body sizes."],
   ["v1.5.25","2026-11-11","Data audit, batch 25: Wallis, Weird Fish and Wrangler women's charts and the 66°North men's chart re-checked against the brands' own size guides and corrected (e.g. Wallis UK 14 is a 100 cm bust and 108 cm hip, not 96 and 100, and now lists UK 4–24; Weird Fish UK 14 is an 80 cm waist, not 82, and adds UK 20–22; Wrangler women's jeans now follow its own body chart for sizes 22–46, e.g. 28 is a 73.5 cm waist, not 71, with no invented UK sizes; 66°North M is a 102 cm chest, not 98, and adds hips). Vila (conversion image only, inconsistent hip values), Vince (its cm and inch charts disagree) and both A.P.C. men's entries (size conversions only, no body measurements) are flagged as unverified."],
   ["v1.5.24","2026-11-10","Data audit, batch 24: Thought Clothing, Toast, Tory Burch, Trespass and Under Armour women's charts re-checked against the brands' own size guides and corrected (e.g. Toast UK 12 is a 103 cm hip, not 99; Thought Clothing UK 12 is a 93 cm bust, not 91; Trespass S is UK 10 at an 86 cm bust, not 89; Tory Burch M is UK 12–14, not UK 10; Under Armour now uses its own bust and waist ranges with US sizes and adds 1X–3X). Vero Moda (size guide is a Danish image only) and Victoria's Secret (its cm and inch charts disagree) are flagged as unverified. Timberland couldn't be checked this time and will be retried."],
   ["v1.5.23","2026-11-09","Data audit, batch 23: Stradivarius, Sweaty Betty, The White Company and Theory women's charts re-checked against the brands' own size guides and corrected (e.g. Stradivarius M is a 90 cm chest, not 86; Sweaty Betty M is UK 12 at a 92 cm bust, not UK 10–12 at 90; The White Company now lists UK 4–18 with UK 18 at a 110 cm bust; Theory now follows its own US 00–18 chart with no invented UK sizes). Studio (now sells other brands only), Sunray Sportswear (no size guide online) and The Level Collective (garment measurements only) are flagged as unverified. Talbots couldn't be checked (its site blocked the browser) and will be retried."],

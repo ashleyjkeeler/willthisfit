@@ -1,0 +1,102 @@
+{
+ "id": "animalclothing-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Animal Men's Size Guide, Tops (chest/waist ranges, cm)",
+   "url": "https://www.animal.co.uk/pages/mens-size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    84,
+    90
+   ],
+   "waist": [
+    70,
+    76
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    90,
+    96
+   ],
+   "waist": [
+    76,
+    82
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    96,
+    102
+   ],
+   "waist": [
+    82,
+    88
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    102,
+    110
+   ],
+   "waist": [
+    88,
+    96
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    110,
+    118
+   ],
+   "waist": [
+    96,
+    104
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    118,
+    126
+   ],
+   "waist": [
+    104,
+    112
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    126,
+    134
+   ],
+   "waist": [
+    112,
+    120
+   ]
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    134,
+    142
+   ],
+   "waist": [
+    120,
+    128
+   ]
+  }
+ ],
+ "audit": "Old /size-guide/ 404s; guide is /pages/mens-size-guide. Tops chart prints chest and waist ranges in cm (and inches) for XXS-4XL. S 91/77 -> 90-96/76-82; M 97/83 -> 96-102/82-88; XL 109/95 -> 110-118/96-104; XXL 115/101 -> 118-126/104-112. XS, 3XL, 4XL added; XXS not stored (printed as open-ended '<84' / '<70'). UK/US/EU removed (not printed; old 'UK 36' etc. were conventions). Page doesn't say 'body' in words; ranges per size are body sizes."
+}
