@@ -1,0 +1,113 @@
+{
+ "id": "wallis-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Wallis Size Guide (Main Range, body measurements, cm; International Sizing Conversion)",
+   "url": "https://www.wallis.co.uk/pages/informational/size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "4",
+   "uk": "4",
+   "us": "0",
+   "eu": "32",
+   "bust": 80,
+   "waist": 62,
+   "hips": 88
+  },
+  {
+   "label": "6",
+   "uk": "6",
+   "us": "2",
+   "eu": "34",
+   "bust": 82.5,
+   "waist": 64.5,
+   "hips": 90.5
+  },
+  {
+   "label": "8",
+   "uk": "8",
+   "us": "4",
+   "eu": "36",
+   "bust": 85,
+   "waist": 67,
+   "hips": 93
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "us": "6",
+   "eu": "38",
+   "bust": 90,
+   "waist": 72,
+   "hips": 98
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "us": "8",
+   "eu": "40",
+   "bust": 95,
+   "waist": 77,
+   "hips": 103
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "us": "10",
+   "eu": "42",
+   "bust": 100,
+   "waist": 82,
+   "hips": 108
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "us": "12",
+   "eu": "44",
+   "bust": 105,
+   "waist": 87,
+   "hips": 113
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "us": "14",
+   "eu": "46",
+   "bust": 111,
+   "waist": 93,
+   "hips": 119
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "us": "16",
+   "eu": "48",
+   "bust": 117,
+   "waist": 99,
+   "hips": 125
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "us": "18",
+   "eu": "50",
+   "bust": 123,
+   "waist": 105,
+   "hips": 131
+  },
+  {
+   "label": "24",
+   "uk": "24",
+   "us": "20",
+   "eu": "52",
+   "bust": 129,
+   "waist": 111,
+   "hips": 137
+  }
+ ],
+ "audit": "Old source was ASOS (retailer, not evidence); wallis.co.uk/size-guide 404s, guide is /pages/informational/size-guide. 'Main Range (CM)' body chart prints UK 4-24 (inch chart only 4-18; printed cm used). US/EU from its International Sizing Conversion. UK 10 88/68/92 -> 90/72/98; UK 14 96/76/100 -> 100/82/108; UK 20 111/91/115 -> 117/99/125. UK 4, 6, 22, 24 added. Petite uses the same body sizes per the page; dual-size letters (XS = 4-6 etc.) not stored."
+}

@@ -45,7 +45,7 @@ const CONFIG = {
   DEMO_MODE: false,
 };
 const GOOGLE_READY = /\.apps\.googleusercontent\.com$/.test(CONFIG.GOOGLE_CLIENT_ID);
-export const APP_VERSION = "v1.5.24";
+export const APP_VERSION = "v1.5.25";
 
 // ─── URL AUDIT REPORT (2026-03) ─────────────────────────────────────────────
 // Systematic review of all size chart source URLs. Network fetch not possible
@@ -1510,19 +1510,24 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"wallis-w", name:"Wallis", origin:"UK", tier:"mid", lastVerified:"2026-02",
-    sources:[{label:"Official size guide",url:"https://www.asos.com/wallis/",checked:"2026-03"}],
+    id:"wallis-w", name:"Wallis", origin:"UK", tier:"mid", lastVerified:"2026-11",
+    sources:[{label:"Official Wallis Size Guide (Main Range, body measurements, cm; International Sizing Conversion)",url:"https://www.wallis.co.uk/pages/informational/size-guide",checked:"2026-11"}],
     notes:"UK brand, part of the Boohoo Group but with a distinct identity. UK sizing. Smart-casual and occasion wear for 35–60 market. Petite and curve ranges available. Runs fairly true to UK sizing.",
     fit:"True to UK standard — petite and curve available", inconsistencyWarning:false, confidence:76,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"8",uk:"8",us:"4",eu:"36",bust:84,waist:64,hips:88},
-      {label:"10",uk:"10",us:"6",eu:"38",bust:88,waist:68,hips:92},
-      {label:"12",uk:"12",us:"8",eu:"40",bust:92,waist:72,hips:96},
-      {label:"14",uk:"14",us:"10",eu:"42",bust:96,waist:76,hips:100},
-      {label:"16",uk:"16",us:"12",eu:"44",bust:100,waist:80,hips:104},
-      {label:"18",uk:"18",us:"14",eu:"46",bust:105,waist:85,hips:109},
-      {label:"20",uk:"20",us:"16",eu:"48",bust:111,waist:91,hips:115},
-],
+      {label:"4",uk:"4",us:"0",eu:"32",bust:80,waist:62,hips:88},
+      {label:"6",uk:"6",us:"2",eu:"34",bust:82.5,waist:64.5,hips:90.5},
+      {label:"8",uk:"8",us:"4",eu:"36",bust:85,waist:67,hips:93},
+      {label:"10",uk:"10",us:"6",eu:"38",bust:90,waist:72,hips:98},
+      {label:"12",uk:"12",us:"8",eu:"40",bust:95,waist:77,hips:103},
+      {label:"14",uk:"14",us:"10",eu:"42",bust:100,waist:82,hips:108},
+      {label:"16",uk:"16",us:"12",eu:"44",bust:105,waist:87,hips:113},
+      {label:"18",uk:"18",us:"14",eu:"46",bust:111,waist:93,hips:119},
+      {label:"20",uk:"20",us:"16",eu:"48",bust:117,waist:99,hips:125},
+      {label:"22",uk:"22",us:"18",eu:"50",bust:123,waist:105,hips:131},
+      {label:"24",uk:"24",us:"20",eu:"52",bust:129,waist:111,hips:137},
+    ],
   },
   {
     id:"coast-w", name:"Coast", origin:"UK", tier:"mid", lastVerified:"2026-10",
@@ -2511,16 +2516,19 @@ const WOMEN_BRANDS = [
     ],
   },
   {
-    id:"weirdfish-w", name:"Weird Fish", origin:"UK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.weirdfish.co.uk/size-guide",checked:"2026-03"}],
+    id:"weirdfish-w", name:"Weird Fish", origin:"UK", tier:"mid", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Weird Fish Sizing Guide (Women's Clothing: chest/waist/lower hip, in/cm)",url:"https://www.weirdfish.co.uk/info/sizing-info",checked:"2026-11"}],
     notes:"UK sizing. Cornwall-based casual outdoor lifestyle brand. Relaxed, comfortable fit — generously cut. Popular for organic cotton basics and printed tees. Good secondhand community in outdoor and sustainable circles.", fit:"Generous relaxed UK fit — may size down", inconsistencyWarning:false, confidence:79,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"8",uk:"8",us:"4",eu:"36",bust:85,waist:68,hips:91},
-      {label:"10",uk:"10",us:"6",eu:"38",bust:89,waist:72,hips:95},
-      {label:"12",uk:"12",us:"8",eu:"40",bust:93,waist:76,hips:99},
-      {label:"14",uk:"14",us:"10",eu:"42",bust:99,waist:82,hips:105},
-      {label:"16",uk:"16",us:"12",eu:"44",bust:105,waist:88,hips:111},
-      {label:"18",uk:"18",us:"14",eu:"46",bust:111,waist:94,hips:117},
+      {label:"8",uk:"8",chest:85,waist:66,hips:91},
+      {label:"10",uk:"10",chest:89,waist:70,hips:95},
+      {label:"12",uk:"12",chest:94,waist:75,hips:100},
+      {label:"14",uk:"14",chest:99,waist:80,hips:105},
+      {label:"16",uk:"16",chest:105,waist:86,hips:111},
+      {label:"18",uk:"18",chest:111,waist:92,hips:117},
+      {label:"20",uk:"20",chest:116,waist:102,hips:124},
+      {label:"22",uk:"22",chest:121,waist:107,hips:129},
     ],
   },
   {
@@ -2622,6 +2630,7 @@ const WOMEN_BRANDS = [
     id:"vila-w", name:"Vila", origin:"DK", tier:"mid", lastVerified:"2026-03", chartYear:"2026",
     sources:[{label:"Official size guide",url:"https://www.vila.com/en-gb/size-guide",checked:"2026-03"}],
     notes:"EU sizing. Danish brand in the ONLY/Vero Moda group. Slim-fit Scandinavian silhouette — runs true to EU but cut slender through hips. Good secondhand value for on-trend styles. Very popular in Vinted's Scandinavian community.", fit:"True to EU — slim Scandi silhouette", inconsistencyWarning:false, confidence:79,
+    auditFlag:"Not yet verified: Vila's official size guide (Nov 2026) gives its UK size conversion as an image only, and its Regular chart lists 'chest/waist/hip width' by EU size with the same 118 cm hip for both EU 44 and EU 46, so these figures haven't been updated. Figures are from an older, unconfirmed source.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6–8",us:"2–4",eu:"34–36",bust:82,waist:62,hips:87},
       {label:"S",uk:"8–10",us:"4–6",eu:"36–38",bust:86,waist:66,hips:91},
@@ -2731,17 +2740,32 @@ const WOMEN_BRANDS = [
 ],
   },
   {
-    id:"wrangler-w", name:"Wrangler (Women)", origin:"US", tier:"denim", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.wrangler.co.uk/size-guide",checked:"2026-03"}],
+    id:"wrangler-w", name:"Wrangler (Women)", origin:"US", tier:"denim", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official Wrangler UK Size Charts (Women > Bottoms, body measurements, cm)",url:"https://eu.wrangler.com/uk-en/size-charts.html",checked:"2026-11"}],
     notes:"US sizing using waist/length numeric for jeans. High-rise, western-cut denim — fits differently from fashion denim. Waist measurements can run small by 1–2 inches vs. measurement. Very popular secondhand for authentic American denim.", fit:"US denim sizing — waist runs 1–2in smaller than stated", inconsistencyWarning:false, confidence:78,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"24",uk:"6",us:"24",eu:"34",bust:null,waist:61,hips:86},
-      {label:"25",uk:"6",us:"25",eu:"34",bust:null,waist:63,hips:88},
-      {label:"26",uk:"8",us:"26",eu:"36",bust:null,waist:66,hips:91},
-      {label:"27",uk:"8–10",us:"27",eu:"36–38",bust:null,waist:68,hips:93},
-      {label:"28",uk:"10",us:"28",eu:"38",bust:null,waist:71,hips:96},
-      {label:"30",uk:"12",us:"30",eu:"40",bust:null,waist:76,hips:101},
-      {label:"32",uk:"14",us:"32",eu:"42",bust:null,waist:81,hips:106},
+      {label:"22",waist:58.5,hips:81.5},
+      {label:"23",waist:61,hips:84},
+      {label:"24",waist:63.5,hips:86.5},
+      {label:"25",waist:66,hips:89},
+      {label:"26",waist:68.5,hips:91.5},
+      {label:"27",waist:71,hips:94},
+      {label:"28",waist:73.5,hips:96.5},
+      {label:"29",waist:76,hips:99},
+      {label:"30",waist:78.5,hips:101.5},
+      {label:"31",waist:81.5,hips:104},
+      {label:"32",waist:84,hips:106.5},
+      {label:"33",waist:87,hips:109},
+      {label:"34",waist:90,hips:112},
+      {label:"35",waist:93.5,hips:114.5},
+      {label:"36",waist:96.5,hips:117},
+      {label:"37",waist:99.5,hips:119.5},
+      {label:"38",waist:103,hips:122},
+      {label:"40",waist:108.5,hips:127},
+      {label:"42",waist:114.5,hips:132},
+      {label:"44",waist:120,hips:137},
+      {label:"46",waist:125.5,hips:142},
     ],
   },
   {
@@ -2925,6 +2949,7 @@ const WOMEN_BRANDS = [
     id:"vince-w", name:"Vince", origin:"US", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
     sources:[{label:"Official size guide",url:"https://www.vince.com/pages/size-guide",checked:"2026-03"}],
     notes:"US sizing. California-based minimalist luxury brand. Relaxed yet refined — oversized silhouettes in quality fabrics. Cashmere and silk pieces extremely popular secondhand. Runs true to US but silhouette is intentionally relaxed.", fit:"True to US — relaxed luxury California silhouette", inconsistencyWarning:false, confidence:72,
+    auditFlag:"Unverified: Vince's women's size guide (Nov 2026) gives different numbers in its cm and inch views (e.g. XS is an 84 cm bust in cm but 31.5–32.5 in, about 80–83 cm, in inches), so these figures haven't been updated. Note its own conversion puts M at UK 12 and XS at UK 4–6.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"6",us:"2",eu:"34",bust:79,waist:61,hips:85},
       {label:"S",uk:"8",us:"4",eu:"36",bust:83,waist:65,hips:89},
@@ -4647,17 +4672,19 @@ const MEN_BRANDS = [
     ],
   },
   {
-    id:"sixtysixnorth-m", name:"66°North", origin:"IS", tier:"premium", lastVerified:"2026-03", chartYear:"2026",
-    sources:[{label:"Official size guide",url:"https://www.66north.com/en-gb/size-guide",checked:"2026-03"}],
+    id:"sixtysixnorth-m", name:"66°North", origin:"IS", tier:"premium", lastVerified:"2026-11", chartYear:"2026",
+    sources:[{label:"Official 66°North product-page Size Guide, Men's Hrannar Zipneck (chest/waist/hip, cm)",url:"https://66north.com/products/hrannar-zipneck-k01250-722",checked:"2026-11"},{label:"Official 66°North product-page Size Guide, Men's Snæfell Technostretch Jacket (same chart)",url:"https://66north.com/products/snaefell-hoodie-k11204-900",checked:"2026-11"}],
     notes:"Icelandic technical outerwear brand founded 1926, designed for the world's harshest conditions. EU sizing — true to size with a regular performance fit (layering allowance built into shell jackets). Down and insulated pieces run slim underneath. An exceptional quality secondhand buy — these jackets last a lifetime.",
     fit:"True to EU — regular fit with layering allowance in shells", inconsistencyWarning:false, confidence:85,
+    verifiedBy:"official-page",
     sizes:[
-      {label:"XS",uk:"34",us:"XS",eu:"44",chest:86,waist:72},
-      {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:78},
-      {label:"M",uk:"38",us:"M",eu:"48",chest:98,waist:84},
-      {label:"L",uk:"40",us:"L",eu:"50",chest:104,waist:90},
-      {label:"XL",uk:"42",us:"XL",eu:"52",chest:110,waist:96},
-      {label:"XXL",uk:"44",us:"XXL",eu:"54",chest:117,waist:103},
+      {label:"XS",chest:90,waist:72,hips:87},
+      {label:"S",chest:96,waist:78,hips:93},
+      {label:"M",chest:102,waist:84,hips:99},
+      {label:"L",chest:108,waist:90,hips:105},
+      {label:"XL",chest:114,waist:96,hips:111},
+      {label:"2XL",chest:120,waist:102,hips:117},
+      {label:"3XL",chest:126,waist:108,hips:123},
     ],
   },
   {
@@ -4736,6 +4763,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.apc.fr/en-gb/pages/size-guide",checked:"2026-03"}],
     notes:"Parisian brand known for raw selvedge denim and minimal French style. EU/FR sizing — slim French cut throughout. Raw denim (Petit Standard, New Standard) will shrink 1–1.5 inches in waist after first wash; size up one waist. Tops run slim; use chest measurement precisely. A prestige secondhand find — Depop's most sought-after French brand.",
     fit:"Slim French cut — raw denim: size up one waist for shrinkage", inconsistencyWarning:true, confidence:73,
+    auditFlag:"No official body chart: A.P.C.'s UK store (Nov 2026) publishes a size conversion only for menswear (e.g. XS = suit 44, shirt 37, jeans 26/27), no chest or waist measurements, so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:84,waist:70},
       {label:"S",uk:"36",us:"S",eu:"46",chest:89,waist:75},
@@ -5364,6 +5392,7 @@ const MEN_BRANDS = [
     sources:[{label:"Official size guide",url:"https://www.apc.fr/en-gb/size-guide",checked:"2026-03"}],
     notes:"Parisian minimalist brand. EU sizing — runs slim. Jeans run small; size up one for raw denim as they break in. The Petit Standard and Cure jeans are iconic secondhand finds.",
     fit:"Runs slim — size up one, especially for denim", inconsistencyWarning:true, confidence:84,
+    auditFlag:"No official body chart: A.P.C.'s UK store (Nov 2026) publishes a size conversion only for menswear (e.g. XS = suit 44, shirt 37, jeans 26/27), no chest or waist measurements, so these figures are unverified.", verifiedBy:"unverified",
     sizes:[
       {label:"XS",uk:"34",us:"XS",eu:"44",chest:87,waist:71},
       {label:"S",uk:"36",us:"S",eu:"46",chest:92,waist:76},
@@ -12613,6 +12642,7 @@ function MeasureGuideModal({ gender, onClose }) {
 
 // ─── ABOUT MODAL ─────────────────────────────────────────────────────────────
 const CHANGELOG = [
+  ["v1.5.25","2026-11-11","Data audit, batch 25: Wallis, Weird Fish and Wrangler women's charts and the 66°North men's chart re-checked against the brands' own size guides and corrected (e.g. Wallis UK 14 is a 100 cm bust and 108 cm hip, not 96 and 100, and now lists UK 4–24; Weird Fish UK 14 is an 80 cm waist, not 82, and adds UK 20–22; Wrangler women's jeans now follow its own body chart for sizes 22–46, e.g. 28 is a 73.5 cm waist, not 71, with no invented UK sizes; 66°North M is a 102 cm chest, not 98, and adds hips). Vila (conversion image only, inconsistent hip values), Vince (its cm and inch charts disagree) and both A.P.C. men's entries (size conversions only, no body measurements) are flagged as unverified."],
   ["v1.5.24","2026-11-10","Data audit, batch 24: Thought Clothing, Toast, Tory Burch, Trespass and Under Armour women's charts re-checked against the brands' own size guides and corrected (e.g. Toast UK 12 is a 103 cm hip, not 99; Thought Clothing UK 12 is a 93 cm bust, not 91; Trespass S is UK 10 at an 86 cm bust, not 89; Tory Burch M is UK 12–14, not UK 10; Under Armour now uses its own bust and waist ranges with US sizes and adds 1X–3X). Vero Moda (size guide is a Danish image only) and Victoria's Secret (its cm and inch charts disagree) are flagged as unverified. Timberland couldn't be checked this time and will be retried."],
   ["v1.5.23","2026-11-09","Data audit, batch 23: Stradivarius, Sweaty Betty, The White Company and Theory women's charts re-checked against the brands' own size guides and corrected (e.g. Stradivarius M is a 90 cm chest, not 86; Sweaty Betty M is UK 12 at a 92 cm bust, not UK 10–12 at 90; The White Company now lists UK 4–18 with UK 18 at a 110 cm bust; Theory now follows its own US 00–18 chart with no invented UK sizes). Studio (now sells other brands only), Sunray Sportswear (no size guide online) and The Level Collective (garment measurements only) are flagged as unverified. Talbots couldn't be checked (its site blocked the browser) and will be retried."],
   ["v1.5.22","2026-11-08","Data audit, batch 22: RIXO, Rohan, Roman, Roxy, Sandro, Self-Portrait, Sézane and Sosandar women's charts re-checked against the brands' own size guides and corrected (e.g. RIXO UK 12 is a 108 cm hip, not 96; Sézane 38 is an 87–91 cm chest, not 86; Self-Portrait UK 14 is a 109 cm hip, not 98; Roman now follows its main UK 10–22 chart; Roxy now uses its own inch chart with US 2–14 and no invented UK sizes; Sosandar now lists UK 6–26)."],

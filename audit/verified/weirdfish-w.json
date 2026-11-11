@@ -1,0 +1,70 @@
+{
+ "id": "weirdfish-w",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Weird Fish Sizing Guide (Women's Clothing: chest/waist/lower hip, in/cm)",
+   "url": "https://www.weirdfish.co.uk/info/sizing-info"
+  }
+ ],
+ "rows": [
+  {
+   "label": "8",
+   "uk": "8",
+   "chest": 85,
+   "waist": 66,
+   "hips": 91
+  },
+  {
+   "label": "10",
+   "uk": "10",
+   "chest": 89,
+   "waist": 70,
+   "hips": 95
+  },
+  {
+   "label": "12",
+   "uk": "12",
+   "chest": 94,
+   "waist": 75,
+   "hips": 100
+  },
+  {
+   "label": "14",
+   "uk": "14",
+   "chest": 99,
+   "waist": 80,
+   "hips": 105
+  },
+  {
+   "label": "16",
+   "uk": "16",
+   "chest": 105,
+   "waist": 86,
+   "hips": 111
+  },
+  {
+   "label": "18",
+   "uk": "18",
+   "chest": 111,
+   "waist": 92,
+   "hips": 117
+  },
+  {
+   "label": "20",
+   "uk": "20",
+   "chest": 116,
+   "waist": 102,
+   "hips": 124
+  },
+  {
+   "label": "22",
+   "uk": "22",
+   "chest": 121,
+   "waist": 107,
+   "hips": 129
+  }
+ ],
+ "audit": "Old /size-guide 404s; guide is /info/sizing-info (linked as 'See full size guide' from product pages). Women's Clothing chart prints UK 8-22 with inches and cm per cell (printed cm used). 'Chest' stored as chest, 'Lower Hip' as hips. UK 10 89/72/95 -> 89/70/95; UK 14 99/82/105 -> 99/80/105; UK 18 111/94/117 -> 111/92/117. UK 20, 22 added. US/EU removed (not printed). Separate Women's Trousers chart (larger waist/hip values) not stored."
+}

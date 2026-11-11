@@ -2030,7 +2030,9 @@
   "priority": 2,
   "stored_source": "vila.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Old /en-gb/size-guide 404s; guide is /folders/pd_pages/fullpagesizeguide.html. Regular chart 'width' by EU 34-46 with EU 44 and 46 both 118 hip; conversion table is an image only.",
+  "checked": "2026-11-11"
  },
  {
   "id": "vince-w",
@@ -2039,7 +2041,9 @@
   "priority": 2,
   "stored_source": "vince.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "No standalone guide; product-page 'Women's Updated Size Guide' cm and inch views disagree (cm single values, inch ranges, ~2-4 cm apart).",
+  "checked": "2026-11-11"
  },
  {
   "id": "wallis-w",
@@ -2048,7 +2052,9 @@
   "priority": 2,
   "stored_source": "asos.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide is /pages/informational/size-guide. Main Range (CM) UK 4-24, US/EU from its conversion. ASOS source dropped.",
+  "checked": "2026-11-11"
  },
  {
   "id": "weirdfish-w",
@@ -2057,7 +2063,9 @@
   "priority": 2,
   "stored_source": "weirdfish.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide is /info/sizing-info. Women's Clothing chart UK 8-22 (cm), chest/waist/lower hip.",
+  "checked": "2026-11-11"
  },
  {
   "id": "wrangler-w",
@@ -2066,7 +2074,9 @@
   "priority": 2,
   "stored_source": "wrangler.co.uk",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "eu.wrangler.com/uk-en/size-charts.html, Women > Bottoms body chart (cm), sizes 22-46, natural waist + hips.",
+  "checked": "2026-11-11"
  },
  {
   "id": "sixtysixnorth-m",
@@ -2075,7 +2085,9 @@
   "priority": 2,
   "stored_source": "66north.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "No standalone guide; same men's chart (cm) on two product pages, XS-3XL chest/waist/hip.",
+  "checked": "2026-11-11"
  },
  {
   "id": "apc-m",
@@ -2084,7 +2096,9 @@
   "priority": 2,
   "stored_source": "apc.fr",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "apc.fr/en-gb 404s; UK store apcstore.co.uk product-page Size chart is a conversion table only (no body numbers).",
+  "checked": "2026-11-11"
  },
  {
   "id": "apc-paris-m",
@@ -2093,7 +2107,9 @@
   "priority": 2,
   "stored_source": "apc.fr",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "apc.fr/en-gb 404s; UK store apcstore.co.uk product-page Size chart is a conversion table only (no body numbers).",
+  "checked": "2026-11-11"
  },
  {
   "id": "albam-m",

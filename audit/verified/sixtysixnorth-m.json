@@ -1,0 +1,60 @@
+{
+ "id": "sixtysixnorth-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official 66°North product-page Size Guide, Men's Hrannar Zipneck (chest/waist/hip, cm)",
+   "url": "https://66north.com/products/hrannar-zipneck-k01250-722"
+  },
+  {
+   "label": "Official 66°North product-page Size Guide, Men's Snæfell Technostretch Jacket (same chart)",
+   "url": "https://66north.com/products/snaefell-hoodie-k11204-900"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 90,
+   "waist": 72,
+   "hips": 87
+  },
+  {
+   "label": "S",
+   "chest": 96,
+   "waist": 78,
+   "hips": 93
+  },
+  {
+   "label": "M",
+   "chest": 102,
+   "waist": 84,
+   "hips": 99
+  },
+  {
+   "label": "L",
+   "chest": 108,
+   "waist": 90,
+   "hips": 105
+  },
+  {
+   "label": "XL",
+   "chest": 114,
+   "waist": 96,
+   "hips": 111
+  },
+  {
+   "label": "2XL",
+   "chest": 120,
+   "waist": 102,
+   "hips": 117
+  },
+  {
+   "label": "3XL",
+   "chest": 126,
+   "waist": 108,
+   "hips": 123
+  }
+ ],
+ "audit": "Old /en-gb/size-guide 404s; no standalone guide on 66north.com. Product-page Size Guide on two men's items (fleece and jacket) prints the same chart in cm (IN tab also), XS-3XL, with chest, waist, hip, sleeve and inseam (inseam on a jacket chart = body sizes). XS 86/72 -> 90/72; M 98/84 -> 102/84; XXL 117/103 -> 2XL 120/102. Hip added; 3XL added; XXL relabelled 2XL as printed. UK/US/EU removed (not printed; old 'UK 34'/'EU 44' were conventions)."
+}
