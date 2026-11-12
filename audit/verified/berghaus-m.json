@@ -1,0 +1,70 @@
+{
+ "id": "berghaus-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Berghaus Men's Size Guide for Jackets, Fleeces, Base Layers, Shirts & Tees (Chest CM)",
+   "url": "https://berghaus.com/pages/size-guide-mens-jackets-tops"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    84,
+    89
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    91,
+    97
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    99,
+    104
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    106,
+    112
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    114,
+    120
+   ]
+  },
+  {
+   "label": "2XL",
+   "chest": [
+    122,
+    127
+   ]
+  },
+  {
+   "label": "3XL",
+   "chest": [
+    129,
+    135
+   ]
+  },
+  {
+   "label": "4XL",
+   "chest": [
+    137,
+    142
+   ]
+  }
+ ],
+ "audit": "Old source was a retailer (moresports.com), dropped; /size-guide on berghaus.com 404s, index at /pages/size-guides. Men's Jackets & Tops chart, body measurements, chest only (ranges, cm column used), XS-4XL. XS 87 -> 84-89; M 102 -> 99-104; XL 117 -> 114-120; 3XL 132 -> 129-135. 4XL added. Waist removed (not printed on this chart); UK/US/EU removed (not printed). Arm length not stored."
+}

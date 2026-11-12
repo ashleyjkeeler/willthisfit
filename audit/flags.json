@@ -64,5 +64,7 @@
  {"id":"albam-m","flag":"No official body chart: Albam (Nov 2026) has no general size guide; each product shows its own chart as a picture of garment measurements, so these figures are unverified."},
  {"id":"ami-paris-m","flag":"No official body chart: AMI Paris's UK site (Nov 2026) gives a size conversion and flat garment measurements on each product, not chest or waist sizes, so these figures are unverified."},
  {"id":"armourlux-m","flag":"Not readable: Armor Lux's men's size chart (Nov 2026) is published only as a picture, in inches, so these figures haven't been updated."},
- {"id":"asket-m","flag":"No official body chart: Asket (Nov 2026) publishes garment measurements per product (taken flat) and a size recommender, not body sizes, so these figures are unverified. Asket uses XS–XXL in Short, Regular and Long lengths."}
+ {"id":"asket-m","flag":"No official body chart: Asket (Nov 2026) publishes garment measurements per product (taken flat) and a size recommender, not body sizes, so these figures are unverified. Asket uses XS–XXL in Short, Regular and Long lengths."},
+ {"id":"asket-wardrobe-m","flag":"No official body chart: Asket (Nov 2026) publishes garment measurements per product (taken flat) and a size recommender, not body sizes, so these figures are unverified. Asket uses XS–XXL in Short, Regular and Long lengths."},
+ {"id":"brotherswestand-m","flag":"No official body chart: Brothers We Stand (Nov 2026) is a multi-brand ethical retailer; its sizing pages give flat garment measurements per product, not body sizes, so these figures are unverified."}
 ]

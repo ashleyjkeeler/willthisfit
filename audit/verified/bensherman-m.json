@@ -1,0 +1,54 @@
+{
+ "id": "bensherman-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Ben Sherman UK Size Guide, Casualwear (body measurements, CMS rows)",
+   "url": "https://www.bensherman.co.uk/help/sizeguide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 86,
+   "waist": 72
+  },
+  {
+   "label": "S",
+   "chest": 95,
+   "waist": 79
+  },
+  {
+   "label": "M",
+   "chest": 102,
+   "waist": 86
+  },
+  {
+   "label": "L",
+   "chest": 109,
+   "waist": 94
+  },
+  {
+   "label": "XL",
+   "chest": 117,
+   "waist": 101
+  },
+  {
+   "label": "2XL",
+   "chest": 126,
+   "waist": 109
+  },
+  {
+   "label": "3XL",
+   "chest": 133.5,
+   "waist": 117
+  },
+  {
+   "label": "4XL",
+   "chest": 140.5,
+   "waist": 124.5
+  }
+ ],
+ "audit": "Old /pages/size-guide 404s; guide is /help/sizeguide (same chart on bensherman.co.uk and bensherman.com). Casualwear tab: Top Half chest and Bottom Half waist, body measurements, XS-4XL, single values (cm rows used). S 91/77 -> 95/79; M 97/83 -> 102/86; XL 109/95 -> 117/101; XXL 115/101 -> 2XL 126/109. XS, 3XL, 4XL added. UK/US/EU removed: letter sizes have no numeric equivalents printed (Formalwear tab lists chest-inch sizes 36-50 with Euro 46-60 separately)."
+}

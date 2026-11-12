@@ -1,0 +1,62 @@
+{
+ "id": "brakeburn-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Brakeburn Size Guide 2026, Mens Clothing Size Guide (CM)",
+   "url": "https://www.brakeburn.com/pages/size-guide-2026"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    86,
+    92
+   ],
+   "waist": 71
+  },
+  {
+   "label": "S",
+   "chest": [
+    91,
+    97
+   ],
+   "waist": 76
+  },
+  {
+   "label": "M",
+   "chest": [
+    97,
+    102
+   ],
+   "waist": 81
+  },
+  {
+   "label": "L",
+   "chest": [
+    102,
+    107
+   ],
+   "waist": 86
+  },
+  {
+   "label": "XL",
+   "chest": [
+    107,
+    112
+   ],
+   "waist": 91
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    112,
+    117
+   ],
+   "waist": 96
+  }
+ ],
+ "audit": "Old /pages/size-guide 404s; guide is /pages/size-guide-2026. Mens Clothing Size Guide (CM): XS-XXL, chest ranges, waist single values. S 91/77 -> 91-97/76; M 97/83 -> 97-102/81; XXL 116/102 -> 112-117/96. XS added. UK/US/EU numbers removed: the UK, EU and USA columns just repeat the letter size (XS-XXL). Collar not stored."
+}

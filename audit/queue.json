@@ -2206,7 +2206,9 @@
   "priority": 2,
   "stored_source": "asket.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "flagged",
+  "note": "/gb/size-guide 404s. T-Shirt product Size & Fit 'Measurement chart' says 'All measurements are garment measurements'; no body chart (same finding as asket-m).",
+  "checked": "2026-11-12"
  },
  {
   "id": "belstaff-wax-m",
@@ -2215,7 +2217,9 @@
   "priority": 2,
   "stored_source": "belstaff.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "/en-gb/size-guide 404s; Men's Outerwear & Tops chart at /pages/customer-service-size-guide.",
+  "checked": "2026-11-12"
  },
  {
   "id": "bensherman-m",
@@ -2224,7 +2228,9 @@
   "priority": 2,
   "stored_source": "bensherman.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "/pages/size-guide 404s; Casualwear body chart at bensherman.co.uk/help/sizeguide.",
+  "checked": "2026-11-12"
  },
  {
   "id": "berghaus-m",
@@ -2233,7 +2239,9 @@
   "priority": 2,
   "stored_source": "moresports.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "verified",
+  "note": "Retailer source replaced by berghaus.com/pages/size-guide-mens-jackets-tops (chest only).",
+  "checked": "2026-11-12"
  },
  {
   "id": "bershka-m",
@@ -2242,7 +2250,9 @@
   "priority": 2,
   "stored_source": "bershka.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "Help-page guide 404s; product-page body measurements, same on two men's tops.",
+  "checked": "2026-11-12"
  },
  {
   "id": "billabong-surf-m",
@@ -2251,7 +2261,9 @@
   "priority": 2,
   "stored_source": "billabong.com",
   "lastVerified": "2026-03",
-  "status": "todo"
+  "status": "verified",
+  "note": "UK store is billabong.co.uk; product-page Mens Apparel chart, same on two products.",
+  "checked": "2026-11-12"
  },
  {
   "id": "brakeburn-m",
@@ -2260,7 +2272,9 @@
   "priority": 2,
   "stored_source": "brakeburn.com",
   "lastVerified": "2026-02",
-  "status": "todo"
+  "status": "verified",
+  "note": "Guide moved to /pages/size-guide-2026.",
+  "checked": "2026-11-12"
  },
  {
   "id": "brotherswestand-m",
@@ -2269,7 +2283,9 @@
   "priority": 2,
   "stored_source": "brotherswestand.com",
   "lastVerified": "2026-01",
-  "status": "todo"
+  "status": "flagged",
+  "note": "Multi-brand retailer; /pages/sizing and product size guides give flat garment measurements only.",
+  "checked": "2026-11-12"
  },
  {
   "id": "brutus-m",

@@ -1,0 +1,108 @@
+{
+ "id": "billabong-surf-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Billabong UK product-page size guide, Mens Apparel (CM), Arch Crew T-shirt",
+   "url": "https://www.billabong.co.uk/arch-crew-green-short-sleeve-t-shirt-for-men/EBYKT00100-GLW0.html"
+  },
+  {
+   "label": "Same chart on Burleigh Mock Neck sweatshirt",
+   "url": "https://www.billabong.co.uk/burleigh-mock-neck-grey-half-zip-sweatshirt-for-men/EBYFT00184-LGH.html"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": [
+    91.5,
+    96.5
+   ],
+   "waist": [
+    70,
+    75
+   ],
+   "hips": [
+    91.5,
+    96.5
+   ]
+  },
+  {
+   "label": "S",
+   "chest": [
+    96.5,
+    101.5
+   ],
+   "waist": [
+    75,
+    80
+   ],
+   "hips": [
+    96.5,
+    101.5
+   ]
+  },
+  {
+   "label": "M",
+   "chest": [
+    101.5,
+    106.5
+   ],
+   "waist": [
+    80,
+    85
+   ],
+   "hips": [
+    101.5,
+    106.5
+   ]
+  },
+  {
+   "label": "L",
+   "chest": [
+    106.5,
+    111.5
+   ],
+   "waist": [
+    85,
+    90
+   ],
+   "hips": [
+    106.5,
+    111.5
+   ]
+  },
+  {
+   "label": "XL",
+   "chest": [
+    111.5,
+    117
+   ],
+   "waist": [
+    90,
+    93
+   ],
+   "hips": [
+    111.5,
+    116
+   ]
+  },
+  {
+   "label": "XXL",
+   "chest": [
+    117,
+    122
+   ],
+   "waist": [
+    94,
+    98
+   ],
+   "hips": [
+    116,
+    120
+   ]
+  }
+ ],
+ "audit": "billabong.com/en-gb/size-guide 404s and billabong.com is now the US store; UK store is billabong.co.uk, guide only on product pages (same Mens Apparel chart on a tee and a sweatshirt). CM tab, ranges. Letter rows read by position: XS=28, S=30, M=32, L=34, XL=36, XXL=38 (numeric 28-38 are waist sizes; the unlettered 31 and 33 columns not stored). M 100/86 -> 101.5-106.5/80-85; XL 112/98 -> 111.5-117/90-93; XXL 118/104 -> 117-122/94-98. Hips added. UK/US/EU removed (not printed). The inch tab has slips (e.g. size 34 hip 44\"-44\" vs 106.5-111.5 cm); printed cm kept."
+}

@@ -1,0 +1,149 @@
+{
+ "id": "belstaff-wax-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Belstaff Size Guide, Men, Outerwear & Tops (Measurements - CM)",
+   "url": "https://belstaff.com/pages/customer-service-size-guide"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "uk": "34",
+   "us": "34",
+   "eu": "44",
+   "chest": 90,
+   "waist": 78.5,
+   "hips": 91
+  },
+  {
+   "label": "S",
+   "uk": "36-38",
+   "us": "36-38",
+   "eu": "46-48",
+   "chest": [
+    94,
+    98
+   ],
+   "waist": [
+    82.5,
+    86.5
+   ],
+   "hips": [
+    95,
+    99
+   ]
+  },
+  {
+   "label": "M",
+   "uk": "38-40",
+   "us": "38-40",
+   "eu": "48-50",
+   "chest": [
+    98,
+    102
+   ],
+   "waist": [
+    86.5,
+    90.5
+   ],
+   "hips": [
+    99,
+    103
+   ]
+  },
+  {
+   "label": "L",
+   "uk": "40-42",
+   "us": "40-42",
+   "eu": "50-52",
+   "chest": [
+    102,
+    106
+   ],
+   "waist": [
+    90.5,
+    94.5
+   ],
+   "hips": [
+    103,
+    107
+   ]
+  },
+  {
+   "label": "XL",
+   "uk": "42-44",
+   "us": "42-44",
+   "eu": "52-54",
+   "chest": [
+    106,
+    110
+   ],
+   "waist": [
+    94.5,
+    98.5
+   ],
+   "hips": [
+    107,
+    111
+   ]
+  },
+  {
+   "label": "XXL",
+   "uk": "44-46",
+   "us": "44-46",
+   "eu": "54-56",
+   "chest": [
+    110,
+    114
+   ],
+   "waist": [
+    98.5,
+    102.5
+   ],
+   "hips": [
+    111,
+    115
+   ]
+  },
+  {
+   "label": "3XL",
+   "uk": "46-48",
+   "us": "46-48",
+   "eu": "56-58",
+   "chest": [
+    114,
+    118
+   ],
+   "waist": [
+    102.5,
+    106.5
+   ],
+   "hips": [
+    115,
+    119
+   ]
+  },
+  {
+   "label": "4XL",
+   "uk": "48",
+   "us": "48",
+   "eu": "58",
+   "chest": 118,
+   "waist": 106.5,
+   "hips": 119
+  },
+  {
+   "label": "5XL",
+   "uk": "50",
+   "us": "50",
+   "eu": "60",
+   "chest": 122,
+   "waist": 110.5,
+   "hips": 123
+  }
+ ],
+ "audit": "Old /en-gb/size-guide 404s; guide is /pages/customer-service-size-guide (footer 'Size Guides'). Men's Outerwear & Tops chart, cm body measurements; header 'UK/US' stored as both UK and US, 'EU/IT' as EU. Letter sizes span two numeric sizes (S = UK/US 36-38) with ranges; XS, 4XL, 5XL are single values. XS 88/74 -> 90/78.5; M 100/86 -> 98-102/86.5-90.5; XXL 118/104 -> 110-114/98.5-102.5. Hips added; 3XL-5XL added. Big & Tall rows and overarm not stored. The 'Other outerwear' tab (numeric UK 34-50) prints the same chest/waist/hip numbers."
+}

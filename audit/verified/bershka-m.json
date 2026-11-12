@@ -1,0 +1,43 @@
+{
+ "id": "bershka-m",
+ "checked": "2026-11",
+ "chartYear": "2026",
+ "sources": [
+  {
+   "label": "Official Bershka UK product-page size guide, Body measurements (cm), Boxy long sleeve T-shirt",
+   "url": "https://www.bershka.com/gb/boxy-long-sleeve-t-shirt-c0p228202946.html?colorId=250"
+  },
+  {
+   "label": "Same body measurements on Raglan long-sleeve T-shirt",
+   "url": "https://www.bershka.com/gb/raglan-long-sleeve-t-shirt-c0p240939835.html?colorId=401"
+  }
+ ],
+ "rows": [
+  {
+   "label": "XS",
+   "chest": 87,
+   "hips": 87
+  },
+  {
+   "label": "S",
+   "chest": 93,
+   "hips": 93
+  },
+  {
+   "label": "M",
+   "chest": 99,
+   "hips": 99
+  },
+  {
+   "label": "L",
+   "chest": 105,
+   "hips": 105
+  },
+  {
+   "label": "XL",
+   "chest": 111,
+   "hips": 111
+  }
+ ],
+ "audit": "Old /gb/help/size-guide-c1010193020.html 404s; no standalone guide found. Product-page 'See measurements' panel, BODY in cm, identical on two men's tops: XS-XL, 'Bust measurement' (stored as chest) and 'Hips measurement' (same value printed for both). XS 84/70 -> 87; M 92/78 -> 99; XL 103/89 -> 111. Waist removed (not printed); XXL removed (not offered); UK/US/EU removed (not printed)."
+}
